@@ -1,21 +1,28 @@
 import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
-import styles from "./layout.module.css";
-import utilStyles from "../styles/utils.module.css";
+// import styles from "./layout.module.css";
+// import utilStyles from "../styles/utils.module.css";
 
-const name = "[Your Name]";
-export const siteTitle = "Next.js Sample Website";
+export type PageName =
+  | "Home"
+  | "Publications"
+  | "Lectures"
+  | "TalksAndNotes"
+  | "About";
+
+const name = "Carsten Führmann";
+export const siteTitle = "Carsten expounds";
 
 export default function Layout({
   children,
-  home,
+  page,
 }: {
   children: React.ReactNode;
-  home: boolean;
+  page: PageName;
 }) {
   return (
-    <div className={styles.container}>
+    <div>
       <Head>
         <link rel="icon" href="/favicon.ico" />
         <meta
@@ -31,18 +38,41 @@ export default function Layout({
         <meta name="og:title" content={siteTitle} />
         <meta name="twitter:card" content="summary_large_image" />
       </Head>
-      <header className={styles.header}>
-        {home ? (
+      <div className="w3-top">
+        <div className="w3-bar w3-light-grey">
+          <LinkButton linkPage="Home" url="/" currentPage={page} />
+          <LinkButton
+            linkPage="Publications"
+            url="/publications"
+            currentPage={page}
+          />
+          <LinkButton linkPage="Lectures" url="/lectures" currentPage={page} />
+        </div>
+        <div className="w3-bar w3-light-grey w3-bottombar w3-border-indigo">
+          <LinkButton
+            linkPage="TalksAndNotes"
+            url="/academic-talks-and-notes"
+            currentPage={page}
+          />
+          <LinkButton linkPage="About" url="/about-me" currentPage={page} />
+        </div>
+      </div>
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <header>
+        {page === "Home" ? (
           <>
             <Image
               priority
               src="/images/profile.jpg"
-              className={utilStyles.borderCircle}
               height={144}
               width={144}
               alt={name}
             />
-            <h1 className={utilStyles.heading2Xl}>{name}</h1>
+            <h1>{name}</h1>
           </>
         ) : (
           <>
@@ -51,29 +81,46 @@ export default function Layout({
                 <Image
                   priority
                   src="/images/profile.jpg"
-                  className={utilStyles.borderCircle}
                   height={108}
                   width={108}
                   alt={name}
                 />
               </a>
             </Link>
-            <h2 className={utilStyles.headingLg}>
+            <h2>
               <Link href="/">
-                <a className={utilStyles.colorInherit}>{name}</a>
+                <a>{name}</a>
               </Link>
             </h2>
           </>
         )}
       </header>
       <main>{children}</main>
-      {!home && (
-        <div className={styles.backToHome}>
-          <Link href="/">
-            <a>← Back to home</a>
-          </Link>
-        </div>
-      )}
     </div>
+  );
+}
+
+function LinkButton(props: {
+  linkPage: PageName;
+  url: string;
+  currentPage: PageName;
+}) {
+  const { linkPage, url, currentPage } = props;
+  const pageTexts: { [key in PageName]: string } = {
+    Home: "Home",
+    Publications: "Publications",
+    Lectures: "Lectures",
+    TalksAndNotes: "Academic Talks and Notes",
+    About: "About",
+  };
+  const className =
+    linkPage === currentPage
+      ? "w3-bar-item w3-button w3-indigo"
+      : "w3-bar-item w3-button w3-hover-indigo";
+
+  return (
+    <Link href={url}>
+      <a className={className}>{pageTexts[linkPage]}</a>
+    </Link>
   );
 }

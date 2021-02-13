@@ -4,10 +4,7 @@ module.exports = {
     es2021: true,
     node: true,
   },
-  extends: [
-    "plugin:react/recommended",
-    "airbnb",
-  ],
+  extends: ["plugin:react/recommended", "airbnb"],
   parser: "@typescript-eslint/parser",
   parserOptions: {
     ecmaFeatures: {
@@ -16,10 +13,7 @@ module.exports = {
     ecmaVersion: 12,
     sourceType: "module",
   },
-  plugins: [
-    "react",
-    "@typescript-eslint",
-  ],
+  plugins: ["react", "@typescript-eslint"],
   rules: {
     "react/jsx-filename-extension": ["error", { extensions: [".jsx", ".tsx"] }],
     // "react/react-in-jsx-scope": "off",
@@ -37,11 +31,14 @@ module.exports = {
     "no-use-before-define": ["error", "nofunc"],
     "jsx-a11y/anchor-is-valid": ["off"],
     "react/jsx-props-no-spreading": ["off"],
+    // the following is handled better by TypeScript
+    "no-unused-vars": ["off"],
     // Rules below are disabled to avoid clashes with Prettier
     "no-confusing-arrow": ["off"],
     "implicit-arrow-linebreak": ["off"],
     "comma-dangle": ["off"],
     "react/jsx-one-expression-per-line": ["off"],
+    "operator-linebreak": ["off"],
   },
   settings: {
     "import/resolver": {
@@ -50,5 +47,5 @@ module.exports = {
       },
     },
   },
-  globals: { React: "readonly" }
+  globals: { React: "readonly" },
 };
