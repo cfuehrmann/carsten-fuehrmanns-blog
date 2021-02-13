@@ -22,7 +22,7 @@ export default function Layout({
   page: PageName;
 }) {
   return (
-    <div>
+    <>
       <Head>
         <link rel="icon" href="/favicon.ico" />
         <meta
@@ -37,8 +37,9 @@ export default function Layout({
         />
         <meta name="og:title" content={siteTitle} />
         <meta name="twitter:card" content="summary_large_image" />
+        <title>{siteTitle}</title>
       </Head>
-      <div className="w3-top">
+      <header className="w3-top">
         <div className="w3-bar w3-light-grey">
           <LinkButton linkPage="Home" url="/" currentPage={page} />
           <LinkButton
@@ -56,47 +57,14 @@ export default function Layout({
           />
           <LinkButton linkPage="About" url="/about-me" currentPage={page} />
         </div>
-      </div>
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <header>
-        {page === "Home" ? (
-          <>
-            <Image
-              priority
-              src="/images/profile.jpg"
-              height={144}
-              width={144}
-              alt={name}
-            />
-            <h1>{name}</h1>
-          </>
-        ) : (
-          <>
-            <Link href="/">
-              <a>
-                <Image
-                  priority
-                  src="/images/profile.jpg"
-                  height={108}
-                  width={108}
-                  alt={name}
-                />
-              </a>
-            </Link>
-            <h2>
-              <Link href="/">
-                <a>{name}</a>
-              </Link>
-            </h2>
-          </>
-        )}
       </header>
-      <main>{children}</main>
-    </div>
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <main className="w3-container">{children}</main>
+    </>
   );
 }
 
