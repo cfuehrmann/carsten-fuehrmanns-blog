@@ -5,6 +5,7 @@ import unified from "unified";
 import markdown from "remark-parse";
 import math from "remark-math";
 import remark2reyhpe from "remark-rehype";
+import raw from "rehype-raw";
 import katex from "rehype-katex";
 import stringify from "rehype-stringify";
 
@@ -49,7 +50,8 @@ export async function getPostData(id: string) {
   const content = await unified()
     .use(markdown)
     .use(math)
-    .use(remark2reyhpe)
+    .use(remark2reyhpe, { allowDangerousHtml: true })
+    .use(raw)
     .use(katex)
     .use(stringify)
     .process(matterResult.content);
