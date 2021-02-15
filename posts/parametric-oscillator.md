@@ -198,9 +198,10 @@ If this $\omega(t)$ came from a child on a swing, it would be a strange child: o
 Here is a graph showing the monodromy's eigenvalues for the Mathieu equation with $\omega_0 = 1$ and $h = 1$. The vertical axis corresponds to $\gamma$, which ranges from $0.2$ to $5$. Horizontally, we have the complex plane. For each $\gamma$, the graph contains _both_ eigenvalues of the corresponding monodromy matrix. I refrained from drawing the coordinate axes, to avoid clutter.
 
 <figure>
-  <img
-  src="../images/MathieuBunny.gif"
-  alt="The eigenvalues of a Mathieu equation as gamma changes">
+  <video autoplay loop muted playsinline controls>
+    <source src="../images/MathieuBunny.webm" type="video/webm">
+    <source src="../images/MathieuBunny.mp4" type="video/mp4">
+  </video>
   <figcaption>The eigenvalues of a Mathieu equation as gamma changes</figcaption>
 </figure>
 
@@ -273,18 +274,20 @@ $$
 The solution for $x(0) = 0$ and $v(0) = 1$ is composed of two sine curves of different frequency:
 
 <figure>
-  <img
-  src="../images/MonodromyIdSin.png"
-  alt="Solution for M = Id, x(0) = 0 and v(0) = 1">
+  <picture>
+    <source srcset="../images/MonodromyIdSin.webp" type="image/webp">
+    <img src="../images/MonodromyIdSin.png" alt="Solution for M = Id, x(0) = 0 and v(0) = 1">
+  </picture>
   <figcaption>Solution for M = Id, x(0) = 0 and v(0) = 1</figcaption>
 </figure>
 
 It is periodic, with period $0.75$. The solution for $x(0) = 1$ and $v(0) = 0$ is composed of two cosine curves of different frequency:
 
 <figure>
-  <img
-  src="../images/MonodromyId.png"
-  alt="Solution for M = Id, x(0) = 1 and v(0) = 0">
+  <picture>
+    <source srcset="../images/MonodromyId.webp" type="image/webp">
+    <img src="../images/MonodromyId.png" alt="Solution for M = Id, x(0) = 1 and v(0) = 0">
+  </picture>
   <figcaption>Solution for M = Id, x(0) = 1 and v(0) = 0</figcaption>
 </figure>
 
@@ -299,18 +302,20 @@ $$
 The solution for $x(0) = 0$ and $v(0) = 1$ is composed of two sine/cosine curves of different frequency:
 
 <figure>
-  <img
-  src="../images/MonodromyMinusId01.png"
-  alt="Solution for M = -Id, x(0) = 0 and v(0) = 1">
+  <picture>
+    <source srcset="../images/MonodromyMinusId01.webp" type="image/webp">
+    <img src="../images/MonodromyMinusId01.png" alt="Solution for M = -Id, x(0) = 0 and v(0) = 1">
+  </picture>
   <figcaption>Solution for M = -Id, x(0) = 0 and v(0) = 1</figcaption>
 </figure>
 
 This is periodic, with period two. The solution for $x(0) = 1$ and $v(0) = 0$ too is composed of two sine/cosine curves of different frequency:
 
 <figure>
-  <img
-  src="../images/MonodromyMinusId10.png"
-  alt="Solution for M = -Id, x(0) = 1 and v(0) = 0">
+  <picture>
+    <source srcset="../images/MonodromyMinusId10.webp" type="image/webp">
+    <img src="../images/MonodromyMinusId10.png" alt="Solution for M = -Id, x(0) = 1 and v(0) = 0">
+  </picture>
   <figcaption>Solution for M = -Id, x(0) = 1 and v(0) = 0</figcaption>
 </figure>
 
