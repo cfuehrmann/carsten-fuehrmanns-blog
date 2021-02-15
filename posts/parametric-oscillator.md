@@ -276,7 +276,7 @@ The solution for $x(0) = 0$ and $v(0) = 1$ is composed of two sine curves of dif
 <figure>
   <picture>
     <source srcset="../images/MonodromyIdSin.webp" type="image/webp">
-    <img src="../images/MonodromyIdSin.png" alt="Solution for M = Id, x(0) = 0 and v(0) = 1">
+    <img src="../images/MonodromyIdSin.png" loading="lazy" alt="Solution for M = Id, x(0) = 0 and v(0) = 1">
   </picture>
   <figcaption>Solution for M = Id, x(0) = 0 and v(0) = 1</figcaption>
 </figure>
@@ -286,7 +286,7 @@ It is periodic, with period $0.75$. The solution for $x(0) = 1$ and $v(0) = 0$ i
 <figure>
   <picture>
     <source srcset="../images/MonodromyId.webp" type="image/webp">
-    <img src="../images/MonodromyId.png" alt="Solution for M = Id, x(0) = 1 and v(0) = 0">
+    <img src="../images/MonodromyId.png" loading="lazy" alt="Solution for M = Id, x(0) = 1 and v(0) = 0">
   </picture>
   <figcaption>Solution for M = Id, x(0) = 1 and v(0) = 0</figcaption>
 </figure>
@@ -304,7 +304,7 @@ The solution for $x(0) = 0$ and $v(0) = 1$ is composed of two sine/cosine curves
 <figure>
   <picture>
     <source srcset="../images/MonodromyMinusId01.webp" type="image/webp">
-    <img src="../images/MonodromyMinusId01.png" alt="Solution for M = -Id, x(0) = 0 and v(0) = 1">
+    <img src="../images/MonodromyMinusId01.png" loading="lazy" alt="Solution for M = -Id, x(0) = 0 and v(0) = 1">
   </picture>
   <figcaption>Solution for M = -Id, x(0) = 0 and v(0) = 1</figcaption>
 </figure>
@@ -314,7 +314,7 @@ This is periodic, with period two. The solution for $x(0) = 1$ and $v(0) = 0$ to
 <figure>
   <picture>
     <source srcset="../images/MonodromyMinusId10.webp" type="image/webp">
-    <img src="../images/MonodromyMinusId10.png" alt="Solution for M = -Id, x(0) = 1 and v(0) = 0">
+    <img src="../images/MonodromyMinusId10.png" loading="lazy" alt="Solution for M = -Id, x(0) = 1 and v(0) = 0">
   </picture>
   <figcaption>Solution for M = -Id, x(0) = 1 and v(0) = 0</figcaption>
 </figure>

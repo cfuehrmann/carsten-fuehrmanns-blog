@@ -20,13 +20,15 @@ export default function Home({
   return (
     <Layout page="Home">
       <header>
-        <Image
-          priority
-          src="/images/profile.jpg"
-          height={144}
-          width={144}
-          alt={name}
-        />
+        <picture>
+          <source srcSet="/images/profile-432.webp 432w" type="image/webp" />
+          <img
+            src="/images/profile-432.jpg"
+            height={144}
+            width={144}
+            alt={name}
+          />
+        </picture>
         <h1>{name}</h1>
         <p>
           Computer scientist and software engineer. More interests than time.
