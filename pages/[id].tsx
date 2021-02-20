@@ -1,8 +1,8 @@
 import Head from "next/head";
 import { GetStaticProps, GetStaticPaths } from "next";
-import Layout from "../../components/layout";
-import { getAllPostIds, getPostData } from "../../lib/posts";
-import Date from "../../components/date";
+import Layout from "../components/layout";
+import { getAllPostIds, getPostData } from "../lib/posts";
+import Date from "../components/date";
 // import utilStyles from "../../styles/utils.module.css";
 
 export default function Post({
@@ -15,7 +15,7 @@ export default function Post({
   };
 }) {
   return (
-    <Layout page="About">
+    <Layout page={undefined}>
       <Head>
         <title>{postData.title}</title>
       </Head>

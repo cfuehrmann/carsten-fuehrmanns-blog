@@ -4,13 +4,6 @@ import Link from "next/link";
 // import styles from "./layout.module.css";
 // import utilStyles from "../styles/utils.module.css";
 
-export type PageName =
-  | "Home"
-  | "Publications"
-  | "Lectures"
-  | "TalksAndNotes"
-  | "About";
-
 const name = "Carsten Führmann";
 export const siteTitle = "Carsten expounds";
 
@@ -19,7 +12,7 @@ export default function Layout({
   page,
 }: {
   children: React.ReactNode;
-  page: PageName;
+  page: string | undefined;
 }) {
   return (
     <>
@@ -69,12 +62,12 @@ export default function Layout({
 }
 
 function LinkButton(props: {
-  linkPage: PageName;
+  linkPage: string;
   url: string;
-  currentPage: PageName;
+  currentPage: string | undefined;
 }) {
   const { linkPage, url, currentPage } = props;
-  const pageTexts: { [key in PageName]: string } = {
+  const pageTexts: { [key in string]: string | undefined } = {
     Home: "Home",
     Publications: "Publications",
     Lectures: "Lectures",
