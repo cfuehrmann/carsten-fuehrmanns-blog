@@ -3,7 +3,7 @@ import Layout from "../components/layout";
 
 export default function TalksAndNotes() {
   return (
-    <Layout page="TalksAndNotes">
+    <Layout page="academic-talks-and-notes">
       <section>
         TalksAndNotes
         <p>A paragraph.</p>

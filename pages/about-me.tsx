@@ -5,7 +5,7 @@ const name = "Carsten Führmann";
 
 export default function About() {
   return (
-    <Layout page="About">
+    <Layout page="about-me">
       <header>
         <picture>
           <source srcSet="/images/profile-432.webp 432w" type="image/webp" />
@@ -20,10 +20,10 @@ export default function About() {
       </header>
       <section>
         <p>
-          About me My name is Carsten Führmann. I am a computer scientist and
-          software engineer, born in Germany. I hold a computer science PhD from
-          the University of Edinburgh (UK). Until early 2005, I was a lecturer
-          at the University of Bath (UK). Then left academia to try myself in a
+          My name is Carsten Führmann. I am a computer scientist and software
+          engineer, born in Germany. I hold a computer science PhD from the
+          University of Edinburgh (UK). Until early 2005, I was a lecturer at
+          the University of Bath (UK). Then left academia to try myself in a
           software company back in Germany, where I still work.
         </p>
         <p>

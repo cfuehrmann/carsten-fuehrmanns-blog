@@ -1,29 +1,31 @@
 import Head from "next/head";
 import { GetStaticProps, GetStaticPaths } from "next";
 import Layout from "../components/layout";
-import { getAllPostIds, getPostData } from "../lib/posts";
+import {
+  getMarkdownIds,
+  getMarkdownProps,
+  MarkdownProps,
+} from "../lib/markdown";
 import Date from "../components/date";
-// import utilStyles from "../../styles/utils.module.css";
 
-export default function Post({
-  postData,
-}: {
-  postData: {
-    title: string;
-    date: string;
-    contentHtml: string;
-  };
-}) {
+export default function Post({ postData }: { postData: MarkdownProps }) {
   return (
-    <Layout page={undefined}>
+    <Layout page={postData.id}>
       <Head>
         <title>{postData.title}</title>
       </Head>
       <article>
         <h1>{postData.title}</h1>
-        <div>
-          <Date dateString={postData.date} />
-        </div>
+        {postData.type === "post" ? (
+          <>
+            <div>
+              <Date dateString={postData.date} />
+            </div>
+            <br />
+          </>
+        ) : (
+          <div />
+        )}
         <br />
         <div
           className="markdown-body"
@@ -34,20 +36,19 @@ export default function Post({
   );
 }
 
-export const getStaticPaths: GetStaticPaths = async () => {
-  const paths = getAllPostIds();
-  return {
-    paths,
-    fallback: false,
-  };
-};
+export const getStaticPaths: GetStaticPaths<{ id: string }> = async () => ({
+  paths: getMarkdownIds(),
+  fallback: false,
+});
 
-export const getStaticProps: GetStaticProps = async ({ params }) =>
+export const getStaticProps: GetStaticProps<{
+  postData: MarkdownProps;
+}> = async ({ params }) =>
   params && params.id && typeof params.id === "string"
     ? getPostDataProps(params.id)
     : { notFound: true };
 
 async function getPostDataProps(id: string) {
-  const postData = await getPostData(id);
+  const postData = await getMarkdownProps(id);
   return { props: { postData } };
 }

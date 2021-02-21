@@ -1,27 +1,28 @@
 import Head from "next/head";
-import Image from "next/image";
 import Link from "next/link";
-// import styles from "./layout.module.css";
-// import utilStyles from "../styles/utils.module.css";
 
-const name = "Carsten Führmann";
 export const siteTitle = "Carsten expounds";
+
+const pageTexts: { [key in string]: string | undefined } = {
+  "": "Home",
+  publications: "Publications",
+  lectures: "Lectures",
+  "academic-talks-and-notes": "Academic Talks and Notes",
+  "about-me": "About",
+};
 
 export default function Layout({
   children,
   page,
 }: {
   children: React.ReactNode;
-  page: string | undefined;
+  page: string;
 }) {
   return (
     <>
       <Head>
         <link rel="icon" href="/favicon.ico" />
-        <meta
-          name="description"
-          content="Learn how to build a personal website using Next.js"
-        />
+        <meta name="description" content="Carsten Führmann's web site" />
         <meta
           property="og:image"
           content={`https://og-image.vercel.app/${encodeURI(
@@ -34,21 +35,13 @@ export default function Layout({
       </Head>
       <header className="w3-top">
         <div className="w3-bar w3-light-grey">
-          <LinkButton linkPage="Home" url="/" currentPage={page} />
-          <LinkButton
-            linkPage="Publications"
-            url="/publications"
-            currentPage={page}
-          />
-          <LinkButton linkPage="Lectures" url="/lectures" currentPage={page} />
+          <LinkButton target="" />
+          <LinkButton target="publications" />
+          <LinkButton target="lectures" />
         </div>
         <div className="w3-bar w3-light-grey w3-bottombar w3-border-indigo">
-          <LinkButton
-            linkPage="TalksAndNotes"
-            url="/academic-talks-and-notes"
-            currentPage={page}
-          />
-          <LinkButton linkPage="About" url="/about-me" currentPage={page} />
+          <LinkButton target="academic-talks-and-notes" />
+          <LinkButton target="about-me" />
         </div>
       </header>
       <br />
@@ -59,29 +52,18 @@ export default function Layout({
       <main className="w3-container">{children}</main>
     </>
   );
-}
 
-function LinkButton(props: {
-  linkPage: string;
-  url: string;
-  currentPage: string | undefined;
-}) {
-  const { linkPage, url, currentPage } = props;
-  const pageTexts: { [key in string]: string | undefined } = {
-    Home: "Home",
-    Publications: "Publications",
-    Lectures: "Lectures",
-    TalksAndNotes: "Academic Talks and Notes",
-    About: "About",
-  };
-  const className =
-    linkPage === currentPage
-      ? "w3-bar-item w3-button w3-indigo"
-      : "w3-bar-item w3-button w3-hover-indigo";
+  function LinkButton(props: { target: string }) {
+    const { target } = props;
 
-  return (
-    <Link href={url}>
-      <a className={className}>{pageTexts[linkPage]}</a>
-    </Link>
-  );
+    const className = `w3-bar-item w3-button ${
+      target === page ? "w3-indigo" : "w3-hover-indigo"
+    }`;
+
+    return (
+      <Link href={`/${target}`}>
+        <a className={className}>{pageTexts[target]}</a>
+      </Link>
+    );
+  }
 }

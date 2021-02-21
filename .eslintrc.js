@@ -39,6 +39,10 @@ module.exports = {
     "comma-dangle": ["off"],
     "react/jsx-one-expression-per-line": ["off"],
     "operator-linebreak": ["off"],
+    indent: ["off"],
+    "nonblock-statement-body-position": "off",
+    curly: "off",
+    "object-curly-newline": "off",
   },
   settings: {
     "import/resolver": {

@@ -3,7 +3,7 @@ import Link from "next/link";
 import { GetStaticProps } from "next";
 import Layout, { siteTitle } from "../components/layout";
 // import utilStyles from "../styles/utils.module.css";
-import { getSortedPostsData } from "../lib/posts";
+import { getSortedPostData } from "../lib/markdown";
 import Date from "../components/date";
 
 const name = "Carsten Führmann";
@@ -18,7 +18,7 @@ export default function Home({
   }[];
 }) {
   return (
-    <Layout page="Home">
+    <Layout page="">
       <header>
         <picture>
           <source srcSet="/images/profile-432.webp 432w" type="image/webp" />
@@ -55,7 +55,7 @@ export default function Home({
 }
 
 export const getStaticProps: GetStaticProps = async () => {
-  const allPostsData = getSortedPostsData();
+  const allPostsData = getSortedPostData();
   return {
     props: {
       allPostsData,

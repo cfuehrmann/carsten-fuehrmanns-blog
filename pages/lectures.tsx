@@ -3,7 +3,7 @@ import Layout from "../components/layout";
 
 export default function Lectures() {
   return (
-    <Layout page="Lectures">
+    <Layout page="lectures">
       <section>
         Lectures
         <p>A paragraph.</p>

@@ -1,6 +1,7 @@
 ---
 title: "Parametric oscillator: a close look"
 date: "2014-07-23"
+type: "post"
 ---
 
 This post contains my research notes about the _parametric oscillator_. Here is an introduction from Wikipedia (see references section):
