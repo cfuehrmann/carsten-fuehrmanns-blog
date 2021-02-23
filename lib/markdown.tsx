@@ -4,7 +4,7 @@ import matter from "gray-matter";
 import unified from "unified";
 import markdown from "remark-parse";
 import math from "remark-math";
-import remark2reyhpe from "remark-rehype";
+import remark2rehype from "remark-rehype";
 import raw from "rehype-raw";
 import katex from "rehype-katex";
 import stringify from "rehype-stringify";
@@ -54,7 +54,7 @@ export async function getMarkdownProps(id: string): Promise<MarkdownProps> {
   const processedContent = await unified()
     .use(markdown)
     .use(math)
-    .use(remark2reyhpe, { allowDangerousHtml: true })
+    .use(remark2rehype, { allowDangerousHtml: true })
     .use(raw)
     .use(katex)
     .use(stringify)
