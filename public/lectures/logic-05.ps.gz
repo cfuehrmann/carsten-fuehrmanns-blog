@@ -1,0 +1,4793 @@
+%!PS-Adobe-2.0
+%%Creator: dvips(k) 5.90a Copyright 2002 Radical Eye Software
+%%Title: temp.dvi
+%%CreationDate: Mon Feb 23 19:48:25 2004
+%%Pages: 6 0
+%%PageOrder: Ascend
+%%BoundingBox: 0 0 596 811
+%%DocumentFonts: Helvetica Helvetica-Bold CMSY10 CMMI12 CMR12 CMTI12
+%%+ CMR10
+%%EndComments
+%%BeginProcSet: PStoPS 1 15
+userdict begin
+[/showpage/erasepage/copypage]{dup where{pop dup load
+ type/operatortype eq{1 array cvx dup 0 3 index cvx put
+ bind def}{pop}ifelse}{pop}ifelse}forall
+[/letter/legal/executivepage/a4/a4small/b5/com10envelope
+ /monarchenvelope/c5envelope/dlenvelope/lettersmall/note
+ /folio/quarto/a5]{dup where{dup wcheck{exch{}put}
+ {pop{}def}ifelse}{pop}ifelse}forall
+/setpagedevice {pop}bind 1 index where{dup wcheck{3 1 roll put}
+ {pop def}ifelse}{def}ifelse
+/PStoPSmatrix matrix currentmatrix def
+/PStoPSxform matrix def/PStoPSclip{clippath}def
+/defaultmatrix{PStoPSmatrix exch PStoPSxform exch concatmatrix}bind def
+/initmatrix{matrix defaultmatrix setmatrix}bind def
+/initclip[{matrix currentmatrix PStoPSmatrix setmatrix
+ [{currentpoint}stopped{$error/newerror false put{newpath}}
+ {/newpath cvx 3 1 roll/moveto cvx 4 array astore cvx}ifelse]
+ {[/newpath cvx{/moveto cvx}{/lineto cvx}
+ {/curveto cvx}{/closepath cvx}pathforall]cvx exch pop}
+ stopped{$error/errorname get/invalidaccess eq{cleartomark
+ $error/newerror false put cvx exec}{stop}ifelse}if}bind aload pop
+ /initclip dup load dup type dup/operatortype eq{pop exch pop}
+ {dup/arraytype eq exch/packedarraytype eq or
+  {dup xcheck{exch pop aload pop}{pop cvx}ifelse}
+  {pop cvx}ifelse}ifelse
+ {newpath PStoPSclip clip newpath exec setmatrix} bind aload pop]cvx def
+/initgraphics{initmatrix newpath initclip 1 setlinewidth
+ 0 setlinecap 0 setlinejoin []0 setdash 0 setgray
+ 10 setmiterlimit}bind def
+end
+%%EndProcSet
+%DVIPSWebPage: (www.radicaleye.com)
+%DVIPSCommandLine: c:\texmf\miktex\bin\dvips.exe temp.dvi
+%DVIPSParameters: dpi=600, compressed
+%DVIPSSource:  TeX output 2004.02.23:1948
+%%BeginProcSet: texc.pro
+%!
+/TeXDict 300 dict def TeXDict begin/N{def}def/B{bind def}N/S{exch}N/X{S
+N}B/A{dup}B/TR{translate}N/isls false N/vsize 11 72 mul N/hsize 8.5 72
+mul N/landplus90{false}def/@rigin{isls{[0 landplus90{1 -1}{-1 1}ifelse 0
+0 0]concat}if 72 Resolution div 72 VResolution div neg scale isls{
+landplus90{VResolution 72 div vsize mul 0 exch}{Resolution -72 div hsize
+mul 0}ifelse TR}if Resolution VResolution vsize -72 div 1 add mul TR[
+matrix currentmatrix{A A round sub abs 0.00001 lt{round}if}forall round
+exch round exch]setmatrix}N/@landscape{/isls true N}B/@manualfeed{
+statusdict/manualfeed true put}B/@copies{/#copies X}B/FMat[1 0 0 -1 0 0]
+N/FBB[0 0 0 0]N/nn 0 N/IEn 0 N/ctr 0 N/df-tail{/nn 8 dict N nn begin
+/FontType 3 N/FontMatrix fntrx N/FontBBox FBB N string/base X array
+/BitMaps X/BuildChar{CharBuilder}N/Encoding IEn N end A{/foo setfont}2
+array copy cvx N load 0 nn put/ctr 0 N[}B/sf 0 N/df{/sf 1 N/fntrx FMat N
+df-tail}B/dfs{div/sf X/fntrx[sf 0 0 sf neg 0 0]N df-tail}B/E{pop nn A
+definefont setfont}B/Cw{Cd A length 5 sub get}B/Ch{Cd A length 4 sub get
+}B/Cx{128 Cd A length 3 sub get sub}B/Cy{Cd A length 2 sub get 127 sub}
+B/Cdx{Cd A length 1 sub get}B/Ci{Cd A type/stringtype ne{ctr get/ctr ctr
+1 add N}if}B/id 0 N/rw 0 N/rc 0 N/gp 0 N/cp 0 N/G 0 N/CharBuilder{save 3
+1 roll S A/base get 2 index get S/BitMaps get S get/Cd X pop/ctr 0 N Cdx
+0 Cx Cy Ch sub Cx Cw add Cy setcachedevice Cw Ch true[1 0 0 -1 -.1 Cx
+sub Cy .1 sub]/id Ci N/rw Cw 7 add 8 idiv string N/rc 0 N/gp 0 N/cp 0 N{
+rc 0 ne{rc 1 sub/rc X rw}{G}ifelse}imagemask restore}B/G{{id gp get/gp
+gp 1 add N A 18 mod S 18 idiv pl S get exec}loop}B/adv{cp add/cp X}B
+/chg{rw cp id gp 4 index getinterval putinterval A gp add/gp X adv}B/nd{
+/cp 0 N rw exit}B/lsh{rw cp 2 copy get A 0 eq{pop 1}{A 255 eq{pop 254}{
+A A add 255 and S 1 and or}ifelse}ifelse put 1 adv}B/rsh{rw cp 2 copy
+get A 0 eq{pop 128}{A 255 eq{pop 127}{A 2 idiv S 128 and or}ifelse}
+ifelse put 1 adv}B/clr{rw cp 2 index string putinterval adv}B/set{rw cp
+fillstr 0 4 index getinterval putinterval adv}B/fillstr 18 string 0 1 17
+{2 copy 255 put pop}for N/pl[{adv 1 chg}{adv 1 chg nd}{1 add chg}{1 add
+chg nd}{adv lsh}{adv lsh nd}{adv rsh}{adv rsh nd}{1 add adv}{/rc X nd}{
+1 add set}{1 add clr}{adv 2 chg}{adv 2 chg nd}{pop nd}]A{bind pop}
+forall N/D{/cc X A type/stringtype ne{]}if nn/base get cc ctr put nn
+/BitMaps get S ctr S sf 1 ne{A A length 1 sub A 2 index S get sf div put
+}if put/ctr ctr 1 add N}B/I{cc 1 add D}B/bop{userdict/bop-hook known{
+bop-hook}if/SI save N @rigin 0 0 moveto/V matrix currentmatrix A 1 get A
+mul exch 0 get A mul add .99 lt{/QV}{/RV}ifelse load def pop pop}N/eop{
+SI restore userdict/eop-hook known{eop-hook}if showpage}N/@start{
+userdict/start-hook known{start-hook}if pop/VResolution X/Resolution X
+1000 div/DVImag X/IEn 256 array N 2 string 0 1 255{IEn S A 360 add 36 4
+index cvrs cvn put}for pop 65781.76 div/vsize X 65781.76 div/hsize X}N
+/p{show}N/RMat[1 0 0 -1 0 0]N/BDot 260 string N/Rx 0 N/Ry 0 N/V{}B/RV/v{
+/Ry X/Rx X V}B statusdict begin/product where{pop false[(Display)(NeXT)
+(LaserWriter 16/600)]{A length product length le{A length product exch 0
+exch getinterval eq{pop true exit}if}{pop}ifelse}forall}{false}ifelse
+end{{gsave TR -.1 .1 TR 1 1 scale Rx Ry false RMat{BDot}imagemask
+grestore}}{{gsave TR -.1 .1 TR Rx Ry scale 1 1 false RMat{BDot}
+imagemask grestore}}ifelse B/QV{gsave newpath transform round exch round
+exch itransform moveto Rx 0 rlineto 0 Ry neg rlineto Rx neg 0 rlineto
+fill grestore}B/a{moveto}B/delta 0 N/tail{A/delta X 0 rmoveto}B/M{S p
+delta add tail}B/b{S p tail}B/c{-4 M}B/d{-3 M}B/e{-2 M}B/f{-1 M}B/g{0 M}
+B/h{1 M}B/i{2 M}B/j{3 M}B/k{4 M}B/w{0 rmoveto}B/l{p -4 w}B/m{p -3 w}B/n{
+p -2 w}B/o{p -1 w}B/q{p 1 w}B/r{p 2 w}B/s{p 3 w}B/t{p 4 w}B/x{0 S
+rmoveto}B/y{3 2 roll p a}B/bos{/SS save N}B/eos{SS restore}B end
+
+%%EndProcSet
+%%BeginProcSet: pstricks.pro
+%!
+% PostScript prologue for pstricks.tex.
+% Version 97 patch 3, 98/06/01
+% For distribution, see pstricks.tex.
+%
+/tx@Dict 200 dict def tx@Dict begin
+/ADict 25 dict def
+/CM { matrix currentmatrix } bind def
+/SLW /setlinewidth load def
+/CLW /currentlinewidth load def
+/CP /currentpoint load def
+/ED { exch def } bind def
+/L /lineto load def
+/T /translate load def
+/TMatrix { } def
+/RAngle { 0 } def
+/Atan { /atan load stopped { pop pop 0 } if } def
+/Div { dup 0 eq { pop } { div } ifelse } def
+/NET { neg exch neg exch T } def
+/Pyth { dup mul exch dup mul add sqrt } def
+/PtoC { 2 copy cos mul 3 1 roll sin mul } def
+/PathLength@ { /z z y y1 sub x x1 sub Pyth add def /y1 y def /x1 x def }
+def
+/PathLength { flattenpath /z 0 def { /y1 ED /x1 ED /y2 y1 def /x2 x1 def
+} { /y ED /x ED PathLength@ } {} { /y y2 def /x x2 def PathLength@ }
+/pathforall load stopped { pop pop pop pop } if z } def
+/STP { .996264 dup scale } def
+/STV { SDict begin normalscale end STP  } def
+/DashLine { dup 0 gt { /a .5 def PathLength exch div } { pop /a 1 def
+PathLength } ifelse /b ED /x ED /y ED /z y x add def b a .5 sub 2 mul y
+mul sub z Div round z mul a .5 sub 2 mul y mul add b exch Div dup y mul
+/y ED x mul /x ED x 0 gt y 0 gt and { [ y x ] 1 a sub y mul } { [ 1 0 ]
+0 } ifelse setdash stroke } def
+/DotLine { /b PathLength def /a ED /z ED /y CLW def /z y z add def a 0 gt
+{ /b b a div def } { a 0 eq { /b b y sub def } { a -3 eq { /b b y add
+def } if } ifelse } ifelse [ 0 b b z Div round Div dup 0 le { pop 1 } if
+] a 0 gt { 0 } { y 2 div a -2 gt { neg } if } ifelse setdash 1
+setlinecap stroke } def
+/LineFill { gsave abs CLW add /a ED a 0 dtransform round exch round exch
+2 copy idtransform exch Atan rotate idtransform pop /a ED .25 .25
+% DG/SR modification begin - Dec. 12, 1997 - Patch 2
+%itransform translate pathbbox /y2 ED a Div ceiling cvi /x2 ED /y1 ED a
+itransform pathbbox /y2 ED a Div ceiling cvi /x2 ED /y1 ED a
+% DG/SR modification end
+Div cvi /x1 ED /y2 y2 y1 sub def clip newpath 2 setlinecap systemdict
+/setstrokeadjust known { true setstrokeadjust } if x2 x1 sub 1 add { x1
+% DG/SR modification begin - Jun.  1, 1998 - Patch 3 (from Michael Vulis)
+% a mul y1 moveto 0 y2 rlineto stroke /x1 x1 1 add def } repeat grestore }
+% def
+a mul y1 moveto 0 y2 rlineto stroke /x1 x1 1 add def } repeat grestore
+pop pop } def
+% DG/SR modification end
+/BeginArrow { ADict begin /@mtrx CM def gsave 2 copy T 2 index sub neg
+exch 3 index sub exch Atan rotate newpath } def
+/EndArrow { @mtrx setmatrix CP grestore end } def
+/Arrow { CLW mul add dup 2 div /w ED mul dup /h ED mul /a ED { 0 h T 1 -1
+scale } if w neg h moveto 0 0 L w h L w neg a neg rlineto gsave fill
+grestore } def
+/Tbar { CLW mul add /z ED z -2 div CLW 2 div moveto z 0 rlineto stroke 0
+CLW moveto } def
+/Bracket { CLW mul add dup CLW sub 2 div /x ED mul CLW add /y ED /z CLW 2
+div def x neg y moveto x neg CLW 2 div L x CLW 2 div L x y L stroke 0
+CLW moveto } def
+/RoundBracket { CLW mul add dup 2 div /x ED mul /y ED /mtrx CM def 0 CLW
+2 div T x y mul 0 ne { x y scale } if 1 1 moveto .85 .5 .35 0 0 0
+curveto -.35 0 -.85 .5 -1 1 curveto mtrx setmatrix stroke 0 CLW moveto }
+def
+/SD { 0 360 arc fill } def
+/EndDot { { /z DS def } { /z 0 def } ifelse /b ED 0 z DS SD b { 0 z DS
+CLW sub SD } if 0 DS z add CLW 4 div sub moveto } def
+/Shadow { [ { /moveto load } { /lineto load } { /curveto load } {
+/closepath load } /pathforall load stopped { pop pop pop pop CP /moveto
+load } if ] cvx newpath 3 1 roll T exec } def
+/NArray { aload length 2 div dup dup cvi eq not { exch pop } if /n exch
+cvi def } def
+/NArray { /f ED counttomark 2 div dup cvi /n ED n eq not { exch pop } if
+f { ] aload /Points ED } { n 2 mul 1 add -1 roll pop } ifelse } def
+/Line { NArray n 0 eq not { n 1 eq { 0 0 /n 2 def } if ArrowA /n n 2 sub
+def n { Lineto } repeat CP 4 2 roll ArrowB L pop pop } if } def
+/Arcto { /a [ 6 -2 roll ] cvx def a r /arcto load stopped { 5 } { 4 }
+ifelse { pop } repeat a } def
+/CheckClosed { dup n 2 mul 1 sub index eq 2 index n 2 mul 1 add index eq
+and { pop pop /n n 1 sub def } if } def
+/Polygon { NArray n 2 eq { 0 0 /n 3 def } if n 3 lt { n { pop pop }
+repeat } { n 3 gt { CheckClosed } if n 2 mul -2 roll /y0 ED /x0 ED /y1
+ED /x1 ED x1 y1 /x1 x0 x1 add 2 div def /y1 y0 y1 add 2 div def x1 y1
+moveto /n n 2 sub def n { Lineto } repeat x1 y1 x0 y0 6 4 roll Lineto
+Lineto pop pop closepath } ifelse } def
+/Diamond { /mtrx CM def T rotate /h ED /w ED dup 0 eq { pop } { CLW mul
+neg /d ED /a w h Atan def /h d a sin Div h add def /w d a cos Div w add
+def } ifelse mark w 2 div h 2 div w 0 0 h neg w neg 0 0 h w 2 div h 2
+div /ArrowA { moveto } def /ArrowB { } def false Line closepath mtrx
+setmatrix } def
+% DG modification begin - Jan. 15, 1997
+%/Triangle { /mtrx CM def translate rotate /h ED 2 div /w ED dup 0 eq {
+%pop } { CLW mul /d ED /h h d w h Atan sin Div sub def /w w d h w Atan 2
+%div dup cos exch sin Div mul sub def } ifelse mark 0 d w neg d 0 h w d 0
+%d /ArrowA { moveto } def /ArrowB { } def false Line closepath mtrx
+%setmatrix } def
+/Triangle { /mtrx CM def translate rotate /h ED 2 div /w ED dup
+CLW mul /d ED /h h d w h Atan sin Div sub def /w w d h w Atan 2
+div dup cos exch sin Div mul sub def mark 0 d w neg d 0 h w d 0
+d /ArrowA { moveto } def /ArrowB { } def false Line closepath mtrx
+% DG/SR modification begin - Jun.  1, 1998 - Patch 3 (from Michael Vulis)
+% setmatrix } def
+setmatrix pop } def
+% DG/SR modification end
+/CCA { /y ED /x ED 2 copy y sub /dy1 ED x sub /dx1 ED /l1 dx1 dy1 Pyth
+def } def
+/CCA { /y ED /x ED 2 copy y sub /dy1 ED x sub /dx1 ED /l1 dx1 dy1 Pyth
+def } def
+/CC { /l0 l1 def /x1 x dx sub def /y1 y dy sub def /dx0 dx1 def /dy0 dy1
+def CCA /dx dx0 l1 c exp mul dx1 l0 c exp mul add def /dy dy0 l1 c exp
+mul dy1 l0 c exp mul add def /m dx0 dy0 Atan dx1 dy1 Atan sub 2 div cos
+abs b exp a mul dx dy Pyth Div 2 div def /x2 x l0 dx mul m mul sub def
+/y2 y l0 dy mul m mul sub def /dx l1 dx mul m mul neg def /dy l1 dy mul
+m mul neg def } def
+/IC { /c c 1 add def c 0 lt { /c 0 def } { c 3 gt { /c 3 def } if }
+ifelse /a a 2 mul 3 div 45 cos b exp div def CCA /dx 0 def /dy 0 def }
+def
+/BOC { IC CC x2 y2 x1 y1 ArrowA CP 4 2 roll x y curveto } def
+/NC { CC x1 y1 x2 y2 x y curveto } def
+/EOC { x dx sub y dy sub 4 2 roll ArrowB 2 copy curveto } def
+/BAC { IC CC x y moveto CC x1 y1 CP ArrowA } def
+/NAC { x2 y2 x y curveto CC x1 y1 } def
+/EAC { x2 y2 x y ArrowB curveto pop pop } def
+/OpenCurve { NArray n 3 lt { n { pop pop } repeat } { BOC /n n 3 sub def
+n { NC } repeat EOC } ifelse } def
+/AltCurve { { false NArray n 2 mul 2 roll [ n 2 mul 3 sub 1 roll ] aload
+/Points ED n 2 mul -2 roll } { false NArray } ifelse n 4 lt { n { pop
+pop } repeat } { BAC /n n 4 sub def n { NAC } repeat EAC } ifelse } def
+/ClosedCurve { NArray n 3 lt { n { pop pop } repeat } { n 3 gt {
+CheckClosed } if 6 copy n 2 mul 6 add 6 roll IC CC x y moveto n { NC }
+repeat closepath pop pop } ifelse } def
+/SQ { /r ED r r moveto r r neg L r neg r neg L r neg r L fill } def
+/ST { /y ED /x ED x y moveto x neg y L 0 x L fill } def
+/SP { /r ED gsave 0 r moveto 4 { 72 rotate 0 r L } repeat fill grestore }
+def
+/FontDot { DS 2 mul dup matrix scale matrix concatmatrix exch matrix
+rotate matrix concatmatrix exch findfont exch makefont setfont } def
+/Rect { x1 y1 y2 add 2 div moveto x1 y2 lineto x2 y2 lineto x2 y1 lineto
+x1 y1 lineto closepath } def
+/OvalFrame { x1 x2 eq y1 y2 eq or { pop pop x1 y1 moveto x2 y2 L } { y1
+y2 sub abs x1 x2 sub abs 2 copy gt { exch pop } { pop } ifelse 2 div
+exch { dup 3 1 roll mul exch } if 2 copy lt { pop } { exch pop } ifelse
+/b ED x1 y1 y2 add 2 div moveto x1 y2 x2 y2 b arcto x2 y2 x2 y1 b arcto
+x2 y1 x1 y1 b arcto x1 y1 x1 y2 b arcto 16 { pop } repeat closepath }
+ifelse } def
+/Frame { CLW mul /a ED 3 -1 roll 2 copy gt { exch } if a sub /y2 ED a add
+/y1 ED 2 copy gt { exch } if a sub /x2 ED a add /x1 ED 1 index 0 eq {
+pop pop Rect } { OvalFrame } ifelse } def
+/BezierNArray { /f ED counttomark 2 div dup cvi /n ED n eq not { exch pop
+} if n 1 sub neg 3 mod 3 add 3 mod { 0 0 /n n 1 add def } repeat f { ]
+aload /Points ED } { n 2 mul 1 add -1 roll pop } ifelse } def
+/OpenBezier { BezierNArray n 1 eq { pop pop } { ArrowA n 4 sub 3 idiv { 6
+2 roll 4 2 roll curveto } repeat 6 2 roll 4 2 roll ArrowB curveto }
+ifelse } def
+/ClosedBezier { BezierNArray n 1 eq { pop pop } { moveto n 1 sub 3 idiv {
+6 2 roll 4 2 roll curveto } repeat closepath } ifelse } def
+/BezierShowPoints { gsave Points aload length 2 div cvi /n ED moveto n 1
+sub { lineto } repeat CLW 2 div SLW [ 4 4 ] 0 setdash stroke grestore }
+def
+/Parab { /y0 exch def /x0 exch def /y1 exch def /x1 exch def /dx x0 x1
+sub 3 div def /dy y0 y1 sub 3 div def x0 dx sub y0 dy add x1 y1 ArrowA
+x0 dx add y0 dy add x0 2 mul x1 sub y1 ArrowB curveto /Points [ x1 y1 x0
+y0 x0 2 mul x1 sub y1 ] def } def
+/Grid { newpath /a 4 string def /b ED /c ED /n ED cvi dup 1 lt { pop 1 }
+if /s ED s div dup 0 eq { pop 1 } if /dy ED s div dup 0 eq { pop 1 } if
+/dx ED dy div round dy mul /y0 ED dx div round dx mul /x0 ED dy div
+round cvi /y2 ED dx div round cvi /x2 ED dy div round cvi /y1 ED dx div
+round cvi /x1 ED /h y2 y1 sub 0 gt { 1 } { -1 } ifelse def /w x2 x1 sub
+0 gt { 1 } { -1 } ifelse def b 0 gt { /z1 b 4 div CLW 2 div add def
+/Helvetica findfont b scalefont setfont /b b .95 mul CLW 2 div add def }
+if systemdict /setstrokeadjust known { true setstrokeadjust /t { } def }
+{ /t { transform 0.25 sub round 0.25 add exch 0.25 sub round 0.25 add
+exch itransform } bind def } ifelse gsave n 0 gt { 1 setlinecap [ 0 dy n
+div ] dy n div 2 div setdash } { 2 setlinecap } ifelse /i x1 def /f y1
+dy mul n 0 gt { dy n div 2 div h mul sub } if def /g y2 dy mul n 0 gt {
+dy n div 2 div h mul add } if def x2 x1 sub w mul 1 add dup 1000 gt {
+pop 1000 } if { i dx mul dup y0 moveto b 0 gt { gsave c i a cvs dup
+stringwidth pop /z2 ED w 0 gt {z1} {z1 z2 add neg} ifelse h 0 gt {b neg}
+{z1} ifelse rmoveto show grestore } if dup t f moveto g t L stroke /i i
+w add def } repeat grestore gsave n 0 gt
+% DG/SR modification begin - Nov. 7, 1997 - Patch 1
+%{ 1 setlinecap [ 0 dx n div ] dy n div 2 div setdash }
+{ 1 setlinecap [ 0 dx n div ] dx n div 2 div setdash }
+% DG/SR modification end
+{ 2 setlinecap } ifelse /i y1 def /f x1 dx mul
+n 0 gt { dx n div 2 div w mul sub } if def /g x2 dx mul n 0 gt { dx n
+div 2 div w mul add } if def y2 y1 sub h mul 1 add dup 1000 gt { pop
+1000 } if { newpath i dy mul dup x0 exch moveto b 0 gt { gsave c i a cvs
+dup stringwidth pop /z2 ED w 0 gt {z1 z2 add neg} {z1} ifelse h 0 gt
+{z1} {b neg} ifelse rmoveto show grestore } if dup f exch t moveto g
+exch t L stroke /i i h add def } repeat grestore } def
+/ArcArrow { /d ED /b ED /a ED gsave newpath 0 -1000 moveto clip newpath 0
+1 0 0 b grestore c mul /e ED pop pop pop r a e d PtoC y add exch x add
+exch r a PtoC y add exch x add exch b pop pop pop pop a e d CLW 8 div c
+mul neg d } def
+/Ellipse { /mtrx CM def T scale 0 0 1 5 3 roll arc mtrx setmatrix } def
+/Rot { CP CP translate 3 -1 roll neg rotate NET  } def
+/RotBegin { tx@Dict /TMatrix known not { /TMatrix { } def /RAngle { 0 }
+def } if /TMatrix [ TMatrix CM ] cvx def /a ED a Rot /RAngle [ RAngle
+dup a add ] cvx def } def
+/RotEnd { /TMatrix [ TMatrix setmatrix ] cvx def /RAngle [ RAngle pop ]
+cvx def } def
+/PutCoor { gsave CP T CM STV exch exec moveto setmatrix CP grestore } def
+/PutBegin { /TMatrix [ TMatrix CM ] cvx def CP 4 2 roll T moveto } def
+/PutEnd { CP /TMatrix [ TMatrix setmatrix ] cvx def moveto } def
+/Uput { /a ED add 2 div /h ED 2 div /w ED /s a sin def /c a cos def /b s
+abs c abs 2 copy gt dup /q ED { pop } { exch pop } ifelse def /w1 c b
+div w mul def /h1 s b div h mul def q { w1 abs w sub dup c mul abs } {
+h1 abs h sub dup s mul abs } ifelse } def
+/UUput { /z ED abs /y ED /x ED q { x s div c mul abs y gt } { x c div s
+mul abs y gt } ifelse { x x mul y y mul sub z z mul add sqrt z add } { q
+{ x s div } { x c div } ifelse abs } ifelse a PtoC h1 add exch w1 add
+exch } def
+/BeginOL { dup (all) eq exch TheOL eq or { IfVisible not { Visible
+/IfVisible true def } if } { IfVisible { Invisible /IfVisible false def
+} if } ifelse } def
+/InitOL { /OLUnit [ 3000 3000 matrix defaultmatrix dtransform ] cvx def
+/Visible { CP OLUnit idtransform T moveto } def /Invisible { CP OLUnit
+neg exch neg exch idtransform T moveto } def /BOL { BeginOL } def
+/IfVisible true def } def
+end
+% END pstricks.pro
+
+%%EndProcSet
+%%BeginProcSet: pst-dots.pro
+%!PS-Adobe-2.0
+%%Title: Dot Font for PSTricks
+%%Creator: Timothy Van Zandt <tvz@Princeton.EDU>
+%%Creation Date: May 7, 1993
+%% Version 97 patch 1, 99/12/16
+%% Modified by Etienne Riga <etienne.riga@skynet.be> - Dec. 16, 1999
+%% to add /Diamond, /SolidDiamond and /BoldDiamond
+10 dict dup begin
+  /FontType 3 def
+  /FontMatrix [ .001 0 0 .001 0 0 ] def
+  /FontBBox [ 0 0 0 0 ] def
+  /Encoding 256 array def
+  0 1 255 { Encoding exch /.notdef put } for
+  Encoding
+    dup (b) 0 get /Bullet put
+    dup (c) 0 get /Circle put
+    dup (C) 0 get /BoldCircle put
+    dup (u) 0 get /SolidTriangle put
+    dup (t) 0 get /Triangle put
+    dup (T) 0 get /BoldTriangle put
+    dup (r) 0 get /SolidSquare put
+    dup (s) 0 get /Square put
+    dup (S) 0 get /BoldSquare put
+    dup (q) 0 get /SolidPentagon put
+    dup (p) 0 get /Pentagon put
+    dup (P) 0 get /BoldPentagon put
+% DG/SR modification begin - Dec. 16, 1999 - From Etienne Riga
+    dup (l) 0 get /SolidDiamond put
+    dup (d) 0 get /Diamond put
+        (D) 0 get /BoldDiamond put
+% DG/SR modification end
+  /Metrics 13 dict def
+  Metrics begin
+    /Bullet        1000   def
+    /Circle        1000   def
+    /BoldCircle    1000   def
+    /SolidTriangle 1344   def
+    /Triangle      1344   def
+    /BoldTriangle  1344   def
+    /SolidSquare    886   def
+    /Square         886   def
+    /BoldSquare     886   def
+    /SolidPentagon 1093.2 def
+    /Pentagon      1093.2 def
+    /BoldPentagon  1093.2 def
+% DG/SR modification begin - Dec. 16, 1999 - From Etienne Riga
+    /SolidDiamond  1008   def
+    /Diamond       1008   def
+    /BoldDiamond   1008   def
+% DG/SR modification end
+    /.notdef 0 def
+  end
+  /BBoxes 13 dict def
+  BBoxes begin
+    /Circle        { -550 -550 550 550 } def
+    /BoldCircle    /Circle load def
+    /Bullet        /Circle load def
+    /Triangle      { -571.5 -330 571.5 660 } def
+    /BoldTriangle  /Triangle load def
+    /SolidTriangle /Triangle load def
+    /Square        { -450 -450 450 450 } def
+    /BoldSquare    /Square load def
+    /SolidSquare   /Square load def
+    /Pentagon      { -546.6 -465 546.6 574.7 } def
+    /BoldPentagon  /Pentagon load def
+    /SolidPentagon /Pentagon load def
+% DG/SR modification begin - Dec. 16, 1999 - From Etienne Riga
+    /Diamond       { -428.5 -742.5 428.5 742.5 } def
+    /BoldDiamond   /Diamond load def
+    /SolidDiamond  /Diamond load def
+% DG/SR modification end
+    /.notdef { 0 0 0 0 } def
+  end
+  /CharProcs 20 dict def
+  CharProcs begin
+    /Adjust {
+      2 copy dtransform floor .5 add exch floor .5 add exch idtransform
+      3 -1 roll div 3 1 roll exch div exch scale
+    } def
+    /CirclePath    { 0 0 500 0 360 arc closepath } def
+    /Bullet        { 500 500 Adjust CirclePath fill } def
+    /Circle        { 500 500 Adjust CirclePath .9 .9 scale CirclePath
+                     eofill } def
+    /BoldCircle    { 500 500 Adjust CirclePath .8 .8 scale CirclePath
+                     eofill } def
+    /BoldCircle    { CirclePath .8 .8 scale CirclePath eofill } def
+    /TrianglePath  { 0  660 moveto -571.5 -330 lineto 571.5 -330 lineto
+                     closepath } def
+    /SolidTriangle { TrianglePath fill } def
+    /Triangle      { TrianglePath .85 .85 scale TrianglePath eofill } def
+    /BoldTriangle  { TrianglePath .7 .7 scale TrianglePath eofill } def
+    /SquarePath    { -450 450 moveto 450 450 lineto 450 -450 lineto
+                     -450 -450 lineto closepath } def
+    /SolidSquare   { SquarePath fill } def
+    /Square        { SquarePath .89 .89 scale SquarePath eofill } def
+    /BoldSquare    { SquarePath .78 .78 scale SquarePath eofill } def
+    /PentagonPath  {
+      -337.8 -465   moveto
+       337.8 -465   lineto
+       546.6  177.6 lineto
+         0    574.7 lineto
+      -546.6  177.6 lineto
+      closepath
+    } def
+    /SolidPentagon { PentagonPath fill } def
+    /Pentagon      { PentagonPath .89 .89 scale PentagonPath eofill } def
+    /BoldPentagon  { PentagonPath .78 .78 scale PentagonPath eofill } def
+% DG/SR modification begin - Dec. 16, 1999 - From Etienne Riga
+    /DiamondPath   { 0 742.5 moveto -428.5 0 lineto 0 -742.5 lineto
+                     428.5 0 lineto closepath } def
+    /SolidDiamond  { DiamondPath fill } def
+    /Diamond       { DiamondPath .85 .85 scale DiamondPath eofill } def
+    /BoldDiamond   { DiamondPath .7 .7 scale DiamondPath eofill } def
+% DG/SR modification end
+    /.notdef { } def
+  end
+  /BuildGlyph {
+    exch
+    begin
+      Metrics 1 index get exec 0
+      BBoxes 3 index get exec
+      setcachedevice
+      CharProcs begin load exec end
+    end
+  } def
+  /BuildChar {
+    1 index /Encoding get exch get
+    1 index /BuildGlyph get exec
+  } bind def
+end
+/PSTricksDotFont exch definefont pop
+%END pst-dots.pro
+
+%%EndProcSet
+%%BeginProcSet: pst-grad.pro
+%!
+% PostScript prologue for pst-grad.tex.
+% Version 97, 93/05/12
+% For distribution, see pstricks.tex.
+%
+% For the PSTricks gradient fillstyle.
+%
+% Based on some EPS files by leeweyr!bill@nuchat.sccsi.com (W. R. Lee).
+%
+% Syntax:
+%   R0 G0 B0 R1 G1 B1 NumLines MidPoint Angle GradientFill
+
+/tx@GradientDict 40 dict def
+tx@GradientDict begin
+/GradientFill {
+  rotate
+  /MidPoint ED
+  /NumLines ED
+  /LastBlue ED
+  /LastGreen ED
+  /LastRed ED
+  /FirstBlue ED
+  /FirstGreen ED
+  /FirstRed ED
+  % This avoids gaps due to rounding errors:
+  clip
+  pathbbox           %leave llx,lly,urx,ury on stack
+  /y ED /x ED
+  2 copy translate
+  y sub neg /y ED
+  x sub neg /x ED
+  % This avoids gaps due to rounding errors:
+  LastRed FirstRed add 2 div
+  LastGreen FirstGreen add 2 div
+  LastBlue FirstBlue add 2 div
+  setrgbcolor
+  fill
+  /YSizePerLine y NumLines div def
+  /CurrentY 0 def
+  /MidLine NumLines 1 MidPoint sub mul abs cvi def
+  MidLine NumLines 2 sub gt
+  { /MidLine NumLines def }
+  { MidLine 2 lt { /MidLine 0 def } if }
+  ifelse
+  MidLine 0 gt
+  {
+    /Red FirstRed def
+    /Green FirstGreen def
+    /Blue FirstBlue def
+    /RedIncrement LastRed FirstRed sub MidLine 1 sub div def
+    /GreenIncrement LastGreen FirstGreen sub MidLine 1 sub div def
+    /BlueIncrement LastBlue FirstBlue sub MidLine 1 sub div def
+    MidLine { GradientLoop } repeat
+  } if
+  MidLine NumLines lt
+  {
+    /Red LastRed def
+    /Green LastGreen def
+    /Blue LastBlue def
+    /RedIncrement FirstRed LastRed sub NumLines MidLine sub 1 sub div def
+    /GreenIncrement FirstGreen LastGreen sub NumLines MidLine sub 1 sub div def
+    /BlueIncrement FirstBlue LastBlue sub NumLines MidLine sub 1 sub div def
+    NumLines MidLine sub { GradientLoop } repeat
+  } if
+} def
+/GradientLoop {
+  0 CurrentY moveto
+  x 0 rlineto
+  0 YSizePerLine rlineto
+  x neg 0 rlineto
+  closepath
+  Red Green Blue setrgbcolor fill
+  /CurrentY CurrentY YSizePerLine add def
+  /Blue Blue BlueIncrement add def
+  /Green Green GreenIncrement add def
+  /Red Red RedIncrement add def
+} def
+
+end
+% END pst-grad.pro
+
+%%EndProcSet
+%%BeginProcSet: 8r.enc
+% File 8r.enc  TeX Base 1 Encoding  Revision 2.0pre  2002-10-30
+%
+% @@psencodingfile@{
+%   author    = "S. Rahtz, P. MacKay, Alan Jeffrey, B. Horn, K. Berry,
+%                W. Schmidt, P. Lehman",
+%   version   = "2.0pre",
+%   date      = "30 October 2002",
+%   filename  = "8r.enc",
+%   email     = "tex-fonts@@tug.org",
+%   docstring = "This is the encoding vector for Type1 and TrueType
+%                fonts to be used with TeX.  This file is part of the
+%                PSNFSS bundle, version 9"
+% @}
+% 
+% The idea is to have all the characters normally included in Type 1 fonts
+% available for typesetting. This is effectively the characters in Adobe
+% Standard encoding, ISO Latin 1, Windows ANSI including the euro symbol,
+% MacRoman, and some extra characters from Lucida.
+% 
+% Character code assignments were made as follows:
+% 
+% (1) the Windows ANSI characters are almost all in their Windows ANSI
+% positions, because some Windows users cannot easily reencode the
+% fonts, and it makes no difference on other systems. The only Windows
+% ANSI characters not available are those that make no sense for
+% typesetting -- rubout (127 decimal), nobreakspace (160), softhyphen
+% (173). quotesingle and grave are moved just because it's such an
+% irritation not having them in TeX positions.
+% 
+% (2) Remaining characters are assigned arbitrarily to the lower part
+% of the range, avoiding 0, 10 and 13 in case we meet dumb software.
+% 
+% (3) Y&Y Lucida Bright includes some extra text characters; in the
+% hopes that other PostScript fonts, perhaps created for public
+% consumption, will include them, they are included starting at 0x12.
+% These are /dotlessj /ff /ffi /ffl.
+% 
+% (4) hyphen appears twice for compatibility with both ASCII and Windows.
+%
+% (5) /Euro was assigned to 128, as in Windows ANSI
+%
+% (6) Missing characters from MacRoman encoding incorporated as follows:
+%
+%     PostScript      MacRoman        TeXBase1
+%     --------------  --------------  --------------
+%     /notequal       173             0x16
+%     /infinity       176             0x17
+%     /lessequal      178             0x18
+%     /greaterequal   179             0x19
+%     /partialdiff    182             0x1A
+%     /summation      183             0x1B
+%     /product        184             0x1C
+%     /pi             185             0x1D
+%     /integral       186             0x81
+%     /Omega          189             0x8D
+%     /radical        195             0x8E
+%     /approxequal    197             0x8F
+%     /Delta          198             0x9D
+%     /lozenge        215             0x9E
+%
+/TeXBase1Encoding [
+% 0x00
+ /.notdef /dotaccent /fi /fl
+ /fraction /hungarumlaut /Lslash /lslash
+ /ogonek /ring /.notdef /breve
+ /minus /.notdef /Zcaron /zcaron
+% 0x10
+ /caron /dotlessi /dotlessj /ff
+ /ffi /ffl /notequal /infinity
+ /lessequal /greaterequal /partialdiff /summation
+ /product /pi /grave /quotesingle
+% 0x20
+ /space /exclam /quotedbl /numbersign
+ /dollar /percent /ampersand /quoteright
+ /parenleft /parenright /asterisk /plus
+ /comma /hyphen /period /slash
+% 0x30
+ /zero /one /two /three
+ /four /five /six /seven
+ /eight /nine /colon /semicolon
+ /less /equal /greater /question
+% 0x40
+ /at /A /B /C
+ /D /E /F /G
+ /H /I /J /K
+ /L /M /N /O
+% 0x50
+ /P /Q /R /S
+ /T /U /V /W
+ /X /Y /Z /bracketleft
+ /backslash /bracketright /asciicircum /underscore
+% 0x60
+ /quoteleft /a /b /c
+ /d /e /f /g
+ /h /i /j /k
+ /l /m /n /o
+% 0x70
+ /p /q /r /s
+ /t /u /v /w
+ /x /y /z /braceleft
+ /bar /braceright /asciitilde /.notdef
+% 0x80
+ /Euro /integral /quotesinglbase /florin
+ /quotedblbase /ellipsis /dagger /daggerdbl
+ /circumflex /perthousand /Scaron /guilsinglleft
+ /OE /Omega /radical /approxequal
+% 0x90
+ /.notdef /.notdef /.notdef /quotedblleft
+ /quotedblright /bullet /endash /emdash
+ /tilde /trademark /scaron /guilsinglright
+ /oe /Delta /lozenge /Ydieresis
+% 0xA0
+ /.notdef /exclamdown /cent /sterling
+ /currency /yen /brokenbar /section
+ /dieresis /copyright /ordfeminine /guillemotleft
+ /logicalnot /hyphen /registered /macron
+% 0xD0
+ /degree /plusminus /twosuperior /threesuperior
+ /acute /mu /paragraph /periodcentered
+ /cedilla /onesuperior /ordmasculine /guillemotright
+ /onequarter /onehalf /threequarters /questiondown
+% 0xC0
+ /Agrave /Aacute /Acircumflex /Atilde
+ /Adieresis /Aring /AE /Ccedilla
+ /Egrave /Eacute /Ecircumflex /Edieresis
+ /Igrave /Iacute /Icircumflex /Idieresis
+% 0xD0
+ /Eth /Ntilde /Ograve /Oacute
+ /Ocircumflex /Otilde /Odieresis /multiply
+ /Oslash /Ugrave /Uacute /Ucircumflex
+ /Udieresis /Yacute /Thorn /germandbls
+% 0xE0
+ /agrave /aacute /acircumflex /atilde
+ /adieresis /aring /ae /ccedilla
+ /egrave /eacute /ecircumflex /edieresis
+ /igrave /iacute /icircumflex /idieresis
+% 0xF0
+ /eth /ntilde /ograve /oacute
+ /ocircumflex /otilde /odieresis /divide
+ /oslash /ugrave /uacute /ucircumflex
+ /udieresis /yacute /thorn /ydieresis
+] def
+
+
+%%EndProcSet
+%%BeginProcSet: texps.pro
+%!
+TeXDict begin/rf{findfont dup length 1 add dict begin{1 index/FID ne 2
+index/UniqueID ne and{def}{pop pop}ifelse}forall[1 index 0 6 -1 roll
+exec 0 exch 5 -1 roll VResolution Resolution div mul neg 0 0]/Metrics
+exch def dict begin Encoding{exch dup type/integertype ne{pop pop 1 sub
+dup 0 le{pop}{[}ifelse}{FontMatrix 0 get div Metrics 0 get div def}
+ifelse}forall Metrics/Metrics currentdict end def[2 index currentdict
+end definefont 3 -1 roll makefont/setfont cvx]cvx def}def/ObliqueSlant{
+dup sin S cos div neg}B/SlantFont{4 index mul add}def/ExtendFont{3 -1
+roll mul exch}def/ReEncodeFont{CharStrings rcheck{/Encoding false def
+dup[exch{dup CharStrings exch known not{pop/.notdef/Encoding true def}
+if}forall Encoding{]exch pop}{cleartomark}ifelse}if/Encoding exch def}
+def end
+
+%%EndProcSet
+%%BeginProcSet: special.pro
+%!
+TeXDict begin/SDict 200 dict N SDict begin/@SpecialDefaults{/hs 612 N
+/vs 792 N/ho 0 N/vo 0 N/hsc 1 N/vsc 1 N/ang 0 N/CLIP 0 N/rwiSeen false N
+/rhiSeen false N/letter{}N/note{}N/a4{}N/legal{}N}B/@scaleunit 100 N
+/@hscale{@scaleunit div/hsc X}B/@vscale{@scaleunit div/vsc X}B/@hsize{
+/hs X/CLIP 1 N}B/@vsize{/vs X/CLIP 1 N}B/@clip{/CLIP 2 N}B/@hoffset{/ho
+X}B/@voffset{/vo X}B/@angle{/ang X}B/@rwi{10 div/rwi X/rwiSeen true N}B
+/@rhi{10 div/rhi X/rhiSeen true N}B/@llx{/llx X}B/@lly{/lly X}B/@urx{
+/urx X}B/@ury{/ury X}B/magscale true def end/@MacSetUp{userdict/md known
+{userdict/md get type/dicttype eq{userdict begin md length 10 add md
+maxlength ge{/md md dup length 20 add dict copy def}if end md begin
+/letter{}N/note{}N/legal{}N/od{txpose 1 0 mtx defaultmatrix dtransform S
+atan/pa X newpath clippath mark{transform{itransform moveto}}{transform{
+itransform lineto}}{6 -2 roll transform 6 -2 roll transform 6 -2 roll
+transform{itransform 6 2 roll itransform 6 2 roll itransform 6 2 roll
+curveto}}{{closepath}}pathforall newpath counttomark array astore/gc xdf
+pop ct 39 0 put 10 fz 0 fs 2 F/|______Courier fnt invertflag{PaintBlack}
+if}N/txpose{pxs pys scale ppr aload pop por{noflips{pop S neg S TR pop 1
+-1 scale}if xflip yflip and{pop S neg S TR 180 rotate 1 -1 scale ppr 3
+get ppr 1 get neg sub neg ppr 2 get ppr 0 get neg sub neg TR}if xflip
+yflip not and{pop S neg S TR pop 180 rotate ppr 3 get ppr 1 get neg sub
+neg 0 TR}if yflip xflip not and{ppr 1 get neg ppr 0 get neg TR}if}{
+noflips{TR pop pop 270 rotate 1 -1 scale}if xflip yflip and{TR pop pop
+90 rotate 1 -1 scale ppr 3 get ppr 1 get neg sub neg ppr 2 get ppr 0 get
+neg sub neg TR}if xflip yflip not and{TR pop pop 90 rotate ppr 3 get ppr
+1 get neg sub neg 0 TR}if yflip xflip not and{TR pop pop 270 rotate ppr
+2 get ppr 0 get neg sub neg 0 S TR}if}ifelse scaleby96{ppr aload pop 4
+-1 roll add 2 div 3 1 roll add 2 div 2 copy TR .96 dup scale neg S neg S
+TR}if}N/cp{pop pop showpage pm restore}N end}if}if}N/normalscale{
+Resolution 72 div VResolution 72 div neg scale magscale{DVImag dup scale
+}if 0 setgray}N/psfts{S 65781.76 div N}N/startTexFig{/psf$SavedState
+save N userdict maxlength dict begin/magscale true def normalscale
+currentpoint TR/psf$ury psfts/psf$urx psfts/psf$lly psfts/psf$llx psfts
+/psf$y psfts/psf$x psfts currentpoint/psf$cy X/psf$cx X/psf$sx psf$x
+psf$urx psf$llx sub div N/psf$sy psf$y psf$ury psf$lly sub div N psf$sx
+psf$sy scale psf$cx psf$sx div psf$llx sub psf$cy psf$sy div psf$ury sub
+TR/showpage{}N/erasepage{}N/copypage{}N/p 3 def @MacSetUp}N/doclip{
+psf$llx psf$lly psf$urx psf$ury currentpoint 6 2 roll newpath 4 copy 4 2
+roll moveto 6 -1 roll S lineto S lineto S lineto closepath clip newpath
+moveto}N/endTexFig{end psf$SavedState restore}N/@beginspecial{SDict
+begin/SpecialSave save N gsave normalscale currentpoint TR
+@SpecialDefaults count/ocount X/dcount countdictstack N}N/@setspecial{
+CLIP 1 eq{newpath 0 0 moveto hs 0 rlineto 0 vs rlineto hs neg 0 rlineto
+closepath clip}if ho vo TR hsc vsc scale ang rotate rwiSeen{rwi urx llx
+sub div rhiSeen{rhi ury lly sub div}{dup}ifelse scale llx neg lly neg TR
+}{rhiSeen{rhi ury lly sub div dup scale llx neg lly neg TR}if}ifelse
+CLIP 2 eq{newpath llx lly moveto urx lly lineto urx ury lineto llx ury
+lineto closepath clip}if/showpage{}N/erasepage{}N/copypage{}N newpath}N
+/@endspecial{count ocount sub{pop}repeat countdictstack dcount sub{end}
+repeat grestore SpecialSave restore end}N/@defspecial{SDict begin}N
+/@fedspecial{end}B/li{lineto}B/rl{rlineto}B/rc{rcurveto}B/np{/SaveX
+currentpoint/SaveY X N 1 setlinecap newpath}N/st{stroke SaveX SaveY
+moveto}N/fil{fill SaveX SaveY moveto}N/ellipse{/endangle X/startangle X
+/yrad X/xrad X/savematrix matrix currentmatrix N TR xrad yrad scale 0 0
+1 startangle endangle arc savematrix setmatrix}N end
+
+%%EndProcSet
+TeXDict begin @defspecial
+
+ /DvipsToPDF { 72.27 mul Resolution div } def /PDFToDvips { 72.27 div
+Resolution mul } def /HyperBorder { 1 PDFToDvips } def /H.V {pdf@hoff
+pdf@voff null} def /H.B {/Rect[pdf@llx pdf@lly pdf@urx pdf@ury]} def
+/H.S { currentpoint HyperBorder add /pdf@lly exch def dup DvipsToPDF
+/pdf@hoff exch def HyperBorder sub /pdf@llx exch def } def /H.L { 2
+sub dup /HyperBasePt exch def PDFToDvips /HyperBaseDvips exch def currentpoint
+HyperBaseDvips sub /pdf@ury exch def /pdf@urx exch def } def /H.A {
+H.L currentpoint exch pop vsize 72 sub exch DvipsToPDF HyperBasePt
+sub sub /pdf@voff exch def } def /H.R { currentpoint HyperBorder sub
+/pdf@ury exch def HyperBorder add /pdf@urx exch def currentpoint exch
+pop vsize 72 sub exch DvipsToPDF sub /pdf@voff exch def } def systemdict
+/pdfmark known not {userdict /pdfmark systemdict /cleartomark get put}
+if
+ 
+@fedspecial end
+%%BeginFont: CMTI12
+%!PS-AdobeFont-1.1: CMTI12 1.0
+%%CreationDate: 1991 Aug 18 21:06:53
+% Copyright (C) 1997 American Mathematical Society. All Rights Reserved.
+11 dict begin
+/FontInfo 7 dict dup begin
+/version (1.0) readonly def
+/Notice (Copyright (C) 1997 American Mathematical Society. All Rights Reserved) readonly def
+/FullName (CMTI12) readonly def
+/FamilyName (Computer Modern) readonly def
+/Weight (Medium) readonly def
+/ItalicAngle -14.04 def
+/isFixedPitch false def
+end readonly def
+/FontName /CMTI12 def
+/PaintType 0 def
+/FontType 1 def
+/FontMatrix [0.001 0 0 0.001 0 0] readonly def
+/Encoding 256 array
+0 1 255 {1 index exch /.notdef put} for
+dup 65 /A put
+dup 70 /F put
+dup 82 /R put
+dup 86 /V put
+readonly def
+/FontBBox{-36 -251 1103 750}readonly def
+/UniqueID 5000829 def
+currentdict end
+currentfile eexec
+D9D66F633B846A97B686A97E45A3D0AA0529731C99A784CCBE85B4993B2EEBDE
+3B12D472B7CF54651EF21185116A69AB1096ED4BAD2F646635E019B6417CC77B
+532F85D811C70D1429A19A5307EF63EB5C5E02C89FC6C20F6D9D89E7D91FE470
+B72BEFDA23F5DF76BE05AF4CE93137A219ED8A04A9D7D6FDF37E6B7FCDE0D90B
+986423E5960A5D9FBB4C956556E8DF90CBFAEC476FA36FD9A5C8175C9AF513FE
+D919C2DDD26BDC0D99398B9F4D03D6A8F05B47AF95EF28A9C561DBDC98C47CF5
+525003F3DBE5BF07B2E83E66B7F97DDD7CE0EEB75A78BD9227BF359D002B6ADB
+8AC57A33FED4EF021A7085B1E2B933DE602F0FF71467ECD501744AE338AF29A0
+26F7D368AC6F25CCB882DB7B7343566192BD687E1349225982823027D3B66703
+3B0DB7A7E680A682B98023D39C7FAE81A5D5B867A0A66C8AA0DBC83B1596A84F
+0436AC6A7900B767BDCCE0060A4811003C79FDCC71D73F7F2D0A6675E93AD21A
+56B4CD8EF75EED3DE8C0A18BEBF7B9D1BE72504872D56EDB272F1E97FC726CB6
+68C85C713059DA19F6C2E0F3E12710A59B6FC4699AE883DE8C8615B7292AC25C
+D5714B6CFB14EF0EF11EB13009BEBA4F345A5D3D6D9926ABC2BAD7DB1328651E
+437BFB3C46DA7B62219660FC368CF3D3704DAD3AB461C28F711665BF484BF61C
+052093D231CA65618EA463D63E406ECE858D180A6C0589B2FEDC321371C28E77
+DE974D655DF5FF7D41ED01FE717D928A885F6FA6CFE4D2C0807F8E7F937916E0
+96EDD1A3BA67802B1F4A49100E75613BA0356D9DCBBAD4DAB3C59E70A47058F5
+2163D1730F0EE4D1F87C3A4AE723A23CFD7986FC4FBD399347E9F5946354E013
+D860FC446AFF0B0744F5DA27CC777C96ADB388D1E835DDCBE123FB517679B9B7
+EE5A3DDDCD392415AF58CE22EA55B7F47031138C6F27798B40F7E18FDD315912
+BE99F33ADE0FDD538A8A3E5DE58AF68A54732AE69F188F3F7E0458D848205648
+CBE820C287ADC2394520F03BBB97DB893F6A12154B1B7F8626D35CE6B70F8524
+CB128DE87821A0E32F1E825F6C50AE8B4BE37FAA3183BA4D678E896CC7E61CC9
+D0226FC38B9CAE0939D19149D987979B96A86EB69A105807AB426639292FF5FB
+EFF0817FCFD5E516CCF98CA1A7B8C74D17ACC1D3E7ACA96A6A73EBD6503C0A32
+CFC0E54453B9158448DBABAA8C5CF7FB455906544BEB7C661C424EEC37C888C8
+175B2223AF46AB65F7D0FE789C7C42EFAD7A07408EC31A30BC876E9BB820CAF3
+F8070B98849A2B72CC3A07626DE0F51E265A43653C21FC9AC35F09CFEA980990
+CC40D5B913106AFD0C8129485AAECF6DE0C4C442134CC9CB5154825C53718B6A
+3F3EB20334806E7A517CA4E24BD9A1392E8D04BF8F0422083BBDB15FE0844766
+F578537DF333585E8E06B16C6913AA70CD385E547BF6FF9A07E01E5E727AD06C
+986F8F69EBA918935363FE81C827B719D79E290BF6D5C223A9E944F0F4ACC55F
+5A73D042F94BB2FEBA03B1706D20D97EADCEB04F7B91DCC06DD1B08D221F0F33
+EC1E58C915AF998FE43603067B1F411B2894090588088F5B59D115A2125B64A1
+EE494E36A2540101045AAA7EC46A94312923C84811E91962AE7DF898DE3E985E
+2A9D346E149B7DBF4193EE07CB86FB2D74532D7E6F2CD24BF33B1DC072B799AA
+44F5DFF144A06A8D8C3618BA2C4FF6B6B4BF6A5E769F8C51C4DAAF59B49C221E
+1393A1BB408AD0184104CC7877938E13748451437221F7D4BCBA56FE0CB7C4B0
+DDB6345A4AF651166D667E3ED1C54269354D5C8D3481AF7F91BEA07784B40F5C
+E713820CA4E56836D0BBD511145291A7E55EF41B02FCE89A64BC24716873C4ED
+35D8C494D9A3E01DAE6F0D3F03CAF2E9625936D7EC25F6012E938F6AC724878D
+6520F5E2AE288725DA003F7A1EEC9EB3CE2F34FAB8428EE962FC69BEEB682F75
+59E51BF2021CDD8D9765885A24105825DDC530E3924A0F239EE6EAB4CB016118
+37AF65972FBD14D6F5AA724FB36AFB3D7B76AB7244B48B549ACA0DE346686AA9
+1BDB0EC511871CB07C3E7BBE44EECB846F188FCFDFFB08199DF1787A7AC33A80
+95C82A8E3367D28998F9E41DF05BCAC900F5B75938152AC87BA80C5F7B646530
+66C12323BFCBD5957DE2D185F5A666182E2DF82F91CEC0271EFE84D1CC5EB404
+E86AD65048D6427DEC4DAF1A5FE9FEE780E02F6CE999376A895DDC44B9811C99
+A2E8EF9D7C673354629197D2489E1182F1D426DA8DA78C439D3F4104600F85F2
+FD09AC2DF1B06765DA6C79BB0E074E8BBBDE7EF2BAC6C4BBAD5F8C82CD00DD49
+704826B3303A22D663A69F7151583E7906CA0B1387181C3FB5C56581943A9A94
+359DEE6269D0092BD24491ABBA02F25E14F5B2D210BEAC1A4C6929B35D5B5C06
+D51C28F6BF93C03138D2A9BF37CC9E2668D96C6436CFE33E104F1C6552C71ABD
+3F9B1B8533F74658309584C64F43AEB08370A7B21F1C46DA004BDCF83A3A4703
+41B85A25EB72D01286D9392A0FDBBB58BCC20FC341084E14C029A61C2DB89419
+B28999B0FD241FCF8441512BC470163E54B9EC6A9A465E96583A702E1179BED0
+0C9E9C920991DE481E42B730C7380014040D084A
+0000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000
+cleartomark
+%%EndFont 
+%%BeginFont: CMMI12
+%!PS-AdobeFont-1.1: CMMI12 1.100
+%%CreationDate: 1996 Jul 27 08:57:55
+% Copyright (C) 1997 American Mathematical Society. All Rights Reserved.
+11 dict begin
+/FontInfo 7 dict dup begin
+/version (1.100) readonly def
+/Notice (Copyright (C) 1997 American Mathematical Society. All Rights Reserved) readonly def
+/FullName (CMMI12) readonly def
+/FamilyName (Computer Modern) readonly def
+/Weight (Medium) readonly def
+/ItalicAngle -14.04 def
+/isFixedPitch false def
+end readonly def
+/FontName /CMMI12 def
+/PaintType 0 def
+/FontType 1 def
+/FontMatrix [0.001 0 0 0.001 0 0] readonly def
+/Encoding 256 array
+0 1 255 {1 index exch /.notdef put} for
+dup 58 /period put
+dup 59 /comma put
+dup 60 /less put
+dup 61 /slash put
+dup 65 /A put
+dup 66 /B put
+dup 77 /M put
+dup 85 /U put
+dup 97 /a put
+dup 101 /e put
+dup 105 /i put
+dup 110 /n put
+dup 112 /p put
+dup 113 /q put
+dup 116 /t put
+dup 120 /x put
+dup 121 /y put
+readonly def
+/FontBBox{-30 -250 1026 750}readonly def
+/UniqueID 5087386 def
+currentdict end
+currentfile eexec
+D9D66F633B846A97B686A97E45A3D0AA0529731C99A784CCBE85B4993B2EEBDE
+3B12D472B7CF54651EF21185116A69AB1096ED4BAD2F646635E019B6417CC77B
+532F85D811C70D1429A19A5307EF63EB5C5E02C89FC6C20F6D9D89E7D91FE470
+B72BEFDA23F5DF76BE05AF4CE93137A219ED8A04A9D7D6FDF37E6B7FCDE0D90B
+986423E5960A5D9FBB4C956556E8DF90CBFAEC476FA36FD9A5C8175C9AF513FE
+D919C2DDD26BDC0D99398B9F4D03D6A8F05B47AF95EF28A9C561DBDC98C47CF5
+5250011D19E9366EB6FD153D3A100CAA6212E3D5D93990737F8D326D347B7EDC
+4391C9DF440285B8FC159D0E98D4258FC57892DCC57F7903449E07914FBE9E67
+3C15C2153C061EB541F66C11E7EE77D5D77C0B11E1AC55101DA976CCACAB6993
+EED1406FBB7FF30EAC9E90B90B2AF4EC7C273CA32F11A5C1426FF641B4A2FB2F
+4E68635C93DB835737567FAF8471CBC05078DCD4E40E25A2F4E5AF46C234CF59
+2A1CE8F39E1BA1B2A594355637E474167EAD4D97D51AF0A899B44387E1FD933A
+323AFDA6BA740534A510B4705C0A15647AFBF3E53A82BF320DD96753639BE49C
+2F79A1988863EF977B800C9DB5B42039C23EB86953713F730E03EA22FF7BB2C1
+D97D33FD77B1BDCC2A60B12CF7805CFC90C5B914C0F30A673DF9587F93E47CEA
+5932DD1930560C4F0D97547BCD805D6D854455B13A4D7382A22F562D7C55041F
+0FD294BDAA1834820F894265A667E5C97D95FF152531EF97258F56374502865D
+A1E7C0C5FB7C6FB7D3C43FEB3431095A59FBF6F61CEC6D6DEE09F4EB0FD70D77
+2A8B0A4984C6120293F6B947944BE23259F6EB64303D627353163B6505FC8A60
+00681F7A3968B6CBB49E0420A691258F5E7B07B417157803FCBE9B9FB1F80FD8
+CA0A265B570BA294792DD2FC75CE2C83DCC225B902551DBD11E687EAC6E85D2B
+02C28359A40AE66A6A6A8862CB17815B41E280313F0EFAA9981755611F7F683D
+35603984D60BB0C772054355A97A5E03C689E23B04DA79080CE4579CC90EF38B
+1A64CDD92B907AE83192C3C46C5FC40BB412F6656DC6349E6D29B5936DCE94CB
+98E3B465FFF7574095F57BB3750F1A55F20456933FCA64CC1B060E260782BEF6
+721D38BF65DF1F1DA5439DBC802B4A9D803BD635C05B9ACA4D26C28195A1F4C4
+CC623B30B076D4861E89B93E2CF26F6DF07199C03BA5466FA3EFBD7F77EFE068
+E55B7186855063934C5716EDC3F5056BDA963B6B933B546475BCFF91C512F411
+8D14B1C32C9735281E536F87ADBF1AD9AA04D7DE2096413AB8B3C9E8B1F6F338
+3B80D637D761A7A992CF58188FB0A04FD6C6886A60F27EF31C45E92F4717D8FB
+D4A0844A8D9036D5F2BBCA2C170F3042F22DEB8D151C7135AB91DA289886604B
+70B9F2A25A7D576FA1D70DC935CDD3E81915E9BE11CB03C9FDCFDE3700BDDAAE
+D61CD52A78B075FF4FB8BE949FCC4B04813776A3451FE65A47D57D7B66499E99
+B97C5141D2E05BA86C59535C34BA975381FE628DFB09467B44FE697F1025C337
+4783C3BDD37CC680D68EB0575048CC768BB8F139F3D28C1D8B0F466E3BE65CF1
+8EE527FC661B1ED5A75FE31D0942E9E51567198884FDF210DB23E46A47EFB7EB
+1D1E9030FCD0977D31EFCD46C809AA3F11E907177CA545CFC0568B9C0A2670BB
+3F476BB6C477B1418AC17F477AABEAF128EB3571D93E56F48FF7D81D46E1000A
+BE0DED88F59B4A7B7F95E8004CE4A072439889894AFE823CA2D05633BAEFF230
+46DF458000AA7477BE9499969AFFE938F608AF10E3B31B98C36E5AAA15FF9068
+881AD3F6D51D65318915D4C9BB9730C4539A8F3D2FD483E599BF3984F00B218F
+322F3460D62BA3D19ED64870F8604C5A93B8F132EAFB5320EF32197A43F4974D
+253FC1E4417668A6A0ED8CC5A0F7EBBEFC2C3535F55D47C07151912D4CC1CAC7
+B4D26621D1A65A0CABBD903D52EF3C91DDA0912704BED24D58D8D3F2C228503C
+40BA97004995898E8F0328567657B04A1440545723DCD4ED560892FEAE6FBE1B
+8916035A72FCEC3AC0D1F23A77E79C10B0A091270D84F61722C4BA05A1247093
+08511D40A984C662EDCAEB9A51D9B78ECD823EEFE093346DA0A848CB3ECEF2CD
+7F2563666A5DB6A5D8FFBDD329D33195646709658FE5F9AE61696051B1310F81
+64AC6D8BE327E9BF22BE1F2FEA9E6EF798075AB1B3A464EEF6AF8139889B2C4F
+1FDE01F4A105F189075A3A2E788658AF9AE2FB9DF2585E1EC8BC2FE2FBDDE5CA
+CDC9A0F2AE31BFDAC3FFB216CC8144873F32E8600BC66B93A90A8A7508BE34EA
+54B21C3603520706499437F91B2D06979D62A234EFFFA1C8E66256F22FAEC84F
+DD0972C595031DA05C7932F9C047D93104543E72ADB48ECC42914487A765991E
+1A3AB1A63CC8D20C3C7114DF42E5859B0EAF287DA4385FDF30FA40AE30BE387F
+AC4AF04F2B951A01F1F3BBE6EA1C2A0DC19BCDCF8A6AE92F2AE49C7E4FB6E2E8
+6C59EFD89100C31546B34A5B52D4014FA5B1637EC7D560E1C5C6175EF0D4C84D
+AC7C2E37DA896A1FB77F188B3B035CCA452553E09F4B62B6F9FB9418330C5CB9
+5F1DB11BAF2D88FB331B1C86CC973301BDCD76177B4A922FD1BB4C2D2E413AF5
+E6B2B016EE91933B41C463F1316EBB7A9B6381988A6EDEB392A02124BE067EF0
+8E8C102853E23BE55110FE9B5FCCF0E6EF4D14EE59452DB9D891F8A16FFBEDC6
+0289971F1A2BDC618E63BE0C9279434B8EA77BBE7F7DC819C42BE4EFE8B4BBE6
+15D3CB7B5CD1527E69CD65162C43D9328506950F53BD762BDB353E39B378A094
+3E89A3713774F70BCB53B3B8391F3E7778A6229EA33C132A4087243A43EAA6E8
+E81AE5A91A3B13F80FFFEEA23AE53D0F2A4481D2681C6DA9021A24E4D0F5553D
+00706EB689B2FE707C641469E0D4CAD86923C22156B4E3E671D069B6DAC01021
+2D40BDCEF9703128B4F12D6749BE725C8D55D880AC1D4E4BB6B48430E0AAC000
+F2CB924F66254C8C6BFEFB5AC6D8EE3C03F8B8BD1547991E2D577F5B8480BABA
+C13537A9CD919C01262C7D05CA9A07382DAA5AEBABC622DE868585C88DD1A4DE
+A0EEE28B5B18874B8CAB3B2A5003667CFB42B8C940C99D7F7830D809059CEF4D
+95F886A63918250D48500E2EA96452E011698CD17E8D9B36E1933034361976EE
+A8DFA7E1549939518CF1E428504BB0AF32232E48F4B32C12CADD3B819A132256
+8C9A2C6166D7ECF6A1EB3519613055A11D7C5B6A388AFE30A55DABA139F8E090
+B08038C805D91111D383DB87003D07127145244A2ED53F9708BDCBF2DD186C26
+2A20524589E115878DFE5EE11C0AA7E79F29B0AD4F43D297C41DADBA8585A9AB
+5CBBB3B7F1093A7F4F1D6F2CABC6B4337067B21F23ED346DA8ABC803AE381C54
+82882182A9B41FB3BC867495BC19F39035F7A3824F3B55C089BA3E8DEC293AAD
+0D02DA6C3262401450796C49D5757B6CF205A2D6D51C75D2068A6CD04C3F4004
+17BDC8CA640BC3CBCC174A4C25CAD67E833CD7B814EC8D372A65D719D2BC593A
+963A6A77AF74FB84B80409FFFB9AFE8A96C099DED652CF6093DA0C38DDC36221
+EE1522B7562AA59DBF2AE7146981A3CA1081B1344EF7C70BE47DFF1CF99B065A
+0589CD431AA11353EFDC74150CE901CD7C6B057C9503AAFEEF935A991119ECD8
+FC180B9C6A7263F48E3173191DC6267C03ABF54AFAB6287BF88A2C0414CE1451
+B8D15A682D2D659E1E344A9E3AD959EB050692D053BA5C50E14CF89220914F7A
+F2CD6352286C1A40636CA9860486489F82C221D61B38A33BC52688445F4DED19
+DB171735EDE57A94D32C94878D2CBDE283A59F2337CF29C5C370EB97B3AA6864
+27C6A25D1DFB407A0E4F398E4FC7FA94B63C1A49F74E9BFB30405A417C68C769
+429FA7688461EA9F207C41EB324E4C0957E952EA8616E922A2FCBB45E961A36D
+A90AFA3B3C6601B8302B5CCBF5EDF2958A34FBA6BDC0FF399ED5236A2CA9C487
+553235D8C0CD9445091BD3391EA5C5C77CBECAA6185ADE4B7471CDE913471439
+619ED905515208C0B852F6424C0116C768F155A4B81B3D01583A8048380E2818
+E517D9DD66EF3B86B681A2A2E80C85048D3782F0B73A504A2D6AE1762851C076
+813D390FC80D086D60024154CBE2791989C6811099167CCA4FDBE878E3EAE539
+27F27B004FB498C0CE4BBE96EE6CECF04C1CD9E9B1F95DD67F0CAB920A710297
+6276A190401C33BBB026E0DA2E8123BEFF032C448DAEC2D2E8DAF9C9998DA2B5
+3E74E1D0BEF39F77E2FA0E73F2DEC1AED5BF931C893FE26D8A72470FCF10CAC1
+C8FD669BEC2D9998D437E7EC78DA26F659AE0AFE9E7F8544AE09604F5B5A217D
+0604A86ACB90966B2CA22713AED4C38D773A2F027455E1ABF1B48B86CA39801B
+C8D540E66704DE654B61D2B6CFC68D9703F50996162ED43DAF4B183A68A3E2C4
+957B45E6E8788CC12860F6B9A87696CC48F04E5C325E06F0CE68BA46E285A8A2
+4B66F1E4EE6FE3CC2A87C45BABD0B8FC0CB0D50CE6ED51DE5995ABCE08921B17
+BB2621850360C14DEBA0FCD05278DC5871CB41159BDBE8B2763EAD517922CE90
+52A806A39AE3E5A9A420C6A09F2D2605CD1A3A00EB79A902C56D6410E018BA5C
+046EAC9DD0D87F50E3B802F1F09EE9D63E96313AC05D6C975BC05B98826DC0D1
+AC81540CBCFA4C5C6E523A49816DB8CEF7FC1A47F5444881D83CE381B054D8CB
+1EA9FFFA4991B3CA6940300A88FAADE23ACD0E7D763C1EE44B83D3DB2132D25D
+462C91B4B5CAE466DA8ADD2EE89DD906E693257C7D956486183487A953684C87
+5407BFCC5D6C55C784D0B926027873E10AC2C49B51F739CD5044149D042B0404
+32035BD1261A696D791E15A5285A3ABB4547AB6B640A4ACDDA0AFA4541421524
+171CEC6A27056D9D9E32CACBF79DD7B2F1EC4B37B5194955C08B520AD84367E3
+4E541D75341679B15453EF27574DB894F43A7B57E4A573DCBDBC348765F23AF3
+1437712A919AA16F82CFB4B7ED27D44E863AC8FB94AAE2BAD739A403018BDAC9
+A63ECE18880E61F6D755297D76069A21AC7F4277542ACF135CC0D1EFACB94CA8
+82BA45E10E7CC06FADF694591E4BC85D1D93FDF290951D2560EA0AB97145F494
+E0529DB111E0215670C4FEEAE1A8C386BDF658BED0CCDA9D61705DEA4D9B1095
+1C82ED284B15524DA6BFB97FFBD46E45ADFA15F98CD49016AC545E27B3A4DF1A
+68709440CE5E3694A32B1820463B5C133ADC53683CE21A7D7B1FAFBECEE9DDE6
+9D97A9AA6BA5C54578ED27E567DAFC63213F06338D1ECEDA297AE5E4B8BDF133
+9066A63A306B3524AEA97D0B887D031A87BC19137D3820FA03F943468908A47A
+B39EF4960C8A3F48BC40166A81503CB7A830A191EF061AE0E1815D8B6BFDABAA
+41EB6A778CD93515D15BD11AF9C1EEB897EDB32D1A1667C7038759A6E3006EC9
+CBAF4D5CF77E17D5B61F4DCDC20739E5428A854279FB31A04F5DE8BDB8FFBF29
+CB31428078C9D64C508740C7A556B8CC776C59EF9FE0F54A62068586C2DC48B3
+439E0A40B5FCD2E317DF60C71506D624177F94FE59C19E2D73053A051FD53B47
+98EC1CE6147ECD42B1F84857037B09AD9E2792CB2060964D89BF3D85FFD890CC
+ED237F63F72EFB37271C3D0CE8707D2EADCCFA56969F772F010D220F79CE8D1E
+E44553207F3371623B3B8A19584DB2E0C9A18575518862984BDE801448B8406A
+997CCB9689485B469C6BAFF9466386CFB52F0C4DADB0EC42D36D38D7E550811A
+551FC1FEF063C6BD7F1B93EFD34485BD4EB4C83222D323BA23C497638184FD47
+0B1A602979AE4CEAE17D84F059060BA8F9890B8C3495D9AF3849409A07C40821
+8877578EA6386BBE2C4C4BF6465E86530F39DD0650E2630151AB0644646C4FD5
+172901633DFCB1D834B283DE77011001805E236253F68ECFC8F688D63D043458
+16B68566B80642C1D41B974D84EDBA09E485CB42F041CED025286DF035FD288D
+5635FEFBE2A57A61217D64A149ADBC68A2121957D1AABB316B5A2F593B7C7987
+7FFFA40FE1F18DBE4E89ADF7ECAA4CCB4A7482E33D5FD3089545272CF1A8F4B6
+0F4374FBA2D5F2F36428851EDDA568CABAD261253724E4C60BB266141BACC01F
+7397759293CA7A17970C7A9022F74C4DDD15658A15D57C31643B4B270FCFE6D3
+25570E4B2DE623A6BB4B7303DE812B1EDD9B5AB9EA0412C6849F784C45B18EFD
+470718B49C0B969FFC615A87D6A870C031CE0964A76F109B2864CF296C6B3544
+17F047623F4031901B83AFF811218E875F9F807E8FFB91F97DDD0D93703D16BC
+02D09F29CDD36B11FD9281425CE31A090C669923E0E7D4425D1536C43B837079
+4CBEE04E824A69AF0EF001B3B09EE9710E113C886E83578706FF4BB8F6010A76
+480F0529E0E2DA76C5590941D0E9416988DCD4C2B7BB132F6CD20FA2C1620189
+BC807747DDE57C7616DD145EE76FC702FB0ADD80F8E83A87FE61B71A671AF11C
+4CE37E33E56AF6528EE862B969177B2D25CC7E24F273173AFF1D667736DC4E76
+AF878C90D8CC203F686D5866A8785296EC0FA6412ACEBF96C5A3B30B6410BD76
+EB5A38098D4060399C3AD7AF14C963A2072379AEAA84439F7B886F754BDB5973
+D016A365A4EB95E3F9B3E79ED31426E6871F0565585DC04A60B07F51E0
+0000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000
+cleartomark
+%%EndFont 
+%%BeginFont: CMSY10
+%!PS-AdobeFont-1.1: CMSY10 1.0
+%%CreationDate: 1991 Aug 15 07:20:57
+% Copyright (C) 1997 American Mathematical Society. All Rights Reserved.
+11 dict begin
+/FontInfo 7 dict dup begin
+/version (1.0) readonly def
+/Notice (Copyright (C) 1997 American Mathematical Society. All Rights Reserved) readonly def
+/FullName (CMSY10) readonly def
+/FamilyName (Computer Modern) readonly def
+/Weight (Medium) readonly def
+/ItalicAngle -14.035 def
+/isFixedPitch false def
+end readonly def
+/FontName /CMSY10 def
+/PaintType 0 def
+/FontType 1 def
+/FontMatrix [0.001 0 0 0.001 0 0] readonly def
+/Encoding 256 array
+0 1 255 {1 index exch /.notdef put} for
+dup 1 /periodcentered put
+dup 15 /bullet put
+dup 33 /arrowright put
+dup 36 /arrowboth put
+dup 50 /element put
+dup 54 /negationslash put
+dup 56 /universal put
+dup 57 /existential put
+dup 58 /logicalnot put
+dup 63 /perpendicular put
+dup 91 /union put
+dup 94 /logicaland put
+dup 95 /logicalor put
+dup 96 /turnstileleft put
+dup 102 /braceleft put
+dup 103 /braceright put
+dup 106 /bar put
+readonly def
+/FontBBox{-29 -960 1116 775}readonly def
+/UniqueID 5000820 def
+currentdict end
+currentfile eexec
+D9D66F633B846A97B686A97E45A3D0AA052F09F9C8ADE9D907C058B87E9B6964
+7D53359E51216774A4EAA1E2B58EC3176BD1184A633B951372B4198D4E8C5EF4
+A213ACB58AA0A658908035BF2ED8531779838A960DFE2B27EA49C37156989C85
+E21B3ABF72E39A89232CD9F4237FC80C9E64E8425AA3BEF7DED60B122A52922A
+221A37D9A807DD01161779DDE7D31FF2B87F97C73D63EECDDA4C49501773468A
+27D1663E0B62F461F6E40A5D6676D1D12B51E641C1D4E8E2771864FC104F8CBF
+5B78EC1D88228725F1C453A678F58A7E1B7BD7CA700717D288EB8DA1F57C4F09
+0ABF1D42C5DDD0C384C7E22F8F8047BE1D4C1CC8E33368FB1AC82B4E96146730
+DE3302B2E6B819CB6AE455B1AF3187FFE8071AA57EF8A6616B9CB7941D44EC7A
+71A7BB3DF755178D7D2E4BB69859EFA4BBC30BD6BB1531133FD4D9438FF99F09
+4ECC068A324D75B5F696B8688EEB2F17E5ED34CCD6D047A4E3806D000C199D7C
+515DB70A8D4F6146FE068DC1E5DE8BC57034FE2AD655DBC911C76FD991B91DF5
+2DAB3701DF997BAA795FFF521ABFBDA00760208BDFBAB7FA352CDF4023916900
+4A434BC0879B04D4150CF46BC538A0A34DFD1E4F1F4A5144CF05C6FE6EBBF63A
+E86E7AE59F8AF2A753F5ED557EBB2D06AE431F558EC7217821781C70F11A5909
+63EC63254D17388EBB265B81083C050A29037AA5AED4D03D275DD2F6B3CB3BC1
+92EB0C50932F813BDE07EC54D09DF8DD1D4F7D6AD0DF861A18157A112CBAA165
+37F2F515F8350296DCE678D9D2A5E510570EEA1678AC5DFA6A7FD943BA9D74E9
+47D5AACBDC26C8D9498432D8F6E46D57CD0A52CE3CDE7E9EE9C7AA87C501C67B
+79421CE9647993963D6B6584E117B28DFE83EC68E9AE64D788E8DD8E70FDBF5A
+D401A259AC2AB1391AD34EA9ABED60F15F0964B441FAB44D55B3DFAE49D38C79
+8A8C8DFB39030928F332AC04105761295C532966609306A7C3D0E9A1775F6658
+68C4DF6E5DBA743D3CC7B4B050FE588B689CB25A971974D754C2B40AA982CBB0
+329F3DB2421D56BEA5A690AF5DA5FE13E486676A4684C330013D99CE0D55CCA7
+FDEC9FCF2CEECF8B8EDDF8E0916BA5F72DE070ABF2585F44FD3DCBD8AB51E343
+4AAC8FFCD520CAFA097C5A83421F65FC03F05C90BC200BFB6939BA0D799340A1
+76189C78F7AD4583281D566468FD3CE06BA0C378A873826C6A1F6407D941D1C4
+0CF2374700182371163945BA34C1190A5A5090CFCA613BF662BB809CBEEA0D0C
+D3C1F4F3D3179644F7F4FE058CA366034274848E6521658CB89F6055FDC0D412
+D58083BFC3B61A7B787578D9D9368546AECD71AA591D3B27A0FA6615EF689CF4
+53476EB7DC891EFF48B55E512DE5961A2BB51D05EC008EC7B1A3F8704003D67B
+09F0DA9E19BA5F1FFD348D68F4FA399875BA95A97ED8D3B372A5DF957B447FA2
+E7FE6D60ACED4FD5F217E61581DD6A53768630FC82BA6B510B2B11968E6D093A
+A807207DF37B25485DCE28B1AB434347F3FB124438BC8BC54268E1EB460B1619
+8CCFBA4AA89D88CD54EA3063A87FE7B466216166BE99726C01018975675B8625
+889D2D4D2DEBE4BE13CC1752A34A0A0BC5BFCFD9FDD2D37E400A77EF8421EE3C
+469934F57E2D0716214937A67D37B363677314E9863CA2019C56376AFA5374A8
+FE427F13C9960C498BCDF2281E3E770D4F1BAAC0EDF6ABC753ADA09C9D7F837D
+2FBA9E6524A2CED910704A0BEBF4124ED3F1D568F96DD397D148BD0CE909A16C
+9D1EB04D6AE2D3E89DFAD4603F6F6E2CE099369F1D21B5336CB799E1817D3A12
+790610BD4B92A8687B5FF85E4898FD20D2B96C8D55CB72D19C8AF0BE7C906AFC
+168524E81366B8F2FAA0971E10D6FA2DA513CDD6883BC593BE8ED85B264D4E70
+B6F198654EF2A792CAC67335E3F24586B85DD27E1267AC3C79AE74C9A03FC127
+91EEED4D9E6E455A8D697D30050D799F93F9F20B638FF496A7896FD0F9727B36
+1DA2F0CACB86E1333970467B79D1043ECBFDB1E83B5ED2491BB46B918D141C9E
+5A529683574A560F8BDB5A97F28DFC7E9FD379877D568CAC203DC610F1F083FA
+68662081AF0DCF636C711E398129266C18381DDA0F01BC1210A9C9D481432C61
+0F9C5F75FEF853C04DD41A6802DA8BDF5DA3ED55D57B5DAF4A0463269E194238
+A4CEE3EF0623FBF36F69B14A32985A958607EE85072F3DED07BF360355E26F13
+2CDC22F0B4CE2D9FBEECE904F59CE4EC5088397842BB3A769F5187E595852764
+953EB7D832EF89E815F670CF1017934790E0343FFC2CD8D2FDFA8DA13BB13B63
+49032D0337E41557D7B00FAA5E0033E1793E577D34CA5E0A2E50A114C126D51C
+EB9AED38ACF15980DA1C3FEDC65AE6BF7F053994ABB5F26DFB1AF62BEB8777D4
+FA2612F5D89D06C1BA02BD052DAB529FBF6320B21C66FB798228017D39176069
+1A9B37542DB1E91A60F59705DE32849752D869171D61786BF8F7F5DD0D07DC01
+4A2523ED4B8B7D7D5FFFCEA83061E41F13153A79EDDB94BAE5F3EE34063DE71E
+9928C1B7B2398F23B157EC84EB65B7F2A8A733F282571BA7FF2670A852E81A94
+6A3C7BA8FAF9A60076A45A6ECE12233AA26B2E1B08880B2CEB88A3CDD1B1340B
+9BFE4E9CFE5CAFCD15E8DD3B1ECEB8F596FD4DFCB1F39ABBD55DFFB2572E1DA6
+93F9D9A27AB986373151FB25288EF961BD4890519B66041500F7E1476B033551
+52408E72C735C73DE76177AFFA49DCBAB9E53575904AE0863323DA12243E4A3D
+B85F18A20DA3F58A4FF992CA8C239563B2AF4E7BE6822FBF53620C70F3A204F2
+704D9923525710B694FFD8396948967F5D3BE25B3A70A36E4B14BD887B40E0D4
+D044730496B18D11CC1645633516A0997115DCB8CA9327B842863F6CF8EC963C
+935204EA829292307CB12540E919045F496E4B76E1A76488582B117A2E9C09DE
+A878B15BC30EAE948711B48A10E61DD9FCB63A581D73AF2FFABAEE74A876F8CA
+3AD6E09C8BF7480DE4D68AFD6AFF66299618BEE0954B90645CBCB36A79CF9FB3
+1C303D405B7C13F4D1C7D9942B86836B660B3CDEB62EBFF00FE53F4695010BF1
+DE213E7D3058B9FB9A3A90BFEC2A09C5C07F7AEB6047E47E9C89667C3B3335C4
+61FBFD1FE0A0D7A85013D1A47432DA741CA733899003A6FAE94E2AD33CCA9B98
+D5625C5784FF532B964018BCCFF97E13355CD2240C46BF4F31BFF3463C366359
+0BE3813400D842CA56FA3B69F46A39805D72A76B974D8B1C4020B4F06FD25ED7
+186B1F97FB8D80567A1FF6AEB8EF9007EB2BC1D970740BDF7F01016824B85571
+5C2BA14FBB5A6C1F1D9543F1EDB2CA435D04E78E9E83EF1C41CC9C2D8573376B
+F8F313C467D04901F412BACE8F8F410666E128EF0FFC2063F2DAC8268D2009AF
+8A60AF2BC3B5A0902593D2C90DE7563833CACF8553E1F0BF5E0DA1E840529624
+027B4A4845D93C31DD2CBC52D0B2DA299B66F57E6B549A583774EAE9583CE9FB
+7511870B80B661D556651C40633FDC74575014889A4BD5501B962683F8F2784C
+664EDDA09C93A5AB007777F51D6033DACB3D0DADD04E9E5B341E9A861F9B4D77
+B48CBC633F51C292C18A7DCCDEEB65
+0000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000
+cleartomark
+%%EndFont 
+%%BeginFont: CMR12
+%!PS-AdobeFont-1.1: CMR12 1.0
+%%CreationDate: 1991 Aug 20 16:38:05
+% Copyright (C) 1997 American Mathematical Society. All Rights Reserved.
+11 dict begin
+/FontInfo 7 dict dup begin
+/version (1.0) readonly def
+/Notice (Copyright (C) 1997 American Mathematical Society. All Rights Reserved) readonly def
+/FullName (CMR12) readonly def
+/FamilyName (Computer Modern) readonly def
+/Weight (Medium) readonly def
+/ItalicAngle 0 def
+/isFixedPitch false def
+end readonly def
+/FontName /CMR12 def
+/PaintType 0 def
+/FontType 1 def
+/FontMatrix [0.001 0 0 0.001 0 0] readonly def
+/Encoding 256 array
+0 1 255 {1 index exch /.notdef put} for
+dup 0 /Gamma put
+dup 40 /parenleft put
+dup 41 /parenright put
+dup 57 /nine put
+dup 61 /equal put
+dup 91 /bracketleft put
+dup 93 /bracketright put
+readonly def
+/FontBBox{-34 -251 988 750}readonly def
+/UniqueID 5000794 def
+currentdict end
+currentfile eexec
+D9D66F633B846A97B686A97E45A3D0AA052A014267B7904EB3C0D3BD0B83D891
+016CA6CA4B712ADEB258FAAB9A130EE605E61F77FC1B738ABC7C51CD46EF8171
+9098D5FEE67660E69A7AB91B58F29A4D79E57022F783EB0FBBB6D4F4EC35014F
+D2DECBA99459A4C59DF0C6EBA150284454E707DC2100C15B76B4C19B84363758
+469A6C558785B226332152109871A9883487DD7710949204DDCF837E6A8708B8
+2BDBF16FBC7512FAA308A093FE5CF4E9D2405B169CD5365D6ECED5D768D66D6C
+68618B8C482B341F8CA38E9BB9BAFCFAAD9C2F3FD033B62690986ED43D9C9361
+3645B82392D5CAE11A7CB49D7E2E82DCD485CBA04C77322EB2E6A79D73DC194E
+59C120A2DABB9BF72E2CF256DD6EB54EECBA588101ABD933B57CE8A3A0D16B28
+51D7494F73096DF53BDC66BBF896B587DF9643317D5F610CD9088F9849126F23
+DDE030F7B277DD99055C8B119CAE9C99158AC4E150CDFC2C66ED92EBB4CC092A
+AA078CE16247A1335AD332DAA950D20395A7384C33FF72EAA31A5B89766E635F
+45C4C068AD7EE867398F0381B07CB94D29FF097D59FF9961D195A948E3D87C31
+821E9295A56D21875B41988F7A16A1587050C3C71B4E4355BB37F255D6B237CE
+96F25467F70FA19E0F85785FF49068949CCC79F2F8AE57D5F79BB9C5CF5EED5D
+9857B9967D9B96CDCF73D5D65FF75AFABB66734018BAE264597220C89FD17379
+26764A9302D078B4EB0E29178C878FD61007EEA2DDB119AE88C57ECFEF4B71E4
+140A34951DDC3568A84CC92371A789021A103A1A347050FDA6ECF7903F67D213
+1D0C7C474A9053866E9C88E65E6932BA87A73686EAB0019389F84D159809C498
+1E7A30ED942EB211B00DBFF5BCC720F4E276C3339B31B6EABBB078430E6A09BB
+377D3061A20B1EB98796B8607EECBC699445EAA866C38E02DF59F5EDD378303A
+0733B90E7835C0AAF32BA04F1566D8161EA89CD4D14DDB953F8B910BFC8A7F03
+5020F55EF8FC2640ADADA156F6CF8F2EB6610F7EE8874A26CBE7CD154469B9F4
+ED76886B3FB679FFDEB59BB6C55AF7087BA48B75EE2FB374B19BCC421A963E15
+FE05ECAAF9EECDF4B2715010A320102E6F8CCAA342FA11532671C7C4DAFC5AA7
+E5E7238BDE3D0B9D54F1D91A3618D634C48D56EEB5E17D31AB34F2F8AE8F5B7D
+3101B9B321CC9A00EA572553FA7E2E2AA830E60283ACA409815B7E97D7D98902
+3E25E5C58EE4B6E0DEB84E50F1F45207FF8C2B5245F14DDF7009953C7035EFFB
+F97C5C900F29E9B16C4CBD5E9E01287328649A6FE60B0ECF8D32D685168BB999
+B9B2AA85658B3ED7F0AC99746A18DD0CDACB87642900CADD1DE1434780686CDB
+7926CDC0F84E7474E73BE76B3FA7AE04A3018E5A4BC6BE0C16BB0E7ACFE66A07
+81B1E5C7733C8F712354F464D498FEABBB98236099B69B599DDD646E0C70B239
+396653430386D536F967CD3406121702606AE604DE60039F5F7F7E0B0338CFE1
+2054FFBA9B27FE6350CC6A0271ABA0A77CB2CF19CD8097BE4C28A648FCD31483
+95DC7BEDA218110E54203B7CDC613E1BE92362EE2E1CF65F1F636E804D8AB0A8
+3272A3CEE4626BA0F1390735985780A6D0832FC0B8001C35BB0B43B0DCCBAC27
+3289BF57D8F9DB112B700EC24BCD19D2A81A06869D82153F8DFDB59549E9B54A
+DE1223E2DBB7B987A76BBCE1400F76839FA5B176F2E097CB5411F3D0412BCBB2
+742E123CF1930F04C3967E3A9A94AA6053ECD2C45256C8D1E5834A45877497CA
+A703CC163B998BD8394E49CE78B6C4FA6321040971B4F88C3AA84EFCA06B5574
+4F01A65A548D43157C0FCAAA07E94FE9058A5029598E7E46322783DAE40AA638
+4239E5DC47561E0CD0882D938958D0722156E416C3E054ADD6BCF2AC916B69A6
+3263BA8033770E7803FE041B47AA9405A62C7F397BDE224CA8861ECF8F1289EF
+57C2DAF8352AD2B24A76C4121FB9ABAED18B156D204B568ABA24A64FFB333D27
+4CBB2F2DC0973523B612727B85E822E2A1CB6134B78E9FEBF24F4D139F05149D
+D44D0E0C7E2AD266C45E5CFF99F93308ECFD6E664221EDB7AB4ABD8493B494F5
+9B9A6B993275ABFE53EA03855F5DC7A1966F6CD59834C4312F317CE23D784504
+6E3254B01B77D01441AF3A3817D0B932B07F966B1A3B089F84BEBE5676653B23
+8B89C3E0E2BB50D6333874C9552EFD400D426873B1D40825484AEAF1E4EE5CE4
+89DC494DBC1BF4A806BD62033EEA8FC83ECB50AF63E9F215D2CB3F715291557B
+096E947FB90F4E54E42E0FE808B4E7DB51BFD04FB4793FB429FA0947CA5A7B3E
+632901AE0C87192432FBA8C06A1DDE262C073F8C19D8C1BDBC92F60A399F17D9
+2CAFA08CE23B2975CE13AE3EB495F6DACC4BA44342CB04DB27E67EEE25D5980B
+ACB39FFDC05F146B51A061AB5E22ABAB2776E4CC9FFD8EB009D22134CDF37D79
+9E4D0BE37202AF816D73700A4A8833943FB9F6060D09F7B830
+0000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000
+cleartomark
+%%EndFont 
+%%BeginFont: CMR10
+%!PS-AdobeFont-1.1: CMR10 1.00B
+%%CreationDate: 1992 Feb 19 19:54:52
+% Copyright (C) 1997 American Mathematical Society. All Rights Reserved.
+11 dict begin
+/FontInfo 7 dict dup begin
+/version (1.00B) readonly def
+/Notice (Copyright (C) 1997 American Mathematical Society. All Rights Reserved) readonly def
+/FullName (CMR10) readonly def
+/FamilyName (Computer Modern) readonly def
+/Weight (Medium) readonly def
+/ItalicAngle 0 def
+/isFixedPitch false def
+end readonly def
+/FontName /CMR10 def
+/PaintType 0 def
+/FontType 1 def
+/FontMatrix [0.001 0 0 0.001 0 0] readonly def
+/Encoding 256 array
+0 1 255 {1 index exch /.notdef put} for
+dup 49 /one put
+dup 50 /two put
+dup 51 /three put
+readonly def
+/FontBBox{-251 -250 1009 969}readonly def
+/UniqueID 5000793 def
+currentdict end
+currentfile eexec
+D9D66F633B846A97B686A97E45A3D0AA052A014267B7904EB3C0D3BD0B83D891
+016CA6CA4B712ADEB258FAAB9A130EE605E61F77FC1B738ABC7C51CD46EF8171
+9098D5FEE67660E69A7AB91B58F29A4D79E57022F783EB0FBBB6D4F4EC35014F
+D2DECBA99459A4C59DF0C6EBA150284454E707DC2100C15B76B4C19B84363758
+469A6C558785B226332152109871A9883487DD7710949204DDCF837E6A8708B8
+2BDBF16FBC7512FAA308A093FE5CF7158F1163BC1F3352E22A1452E73FECA8A4
+87100FB1FFC4C8AF409B2067537220E605DA0852CA49839E1386AF9D7A1A455F
+D1F017CE45884D76EF2CB9BC5821FD25365DDEA6E45F332B5F68A44AD8A530F0
+92A36FAC8D27F9087AFEEA2096F839A2BC4B937F24E080EF7C0F9374A18D565C
+295A05210DB96A23175AC59A9BD0147A310EF49C551A417E0A22703F94FF7B75
+409A5D417DA6730A69E310FA6A4229FC7E4F620B0FC4C63C50E99E179EB51E4C
+4BC45217722F1E8E40F1E1428E792EAFE05C5A50D38C52114DFCD24D54027CBF
+2512DD116F0463DE4052A7AD53B641A27E81E481947884CE35661B49153FA19E
+0A2A860C7B61558671303DE6AE06A80E4E450E17067676E6BBB42A9A24ACBC3E
+B0CA7B7A3BFEA84FED39CCFB6D545BB2BCC49E5E16976407AB9D94556CD4F008
+24EF579B6800B6DC3AAF840B3FC6822872368E3B4274DD06CA36AF8F6346C11B
+43C772CC242F3B212C4BD7018D71A1A74C9A94ED0093A5FB6557F4E0751047AF
+D72098ECA301B8AE68110F983796E581F106144951DF5B750432A230FDA3B575
+5A38B5E7972AABC12306A01A99FCF8189D71B8DBF49550BAEA9CF1B97CBFC7CC
+96498ECC938B1A1710B670657DE923A659DB8757147B140A48067328E7E3F9C3
+7D1888B284904301450CE0BC15EEEA00E48CCD6388F3FC390C98D93BE299A9CB
+689CDA9BE6BEA47570D9D15DC614719507F27069622E7DB1A97F7B6FF5A5A0C5
+78162E7A9CF76FF72A34097236DF64DA4B61645C7326058030E2B5AABFCC44D0
+49E9CD83D81D8ECA953BDB8CA81CD3D122FAB35612C9C3F6C7F22B666462A78C
+AC5473F8755B70B582C0D4C3C9D8C70EE755D41A42C8C17F066414DC21B33111
+A188A5FDDC2D6B02C0965CDC0D91DF1A487ABBBBE2E2896CE0B4BFBE38C79866
+BCD14C2C92449525BD879F6BC320C05FEF8BF68D616695ACD14B3594882B4914
+5B7569629AF50EBCF7152E3715510FBF60F1675D5259715B293A3D7E844764F8
+4B88D997BA5C7B7AB6B104E77F7769C22788334A91C91F02CE675DC14E1FDE5A
+F8A03756C12F189494DBC735E3C86A6D4BC4D005E323AC4D7CEF6E1820F9F184
+4DD2EC4C5C58AEE4B5344077AFCCCD82CFC289D46552563B36DA5DAF3C179C90
+BBB4163F2E88909E040769367672B37254345F892D42DF5D5261EAB4CFD4745D
+7D72D01D779DEA580D7AA0897250CB8CC10EF282B3A1899F63F375E39C44176C
+B0F18AEC3FDE9E12B32B89F9F6A0670DEE9283804AE387096F22569AFE2A593E
+C6E10A3FFE07F8F5948343F661D465D0C976CC700D77CCB261730868B3D39D7E
+65EF4DC3D7254CC92DB35B467D8C0DB81929EA9F4352B5CCFB0906ECAE215A52
+3A3E286B6C506A8FD8279BEB97734C064861D4CE4FB39636A66652C9FE501046
+451D94A51F00800B6A1A6ED67186A14D6197EF48E8E5CADBAB2437ABC0A3EE8E
+E5ABF20E28389FF0902A16AA8F372C615F696BA459AD45EAC10C51DC4A201BFB
+0410A34AA3E13187E2736F1ECFD6B8E7377B67F18C01AEA3E680A635529C3E89
+D2CBEC56281C16BD0E54EDB14EB5CDBB4F138FF5669F4C8AED339FD5D5312E1E
+B000175363053FBEC579FCD85622F7CB61C6C2B0A5F07D6FA363466289E97C53
+C6BA0CE73A4417D5DE924F231DCDC350E231FA805DB54C26D21E7F90793AC96C
+11E6495CDF3E6FDA99DE146A2A18C21557B15DCE2F6540B85C6662A7E0B46FA9
+84B66C4180AE6A99BC1195A2355839940DAF5D6D6199005DB573E383DCCF0040
+75A027D53769D0E9A77F32A0894D7914C3C85C5991A968107E1DED454281C80E
+01228AD18FE3778AD96FD49607150225FEBD68791B376BB9707C409E076360C9
+27D3FFAA700DC03CDF0D90069D7034631B51DFB15C4C89B8E6862097BC14CB86
+9A0C00EC7AF4EBF237EB61A363C23D16BABB2461197BA879E6DCB6BA50544303
+5DC77540758B36451FB6ECF2E09C3A1EB5FB51CEFAE1D32340D772168833C415
+D105363AD36F66727243F2F68EEE0B25B067E93FE4B219E0D4513E7C04F444DE
+C822CFF1265048CB3058948F533AB6
+0000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000
+cleartomark
+%%EndFont 
+TeXDict begin 39158280 53329848 2074 600 600 (temp.dvi)
+@start /Fa 169[150 15[132 70[{}2 206.625 /CMTI12 rf /Fb
+150[46 2[57 57[57 44[{ TeXBase1Encoding ReEncodeFont }3
+206.625 /Helvetica rf /Fc 135[115 3[73 10[69 3[94 34[154
+152 3[101 1[56 56 58[{}9 206.625 /CMMI12 rf /Fd 152[103
+103 5[126 4[138 33[115 115 1[0 3[138 50[{}8 206.625 /CMSY10
+rf /Fe 162[56 1[56 49[79 79 39[126{}5 206.625 /CMR12
+rf /Ff 204[86 86 86 49[{}3 172.188 /CMR10 rf /Fg 169[180
+3[177 11[158 4[180 65[{}4 247.95 /CMTI12 rf /Fh 135[138
+1[138 151 83 138 96 1[151 151 151 220 69 2[69 151 151
+83 138 151 138 151 138 12[151 14[165 179 9[83 11[69 43[151
+2[{ TeXBase1Encoding ReEncodeFont }26 247.95 /Helvetica-Bold
+rf /Fi 162[67 1[67 29[189 3[121 15[94 94 39[152{}7 247.95
+/CMR12 rf /Fj 134[118 138 3[88 2[108 122 1[145 4[83 3[113
+3[127 11[165 7[235 10[184 182 3[121 189 67 67 58[{}17
+247.95 /CMMI12 rf /Fk 198[238 238 56[{}2 428.403 /CMSY10
+rf /Fl 149[69 2[124 124 5[152 165 165 2[165 27[193 4[165
+138 138 1[0 3[165 13[248 2[248 17[124 13[69 1[{}17 247.95
+/CMSY10 rf /Fm 25[220 78[248 2[83 83 24[124 124 124 179
+124 138 69 124 83 138 138 138 138 207 55 124 1[55 138
+138 69 138 138 124 138 138 3[69 1[69 3[234 2[151 165
+179 1[165 193 179 207 138 2[69 1[193 151 165 179 179
+165 165 1[138 4[69 4[138 138 138 138 138 2[69 83 69 2[83
+83 55 5[69 30[124 2[{ TeXBase1Encoding ReEncodeFont }63
+247.95 /Helvetica rf /Fn 134[238 238 1[238 262 143 238
+167 262 262 262 262 381 119 2[119 1[262 143 238 262 238
+262 238 10[286 2[286 4[309 7[262 286 309 309 1[309 6[143
+12[143 119 41[262 2[{ TeXBase1Encoding ReEncodeFont }33
+428.403 /Helvetica-Bold rf /Fo 105[39 37[39 54[39 39
+39 39 39 39 39 39 39 39 20 20 46[{ TeXBase1Encoding ReEncodeFont }14
+70.5976 /Helvetica rf /Fp 138[199 99 1[119 1[199 199
+199 1[79 2[79 1[199 99 199 199 179 1[199 18[258 78[{
+ TeXBase1Encoding ReEncodeFont }15 357.117 /Helvetica
+rf end
+%%EndProlog
+%%BeginSetup
+%%Feature: *Resolution 600dpi
+TeXDict begin
+statusdict /setpageparams known { hsize vsize 0 1 statusdict begin {
+setpageparams } stopped end } { true } ifelse { statusdict /setpage known
+{ hsize vsize 1 statusdict begin { setpage } stopped pop end } if } if
+ end
+userdict/PStoPSxform PStoPSmatrix matrix currentmatrix
+ matrix invertmatrix matrix concatmatrix
+ matrix invertmatrix put
+%%EndSetup
+%%Page: (0,1,2,3,4,5,6,7) 1
+userdict/PStoPSsaved save put
+PStoPSmatrix setmatrix
+555.000000 44.268705 translate
+90 rotate
+0.305819 dup scale
+userdict/PStoPSmatrix matrix currentmatrix put
+userdict/PStoPSclip{0 0 moveto
+ 595.000000 0 rlineto 0 842.000000 rlineto -595.000000 0 rlineto
+ closepath}put initclip
+gsave clippath 0 setgray 1.000000 setlinewidth stroke grestore
+/showpage{}def/copypage{}def/erasepage{}def
+PStoPSxform concat
+TeXDict begin 1 0 bop -600 6000 a
+SDict begin [ /Page 1 /View [ /Fit ] /PageMode /UseOutlines  /DOCVIEW
+pdfmark end
+ -600 6000 a -600 6000
+a
+SDict begin [ /CropBox [0 15 700 810] /PAGES pdfmark end
+ -600 6000 a -600 6000 a
+SDict begin [ {Catalog} << /ViewerPreferences<</FitWindow true/CenterWindow
+true>>>> /PUT pdfmark end
+ -600 6000 a -600 6000 a
+SDict begin H.S end
+ -600
+6000 a -600 6000 a
+SDict begin 12 H.A end
+ -600 6000 a -600 6000 a
+SDict begin [ /View [/XYZ H.V] /Dest (Doc-Start) cvn H.B /DEST pdfmark
+end
+ -600 6000
+a 4500 6000 a
+ tx@Dict begin 90 Rot  end
+ 4500 6000 a 4266 2282 a @beginspecial @setspecial
+ tx@Dict begin STP newpath 0.8 SLW 0. setgray  0. true 19.49005 63.59189
+67.85963 33.71643 .5 Frame  gsave gsave 1.0 0.812 0.004 setrgbcolor
+currentrgbcolor grestore gsave 1. setgray currentrgbcolor grestore
+1000 1. 90. tx@GradientDict begin GradientFill end grestore end
+
+
+@endspecial @beginspecial @setspecial
+ tx@Dict begin STP newpath 0.8 SLW 0. setgray  0. true 27.88356 35.28156
+76.96472 3.27222 .5 Frame  gsave gsave 0.2 0.2 0.8 setrgbcolor currentrgbcolor
+grestore gsave 1. setgray currentrgbcolor grestore 1000 1. 90. tx@GradientDict
+begin GradientFill end grestore end
+ 
+@endspecial @beginspecial
+@setspecial
+ tx@Dict begin STP newpath 0.8 SLW 0. setgray  0. true 0.0 39.97606
+37.98459 11.8077 .5 Frame  gsave gsave 1. setgray currentrgbcolor grestore
+gsave 1.0 0.220 0.224 setrgbcolor currentrgbcolor grestore 1000 1.
+135. tx@GradientDict begin GradientFill end grestore end
+ 
+@endspecial @beginspecial @setspecial
+ tx@Dict begin STP newpath 0.8 SLW 0. setgray  0. true 41.54118 70.70508
+44.81297 -199.1692 .5 Frame  gsave gsave 0.110 0.110 0.110 setrgbcolor
+currentrgbcolor grestore gsave 1. setgray currentrgbcolor grestore
+1000 1. 0. tx@GradientDict begin GradientFill end grestore end
+ 
+@endspecial
+@beginspecial @setspecial
+ tx@Dict begin STP newpath 0.8 SLW 0. setgray  0. true 22.3355 14.51074
+369.88567 11.23895 .5 Frame  gsave gsave 0.110 0.110 0.110 setrgbcolor
+currentrgbcolor grestore gsave 1. setgray currentrgbcolor grestore
+1000 1. 90. tx@GradientDict begin GradientFill end grestore end
+ 
+@endspecial 5001 3450 a
+SDict begin [ /Rotate 90 /PAGES pdfmark end
+ 5001
+3450 a 5001 3450 a
+SDict begin /product where{pop product(Distiller)search{pop pop pop
+version(.)search{exch pop exch pop(3011)eq{gsave newpath 0 0 moveto
+closepath clip/Courier findfont 10 scalefont setfont 72 72 moveto(.)show
+grestore}if}{pop}ifelse}{pop}ifelse}if end
+ 5001 3450 a 5001 3450 a
+SDict begin H.S end
+ 5001 3450
+a 5001 3450 a
+SDict begin H.R end
+ 5001 3450 a 5001 3450 a
+SDict begin [ /View [/XYZ H.V] /Dest (page.1) cvn H.B /DEST pdfmark
+end
+ 5001 3450 a 5001
+3450 a
+SDict begin [ {ThisPage}<</Trans << /S /R >> >> /PUT pdfmark end
+ 5001 3450 a 5001 3450 a
+SDict begin [ /Title () /Subject () /Creator (LaTeX with hyperref and prosper packages)
+/Author () /Producer (dvips + Distiller) /Keywords () /DOCINFO pdfmark
+end
+ 5001 3450 a 5218 2274
+a
+ 0. setgray
+ 5218 2274 a 5478 3762 a Fp(Natur)l(al)99 b(deduction)d(f)-11
+b(or)100 b(predicate)7545 4133 y(logic)5218 4244 y
+ 0 setgray
+ 5218
+4244 a 10245 5222 a
+ 0 setgray
+ 10245 5222 a 10448 5736 a
+ 0.2 0.2 0.6 setrgbcolor
+ 10448 5736
+a 20 w Fo(\226)19 b(p)n(.)g(1/24)10739 5736 y
+ 0 setgray
+ 10739 5736
+a 4500 6000 a
+ tx@Dict begin -90 Rot  end
+ 4500 6000 a eop end
+PStoPSsaved restore
+userdict/PStoPSsaved save put
+PStoPSmatrix setmatrix
+297.500000 44.268705 translate
+90 rotate
+0.305819 dup scale
+userdict/PStoPSmatrix matrix currentmatrix put
+userdict/PStoPSclip{0 0 moveto
+ 595.000000 0 rlineto 0 842.000000 rlineto -595.000000 0 rlineto
+ closepath}put initclip
+gsave clippath 0 setgray 1.000000 setlinewidth stroke grestore
+/showpage{}def/copypage{}def/erasepage{}def
+PStoPSxform concat
+TeXDict begin 1 1 bop 0 0 a
+SDict begin /product where{pop product(Distiller)search{pop pop pop
+version(.)search{exch pop exch pop(3011)eq{gsave newpath 0 0 moveto
+closepath clip/Courier findfont 10 scalefont setfont 72 72 moveto(.)show
+grestore}if}{pop}ifelse}{pop}ifelse}if end
+ 0 0 a 0 0 a
+SDict begin H.S end
+ 0 0 a 0 0 a
+SDict begin H.R end
+ 0
+0 a 0 0 a
+SDict begin [ /View [/XYZ H.V] /Dest (page.1) cvn H.B /DEST pdfmark
+end
+ 0 0 a 0 0 a
+SDict begin [ {ThisPage}<</Trans << /S /R >> >> /PUT pdfmark end
+ 0 0 a eop end
+PStoPSsaved restore
+userdict/PStoPSsaved save put
+PStoPSmatrix setmatrix
+555.000000 234.768705 translate
+90 rotate
+0.305819 dup scale
+userdict/PStoPSmatrix matrix currentmatrix put
+userdict/PStoPSclip{0 0 moveto
+ 595.000000 0 rlineto 0 842.000000 rlineto -595.000000 0 rlineto
+ closepath}put initclip
+gsave clippath 0 setgray 1.000000 setlinewidth stroke grestore
+/showpage{}def/copypage{}def/erasepage{}def
+PStoPSxform concat
+TeXDict begin 2 2 bop 4500 6000 a
+ tx@Dict begin 90 Rot  end
+ 4500 6000 a 4266 2282
+a @beginspecial @setspecial
+ tx@Dict begin STP newpath 0.8 SLW 0. setgray  0. true 19.49005 63.59189
+67.85963 33.71643 .5 Frame  gsave gsave 1.0 0.812 0.004 setrgbcolor
+currentrgbcolor grestore gsave 1. setgray currentrgbcolor grestore
+1000 1. 90. tx@GradientDict begin GradientFill end grestore end
+ 
+@endspecial @beginspecial
+@setspecial
+ tx@Dict begin STP newpath 0.8 SLW 0. setgray  0. true 27.88356 35.28156
+76.96472 3.27222 .5 Frame  gsave gsave 0.2 0.2 0.8 setrgbcolor currentrgbcolor
+grestore gsave 1. setgray currentrgbcolor grestore 1000 1. 90. tx@GradientDict
+begin GradientFill end grestore end
+ 
+@endspecial @beginspecial @setspecial
+ tx@Dict begin STP newpath 0.8 SLW 0. setgray  0. true 0.0 39.97606
+37.98459 11.8077 .5 Frame  gsave gsave 1. setgray currentrgbcolor grestore
+gsave 1.0 0.220 0.224 setrgbcolor currentrgbcolor grestore 1000 1.
+135. tx@GradientDict begin GradientFill end grestore end
+ 
+@endspecial
+@beginspecial @setspecial
+ tx@Dict begin STP newpath 0.8 SLW 0. setgray  0. true 41.54118 70.70508
+44.81297 -199.1692 .5 Frame  gsave gsave 0.110 0.110 0.110 setrgbcolor
+currentrgbcolor grestore gsave 1. setgray currentrgbcolor grestore
+1000 1. 0. tx@GradientDict begin GradientFill end grestore end
+ 
+@endspecial @beginspecial
+@setspecial
+ tx@Dict begin STP newpath 0.8 SLW 0. setgray  0. true 22.3355 14.51074
+369.88567 11.23895 .5 Frame  gsave gsave 0.110 0.110 0.110 setrgbcolor
+currentrgbcolor grestore gsave 1. setgray currentrgbcolor grestore
+1000 1. 90. tx@GradientDict begin GradientFill end grestore end
+ 
+@endspecial 5001 3450 a
+SDict begin /product where{pop product(Distiller)search{pop pop pop
+version(.)search{exch pop exch pop(3011)eq{gsave newpath 0 0 moveto
+closepath clip/Courier findfont 10 scalefont setfont 72 72 moveto(.)show
+grestore}if}{pop}ifelse}{pop}ifelse}if end
+ 5001 3450 a 5001
+3450 a
+SDict begin H.S end
+ 5001 3450 a 5001 3450 a
+SDict begin H.R end
+ 5001 3450 a 5001 3450
+a
+SDict begin [ /View [/XYZ H.V] /Dest (page.2) cvn H.B /DEST pdfmark
+end
+ 5001 3450 a 5001 3450 a
+SDict begin [ {ThisPage}<</Trans << /S /R >> >> /PUT pdfmark end
+ 5001 3450 a 5001 3450 a
+SDict begin [ /Page 2/View [ /XYZ null null null ] /Title (ND for predicate logic)
+/OUT pdfmark end
+ 5001
+3450 a 5932 1048 a
+ 0.2 0.2 0.6 setrgbcolor
+ 5932 1048 a 313 x Fn(ND)119 b(f)-9
+b(or)119 b(predicate)5932 1804 y(logic)6932 1804 y
+ 0 setgray
+ 6932
+1804 a 5218 2274 a
+ 0. setgray
+ 5218 2274 a 182 x Fm(The)69 b(r)t(ules)f(of)g(ND)h
+(f)-7 b(or)68 b(predicate)g(logic)h(are)f(those)g(of)5218
+2741 y(ND)g(f)-7 b(or)68 b(propositional)g(logic)l(,)h(plus)f
+(introduction)g(r)t(ules)5218 3025 y(and)g(elimination)g(r)t(ules)g(f)
+-7 b(or)68 b Fl(8)g Fm(and)h Fl(9)p Fm(.)5218 3028 y
+ 0 setgray
+
+5218 3028 a 10245 5222 a
+ 0 setgray
+ 10245 5222 a 10448 5736 a
+ 0.2 0.2 0.6 setrgbcolor
+ 10448
+5736 a 20 w Fo(\226)19 b(p)n(.)g(2/24)10739 5736 y
+ 0 setgray
+ 10739
+5736 a 4500 6000 a
+ tx@Dict begin -90 Rot  end
+ 4500 6000 a eop end
+PStoPSsaved restore
+userdict/PStoPSsaved save put
+PStoPSmatrix setmatrix
+297.500000 234.768705 translate
+90 rotate
+0.305819 dup scale
+userdict/PStoPSmatrix matrix currentmatrix put
+userdict/PStoPSclip{0 0 moveto
+ 595.000000 0 rlineto 0 842.000000 rlineto -595.000000 0 rlineto
+ closepath}put initclip
+gsave clippath 0 setgray 1.000000 setlinewidth stroke grestore
+/showpage{}def/copypage{}def/erasepage{}def
+PStoPSxform concat
+TeXDict begin 2 3 bop 0 0 a
+SDict begin /product where{pop product(Distiller)search{pop pop pop
+version(.)search{exch pop exch pop(3011)eq{gsave newpath 0 0 moveto
+closepath clip/Courier findfont 10 scalefont setfont 72 72 moveto(.)show
+grestore}if}{pop}ifelse}{pop}ifelse}if end
+ 0 0 a 0 0 a
+SDict begin H.S end
+ 0 0 a 0 0 a
+SDict begin H.R end
+ 0
+0 a 0 0 a
+SDict begin [ /View [/XYZ H.V] /Dest (page.2) cvn H.B /DEST pdfmark
+end
+ 0 0 a 0 0 a
+SDict begin [ {ThisPage}<</Trans << /S /R >> >> /PUT pdfmark end
+ 0 0 a eop end
+PStoPSsaved restore
+userdict/PStoPSsaved save put
+PStoPSmatrix setmatrix
+555.000000 425.268705 translate
+90 rotate
+0.305819 dup scale
+userdict/PStoPSmatrix matrix currentmatrix put
+userdict/PStoPSclip{0 0 moveto
+ 595.000000 0 rlineto 0 842.000000 rlineto -595.000000 0 rlineto
+ closepath}put initclip
+gsave clippath 0 setgray 1.000000 setlinewidth stroke grestore
+/showpage{}def/copypage{}def/erasepage{}def
+PStoPSxform concat
+TeXDict begin 3 4 bop 4500 6000 a
+ tx@Dict begin 90 Rot  end
+ 4500 6000 a 4266 2282
+a @beginspecial @setspecial
+ tx@Dict begin STP newpath 0.8 SLW 0. setgray  0. true 19.49005 63.59189
+67.85963 33.71643 .5 Frame  gsave gsave 1.0 0.812 0.004 setrgbcolor
+currentrgbcolor grestore gsave 1. setgray currentrgbcolor grestore
+1000 1. 90. tx@GradientDict begin GradientFill end grestore end
+ 
+@endspecial @beginspecial
+@setspecial
+ tx@Dict begin STP newpath 0.8 SLW 0. setgray  0. true 27.88356 35.28156
+76.96472 3.27222 .5 Frame  gsave gsave 0.2 0.2 0.8 setrgbcolor currentrgbcolor
+grestore gsave 1. setgray currentrgbcolor grestore 1000 1. 90. tx@GradientDict
+begin GradientFill end grestore end
+ 
+@endspecial @beginspecial @setspecial
+ tx@Dict begin STP newpath 0.8 SLW 0. setgray  0. true 0.0 39.97606
+37.98459 11.8077 .5 Frame  gsave gsave 1. setgray currentrgbcolor grestore
+gsave 1.0 0.220 0.224 setrgbcolor currentrgbcolor grestore 1000 1.
+135. tx@GradientDict begin GradientFill end grestore end
+ 
+@endspecial
+@beginspecial @setspecial
+ tx@Dict begin STP newpath 0.8 SLW 0. setgray  0. true 41.54118 70.70508
+44.81297 -199.1692 .5 Frame  gsave gsave 0.110 0.110 0.110 setrgbcolor
+currentrgbcolor grestore gsave 1. setgray currentrgbcolor grestore
+1000 1. 0. tx@GradientDict begin GradientFill end grestore end
+ 
+@endspecial @beginspecial
+@setspecial
+ tx@Dict begin STP newpath 0.8 SLW 0. setgray  0. true 22.3355 14.51074
+369.88567 11.23895 .5 Frame  gsave gsave 0.110 0.110 0.110 setrgbcolor
+currentrgbcolor grestore gsave 1. setgray currentrgbcolor grestore
+1000 1. 90. tx@GradientDict begin GradientFill end grestore end
+ 
+@endspecial 5001 3450 a
+SDict begin /product where{pop product(Distiller)search{pop pop pop
+version(.)search{exch pop exch pop(3011)eq{gsave newpath 0 0 moveto
+closepath clip/Courier findfont 10 scalefont setfont 72 72 moveto(.)show
+grestore}if}{pop}ifelse}{pop}ifelse}if end
+ 5001 3450 a 5001
+3450 a
+SDict begin H.S end
+ 5001 3450 a 5001 3450 a
+SDict begin H.R end
+ 5001 3450 a 5001 3450
+a
+SDict begin [ /View [/XYZ H.V] /Dest (page.3) cvn H.B /DEST pdfmark
+end
+ 5001 3450 a 5001 3450 a
+SDict begin [ {ThisPage}<</Trans << /S /R >> >> /PUT pdfmark end
+ 5001 3450 a 5001 3450 a
+SDict begin [ /Page 3/View [ /XYZ null null null ] /Title ($\forall $-elimination, first attempt)
+/OUT pdfmark end
+ 5001
+3450 a 5932 1094 a
+ 0.2 0.2 0.6 setrgbcolor
+ 5932 1094 a 313 x Fk(8)p Fn(-elimination,)118
+b(\002r)-6 b(st)5932 1811 y(attempt)7480 1811 y
+ 0 setgray
+ 7480
+1811 a 5107 2274 a
+ 0. setgray
+ 5107 2274 a 182 x Fm(The)69 b(r)t(ule)f(f)-7
+b(or)68 b Fl(8)p Fm(-elimination)f(is)i(as)g(f)-7 b(ollo)l(ws)l(,)68
+b(where)g Fj(t)5107 2741 y Fm(can)g(be)h(an)l(y)g(ter)6
+b(m,)68 b(and)g Fi([)p Fj(t=x)p Fi(])i Fm(means)e(that)h
+Fj(t)f Fm(is)5107 3027 y(substituted)g(f)-7 b(or)68 b(e)-7
+b(v)h(er)7 b(y)68 b(free)g(occurrence)f(of)i Fj(x)g Fm(in)f
+Fj(A)p Fm(.)5107 3312 y(\(W)-7 b(e)68 b(shall)g(f)-7
+b(or)6 b(maliz)l(e)68 b(soon)h(what)f(\223free\224)f(means)l(.\))7376
+3764 y Fl(8)p Fj(x:A)p 7307 3853 664 8 v 8045 3912 a
+Fl(8)p Fj(e)7307 4059 y(A)p Fi([)p Fj(t=x)p Fi(])5107
+4526 y Fm(This)i(is)g(intuitiv)-6 b(ely)68 b(clear\227consider)5107
+4988 y(f)-7 b(or)68 b(all)g(n)n(umbers)f Fj(n)i Fm(it)g(holds)g(that)f
+Fj(n)h Fm(is)g(e)-7 b(v)h(en)68 b(or)g Fj(n)h Fm(is)g(odd)p
+5107 5078 5469 8 v 10650 5136 a Fj(:)6755 5284 y Fi(9)g
+Fm(is)g(e)-7 b(v)h(en)68 b(or)g Fi(9)i Fm(is)f(odd)5107
+5691 y(But)g(there)f(is)h(a)g(catch.)41 b(.)g(.)5107
+5694 y
+ 0 setgray
+ 5107 5694 a 10245 5222 a
+ 0 setgray
+ 10245 5222 a 10448 5736
+a
+ 0.2 0.2 0.6 setrgbcolor
+ 10448 5736 a 20 w Fo(\226)19 b(p)n(.)g(3/24)10739 5736
+y
+ 0 setgray
+ 10739 5736 a 4500 6000 a
+ tx@Dict begin -90 Rot  end
+ 4500 6000 a eop end
+PStoPSsaved restore
+userdict/PStoPSsaved save put
+PStoPSmatrix setmatrix
+297.500000 425.268705 translate
+90 rotate
+0.305819 dup scale
+userdict/PStoPSmatrix matrix currentmatrix put
+userdict/PStoPSclip{0 0 moveto
+ 595.000000 0 rlineto 0 842.000000 rlineto -595.000000 0 rlineto
+ closepath}put initclip
+gsave clippath 0 setgray 1.000000 setlinewidth stroke grestore
+/showpage{}def/copypage{}def/erasepage{}def
+PStoPSxform concat
+TeXDict begin 3 5 bop 0 0 a
+SDict begin /product where{pop product(Distiller)search{pop pop pop
+version(.)search{exch pop exch pop(3011)eq{gsave newpath 0 0 moveto
+closepath clip/Courier findfont 10 scalefont setfont 72 72 moveto(.)show
+grestore}if}{pop}ifelse}{pop}ifelse}if end
+ 0 0 a 0 0 a
+SDict begin H.S end
+ 0 0 a 0 0 a
+SDict begin H.R end
+ 0
+0 a 0 0 a
+SDict begin [ /View [/XYZ H.V] /Dest (page.3) cvn H.B /DEST pdfmark
+end
+ 0 0 a 0 0 a
+SDict begin [ {ThisPage}<</Trans << /S /R >> >> /PUT pdfmark end
+ 0 0 a eop end
+PStoPSsaved restore
+userdict/PStoPSsaved save put
+PStoPSmatrix setmatrix
+555.000000 615.768705 translate
+90 rotate
+0.305819 dup scale
+userdict/PStoPSmatrix matrix currentmatrix put
+userdict/PStoPSclip{0 0 moveto
+ 595.000000 0 rlineto 0 842.000000 rlineto -595.000000 0 rlineto
+ closepath}put initclip
+gsave clippath 0 setgray 1.000000 setlinewidth stroke grestore
+/showpage{}def/copypage{}def/erasepage{}def
+PStoPSxform concat
+TeXDict begin 4 6 bop 4500 6000 a
+ tx@Dict begin 90 Rot  end
+ 4500 6000 a 4266 2282
+a @beginspecial @setspecial
+ tx@Dict begin STP newpath 0.8 SLW 0. setgray  0. true 19.49005 63.59189
+67.85963 33.71643 .5 Frame  gsave gsave 1.0 0.812 0.004 setrgbcolor
+currentrgbcolor grestore gsave 1. setgray currentrgbcolor grestore
+1000 1. 90. tx@GradientDict begin GradientFill end grestore end
+ 
+@endspecial @beginspecial
+@setspecial
+ tx@Dict begin STP newpath 0.8 SLW 0. setgray  0. true 27.88356 35.28156
+76.96472 3.27222 .5 Frame  gsave gsave 0.2 0.2 0.8 setrgbcolor currentrgbcolor
+grestore gsave 1. setgray currentrgbcolor grestore 1000 1. 90. tx@GradientDict
+begin GradientFill end grestore end
+ 
+@endspecial @beginspecial @setspecial
+ tx@Dict begin STP newpath 0.8 SLW 0. setgray  0. true 0.0 39.97606
+37.98459 11.8077 .5 Frame  gsave gsave 1. setgray currentrgbcolor grestore
+gsave 1.0 0.220 0.224 setrgbcolor currentrgbcolor grestore 1000 1.
+135. tx@GradientDict begin GradientFill end grestore end
+ 
+@endspecial
+@beginspecial @setspecial
+ tx@Dict begin STP newpath 0.8 SLW 0. setgray  0. true 41.54118 70.70508
+44.81297 -199.1692 .5 Frame  gsave gsave 0.110 0.110 0.110 setrgbcolor
+currentrgbcolor grestore gsave 1. setgray currentrgbcolor grestore
+1000 1. 0. tx@GradientDict begin GradientFill end grestore end
+ 
+@endspecial @beginspecial
+@setspecial
+ tx@Dict begin STP newpath 0.8 SLW 0. setgray  0. true 22.3355 14.51074
+369.88567 11.23895 .5 Frame  gsave gsave 0.110 0.110 0.110 setrgbcolor
+currentrgbcolor grestore gsave 1. setgray currentrgbcolor grestore
+1000 1. 90. tx@GradientDict begin GradientFill end grestore end
+ 
+@endspecial 5001 3450 a
+SDict begin /product where{pop product(Distiller)search{pop pop pop
+version(.)search{exch pop exch pop(3011)eq{gsave newpath 0 0 moveto
+closepath clip/Courier findfont 10 scalefont setfont 72 72 moveto(.)show
+grestore}if}{pop}ifelse}{pop}ifelse}if end
+ 5001 3450 a 5001
+3450 a
+SDict begin H.S end
+ 5001 3450 a 5001 3450 a
+SDict begin H.R end
+ 5001 3450 a 5001 3450
+a
+SDict begin [ /View [/XYZ H.V] /Dest (page.4) cvn H.B /DEST pdfmark
+end
+ 5001 3450 a 5001 3450 a
+SDict begin [ {ThisPage}<</Trans << /S /R >> >> /PUT pdfmark end
+ 5001 3450 a 5001 3450 a
+SDict begin [ /Page 4/View [ /XYZ null null null ] /Title (Variable capture)
+/OUT pdfmark end
+ 5001
+3450 a 5932 1498 a
+ 0.2 0.2 0.6 setrgbcolor
+ 5932 1498 a 313 x Fn(V)-26 b(ariab)l(le)119
+b(capture)9236 1811 y
+ 0 setgray
+ 9236 1811 a 5218 2274 a
+ 0. setgray
+ 5218 2274
+a 5482 2456 a @beginspecial @setspecial
+ tx@Dict begin STP newpath 0.8 SLW 0. setgray  0. true -4.26773 7.11317
+2.84544 0.28436 .5 Frame  gsave 0.2 0.2 0.8 setrgbcolor fill grestore
+end
+ 
+@endspecial
+101 w Fm(Consider)68 b(e)l(.g.)h(the)g(f)-7 b(or)6 b(m)n(ula)67
+b(belo)l(w)-15 b(,)69 b(which)f(holds)5583 2741 y(e)l(.g.)h(f)-7
+b(or)68 b(the)h(natur)n(al)e(n)n(umbers)l(.)7207 3211
+y Fj(A)i Fi(=)g Fl(8)p Fj(x:)p Fl(9)p Fj(y)9 b(:x)69
+b(<)g(y)5482 3682 y @beginspecial @setspecial
+ tx@Dict begin STP newpath 0.8 SLW 0. setgray  0. true -4.26773 7.11317
+2.84544 0.28436 .5 Frame  gsave 0.2 0.2 0.8 setrgbcolor fill grestore
+end
+ 
+@endspecial
+101 w Fm(Applying)g Fl(8)p Fm(-elimination)e(with)i Fj(t)g
+Fi(=)g Fj(y)78 b Fm(yields)68 b(the)5583 3966 y(f)-7
+b(ollo)l(wing)69 b(f)-7 b(or)6 b(m)n(ula,)67 b(which)h(is)h(not)g(v)-6
+b(alid.)7638 4437 y Fl(9)p Fj(y)9 b(:y)79 b(<)69 b(y)5482
+4908 y @beginspecial @setspecial
+ tx@Dict begin STP newpath 0.8 SLW 0. setgray  0. true -4.26773 7.11317
+2.84544 0.28436 .5 Frame  gsave 0.2 0.2 0.8 setrgbcolor fill grestore
+end
+ 
+@endspecial 101 w Fm(The)h(mistak)-5
+b(e)68 b(has)g(been)h(caused)f(b)-5 b(y)69 b Fh(v)-5
+b(ariab)n(le)5583 5192 y(capture)p Fm(:)86 b(the)69 b(v)-6
+b(ar)t(iab)h(le)67 b Fj(y)79 b Fm(in)68 b Fj(t)h Fm(has)g(been)f
+(caught)5583 5476 y(b)-5 b(y)69 b(the)g(quanti\002er)f
+Fl(9)p Fj(y)9 b Fm(.)5218 5762 y
+ 0 setgray
+ 5218 5762 a 10245 5222
+a
+ 0 setgray
+ 10245 5222 a 10448 5736 a
+ 0.2 0.2 0.6 setrgbcolor
+ 10448 5736 a 20 w Fo(\226)19
+b(p)n(.)g(4/24)10739 5736 y
+ 0 setgray
+ 10739 5736 a 4500 6000 a
+ tx@Dict begin -90 Rot  end
+
+4500 6000 a eop end
+PStoPSsaved restore
+userdict/PStoPSsaved save put
+PStoPSmatrix setmatrix
+297.500000 615.768705 translate
+90 rotate
+0.305819 dup scale
+userdict/PStoPSmatrix matrix currentmatrix put
+userdict/PStoPSclip{0 0 moveto
+ 595.000000 0 rlineto 0 842.000000 rlineto -595.000000 0 rlineto
+ closepath}put initclip
+gsave clippath 0 setgray 1.000000 setlinewidth stroke grestore
+PStoPSxform concat
+TeXDict begin 4 7 bop 0 0 a
+SDict begin /product where{pop product(Distiller)search{pop pop pop
+version(.)search{exch pop exch pop(3011)eq{gsave newpath 0 0 moveto
+closepath clip/Courier findfont 10 scalefont setfont 72 72 moveto(.)show
+grestore}if}{pop}ifelse}{pop}ifelse}if end
+ 0 0 a 0 0 a
+SDict begin H.S end
+ 0 0 a 0 0 a
+SDict begin H.R end
+ 0
+0 a 0 0 a
+SDict begin [ /View [/XYZ H.V] /Dest (page.4) cvn H.B /DEST pdfmark
+end
+ 0 0 a 0 0 a
+SDict begin [ {ThisPage}<</Trans << /S /R >> >> /PUT pdfmark end
+ 0 0 a eop end
+PStoPSsaved restore
+%%Page: (8,9,10,11,12,13,14,15) 2
+userdict/PStoPSsaved save put
+PStoPSmatrix setmatrix
+555.000000 44.268705 translate
+90 rotate
+0.305819 dup scale
+userdict/PStoPSmatrix matrix currentmatrix put
+userdict/PStoPSclip{0 0 moveto
+ 595.000000 0 rlineto 0 842.000000 rlineto -595.000000 0 rlineto
+ closepath}put initclip
+gsave clippath 0 setgray 1.000000 setlinewidth stroke grestore
+/showpage{}def/copypage{}def/erasepage{}def
+PStoPSxform concat
+TeXDict begin 5 8 bop 4500 6000 a
+ tx@Dict begin 90 Rot  end
+ 4500 6000 a 4266 2282
+a @beginspecial @setspecial
+ tx@Dict begin STP newpath 0.8 SLW 0. setgray  0. true 19.49005 63.59189
+67.85963 33.71643 .5 Frame  gsave gsave 1.0 0.812 0.004 setrgbcolor
+currentrgbcolor grestore gsave 1. setgray currentrgbcolor grestore
+1000 1. 90. tx@GradientDict begin GradientFill end grestore end
+ 
+@endspecial @beginspecial
+@setspecial
+ tx@Dict begin STP newpath 0.8 SLW 0. setgray  0. true 27.88356 35.28156
+76.96472 3.27222 .5 Frame  gsave gsave 0.2 0.2 0.8 setrgbcolor currentrgbcolor
+grestore gsave 1. setgray currentrgbcolor grestore 1000 1. 90. tx@GradientDict
+begin GradientFill end grestore end
+ 
+@endspecial @beginspecial @setspecial
+ tx@Dict begin STP newpath 0.8 SLW 0. setgray  0. true 0.0 39.97606
+37.98459 11.8077 .5 Frame  gsave gsave 1. setgray currentrgbcolor grestore
+gsave 1.0 0.220 0.224 setrgbcolor currentrgbcolor grestore 1000 1.
+135. tx@GradientDict begin GradientFill end grestore end
+ 
+@endspecial
+@beginspecial @setspecial
+ tx@Dict begin STP newpath 0.8 SLW 0. setgray  0. true 41.54118 70.70508
+44.81297 -199.1692 .5 Frame  gsave gsave 0.110 0.110 0.110 setrgbcolor
+currentrgbcolor grestore gsave 1. setgray currentrgbcolor grestore
+1000 1. 0. tx@GradientDict begin GradientFill end grestore end
+ 
+@endspecial @beginspecial
+@setspecial
+ tx@Dict begin STP newpath 0.8 SLW 0. setgray  0. true 22.3355 14.51074
+369.88567 11.23895 .5 Frame  gsave gsave 0.110 0.110 0.110 setrgbcolor
+currentrgbcolor grestore gsave 1. setgray currentrgbcolor grestore
+1000 1. 90. tx@GradientDict begin GradientFill end grestore end
+ 
+@endspecial 5001 3450 a
+SDict begin /product where{pop product(Distiller)search{pop pop pop
+version(.)search{exch pop exch pop(3011)eq{gsave newpath 0 0 moveto
+closepath clip/Courier findfont 10 scalefont setfont 72 72 moveto(.)show
+grestore}if}{pop}ifelse}{pop}ifelse}if end
+ 5001 3450 a 5001
+3450 a
+SDict begin H.S end
+ 5001 3450 a 5001 3450 a
+SDict begin H.R end
+ 5001 3450 a 5001 3450
+a
+SDict begin [ /View [/XYZ H.V] /Dest (page.5) cvn H.B /DEST pdfmark
+end
+ 5001 3450 a 5001 3450 a
+SDict begin [ {ThisPage}<</Trans << /S /R >> >> /PUT pdfmark end
+ 5001 3450 a 5001 3450 a
+SDict begin [ /Page 5/View [ /XYZ null null null ] /Title (Scope) /OUT
+pdfmark end
+ 5001
+3450 a 5932 1498 a
+ 0.2 0.2 0.6 setrgbcolor
+ 5932 1498 a 313 x Fn(Scope)7218 1811
+y
+ 0 setgray
+ 7218 1811 a 5218 2274 a
+ 0. setgray
+ 5218 2274 a 177 x Fm(T)-30
+b(o)69 b(mak)-5 b(e)68 b(precise)g(what)h(v)-6 b(ar)t(iab)h(le)67
+b(capture)h(is)l(,)h(w)n(e)5218 2735 y(de\002ne)f(the)g(notion)h(of)f
+Fh(scope)p Fm(.)5218 3304 y Fh(De\002nition.)86 b Fm(The)69
+b Fh(scope)h Fm(of)e(the)h(occurrence)e(of)i(a)5218 3589
+y(quanti\002er)e Fl(8)p Fj(x)i Fm(or)f Fl(9)p Fj(x)h
+Fm(in)g(a)g(f)-7 b(or)6 b(m)n(ula)66 b Fj(A)j Fm(is)g(obtained)f(as)
+5218 3873 y(f)-7 b(ollo)l(ws:)5218 3980 y
+SDict begin H.S end
+ 5218 3980 a
+5218 3980 a
+SDict begin 16.5199 H.A end
+ 5218 3980 a 5218 3980 a
+SDict begin [ /View [/XYZ H.V] /Dest (Item.1) cvn H.B /DEST pdfmark
+end
+ 5218 3980 a 5275
+4261 a Fm(1.)101 b(Let)69 b Fl(8)p Fj(x:B)82 b Fm(be)69
+b(the)f(subf)-7 b(or)6 b(m)n(ula)67 b(of)i Fj(A)g Fm(that)f(star)10
+b(ts)5583 4546 y(with)69 b(the)g(abo)l(v)-6 b(e)68 b(quanti\002er)g
+(occurrence)l(.)5218 4702 y
+SDict begin H.S end
+ 5218 4702 a 5218 4702 a
+SDict begin 16.5199 H.A end
+ 5218
+4702 a 5218 4702 a
+SDict begin [ /View [/XYZ H.V] /Dest (Item.2) cvn H.B /DEST pdfmark
+end
+ 5218 4702 a 5275 4934 a Fm(2.)101
+b(Remo)l(v)-6 b(e)69 b(all)f(subf)-7 b(or)6 b(m)n(ul\346)68
+b(of)g Fj(B)82 b Fm(that)69 b(also)f(star)10 b(t)5583
+5218 y(with)69 b(a)g(quanti\002er)f(f)-7 b(or)68 b Fj(x)h
+Fm(\()p Fl(8)f Fm(or)g Fl(9)p Fm(\).)5218 5891 y
+ 0 setgray
+ 5218
+5891 a 10245 5222 a
+ 0 setgray
+ 10245 5222 a 10448 5736 a
+ 0.2 0.2 0.6 setrgbcolor
+ 10448 5736
+a 20 w Fo(\226)19 b(p)n(.)g(5/24)10739 5736 y
+ 0 setgray
+ 10739 5736
+a 4500 6000 a
+ tx@Dict begin -90 Rot  end
+ 4500 6000 a eop end
+PStoPSsaved restore
+userdict/PStoPSsaved save put
+PStoPSmatrix setmatrix
+297.500000 44.268705 translate
+90 rotate
+0.305819 dup scale
+userdict/PStoPSmatrix matrix currentmatrix put
+userdict/PStoPSclip{0 0 moveto
+ 595.000000 0 rlineto 0 842.000000 rlineto -595.000000 0 rlineto
+ closepath}put initclip
+gsave clippath 0 setgray 1.000000 setlinewidth stroke grestore
+/showpage{}def/copypage{}def/erasepage{}def
+PStoPSxform concat
+TeXDict begin 5 9 bop 0 0 a
+SDict begin /product where{pop product(Distiller)search{pop pop pop
+version(.)search{exch pop exch pop(3011)eq{gsave newpath 0 0 moveto
+closepath clip/Courier findfont 10 scalefont setfont 72 72 moveto(.)show
+grestore}if}{pop}ifelse}{pop}ifelse}if end
+ 0 0 a 0 0 a
+SDict begin H.S end
+ 0 0 a 0 0 a
+SDict begin H.R end
+ 0
+0 a 0 0 a
+SDict begin [ /View [/XYZ H.V] /Dest (page.5) cvn H.B /DEST pdfmark
+end
+ 0 0 a 0 0 a
+SDict begin [ {ThisPage}<</Trans << /S /R >> >> /PUT pdfmark end
+ 0 0 a eop end
+PStoPSsaved restore
+userdict/PStoPSsaved save put
+PStoPSmatrix setmatrix
+555.000000 234.768705 translate
+90 rotate
+0.305819 dup scale
+userdict/PStoPSmatrix matrix currentmatrix put
+userdict/PStoPSclip{0 0 moveto
+ 595.000000 0 rlineto 0 842.000000 rlineto -595.000000 0 rlineto
+ closepath}put initclip
+gsave clippath 0 setgray 1.000000 setlinewidth stroke grestore
+/showpage{}def/copypage{}def/erasepage{}def
+PStoPSxform concat
+TeXDict begin 6 10 bop 4500 6000 a
+ tx@Dict begin 90 Rot  end
+ 4500 6000 a 4266 2282
+a @beginspecial @setspecial
+ tx@Dict begin STP newpath 0.8 SLW 0. setgray  0. true 19.49005 63.59189
+67.85963 33.71643 .5 Frame  gsave gsave 1.0 0.812 0.004 setrgbcolor
+currentrgbcolor grestore gsave 1. setgray currentrgbcolor grestore
+1000 1. 90. tx@GradientDict begin GradientFill end grestore end
+ 
+@endspecial @beginspecial
+@setspecial
+ tx@Dict begin STP newpath 0.8 SLW 0. setgray  0. true 27.88356 35.28156
+76.96472 3.27222 .5 Frame  gsave gsave 0.2 0.2 0.8 setrgbcolor currentrgbcolor
+grestore gsave 1. setgray currentrgbcolor grestore 1000 1. 90. tx@GradientDict
+begin GradientFill end grestore end
+ 
+@endspecial @beginspecial @setspecial
+ tx@Dict begin STP newpath 0.8 SLW 0. setgray  0. true 0.0 39.97606
+37.98459 11.8077 .5 Frame  gsave gsave 1. setgray currentrgbcolor grestore
+gsave 1.0 0.220 0.224 setrgbcolor currentrgbcolor grestore 1000 1.
+135. tx@GradientDict begin GradientFill end grestore end
+ 
+@endspecial
+@beginspecial @setspecial
+ tx@Dict begin STP newpath 0.8 SLW 0. setgray  0. true 41.54118 70.70508
+44.81297 -199.1692 .5 Frame  gsave gsave 0.110 0.110 0.110 setrgbcolor
+currentrgbcolor grestore gsave 1. setgray currentrgbcolor grestore
+1000 1. 0. tx@GradientDict begin GradientFill end grestore end
+ 
+@endspecial @beginspecial
+@setspecial
+ tx@Dict begin STP newpath 0.8 SLW 0. setgray  0. true 22.3355 14.51074
+369.88567 11.23895 .5 Frame  gsave gsave 0.110 0.110 0.110 setrgbcolor
+currentrgbcolor grestore gsave 1. setgray currentrgbcolor grestore
+1000 1. 90. tx@GradientDict begin GradientFill end grestore end
+ 
+@endspecial 5001 3450 a
+SDict begin /product where{pop product(Distiller)search{pop pop pop
+version(.)search{exch pop exch pop(3011)eq{gsave newpath 0 0 moveto
+closepath clip/Courier findfont 10 scalefont setfont 72 72 moveto(.)show
+grestore}if}{pop}ifelse}{pop}ifelse}if end
+ 5001 3450 a 5001
+3450 a
+SDict begin H.S end
+ 5001 3450 a 5001 3450 a
+SDict begin H.R end
+ 5001 3450 a 5001 3450
+a
+SDict begin [ /View [/XYZ H.V] /Dest (page.6) cvn H.B /DEST pdfmark
+end
+ 5001 3450 a 5001 3450 a
+SDict begin [ {ThisPage}<</Trans << /S /R >> >> /PUT pdfmark end
+ 5001 3450 a 5001 3450 a
+SDict begin [ /Page 6/View [ /XYZ null null null ] /Title (Scope: example)
+/OUT pdfmark end
+ 5001
+3450 a 5932 1498 a
+ 0.2 0.2 0.6 setrgbcolor
+ 5932 1498 a 313 x Fn(Scope:)146 b(e)-6
+b(xample)9215 1811 y
+ 0 setgray
+ 9215 1811 a 5218 2274 a
+ 0. setgray
+ 5218 2274
+a 285 x Fh(Example)5 b(.)85 b Fm(The)70 b(scope)e(of)h(the)f(r)t
+(ight-hand)f Fl(8)p Fj(x)i Fm(in)g(the)5218 2843 y(f)-7
+b(or)6 b(m)n(ula)6208 3314 y Fi(\()p Fl(8)p Fj(x:p)p
+Fi(\()p Fj(x)p Fi(\)\))56 b Fl(^)g(8)p Fj(x:)p Fi(\()p
+Fj(p)p Fi(\()p Fj(x)p Fi(\))70 b Fl(!)f(9)p Fj(x:q)9
+b Fi(\()p Fj(x)p Fi(\)\))5218 3789 y Fm(is)68 b Fj(p)p
+Fi(\()p Fj(x)p Fi(\))i Fl(!)f(\017)p Fm(,)g(where)f Fl(\017)h
+Fm(stands)f(f)-7 b(or)68 b(the)g(hole)h(that)5218 4079
+y(results)f(from)f(remo)l(ving)h Fl(9)p Fj(x:q)9 b Fi(\()p
+Fj(x)p Fi(\))p Fm(.)5218 4364 y
+ 0 setgray
+ 5218 4364 a 10245 5222
+a
+ 0 setgray
+ 10245 5222 a 10448 5736 a
+ 0.2 0.2 0.6 setrgbcolor
+ 10448 5736 a 20 w Fo(\226)19
+b(p)n(.)g(6/24)10739 5736 y
+ 0 setgray
+ 10739 5736 a 4500 6000 a
+ tx@Dict begin -90 Rot  end
+
+4500 6000 a eop end
+PStoPSsaved restore
+userdict/PStoPSsaved save put
+PStoPSmatrix setmatrix
+297.500000 234.768705 translate
+90 rotate
+0.305819 dup scale
+userdict/PStoPSmatrix matrix currentmatrix put
+userdict/PStoPSclip{0 0 moveto
+ 595.000000 0 rlineto 0 842.000000 rlineto -595.000000 0 rlineto
+ closepath}put initclip
+gsave clippath 0 setgray 1.000000 setlinewidth stroke grestore
+/showpage{}def/copypage{}def/erasepage{}def
+PStoPSxform concat
+TeXDict begin 6 11 bop 0 0 a
+SDict begin /product where{pop product(Distiller)search{pop pop pop
+version(.)search{exch pop exch pop(3011)eq{gsave newpath 0 0 moveto
+closepath clip/Courier findfont 10 scalefont setfont 72 72 moveto(.)show
+grestore}if}{pop}ifelse}{pop}ifelse}if end
+ 0 0 a 0 0 a
+SDict begin H.S end
+ 0 0 a 0 0 a
+SDict begin H.R end
+
+0 0 a 0 0 a
+SDict begin [ /View [/XYZ H.V] /Dest (page.6) cvn H.B /DEST pdfmark
+end
+ 0 0 a 0 0 a
+SDict begin [ {ThisPage}<</Trans << /S /R >> >> /PUT pdfmark end
+ 0 0 a eop end
+PStoPSsaved restore
+userdict/PStoPSsaved save put
+PStoPSmatrix setmatrix
+555.000000 425.268705 translate
+90 rotate
+0.305819 dup scale
+userdict/PStoPSmatrix matrix currentmatrix put
+userdict/PStoPSclip{0 0 moveto
+ 595.000000 0 rlineto 0 842.000000 rlineto -595.000000 0 rlineto
+ closepath}put initclip
+gsave clippath 0 setgray 1.000000 setlinewidth stroke grestore
+/showpage{}def/copypage{}def/erasepage{}def
+PStoPSxform concat
+TeXDict begin 7 12 bop 4500 6000 a
+ tx@Dict begin 90 Rot  end
+ 4500 6000 a 4266 2282
+a @beginspecial @setspecial
+ tx@Dict begin STP newpath 0.8 SLW 0. setgray  0. true 19.49005 63.59189
+67.85963 33.71643 .5 Frame  gsave gsave 1.0 0.812 0.004 setrgbcolor
+currentrgbcolor grestore gsave 1. setgray currentrgbcolor grestore
+1000 1. 90. tx@GradientDict begin GradientFill end grestore end
+ 
+@endspecial @beginspecial
+@setspecial
+ tx@Dict begin STP newpath 0.8 SLW 0. setgray  0. true 27.88356 35.28156
+76.96472 3.27222 .5 Frame  gsave gsave 0.2 0.2 0.8 setrgbcolor currentrgbcolor
+grestore gsave 1. setgray currentrgbcolor grestore 1000 1. 90. tx@GradientDict
+begin GradientFill end grestore end
+ 
+@endspecial @beginspecial @setspecial
+ tx@Dict begin STP newpath 0.8 SLW 0. setgray  0. true 0.0 39.97606
+37.98459 11.8077 .5 Frame  gsave gsave 1. setgray currentrgbcolor grestore
+gsave 1.0 0.220 0.224 setrgbcolor currentrgbcolor grestore 1000 1.
+135. tx@GradientDict begin GradientFill end grestore end
+ 
+@endspecial
+@beginspecial @setspecial
+ tx@Dict begin STP newpath 0.8 SLW 0. setgray  0. true 41.54118 70.70508
+44.81297 -199.1692 .5 Frame  gsave gsave 0.110 0.110 0.110 setrgbcolor
+currentrgbcolor grestore gsave 1. setgray currentrgbcolor grestore
+1000 1. 0. tx@GradientDict begin GradientFill end grestore end
+ 
+@endspecial @beginspecial
+@setspecial
+ tx@Dict begin STP newpath 0.8 SLW 0. setgray  0. true 22.3355 14.51074
+369.88567 11.23895 .5 Frame  gsave gsave 0.110 0.110 0.110 setrgbcolor
+currentrgbcolor grestore gsave 1. setgray currentrgbcolor grestore
+1000 1. 90. tx@GradientDict begin GradientFill end grestore end
+ 
+@endspecial 5001 3450 a
+SDict begin /product where{pop product(Distiller)search{pop pop pop
+version(.)search{exch pop exch pop(3011)eq{gsave newpath 0 0 moveto
+closepath clip/Courier findfont 10 scalefont setfont 72 72 moveto(.)show
+grestore}if}{pop}ifelse}{pop}ifelse}if end
+ 5001 3450 a 5001
+3450 a
+SDict begin H.S end
+ 5001 3450 a 5001 3450 a
+SDict begin H.R end
+ 5001 3450 a 5001 3450
+a
+SDict begin [ /View [/XYZ H.V] /Dest (page.7) cvn H.B /DEST pdfmark
+end
+ 5001 3450 a 5001 3450 a
+SDict begin [ {ThisPage}<</Trans << /S /R >> >> /PUT pdfmark end
+ 5001 3450 a 5001 3450 a
+SDict begin [ /Page 7/View [ /XYZ null null null ] /Title (Free variable occurrences)
+/OUT pdfmark end
+ 5001
+3450 a 5932 1216 a
+ 0.2 0.2 0.6 setrgbcolor
+ 5932 1216 a 312 x Fn(Free)119 b(v)-9
+b(ariab)l(le)5932 1894 y(occurrences)8480 1894 y
+ 0 setgray
+ 8480
+1894 a 5218 2274 a
+ 0. setgray
+ 5218 2274 a 182 x Fm(Another)68 b(de\002nition)g(w)n
+(e)g(need)h(to)f(address)g(the)h(issue)5218 2741 y(of)f(v)-6
+b(ar)t(iab)h(le)68 b(capture:)5218 3310 y Fh(De\002nition.)86
+b Fm(An)69 b(occurrence)e(of)i(a)g(v)-6 b(ar)t(iab)h(le)68
+b Fj(x)g Fm(in)h(a)5218 3594 y(f)-7 b(or)6 b(m)n(ula)66
+b Fj(A)j Fm(is)g(said)g(to)g(be)f Fh(free)h Fm(if)g(it)g(is)g(neither)f
+(par)10 b(t)68 b(of)5218 3879 y(a)g(quanti\002er)g(\()p
+Fl(8)p Fj(x)g Fm(or)h Fl(9)p Fj(x)p Fm(\))f(nor)g(in)h(the)f(scope)h
+(of)g(a)5218 4163 y(quanti\002er)e(f)-7 b(or)68 b Fj(x)p
+Fm(.)5218 4732 y Fh(Example)5 b(.)85 b Fm(The)70 b(left)e
+Fj(x)h Fm(is)g(free)f(in)h(the)g(f)-7 b(or)6 b(m)n(ula)67
+b(belo)l(w)-15 b(,)5218 5017 y(while)68 b(the)h(other)f(tw)n(o)g(are)g
+(not.)7154 5487 y Fj(p)p Fi(\()p Fj(x)p Fi(\))56 b Fl(^)f(8)p
+Fj(x:p)p Fi(\()p Fj(x)p Fi(\))5218 6527 y Fh(De\002nition.)86
+b Fm(The)69 b(set)g Fg(FV)46 b Fi(\()p Fj(A)p Fi(\))70
+b Fm(of)e Fh(free)h(v)-5 b(ariab)n(les)69 b Fm(of)f(a)5218
+6813 y(f)-7 b(or)6 b(m)n(ula)66 b Fj(A)j Fm(is)g(de\002ned)f(as)h(the)g
+(set)f(of)h(all)g(v)-6 b(ar)t(iab)h(les)5218 7097 y(that)68
+b(occur)g(freely)g(in)h Fj(A)p Fm(.)5218 7382 y
+ 0 setgray
+ 5218
+7382 a 10245 5222 a
+ 0 setgray
+ 10245 5222 a 10448 5736 a
+ 0.2 0.2 0.6 setrgbcolor
+ 10448 5736
+a 20 w Fo(\226)19 b(p)n(.)g(7/24)10739 5736 y
+ 0 setgray
+ 10739 5736
+a 4500 6000 a
+ tx@Dict begin -90 Rot  end
+ 4500 6000 a eop end
+PStoPSsaved restore
+userdict/PStoPSsaved save put
+PStoPSmatrix setmatrix
+297.500000 425.268705 translate
+90 rotate
+0.305819 dup scale
+userdict/PStoPSmatrix matrix currentmatrix put
+userdict/PStoPSclip{0 0 moveto
+ 595.000000 0 rlineto 0 842.000000 rlineto -595.000000 0 rlineto
+ closepath}put initclip
+gsave clippath 0 setgray 1.000000 setlinewidth stroke grestore
+/showpage{}def/copypage{}def/erasepage{}def
+PStoPSxform concat
+TeXDict begin 7 13 bop 0 0 a
+SDict begin /product where{pop product(Distiller)search{pop pop pop
+version(.)search{exch pop exch pop(3011)eq{gsave newpath 0 0 moveto
+closepath clip/Courier findfont 10 scalefont setfont 72 72 moveto(.)show
+grestore}if}{pop}ifelse}{pop}ifelse}if end
+ 0 0 a 0 0 a
+SDict begin H.S end
+ 0 0 a 0 0 a
+SDict begin H.R end
+
+0 0 a 0 0 a
+SDict begin [ /View [/XYZ H.V] /Dest (page.7) cvn H.B /DEST pdfmark
+end
+ 0 0 a 0 0 a
+SDict begin [ {ThisPage}<</Trans << /S /R >> >> /PUT pdfmark end
+ 0 0 a eop end
+PStoPSsaved restore
+userdict/PStoPSsaved save put
+PStoPSmatrix setmatrix
+555.000000 615.768705 translate
+90 rotate
+0.305819 dup scale
+userdict/PStoPSmatrix matrix currentmatrix put
+userdict/PStoPSclip{0 0 moveto
+ 595.000000 0 rlineto 0 842.000000 rlineto -595.000000 0 rlineto
+ closepath}put initclip
+gsave clippath 0 setgray 1.000000 setlinewidth stroke grestore
+/showpage{}def/copypage{}def/erasepage{}def
+PStoPSxform concat
+TeXDict begin 8 14 bop 4500 6000 a
+ tx@Dict begin 90 Rot  end
+ 4500 6000 a 4266 2282
+a @beginspecial @setspecial
+ tx@Dict begin STP newpath 0.8 SLW 0. setgray  0. true 19.49005 63.59189
+67.85963 33.71643 .5 Frame  gsave gsave 1.0 0.812 0.004 setrgbcolor
+currentrgbcolor grestore gsave 1. setgray currentrgbcolor grestore
+1000 1. 90. tx@GradientDict begin GradientFill end grestore end
+ 
+@endspecial @beginspecial
+@setspecial
+ tx@Dict begin STP newpath 0.8 SLW 0. setgray  0. true 27.88356 35.28156
+76.96472 3.27222 .5 Frame  gsave gsave 0.2 0.2 0.8 setrgbcolor currentrgbcolor
+grestore gsave 1. setgray currentrgbcolor grestore 1000 1. 90. tx@GradientDict
+begin GradientFill end grestore end
+ 
+@endspecial @beginspecial @setspecial
+ tx@Dict begin STP newpath 0.8 SLW 0. setgray  0. true 0.0 39.97606
+37.98459 11.8077 .5 Frame  gsave gsave 1. setgray currentrgbcolor grestore
+gsave 1.0 0.220 0.224 setrgbcolor currentrgbcolor grestore 1000 1.
+135. tx@GradientDict begin GradientFill end grestore end
+ 
+@endspecial
+@beginspecial @setspecial
+ tx@Dict begin STP newpath 0.8 SLW 0. setgray  0. true 41.54118 70.70508
+44.81297 -199.1692 .5 Frame  gsave gsave 0.110 0.110 0.110 setrgbcolor
+currentrgbcolor grestore gsave 1. setgray currentrgbcolor grestore
+1000 1. 0. tx@GradientDict begin GradientFill end grestore end
+ 
+@endspecial @beginspecial
+@setspecial
+ tx@Dict begin STP newpath 0.8 SLW 0. setgray  0. true 22.3355 14.51074
+369.88567 11.23895 .5 Frame  gsave gsave 0.110 0.110 0.110 setrgbcolor
+currentrgbcolor grestore gsave 1. setgray currentrgbcolor grestore
+1000 1. 90. tx@GradientDict begin GradientFill end grestore end
+ 
+@endspecial 5001 3450 a
+SDict begin /product where{pop product(Distiller)search{pop pop pop
+version(.)search{exch pop exch pop(3011)eq{gsave newpath 0 0 moveto
+closepath clip/Courier findfont 10 scalefont setfont 72 72 moveto(.)show
+grestore}if}{pop}ifelse}{pop}ifelse}if end
+ 5001 3450 a 5001
+3450 a
+SDict begin H.S end
+ 5001 3450 a 5001 3450 a
+SDict begin H.R end
+ 5001 3450 a 5001 3450
+a
+SDict begin [ /View [/XYZ H.V] /Dest (page.8) cvn H.B /DEST pdfmark
+end
+ 5001 3450 a 5001 3450 a
+SDict begin [ {ThisPage}<</Trans << /S /R >> >> /PUT pdfmark end
+ 5001 3450 a 5001 3450 a
+SDict begin [ /Page 8/View [ /XYZ null null null ] /Title (Avoiding variable capture)
+/OUT pdfmark end
+ 5001
+3450 a 5932 1071 a
+ 0.2 0.2 0.6 setrgbcolor
+ 5932 1071 a 312 x Fn(A)-17 b(v)k(oiding)118
+b(v)-9 b(ariab)l(le)5932 1811 y(capture)7480 1811 y
+ 0 setgray
+ 7480
+1811 a 5218 2274 a
+ 0. setgray
+ 5218 2274 a 182 x Fm(Ne)i(xt,)68 b(w)n(e)g(de\002ne)
+g(the)h(notion)f(w)n(e)h(shall)f(use)h(to)g(a)-5 b(v)f(oid)5218
+2741 y(v)g(ar)t(iab)h(le)67 b(capture:)5218 3310 y Fh(De\002nition.)86
+b Fm(Giv)-6 b(en)68 b(a)h(ter)6 b(m)68 b Fj(t)p Fm(,)h(a)g(v)-6
+b(ar)t(iab)h(le)67 b Fj(x)i Fm(and)f(a)5218 3594 y(f)-7
+b(or)6 b(m)n(ula)66 b Fj(A)p Fm(,)j(w)n(e)g(sa)-7 b(y)68
+b(that)g Fj(t)h Fm(is)g Fh(free)g(f)-5 b(or)69 b Fj(x)g
+Fh(in)g Fj(A)g Fm(if)g Fj(A)5218 3879 y Fm(has)f(no)h(free)f
+(occurrence)f(of)i Fj(x)g Fm(in)g(the)f(scope)h(of)f(a)5218
+4163 y(quanti\002er)f Fl(8)p Fj(y)78 b Fm(or)69 b Fl(9)p
+Fj(y)78 b Fm(f)-7 b(or)67 b(an)l(y)i(v)-6 b(ar)t(iab)h(le)68
+b Fj(y)78 b Fm(occurr)t(ing)67 b(in)5218 4448 y Fj(t)p
+Fm(.)84 b(\(In)69 b(other)f(w)n(ords)l(,)g(if)h(no)f(v)-6
+b(ar)t(iab)h(le)68 b(capture)g(happens)5218 4732 y(dur)t(ing)f(the)i
+(substitution)f Fj(A)p Fi([)p Fj(t=x)p Fi(])p Fm(.\))5218
+5017 y
+ 0 setgray
+ 5218 5017 a 10245 5222 a
+ 0 setgray
+ 10245 5222 a 10448 5736
+a
+ 0.2 0.2 0.6 setrgbcolor
+ 10448 5736 a 20 w Fo(\226)19 b(p)n(.)g(8/24)10739 5736
+y
+ 0 setgray
+ 10739 5736 a 4500 6000 a
+ tx@Dict begin -90 Rot  end
+ 4500 6000 a eop end
+PStoPSsaved restore
+userdict/PStoPSsaved save put
+PStoPSmatrix setmatrix
+297.500000 615.768705 translate
+90 rotate
+0.305819 dup scale
+userdict/PStoPSmatrix matrix currentmatrix put
+userdict/PStoPSclip{0 0 moveto
+ 595.000000 0 rlineto 0 842.000000 rlineto -595.000000 0 rlineto
+ closepath}put initclip
+gsave clippath 0 setgray 1.000000 setlinewidth stroke grestore
+PStoPSxform concat
+TeXDict begin 8 15 bop 0 0 a
+SDict begin /product where{pop product(Distiller)search{pop pop pop
+version(.)search{exch pop exch pop(3011)eq{gsave newpath 0 0 moveto
+closepath clip/Courier findfont 10 scalefont setfont 72 72 moveto(.)show
+grestore}if}{pop}ifelse}{pop}ifelse}if end
+ 0 0 a 0 0 a
+SDict begin H.S end
+ 0 0 a 0 0 a
+SDict begin H.R end
+
+0 0 a 0 0 a
+SDict begin [ /View [/XYZ H.V] /Dest (page.8) cvn H.B /DEST pdfmark
+end
+ 0 0 a 0 0 a
+SDict begin [ {ThisPage}<</Trans << /S /R >> >> /PUT pdfmark end
+ 0 0 a eop end
+PStoPSsaved restore
+%%Page: (16,17,18,19,20,21,22,23) 3
+userdict/PStoPSsaved save put
+PStoPSmatrix setmatrix
+555.000000 44.268705 translate
+90 rotate
+0.305819 dup scale
+userdict/PStoPSmatrix matrix currentmatrix put
+userdict/PStoPSclip{0 0 moveto
+ 595.000000 0 rlineto 0 842.000000 rlineto -595.000000 0 rlineto
+ closepath}put initclip
+gsave clippath 0 setgray 1.000000 setlinewidth stroke grestore
+/showpage{}def/copypage{}def/erasepage{}def
+PStoPSxform concat
+TeXDict begin 9 16 bop 4500 6000 a
+ tx@Dict begin 90 Rot  end
+ 4500 6000 a 4266 2282
+a @beginspecial @setspecial
+ tx@Dict begin STP newpath 0.8 SLW 0. setgray  0. true 19.49005 63.59189
+67.85963 33.71643 .5 Frame  gsave gsave 1.0 0.812 0.004 setrgbcolor
+currentrgbcolor grestore gsave 1. setgray currentrgbcolor grestore
+1000 1. 90. tx@GradientDict begin GradientFill end grestore end
+ 
+@endspecial @beginspecial
+@setspecial
+ tx@Dict begin STP newpath 0.8 SLW 0. setgray  0. true 27.88356 35.28156
+76.96472 3.27222 .5 Frame  gsave gsave 0.2 0.2 0.8 setrgbcolor currentrgbcolor
+grestore gsave 1. setgray currentrgbcolor grestore 1000 1. 90. tx@GradientDict
+begin GradientFill end grestore end
+ 
+@endspecial @beginspecial @setspecial
+ tx@Dict begin STP newpath 0.8 SLW 0. setgray  0. true 0.0 39.97606
+37.98459 11.8077 .5 Frame  gsave gsave 1. setgray currentrgbcolor grestore
+gsave 1.0 0.220 0.224 setrgbcolor currentrgbcolor grestore 1000 1.
+135. tx@GradientDict begin GradientFill end grestore end
+ 
+@endspecial
+@beginspecial @setspecial
+ tx@Dict begin STP newpath 0.8 SLW 0. setgray  0. true 41.54118 70.70508
+44.81297 -199.1692 .5 Frame  gsave gsave 0.110 0.110 0.110 setrgbcolor
+currentrgbcolor grestore gsave 1. setgray currentrgbcolor grestore
+1000 1. 0. tx@GradientDict begin GradientFill end grestore end
+ 
+@endspecial @beginspecial
+@setspecial
+ tx@Dict begin STP newpath 0.8 SLW 0. setgray  0. true 22.3355 14.51074
+369.88567 11.23895 .5 Frame  gsave gsave 0.110 0.110 0.110 setrgbcolor
+currentrgbcolor grestore gsave 1. setgray currentrgbcolor grestore
+1000 1. 90. tx@GradientDict begin GradientFill end grestore end
+ 
+@endspecial 5001 3450 a
+SDict begin /product where{pop product(Distiller)search{pop pop pop
+version(.)search{exch pop exch pop(3011)eq{gsave newpath 0 0 moveto
+closepath clip/Courier findfont 10 scalefont setfont 72 72 moveto(.)show
+grestore}if}{pop}ifelse}{pop}ifelse}if end
+ 5001 3450 a 5001
+3450 a
+SDict begin H.S end
+ 5001 3450 a 5001 3450 a
+SDict begin H.R end
+ 5001 3450 a 5001 3450
+a
+SDict begin [ /View [/XYZ H.V] /Dest (page.9) cvn H.B /DEST pdfmark
+end
+ 5001 3450 a 5001 3450 a
+SDict begin [ {ThisPage}<</Trans << /S /R >> >> /PUT pdfmark end
+ 5001 3450 a 5001 3450 a
+SDict begin [ /Page 9/View [ /XYZ null null null ] /Title ($\forall $-elimination, final version)
+/OUT pdfmark end
+ 5001
+3450 a 5932 1155 a
+ 0.2 0.2 0.6 setrgbcolor
+ 5932 1155 a 313 x Fk(8)p Fn(-elimination,)118
+b(\002nal)5932 1894 y(ver)-6 b(sion)7450 1894 y
+ 0 setgray
+ 7450
+1894 a 5218 2274 a
+ 0. setgray
+ 5218 2274 a 177 x Fm(In)68 b(the)h(style)g(without)f
+(assumptions:)6317 2903 y Fl(8)p Fj(x:A)p 6248 2992 664
+8 v 6986 3051 a Fl(8)p Fj(e)244 b Fm(if)69 b Fj(t)g Fm(is)g(free)f(f)-7
+b(or)68 b Fj(x)h Fm(in)f Fj(A)6248 3198 y(A)p Fi([)p
+Fj(t=x)p Fi(])5218 3665 y Fm(In)g(the)h(style)g(with)f(assumptions:)
+6097 4117 y Fi(\000)g Fl(`)h(8)p Fj(x:A)p 6027 4207 1105
+8 v 7207 4265 a Fl(8)p Fj(e)244 b Fm(if)69 b Fj(t)f Fm(is)h(free)f(f)-7
+b(or)68 b Fj(x)h Fm(in)g Fj(A)6027 4413 y Fi(\000)g Fl(`)f
+Fj(A)p Fi([)p Fj(t=x)p Fi(])5218 4661 y
+ 0 setgray
+ 5218 4661 a 10245
+5222 a
+ 0 setgray
+ 10245 5222 a 10448 5736 a
+ 0.2 0.2 0.6 setrgbcolor
+ 10448 5736 a 20 w Fo(\226)19
+b(p)n(.)g(9/24)10739 5736 y
+ 0 setgray
+ 10739 5736 a 4500 6000 a
+ tx@Dict begin -90 Rot  end
+
+4500 6000 a eop end
+PStoPSsaved restore
+userdict/PStoPSsaved save put
+PStoPSmatrix setmatrix
+297.500000 44.268705 translate
+90 rotate
+0.305819 dup scale
+userdict/PStoPSmatrix matrix currentmatrix put
+userdict/PStoPSclip{0 0 moveto
+ 595.000000 0 rlineto 0 842.000000 rlineto -595.000000 0 rlineto
+ closepath}put initclip
+gsave clippath 0 setgray 1.000000 setlinewidth stroke grestore
+/showpage{}def/copypage{}def/erasepage{}def
+PStoPSxform concat
+TeXDict begin 9 17 bop 0 0 a
+SDict begin /product where{pop product(Distiller)search{pop pop pop
+version(.)search{exch pop exch pop(3011)eq{gsave newpath 0 0 moveto
+closepath clip/Courier findfont 10 scalefont setfont 72 72 moveto(.)show
+grestore}if}{pop}ifelse}{pop}ifelse}if end
+ 0 0 a 0 0 a
+SDict begin H.S end
+ 0 0 a 0 0 a
+SDict begin H.R end
+
+0 0 a 0 0 a
+SDict begin [ /View [/XYZ H.V] /Dest (page.9) cvn H.B /DEST pdfmark
+end
+ 0 0 a 0 0 a
+SDict begin [ {ThisPage}<</Trans << /S /R >> >> /PUT pdfmark end
+ 0 0 a eop end
+PStoPSsaved restore
+userdict/PStoPSsaved save put
+PStoPSmatrix setmatrix
+555.000000 234.768705 translate
+90 rotate
+0.305819 dup scale
+userdict/PStoPSmatrix matrix currentmatrix put
+userdict/PStoPSclip{0 0 moveto
+ 595.000000 0 rlineto 0 842.000000 rlineto -595.000000 0 rlineto
+ closepath}put initclip
+gsave clippath 0 setgray 1.000000 setlinewidth stroke grestore
+/showpage{}def/copypage{}def/erasepage{}def
+PStoPSxform concat
+TeXDict begin 10 18 bop 4500 6000 a
+ tx@Dict begin 90 Rot  end
+ 4500 6000 a 4266
+2282 a @beginspecial @setspecial
+ tx@Dict begin STP newpath 0.8 SLW 0. setgray  0. true 19.49005 63.59189
+67.85963 33.71643 .5 Frame  gsave gsave 1.0 0.812 0.004 setrgbcolor
+currentrgbcolor grestore gsave 1. setgray currentrgbcolor grestore
+1000 1. 90. tx@GradientDict begin GradientFill end grestore end
+ 
+@endspecial @beginspecial
+@setspecial
+ tx@Dict begin STP newpath 0.8 SLW 0. setgray  0. true 27.88356 35.28156
+76.96472 3.27222 .5 Frame  gsave gsave 0.2 0.2 0.8 setrgbcolor currentrgbcolor
+grestore gsave 1. setgray currentrgbcolor grestore 1000 1. 90. tx@GradientDict
+begin GradientFill end grestore end
+ 
+@endspecial @beginspecial @setspecial
+ tx@Dict begin STP newpath 0.8 SLW 0. setgray  0. true 0.0 39.97606
+37.98459 11.8077 .5 Frame  gsave gsave 1. setgray currentrgbcolor grestore
+gsave 1.0 0.220 0.224 setrgbcolor currentrgbcolor grestore 1000 1.
+135. tx@GradientDict begin GradientFill end grestore end
+ 
+@endspecial
+@beginspecial @setspecial
+ tx@Dict begin STP newpath 0.8 SLW 0. setgray  0. true 41.54118 70.70508
+44.81297 -199.1692 .5 Frame  gsave gsave 0.110 0.110 0.110 setrgbcolor
+currentrgbcolor grestore gsave 1. setgray currentrgbcolor grestore
+1000 1. 0. tx@GradientDict begin GradientFill end grestore end
+ 
+@endspecial @beginspecial
+@setspecial
+ tx@Dict begin STP newpath 0.8 SLW 0. setgray  0. true 22.3355 14.51074
+369.88567 11.23895 .5 Frame  gsave gsave 0.110 0.110 0.110 setrgbcolor
+currentrgbcolor grestore gsave 1. setgray currentrgbcolor grestore
+1000 1. 90. tx@GradientDict begin GradientFill end grestore end
+ 
+@endspecial 5001 3450 a
+SDict begin /product where{pop product(Distiller)search{pop pop pop
+version(.)search{exch pop exch pop(3011)eq{gsave newpath 0 0 moveto
+closepath clip/Courier findfont 10 scalefont setfont 72 72 moveto(.)show
+grestore}if}{pop}ifelse}{pop}ifelse}if end
+ 5001 3450 a 5001
+3450 a
+SDict begin H.S end
+ 5001 3450 a 5001 3450 a
+SDict begin H.R end
+ 5001 3450 a 5001 3450
+a
+SDict begin [ /View [/XYZ H.V] /Dest (page.10) cvn H.B /DEST pdfmark
+end
+ 5001 3450 a 5001 3450 a
+SDict begin [ {ThisPage}<</Trans << /S /R >> >> /PUT pdfmark end
+ 5001 3450 a 5001 3450 a
+SDict begin [ /Page 10/View [ /XYZ null null null ] /Title ($\forall $-introduction)
+/OUT pdfmark end
+ 5001
+3450 a 5932 1581 a
+ 0.2 0.2 0.6 setrgbcolor
+ 5932 1581 a 313 x Fk(8)p Fn(-intr)-9
+b(oduction)8805 1894 y
+ 0 setgray
+ 8805 1894 a 5218 2274 a
+ 0. setgray
+ 5218 2274
+a 182 x Fm(In)68 b(the)h(style)g(with)f(assumptions)l(,)g(the)h(r)t
+(ule)f(f)-7 b(or)5218 2741 y Fl(8)p Fm(-introduction)66
+b(is)6617 3144 y Fi(\000)j Fl(`)f Fj(A)p 6445 3233 967
+8 v 7486 3292 a Fl(8)p Fj(i)244 b Fm(if)69 b Fj(x)g Fl(62)g
+Fg(FV)46 b Fi(\(\000\))p Fm(.)6445 3439 y Fi(\000)69
+b Fl(`)f(8)p Fj(x:A)5218 3844 y Fm(Intuitiv)-6 b(ely)-25
+b(,)6514 4306 y Fj(A)69 b Fm(holds)g(of)f(an)h(arbitr)n(ar)7
+b(y)67 b Fj(x)p 6514 4396 2654 8 v 9242 4454 a(:)6982
+4602 y(A)i Fm(holds)g(f)-7 b(or)67 b(all)i Fj(x)5218
+5015 y Fm(F)-11 b(rom)68 b(a)h(syntactic)f(point)g(of)h(vie)-5
+b(w)-15 b(,)69 b(\223arbitr)n(ar)7 b(y\224)66 b(means)5218
+5299 y(that)i Fj(x)h Fm(is)g(not)f(used)h(in)g(the)f(assumptions)l(.)
+5218 5352 y
+ 0 setgray
+ 5218 5352 a 10245 5222 a
+ 0 setgray
+ 10245 5222 a 10409
+5736 a
+ 0.2 0.2 0.6 setrgbcolor
+ 10409 5736 a 20 w Fo(\226)19 b(p)n(.)g(10/24)10739
+5736 y
+ 0 setgray
+ 10739 5736 a 4500 6000 a
+ tx@Dict begin -90 Rot  end
+ 4500 6000 a eop end
+PStoPSsaved restore
+userdict/PStoPSsaved save put
+PStoPSmatrix setmatrix
+297.500000 234.768705 translate
+90 rotate
+0.305819 dup scale
+userdict/PStoPSmatrix matrix currentmatrix put
+userdict/PStoPSclip{0 0 moveto
+ 595.000000 0 rlineto 0 842.000000 rlineto -595.000000 0 rlineto
+ closepath}put initclip
+gsave clippath 0 setgray 1.000000 setlinewidth stroke grestore
+/showpage{}def/copypage{}def/erasepage{}def
+PStoPSxform concat
+TeXDict begin 10 19 bop 0 0 a
+SDict begin /product where{pop product(Distiller)search{pop pop pop
+version(.)search{exch pop exch pop(3011)eq{gsave newpath 0 0 moveto
+closepath clip/Courier findfont 10 scalefont setfont 72 72 moveto(.)show
+grestore}if}{pop}ifelse}{pop}ifelse}if end
+ 0 0 a 0 0 a
+SDict begin H.S end
+ 0 0 a 0 0 a
+SDict begin H.R end
+
+0 0 a 0 0 a
+SDict begin [ /View [/XYZ H.V] /Dest (page.10) cvn H.B /DEST pdfmark
+end
+ 0 0 a 0 0 a
+SDict begin [ {ThisPage}<</Trans << /S /R >> >> /PUT pdfmark end
+ 0 0 a eop end
+PStoPSsaved restore
+userdict/PStoPSsaved save put
+PStoPSmatrix setmatrix
+555.000000 425.268705 translate
+90 rotate
+0.305819 dup scale
+userdict/PStoPSmatrix matrix currentmatrix put
+userdict/PStoPSclip{0 0 moveto
+ 595.000000 0 rlineto 0 842.000000 rlineto -595.000000 0 rlineto
+ closepath}put initclip
+gsave clippath 0 setgray 1.000000 setlinewidth stroke grestore
+/showpage{}def/copypage{}def/erasepage{}def
+PStoPSxform concat
+TeXDict begin 11 20 bop 4500 6000 a
+ tx@Dict begin 90 Rot  end
+ 4500 6000 a 4266
+2282 a @beginspecial @setspecial
+ tx@Dict begin STP newpath 0.8 SLW 0. setgray  0. true 19.49005 63.59189
+67.85963 33.71643 .5 Frame  gsave gsave 1.0 0.812 0.004 setrgbcolor
+currentrgbcolor grestore gsave 1. setgray currentrgbcolor grestore
+1000 1. 90. tx@GradientDict begin GradientFill end grestore end
+ 
+@endspecial @beginspecial
+@setspecial
+ tx@Dict begin STP newpath 0.8 SLW 0. setgray  0. true 27.88356 35.28156
+76.96472 3.27222 .5 Frame  gsave gsave 0.2 0.2 0.8 setrgbcolor currentrgbcolor
+grestore gsave 1. setgray currentrgbcolor grestore 1000 1. 90. tx@GradientDict
+begin GradientFill end grestore end
+ 
+@endspecial @beginspecial @setspecial
+ tx@Dict begin STP newpath 0.8 SLW 0. setgray  0. true 0.0 39.97606
+37.98459 11.8077 .5 Frame  gsave gsave 1. setgray currentrgbcolor grestore
+gsave 1.0 0.220 0.224 setrgbcolor currentrgbcolor grestore 1000 1.
+135. tx@GradientDict begin GradientFill end grestore end
+ 
+@endspecial
+@beginspecial @setspecial
+ tx@Dict begin STP newpath 0.8 SLW 0. setgray  0. true 41.54118 70.70508
+44.81297 -199.1692 .5 Frame  gsave gsave 0.110 0.110 0.110 setrgbcolor
+currentrgbcolor grestore gsave 1. setgray currentrgbcolor grestore
+1000 1. 0. tx@GradientDict begin GradientFill end grestore end
+ 
+@endspecial @beginspecial
+@setspecial
+ tx@Dict begin STP newpath 0.8 SLW 0. setgray  0. true 22.3355 14.51074
+369.88567 11.23895 .5 Frame  gsave gsave 0.110 0.110 0.110 setrgbcolor
+currentrgbcolor grestore gsave 1. setgray currentrgbcolor grestore
+1000 1. 90. tx@GradientDict begin GradientFill end grestore end
+ 
+@endspecial 5001 3450 a
+SDict begin /product where{pop product(Distiller)search{pop pop pop
+version(.)search{exch pop exch pop(3011)eq{gsave newpath 0 0 moveto
+closepath clip/Courier findfont 10 scalefont setfont 72 72 moveto(.)show
+grestore}if}{pop}ifelse}{pop}ifelse}if end
+ 5001 3450 a 5001
+3450 a
+SDict begin H.S end
+ 5001 3450 a 5001 3450 a
+SDict begin H.R end
+ 5001 3450 a 5001 3450
+a
+SDict begin [ /View [/XYZ H.V] /Dest (page.11) cvn H.B /DEST pdfmark
+end
+ 5001 3450 a 5001 3450 a
+SDict begin [ {ThisPage}<</Trans << /S /R >> >> /PUT pdfmark end
+ 5001 3450 a 5001 3450 a
+SDict begin [ /Page 11/View [ /XYZ null null null ] /Title ($\forall $-introduction)
+/OUT pdfmark end
+ 5001
+3450 a 5932 1581 a
+ 0.2 0.2 0.6 setrgbcolor
+ 5932 1581 a 313 x Fk(8)p Fn(-intr)-9
+b(oduction)8805 1894 y
+ 0 setgray
+ 8805 1894 a 5218 2274 a
+ 0. setgray
+ 5218 2274
+a 182 x Fm(The)69 b(r)t(ule)f(f)-7 b(or)67 b Fl(8)p Fm(-introduction)g
+(in)i(the)g(style)f(without)5218 2741 y(assumptions)f(is)5763
+3190 y Fj(A)p 5591 3280 526 8 v 6191 3338 a Fl(8)p Fj(i)6656
+3226 y Fm(if)96 b(no)f Fh(undisc)n(har)l(g)r(ed)k Fm(assumption)6656
+3506 y(of)69 b Fj(A)g Fm(has)g(a)f(free)h(occurrence)e(of)i
+Fj(x)p Fm(.)5591 3486 y Fl(8)p Fj(x:A)5218 3672 y
+ 0 setgray
+ 5218
+3672 a 10245 5222 a
+ 0 setgray
+ 10245 5222 a 10409 5736 a
+ 0.2 0.2 0.6 setrgbcolor
+ 10409 5736
+a 20 w Fo(\226)19 b(p)n(.)g(11/24)10739 5736 y
+ 0 setgray
+ 10739
+5736 a 4500 6000 a
+ tx@Dict begin -90 Rot  end
+ 4500 6000 a eop end
+PStoPSsaved restore
+userdict/PStoPSsaved save put
+PStoPSmatrix setmatrix
+297.500000 425.268705 translate
+90 rotate
+0.305819 dup scale
+userdict/PStoPSmatrix matrix currentmatrix put
+userdict/PStoPSclip{0 0 moveto
+ 595.000000 0 rlineto 0 842.000000 rlineto -595.000000 0 rlineto
+ closepath}put initclip
+gsave clippath 0 setgray 1.000000 setlinewidth stroke grestore
+/showpage{}def/copypage{}def/erasepage{}def
+PStoPSxform concat
+TeXDict begin 11 21 bop 0 0 a
+SDict begin /product where{pop product(Distiller)search{pop pop pop
+version(.)search{exch pop exch pop(3011)eq{gsave newpath 0 0 moveto
+closepath clip/Courier findfont 10 scalefont setfont 72 72 moveto(.)show
+grestore}if}{pop}ifelse}{pop}ifelse}if end
+ 0 0 a 0 0 a
+SDict begin H.S end
+ 0 0 a 0 0 a
+SDict begin H.R end
+
+0 0 a 0 0 a
+SDict begin [ /View [/XYZ H.V] /Dest (page.11) cvn H.B /DEST pdfmark
+end
+ 0 0 a 0 0 a
+SDict begin [ {ThisPage}<</Trans << /S /R >> >> /PUT pdfmark end
+ 0 0 a eop end
+PStoPSsaved restore
+userdict/PStoPSsaved save put
+PStoPSmatrix setmatrix
+555.000000 615.768705 translate
+90 rotate
+0.305819 dup scale
+userdict/PStoPSmatrix matrix currentmatrix put
+userdict/PStoPSclip{0 0 moveto
+ 595.000000 0 rlineto 0 842.000000 rlineto -595.000000 0 rlineto
+ closepath}put initclip
+gsave clippath 0 setgray 1.000000 setlinewidth stroke grestore
+/showpage{}def/copypage{}def/erasepage{}def
+PStoPSxform concat
+TeXDict begin 12 22 bop 4500 6000 a
+ tx@Dict begin 90 Rot  end
+ 4500 6000 a 4266
+2282 a @beginspecial @setspecial
+ tx@Dict begin STP newpath 0.8 SLW 0. setgray  0. true 19.49005 63.59189
+67.85963 33.71643 .5 Frame  gsave gsave 1.0 0.812 0.004 setrgbcolor
+currentrgbcolor grestore gsave 1. setgray currentrgbcolor grestore
+1000 1. 90. tx@GradientDict begin GradientFill end grestore end
+ 
+@endspecial @beginspecial
+@setspecial
+ tx@Dict begin STP newpath 0.8 SLW 0. setgray  0. true 27.88356 35.28156
+76.96472 3.27222 .5 Frame  gsave gsave 0.2 0.2 0.8 setrgbcolor currentrgbcolor
+grestore gsave 1. setgray currentrgbcolor grestore 1000 1. 90. tx@GradientDict
+begin GradientFill end grestore end
+ 
+@endspecial @beginspecial @setspecial
+ tx@Dict begin STP newpath 0.8 SLW 0. setgray  0. true 0.0 39.97606
+37.98459 11.8077 .5 Frame  gsave gsave 1. setgray currentrgbcolor grestore
+gsave 1.0 0.220 0.224 setrgbcolor currentrgbcolor grestore 1000 1.
+135. tx@GradientDict begin GradientFill end grestore end
+ 
+@endspecial
+@beginspecial @setspecial
+ tx@Dict begin STP newpath 0.8 SLW 0. setgray  0. true 41.54118 70.70508
+44.81297 -199.1692 .5 Frame  gsave gsave 0.110 0.110 0.110 setrgbcolor
+currentrgbcolor grestore gsave 1. setgray currentrgbcolor grestore
+1000 1. 0. tx@GradientDict begin GradientFill end grestore end
+ 
+@endspecial @beginspecial
+@setspecial
+ tx@Dict begin STP newpath 0.8 SLW 0. setgray  0. true 22.3355 14.51074
+369.88567 11.23895 .5 Frame  gsave gsave 0.110 0.110 0.110 setrgbcolor
+currentrgbcolor grestore gsave 1. setgray currentrgbcolor grestore
+1000 1. 90. tx@GradientDict begin GradientFill end grestore end
+ 
+@endspecial 5001 3450 a
+SDict begin /product where{pop product(Distiller)search{pop pop pop
+version(.)search{exch pop exch pop(3011)eq{gsave newpath 0 0 moveto
+closepath clip/Courier findfont 10 scalefont setfont 72 72 moveto(.)show
+grestore}if}{pop}ifelse}{pop}ifelse}if end
+ 5001 3450 a 5001
+3450 a
+SDict begin H.S end
+ 5001 3450 a 5001 3450 a
+SDict begin H.R end
+ 5001 3450 a 5001 3450
+a
+SDict begin [ /View [/XYZ H.V] /Dest (page.12) cvn H.B /DEST pdfmark
+end
+ 5001 3450 a 5001 3450 a
+SDict begin [ {ThisPage}<</Trans << /S /R >> >> /PUT pdfmark end
+ 5001 3450 a 5001 3450 a
+SDict begin [ /Page 12/View [ /XYZ null null null ] /Title (Natural deduction: example)
+/OUT pdfmark end
+ 5001
+3450 a 5932 1132 a
+ 0.2 0.2 0.6 setrgbcolor
+ 5932 1132 a 313 x Fn(Natural)119 b(deduction:)5932
+1811 y(e)-6 b(xample)7640 1811 y
+ 0 setgray
+ 7640 1811 a 5218 2274
+a
+ 0. setgray
+ 5218 2274 a 182 x Fm(Assuming)68 b(that)g Fj(x)h Fm(does)g(not)f
+(occur)h(freely)f(in)h Fj(A)p Fm(,)f(w)n(e)5218 2741
+y(ha)-5 b(v)f(e)68 b(the)g(f)-7 b(ollo)l(wing)69 b(ND)g(proof:)6086
+3210 y Fi([)p Fl(8)p Fj(x:)p Fi(\()p Fj(A)h Fl(!)f Fj(B)13
+b Fi(\)])7517 3247 y Ff(2)p 6086 3299 1527 8 v 7687 3358
+a Fl(8)p Fj(e)6467 3505 y(A)69 b Fl(!)g Fj(B)1090 b Fi([)p
+Fj(A)p Fi(])8625 3543 y Ff(1)p 6467 3595 2254 8 v 8795
+3653 a Fl(!)69 b Fj(e)7496 3801 y(B)p 7324 3890 541 8
+v 7938 3948 a Fl(8)p Fj(i)7324 4096 y Fl(8)p Fj(x:B)p
+7040 4185 1108 8 v 8222 4244 a Fl(!)g Fj(i)8622 4281
+y Ff(1)7040 4391 y Fj(A)g Fl(!)g(8)p Fj(x:B)p 6010 4481
+3168 8 v 9252 4539 a Fl(!)g Fj(i)9652 4576 y Ff(2)9747
+4539 y Fj(:)6010 4687 y Fi(\()p Fl(8)p Fj(x:)p Fi(\()p
+Fj(A)h Fl(!)f Fj(B)13 b Fi(\)\))69 b Fl(!)g Fi(\()p Fj(A)h
+Fl(!)e(8)p Fj(x:B)13 b Fi(\))5218 5159 y Fm(The)69 b(side)f(condition)h
+(f)-7 b(or)67 b(the)i Fl(8)p Fm(-elimination)e(is)i(\223)p
+Fj(x)g Fm(is)5218 5444 y(free)f(f)-7 b(or)67 b Fj(x)i
+Fm(in)g Fj(A)g Fl(!)g Fj(B)13 b Fm(\224.)85 b Fh(Ex)n(er)-5
+b(cise:)84 b Fm(sho)l(w)69 b(that)g Fj(x)f Fm(is)5218
+5728 y(free)g(f)-7 b(or)67 b Fj(x)i Fm(in)g(an)l(y)g(f)-7
+b(or)6 b(m)n(ula.)5218 5780 y
+ 0 setgray
+ 5218 5780 a 10245 5222
+a
+ 0 setgray
+ 10245 5222 a 10409 5736 a
+ 0.2 0.2 0.6 setrgbcolor
+ 10409 5736 a 20 w Fo(\226)19
+b(p)n(.)g(12/24)10739 5736 y
+ 0 setgray
+ 10739 5736 a 4500 6000 a
+ tx@Dict begin -90 Rot  end
+
+4500 6000 a eop end
+PStoPSsaved restore
+userdict/PStoPSsaved save put
+PStoPSmatrix setmatrix
+297.500000 615.768705 translate
+90 rotate
+0.305819 dup scale
+userdict/PStoPSmatrix matrix currentmatrix put
+userdict/PStoPSclip{0 0 moveto
+ 595.000000 0 rlineto 0 842.000000 rlineto -595.000000 0 rlineto
+ closepath}put initclip
+gsave clippath 0 setgray 1.000000 setlinewidth stroke grestore
+PStoPSxform concat
+TeXDict begin 12 23 bop 0 0 a
+SDict begin /product where{pop product(Distiller)search{pop pop pop
+version(.)search{exch pop exch pop(3011)eq{gsave newpath 0 0 moveto
+closepath clip/Courier findfont 10 scalefont setfont 72 72 moveto(.)show
+grestore}if}{pop}ifelse}{pop}ifelse}if end
+ 0 0 a 0 0 a
+SDict begin H.S end
+ 0 0 a 0 0 a
+SDict begin H.R end
+
+0 0 a 0 0 a
+SDict begin [ /View [/XYZ H.V] /Dest (page.12) cvn H.B /DEST pdfmark
+end
+ 0 0 a 0 0 a
+SDict begin [ {ThisPage}<</Trans << /S /R >> >> /PUT pdfmark end
+ 0 0 a eop end
+PStoPSsaved restore
+%%Page: (24,25,26,27,28,29,30,31) 4
+userdict/PStoPSsaved save put
+PStoPSmatrix setmatrix
+555.000000 44.268705 translate
+90 rotate
+0.305819 dup scale
+userdict/PStoPSmatrix matrix currentmatrix put
+userdict/PStoPSclip{0 0 moveto
+ 595.000000 0 rlineto 0 842.000000 rlineto -595.000000 0 rlineto
+ closepath}put initclip
+gsave clippath 0 setgray 1.000000 setlinewidth stroke grestore
+/showpage{}def/copypage{}def/erasepage{}def
+PStoPSxform concat
+TeXDict begin 13 24 bop 4500 6000 a
+ tx@Dict begin 90 Rot  end
+ 4500 6000 a 4266
+2282 a @beginspecial @setspecial
+ tx@Dict begin STP newpath 0.8 SLW 0. setgray  0. true 19.49005 63.59189
+67.85963 33.71643 .5 Frame  gsave gsave 1.0 0.812 0.004 setrgbcolor
+currentrgbcolor grestore gsave 1. setgray currentrgbcolor grestore
+1000 1. 90. tx@GradientDict begin GradientFill end grestore end
+ 
+@endspecial @beginspecial
+@setspecial
+ tx@Dict begin STP newpath 0.8 SLW 0. setgray  0. true 27.88356 35.28156
+76.96472 3.27222 .5 Frame  gsave gsave 0.2 0.2 0.8 setrgbcolor currentrgbcolor
+grestore gsave 1. setgray currentrgbcolor grestore 1000 1. 90. tx@GradientDict
+begin GradientFill end grestore end
+ 
+@endspecial @beginspecial @setspecial
+ tx@Dict begin STP newpath 0.8 SLW 0. setgray  0. true 0.0 39.97606
+37.98459 11.8077 .5 Frame  gsave gsave 1. setgray currentrgbcolor grestore
+gsave 1.0 0.220 0.224 setrgbcolor currentrgbcolor grestore 1000 1.
+135. tx@GradientDict begin GradientFill end grestore end
+ 
+@endspecial
+@beginspecial @setspecial
+ tx@Dict begin STP newpath 0.8 SLW 0. setgray  0. true 41.54118 70.70508
+44.81297 -199.1692 .5 Frame  gsave gsave 0.110 0.110 0.110 setrgbcolor
+currentrgbcolor grestore gsave 1. setgray currentrgbcolor grestore
+1000 1. 0. tx@GradientDict begin GradientFill end grestore end
+ 
+@endspecial @beginspecial
+@setspecial
+ tx@Dict begin STP newpath 0.8 SLW 0. setgray  0. true 22.3355 14.51074
+369.88567 11.23895 .5 Frame  gsave gsave 0.110 0.110 0.110 setrgbcolor
+currentrgbcolor grestore gsave 1. setgray currentrgbcolor grestore
+1000 1. 90. tx@GradientDict begin GradientFill end grestore end
+ 
+@endspecial 5001 3450 a
+SDict begin /product where{pop product(Distiller)search{pop pop pop
+version(.)search{exch pop exch pop(3011)eq{gsave newpath 0 0 moveto
+closepath clip/Courier findfont 10 scalefont setfont 72 72 moveto(.)show
+grestore}if}{pop}ifelse}{pop}ifelse}if end
+ 5001 3450 a 5001
+3450 a
+SDict begin H.S end
+ 5001 3450 a 5001 3450 a
+SDict begin H.R end
+ 5001 3450 a 5001 3450
+a
+SDict begin [ /View [/XYZ H.V] /Dest (page.13) cvn H.B /DEST pdfmark
+end
+ 5001 3450 a 5001 3450 a
+SDict begin [ {ThisPage}<</Trans << /S /R >> >> /PUT pdfmark end
+ 5001 3450 a 5001 3450 a
+SDict begin [ /Page 13/View [ /XYZ null null null ] /Title (Exercises)
+/OUT pdfmark end
+ 5001
+3450 a 5932 1581 a
+ 0.2 0.2 0.6 setrgbcolor
+ 5932 1581 a 313 x Fn(Ex)l(er)-9 b(cises)7919
+1894 y
+ 0 setgray
+ 7919 1894 a 5218 2274 a
+ 0. setgray
+ 5218 2274 a 182 x Fm(Sho)l(w:)5218
+2565 y
+SDict begin H.S end
+ 5218 2565 a 5218 2565 a
+SDict begin 16.5199 H.A end
+ 5218 2565 a 5218 2565
+a
+SDict begin [ /View [/XYZ H.V] /Dest (Item.3) cvn H.B /DEST pdfmark
+end
+ 5218 2565 a 5275 2845 a Fm(1.)101 b Fl(`)69 b Fi(\()p
+Fl(8)p Fj(x:)p Fi(\()p Fj(A)p Fi(\()p Fj(x)p Fi(\))57
+b Fl(^)e Fj(B)13 b Fi(\()p Fj(x)p Fi(\)\)\))71 b Fl($)5583
+3134 y Fi(\(\()p Fl(8)p Fj(x:A)p Fi(\()p Fj(x)p Fi(\)\))58
+b Fl(^)d Fi(\()p Fl(8)p Fj(x:B)13 b Fi(\()p Fj(x)p Fi(\)\)\))p
+Fm(.)5218 3300 y
+SDict begin H.S end
+ 5218 3300 a 5218 3300 a
+SDict begin 16.5199 H.A end
+ 5218 3300 a
+5218 3300 a
+SDict begin [ /View [/XYZ H.V] /Dest (Item.4) cvn H.B /DEST pdfmark
+end
+ 5218 3300 a 5275 3528 a Fm(2.)101 b Fl(`)69
+b Fi(\()p Fl(8)p Fj(x:)p Fi(\()p Fj(A)p Fi(\()p Fj(x)p
+Fi(\))i Fl(!)d Fj(B)13 b Fi(\()p Fj(x)p Fi(\)\)\))71
+b Fl(!)e Fi(\(\()p Fl(8)p Fj(x:A)p Fi(\()p Fj(x)p Fi(\)\))i
+Fl(!)5583 3818 y Fi(\()p Fl(8)p Fj(x:B)13 b Fi(\()p Fj(x)p
+Fi(\)\)\))p Fm(.)88 b(\(Which)68 b(condition)g(is)h(required)f(f)-7
+b(or)5583 4104 y(the)69 b(con)-5 b(v)f(erse?)84 b(Explain!\))5218
+4260 y
+SDict begin H.S end
+ 5218 4260 a 5218 4260 a
+SDict begin 16.5199 H.A end
+ 5218 4260 a 5218 4260
+a
+SDict begin [ /View [/XYZ H.V] /Dest (Item.5) cvn H.B /DEST pdfmark
+end
+ 5218 4260 a 5275 4492 a Fm(3.)101 b Fl(`)69 b Fj(A)g
+Fl($)g(8)p Fj(x:A)g Fm(where)f Fj(x)h Fl(62)g Fg(FV)46
+b Fi(\()p Fj(A)p Fi(\))p Fm(.)5218 4658 y
+SDict begin H.S end
+ 5218 4658 a
+5218 4658 a
+SDict begin 16.5199 H.A end
+ 5218 4658 a 5218 4658 a
+SDict begin [ /View [/XYZ H.V] /Dest (Item.6) cvn H.B /DEST pdfmark
+end
+ 5218 4658 a 5275
+4886 a Fm(4.)101 b Fl(`)69 b Fi(\()p Fl(8)p Fj(x:A)p
+Fi(\()p Fj(x)p Fi(\)\))i Fl(!)d(:8)p Fj(x:)p Fl(:)p Fj(A)p
+Fi(\()p Fj(x)p Fi(\))p Fm(.)5218 5051 y
+SDict begin H.S end
+ 5218 5051 a 5218
+5051 a
+SDict begin 16.5199 H.A end
+ 5218 5051 a 5218 5051 a
+SDict begin [ /View [/XYZ H.V] /Dest (Item.7) cvn H.B /DEST pdfmark
+end
+ 5218 5051 a 5275 5279
+a Fm(5.)101 b Fl(`)69 b Fi(\()p Fl(8)p Fj(x:)p Fl(8)p
+Fj(y)9 b(:A)p Fi(\()p Fj(x;)41 b(y)9 b Fi(\)\))72 b Fl(!)d(8)p
+Fj(x:A)p Fi(\()p Fj(x;)41 b(x)p Fi(\))p Fm(.)87 b(\(Does)68
+b(this)5583 5565 y(require)g(a)h(side)f(condition?)85
+b(Explain!\))5218 5721 y
+ 0 setgray
+ 5218 5721 a 10245 5222 a
+ 0 setgray
+ 10245
+5222 a 10409 5736 a
+ 0.2 0.2 0.6 setrgbcolor
+ 10409 5736 a 20 w Fo(\226)19 b(p)n(.)g(13/24)10739
+5736 y
+ 0 setgray
+ 10739 5736 a 4500 6000 a
+ tx@Dict begin -90 Rot  end
+ 4500 6000 a eop end
+PStoPSsaved restore
+userdict/PStoPSsaved save put
+PStoPSmatrix setmatrix
+297.500000 44.268705 translate
+90 rotate
+0.305819 dup scale
+userdict/PStoPSmatrix matrix currentmatrix put
+userdict/PStoPSclip{0 0 moveto
+ 595.000000 0 rlineto 0 842.000000 rlineto -595.000000 0 rlineto
+ closepath}put initclip
+gsave clippath 0 setgray 1.000000 setlinewidth stroke grestore
+/showpage{}def/copypage{}def/erasepage{}def
+PStoPSxform concat
+TeXDict begin 13 25 bop 0 0 a
+SDict begin /product where{pop product(Distiller)search{pop pop pop
+version(.)search{exch pop exch pop(3011)eq{gsave newpath 0 0 moveto
+closepath clip/Courier findfont 10 scalefont setfont 72 72 moveto(.)show
+grestore}if}{pop}ifelse}{pop}ifelse}if end
+ 0 0 a 0 0 a
+SDict begin H.S end
+ 0 0 a 0 0 a
+SDict begin H.R end
+
+0 0 a 0 0 a
+SDict begin [ /View [/XYZ H.V] /Dest (page.13) cvn H.B /DEST pdfmark
+end
+ 0 0 a 0 0 a
+SDict begin [ {ThisPage}<</Trans << /S /R >> >> /PUT pdfmark end
+ 0 0 a eop end
+PStoPSsaved restore
+userdict/PStoPSsaved save put
+PStoPSmatrix setmatrix
+555.000000 234.768705 translate
+90 rotate
+0.305819 dup scale
+userdict/PStoPSmatrix matrix currentmatrix put
+userdict/PStoPSclip{0 0 moveto
+ 595.000000 0 rlineto 0 842.000000 rlineto -595.000000 0 rlineto
+ closepath}put initclip
+gsave clippath 0 setgray 1.000000 setlinewidth stroke grestore
+/showpage{}def/copypage{}def/erasepage{}def
+PStoPSxform concat
+TeXDict begin 14 26 bop 4500 6000 a
+ tx@Dict begin 90 Rot  end
+ 4500 6000 a 4266
+2282 a @beginspecial @setspecial
+ tx@Dict begin STP newpath 0.8 SLW 0. setgray  0. true 19.49005 63.59189
+67.85963 33.71643 .5 Frame  gsave gsave 1.0 0.812 0.004 setrgbcolor
+currentrgbcolor grestore gsave 1. setgray currentrgbcolor grestore
+1000 1. 90. tx@GradientDict begin GradientFill end grestore end
+ 
+@endspecial @beginspecial
+@setspecial
+ tx@Dict begin STP newpath 0.8 SLW 0. setgray  0. true 27.88356 35.28156
+76.96472 3.27222 .5 Frame  gsave gsave 0.2 0.2 0.8 setrgbcolor currentrgbcolor
+grestore gsave 1. setgray currentrgbcolor grestore 1000 1. 90. tx@GradientDict
+begin GradientFill end grestore end
+ 
+@endspecial @beginspecial @setspecial
+ tx@Dict begin STP newpath 0.8 SLW 0. setgray  0. true 0.0 39.97606
+37.98459 11.8077 .5 Frame  gsave gsave 1. setgray currentrgbcolor grestore
+gsave 1.0 0.220 0.224 setrgbcolor currentrgbcolor grestore 1000 1.
+135. tx@GradientDict begin GradientFill end grestore end
+ 
+@endspecial
+@beginspecial @setspecial
+ tx@Dict begin STP newpath 0.8 SLW 0. setgray  0. true 41.54118 70.70508
+44.81297 -199.1692 .5 Frame  gsave gsave 0.110 0.110 0.110 setrgbcolor
+currentrgbcolor grestore gsave 1. setgray currentrgbcolor grestore
+1000 1. 0. tx@GradientDict begin GradientFill end grestore end
+ 
+@endspecial @beginspecial
+@setspecial
+ tx@Dict begin STP newpath 0.8 SLW 0. setgray  0. true 22.3355 14.51074
+369.88567 11.23895 .5 Frame  gsave gsave 0.110 0.110 0.110 setrgbcolor
+currentrgbcolor grestore gsave 1. setgray currentrgbcolor grestore
+1000 1. 90. tx@GradientDict begin GradientFill end grestore end
+ 
+@endspecial 5001 3450 a
+SDict begin /product where{pop product(Distiller)search{pop pop pop
+version(.)search{exch pop exch pop(3011)eq{gsave newpath 0 0 moveto
+closepath clip/Courier findfont 10 scalefont setfont 72 72 moveto(.)show
+grestore}if}{pop}ifelse}{pop}ifelse}if end
+ 5001 3450 a 5001
+3450 a
+SDict begin H.S end
+ 5001 3450 a 5001 3450 a
+SDict begin H.R end
+ 5001 3450 a 5001 3450
+a
+SDict begin [ /View [/XYZ H.V] /Dest (page.14) cvn H.B /DEST pdfmark
+end
+ 5001 3450 a 5001 3450 a
+SDict begin [ {ThisPage}<</Trans << /S /R >> >> /PUT pdfmark end
+ 5001 3450 a 5001 3450 a
+SDict begin [ /Page 14/View [ /XYZ null null null ] /Title ($\exists $-introduction)
+/OUT pdfmark end
+ 5001
+3450 a 5932 1581 a
+ 0.2 0.2 0.6 setrgbcolor
+ 5932 1581 a 313 x Fk(9)p Fn(-intr)-9
+b(oduction)8805 1894 y
+ 0 setgray
+ 8805 1894 a 5218 2274 a
+ 0. setgray
+ 5218 2274
+a 6261 2688 a Fj(A)p Fi([)p Fj(t=x)p Fi(])p 6261 2777
+664 8 v 6999 2836 a Fl(9)p Fj(i)248 b Fm(if)69 b Fj(t)f
+Fm(is)h(free)f(f)-7 b(or)68 b Fj(x)h Fm(in)g Fj(A)6330
+2983 y Fl(9)p Fj(x:A)5218 3388 y Fm(The)g(intuition)f(is)h(almost)f(tr)
+t(ivial:)5541 3805 y Fj(A)p Fi(\()p Fj(x)p Fi(\))i Fm(holds)f(f)-7
+b(or)68 b(some)g(witness)g Fj(t)h Fm(instead)f(of)h Fj(x)p
+5541 3894 4600 8 v 10215 3952 a(:)5613 4100 y Fm(there)f(e)-7
+b(xists)68 b(some)g Fj(x)h Fm(such)g(that)f Fj(A)p Fi(\()p
+Fj(x)p Fi(\))i Fm(holds)5482 4567 y @beginspecial @setspecial
+ tx@Dict begin STP newpath 0.8 SLW 0. setgray  0. true -4.26773 7.11317
+2.84544 0.28436 .5 Frame  gsave 0.2 0.2 0.8 setrgbcolor fill grestore
+end
+
+
+@endspecial 101 w(The)g(side)e(condition)h(only)f(mak)-5
+b(es)68 b(sure)h(that)f Fj(t)5583 4851 y Fm(contains)h(no)f(v)-6
+b(ar)t(iab)h(les)68 b(in)h(the)f(scope)h(of)5583 5136
+y(quanti\002ers)l(.)5218 5291 y
+ 0 setgray
+ 5218 5291 a 10245 5222
+a
+ 0 setgray
+ 10245 5222 a 10409 5736 a
+ 0.2 0.2 0.6 setrgbcolor
+ 10409 5736 a 20 w Fo(\226)19
+b(p)n(.)g(14/24)10739 5736 y
+ 0 setgray
+ 10739 5736 a 4500 6000 a
+ tx@Dict begin -90 Rot  end
+
+4500 6000 a eop end
+PStoPSsaved restore
+userdict/PStoPSsaved save put
+PStoPSmatrix setmatrix
+297.500000 234.768705 translate
+90 rotate
+0.305819 dup scale
+userdict/PStoPSmatrix matrix currentmatrix put
+userdict/PStoPSclip{0 0 moveto
+ 595.000000 0 rlineto 0 842.000000 rlineto -595.000000 0 rlineto
+ closepath}put initclip
+gsave clippath 0 setgray 1.000000 setlinewidth stroke grestore
+/showpage{}def/copypage{}def/erasepage{}def
+PStoPSxform concat
+TeXDict begin 14 27 bop 0 0 a
+SDict begin /product where{pop product(Distiller)search{pop pop pop
+version(.)search{exch pop exch pop(3011)eq{gsave newpath 0 0 moveto
+closepath clip/Courier findfont 10 scalefont setfont 72 72 moveto(.)show
+grestore}if}{pop}ifelse}{pop}ifelse}if end
+ 0 0 a 0 0 a
+SDict begin H.S end
+ 0 0 a 0 0 a
+SDict begin H.R end
+
+0 0 a 0 0 a
+SDict begin [ /View [/XYZ H.V] /Dest (page.14) cvn H.B /DEST pdfmark
+end
+ 0 0 a 0 0 a
+SDict begin [ {ThisPage}<</Trans << /S /R >> >> /PUT pdfmark end
+ 0 0 a eop end
+PStoPSsaved restore
+userdict/PStoPSsaved save put
+PStoPSmatrix setmatrix
+555.000000 425.268705 translate
+90 rotate
+0.305819 dup scale
+userdict/PStoPSmatrix matrix currentmatrix put
+userdict/PStoPSclip{0 0 moveto
+ 595.000000 0 rlineto 0 842.000000 rlineto -595.000000 0 rlineto
+ closepath}put initclip
+gsave clippath 0 setgray 1.000000 setlinewidth stroke grestore
+/showpage{}def/copypage{}def/erasepage{}def
+PStoPSxform concat
+TeXDict begin 15 28 bop 4500 6000 a
+ tx@Dict begin 90 Rot  end
+ 4500 6000 a 4266
+2282 a @beginspecial @setspecial
+ tx@Dict begin STP newpath 0.8 SLW 0. setgray  0. true 19.49005 63.59189
+67.85963 33.71643 .5 Frame  gsave gsave 1.0 0.812 0.004 setrgbcolor
+currentrgbcolor grestore gsave 1. setgray currentrgbcolor grestore
+1000 1. 90. tx@GradientDict begin GradientFill end grestore end
+ 
+@endspecial @beginspecial
+@setspecial
+ tx@Dict begin STP newpath 0.8 SLW 0. setgray  0. true 27.88356 35.28156
+76.96472 3.27222 .5 Frame  gsave gsave 0.2 0.2 0.8 setrgbcolor currentrgbcolor
+grestore gsave 1. setgray currentrgbcolor grestore 1000 1. 90. tx@GradientDict
+begin GradientFill end grestore end
+ 
+@endspecial @beginspecial @setspecial
+ tx@Dict begin STP newpath 0.8 SLW 0. setgray  0. true 0.0 39.97606
+37.98459 11.8077 .5 Frame  gsave gsave 1. setgray currentrgbcolor grestore
+gsave 1.0 0.220 0.224 setrgbcolor currentrgbcolor grestore 1000 1.
+135. tx@GradientDict begin GradientFill end grestore end
+ 
+@endspecial
+@beginspecial @setspecial
+ tx@Dict begin STP newpath 0.8 SLW 0. setgray  0. true 41.54118 70.70508
+44.81297 -199.1692 .5 Frame  gsave gsave 0.110 0.110 0.110 setrgbcolor
+currentrgbcolor grestore gsave 1. setgray currentrgbcolor grestore
+1000 1. 0. tx@GradientDict begin GradientFill end grestore end
+ 
+@endspecial @beginspecial
+@setspecial
+ tx@Dict begin STP newpath 0.8 SLW 0. setgray  0. true 22.3355 14.51074
+369.88567 11.23895 .5 Frame  gsave gsave 0.110 0.110 0.110 setrgbcolor
+currentrgbcolor grestore gsave 1. setgray currentrgbcolor grestore
+1000 1. 90. tx@GradientDict begin GradientFill end grestore end
+ 
+@endspecial 5001 3450 a
+SDict begin /product where{pop product(Distiller)search{pop pop pop
+version(.)search{exch pop exch pop(3011)eq{gsave newpath 0 0 moveto
+closepath clip/Courier findfont 10 scalefont setfont 72 72 moveto(.)show
+grestore}if}{pop}ifelse}{pop}ifelse}if end
+ 5001 3450 a 5001
+3450 a
+SDict begin H.S end
+ 5001 3450 a 5001 3450 a
+SDict begin H.R end
+ 5001 3450 a 5001 3450
+a
+SDict begin [ /View [/XYZ H.V] /Dest (page.15) cvn H.B /DEST pdfmark
+end
+ 5001 3450 a 5001 3450 a
+SDict begin [ {ThisPage}<</Trans << /S /R >> >> /PUT pdfmark end
+ 5001 3450 a 5001 3450 a
+SDict begin [ /Page 15/View [ /XYZ null null null ] /Title ($\exists $-elimination)
+/OUT pdfmark end
+ 5001
+3450 a 5932 1581 a
+ 0.2 0.2 0.6 setrgbcolor
+ 5932 1581 a 313 x Fk(9)p Fn(-elimination)8575
+1894 y
+ 0 setgray
+ 8575 1894 a 5218 2274 a
+ 0. setgray
+ 5218 2274 a 182 x Fm(In)68
+b(the)h(style)g(with)f(e)-7 b(xplicit)69 b(assumptions)l(,)e(the)i(r)t
+(ule)f(f)-7 b(or)5218 2741 y Fl(9)p Fm(-elimination)67
+b(is)5577 3144 y Fi(\000)i Fl(`)f(9)p Fj(x:A)248 b Fi(\000)p
+Fj(;)41 b(A)69 b Fl(`)g Fj(B)p 5577 3233 2143 8 v 7794
+3292 a Fl(9)p Fj(e)247 b(x)69 b Fl(62)g Fg(FV)46 b Fi(\(\000)56
+b Fl([)f(f)p Fj(B)13 b Fl(g)p Fi(\))p Fm(.)6329 3439
+y Fi(\000)69 b Fl(`)f Fj(B)5218 3844 y Fm(Intuitiv)-6
+b(ely)-25 b(,)6332 4363 y(there)68 b(is)h(an)g Fj(x)g
+Fm(such)g(that)f Fj(A)p Fi(\()p Fj(x)p Fi(\))6068 4704
+y Fm(an)h(arbitr)n(ar)7 b(y)67 b Fj(x)i Fm(s)l(.t.)g
+Fj(A)p Fi(\()p Fj(x)p Fi(\))h Fm(implies)e Fj(B)p 5982
+4840 3718 8 v 9774 4898 a(:)7412 5046 y(B)82 b Fm(holds)5218
+5459 y(T)-30 b(echnically)-25 b(,)69 b(\223arbitr)n(ar)7
+b(y\224)66 b(means)i(that)h(neither)e(the)5218 5743 y(assumptions)g
+(nor)h(the)h(conclusion)f Fj(B)82 b Fm(contain)68 b Fj(x)p
+Fm(.)5218 5796 y
+ 0 setgray
+ 5218 5796 a 10245 5222 a
+ 0 setgray
+ 10245 5222
+a 10409 5736 a
+ 0.2 0.2 0.6 setrgbcolor
+ 10409 5736 a 20 w Fo(\226)19 b(p)n(.)g(15/24)10739
+5736 y
+ 0 setgray
+ 10739 5736 a 4500 6000 a
+ tx@Dict begin -90 Rot  end
+ 4500 6000 a eop end
+PStoPSsaved restore
+userdict/PStoPSsaved save put
+PStoPSmatrix setmatrix
+297.500000 425.268705 translate
+90 rotate
+0.305819 dup scale
+userdict/PStoPSmatrix matrix currentmatrix put
+userdict/PStoPSclip{0 0 moveto
+ 595.000000 0 rlineto 0 842.000000 rlineto -595.000000 0 rlineto
+ closepath}put initclip
+gsave clippath 0 setgray 1.000000 setlinewidth stroke grestore
+/showpage{}def/copypage{}def/erasepage{}def
+PStoPSxform concat
+TeXDict begin 15 29 bop 0 0 a
+SDict begin /product where{pop product(Distiller)search{pop pop pop
+version(.)search{exch pop exch pop(3011)eq{gsave newpath 0 0 moveto
+closepath clip/Courier findfont 10 scalefont setfont 72 72 moveto(.)show
+grestore}if}{pop}ifelse}{pop}ifelse}if end
+ 0 0 a 0 0 a
+SDict begin H.S end
+ 0 0 a 0 0 a
+SDict begin H.R end
+
+0 0 a 0 0 a
+SDict begin [ /View [/XYZ H.V] /Dest (page.15) cvn H.B /DEST pdfmark
+end
+ 0 0 a 0 0 a
+SDict begin [ {ThisPage}<</Trans << /S /R >> >> /PUT pdfmark end
+ 0 0 a eop end
+PStoPSsaved restore
+userdict/PStoPSsaved save put
+PStoPSmatrix setmatrix
+555.000000 615.768705 translate
+90 rotate
+0.305819 dup scale
+userdict/PStoPSmatrix matrix currentmatrix put
+userdict/PStoPSclip{0 0 moveto
+ 595.000000 0 rlineto 0 842.000000 rlineto -595.000000 0 rlineto
+ closepath}put initclip
+gsave clippath 0 setgray 1.000000 setlinewidth stroke grestore
+/showpage{}def/copypage{}def/erasepage{}def
+PStoPSxform concat
+TeXDict begin 16 30 bop 4500 6000 a
+ tx@Dict begin 90 Rot  end
+ 4500 6000 a 4266
+2282 a @beginspecial @setspecial
+ tx@Dict begin STP newpath 0.8 SLW 0. setgray  0. true 19.49005 63.59189
+67.85963 33.71643 .5 Frame  gsave gsave 1.0 0.812 0.004 setrgbcolor
+currentrgbcolor grestore gsave 1. setgray currentrgbcolor grestore
+1000 1. 90. tx@GradientDict begin GradientFill end grestore end
+ 
+@endspecial @beginspecial
+@setspecial
+ tx@Dict begin STP newpath 0.8 SLW 0. setgray  0. true 27.88356 35.28156
+76.96472 3.27222 .5 Frame  gsave gsave 0.2 0.2 0.8 setrgbcolor currentrgbcolor
+grestore gsave 1. setgray currentrgbcolor grestore 1000 1. 90. tx@GradientDict
+begin GradientFill end grestore end
+ 
+@endspecial @beginspecial @setspecial
+ tx@Dict begin STP newpath 0.8 SLW 0. setgray  0. true 0.0 39.97606
+37.98459 11.8077 .5 Frame  gsave gsave 1. setgray currentrgbcolor grestore
+gsave 1.0 0.220 0.224 setrgbcolor currentrgbcolor grestore 1000 1.
+135. tx@GradientDict begin GradientFill end grestore end
+ 
+@endspecial
+@beginspecial @setspecial
+ tx@Dict begin STP newpath 0.8 SLW 0. setgray  0. true 41.54118 70.70508
+44.81297 -199.1692 .5 Frame  gsave gsave 0.110 0.110 0.110 setrgbcolor
+currentrgbcolor grestore gsave 1. setgray currentrgbcolor grestore
+1000 1. 0. tx@GradientDict begin GradientFill end grestore end
+ 
+@endspecial @beginspecial
+@setspecial
+ tx@Dict begin STP newpath 0.8 SLW 0. setgray  0. true 22.3355 14.51074
+369.88567 11.23895 .5 Frame  gsave gsave 0.110 0.110 0.110 setrgbcolor
+currentrgbcolor grestore gsave 1. setgray currentrgbcolor grestore
+1000 1. 90. tx@GradientDict begin GradientFill end grestore end
+ 
+@endspecial 5001 3450 a
+SDict begin /product where{pop product(Distiller)search{pop pop pop
+version(.)search{exch pop exch pop(3011)eq{gsave newpath 0 0 moveto
+closepath clip/Courier findfont 10 scalefont setfont 72 72 moveto(.)show
+grestore}if}{pop}ifelse}{pop}ifelse}if end
+ 5001 3450 a 5001
+3450 a
+SDict begin H.S end
+ 5001 3450 a 5001 3450 a
+SDict begin H.R end
+ 5001 3450 a 5001 3450
+a
+SDict begin [ /View [/XYZ H.V] /Dest (page.16) cvn H.B /DEST pdfmark
+end
+ 5001 3450 a 5001 3450 a
+SDict begin [ {ThisPage}<</Trans << /S /R >> >> /PUT pdfmark end
+ 5001 3450 a 5001 3450 a
+SDict begin [ /Page 16/View [ /XYZ null null null ] /Title ($\exists $-elimination)
+/OUT pdfmark end
+ 5001
+3450 a 5932 1581 a
+ 0.2 0.2 0.6 setrgbcolor
+ 5932 1581 a 313 x Fk(9)p Fn(-elimination)8575
+1894 y
+ 0 setgray
+ 8575 1894 a 5218 2274 a
+ 0. setgray
+ 5218 2274 a 177 x Fm(In)68
+b(the)h(style)g(without)f(e)-7 b(xplicit)68 b(assumptions)l(,)g(the)h
+(r)t(ule)5218 2735 y(f)-7 b(or)67 b Fl(9)p Fm(-elimination)h(is)5236
+3712 y Fl(9)p Fj(x:A)p Fi(\()p Fj(x)p Fi(\))6460 3152
+y([)p Fj(A)p Fi(\()p Fj(x)p Fi(\)])6747 3341 y Fl(\001)6747
+3433 y(\001)6747 3526 y(\001)6683 3712 y Fj(B)p 5236
+3801 1645 8 v 6955 3860 a Fl(9)p Fj(e)7453 3610 y Fm(if)140
+b(neither)f(the)h(undischarged)7453 3889 y(assumptions)57
+b(nor)h Fj(B)72 b Fm(ha)-5 b(v)f(e)58 b(free)7453 4166
+y(occurrences)67 b(of)i Fj(x)p Fm(.)5960 4008 y Fj(B)5218
+4657 y Fm(Note)f(the)h(similar)t(ity)e(with)i Fl(_)p
+Fj(e)p Fm(.)5218 4709 y
+ 0 setgray
+ 5218 4709 a 10245 5222 a
+ 0 setgray
+ 10245
+5222 a 10409 5736 a
+ 0.2 0.2 0.6 setrgbcolor
+ 10409 5736 a 20 w Fo(\226)19 b(p)n(.)g(16/24)10739
+5736 y
+ 0 setgray
+ 10739 5736 a 4500 6000 a
+ tx@Dict begin -90 Rot  end
+ 4500 6000 a eop end
+PStoPSsaved restore
+userdict/PStoPSsaved save put
+PStoPSmatrix setmatrix
+297.500000 615.768705 translate
+90 rotate
+0.305819 dup scale
+userdict/PStoPSmatrix matrix currentmatrix put
+userdict/PStoPSclip{0 0 moveto
+ 595.000000 0 rlineto 0 842.000000 rlineto -595.000000 0 rlineto
+ closepath}put initclip
+gsave clippath 0 setgray 1.000000 setlinewidth stroke grestore
+PStoPSxform concat
+TeXDict begin 16 31 bop 0 0 a
+SDict begin /product where{pop product(Distiller)search{pop pop pop
+version(.)search{exch pop exch pop(3011)eq{gsave newpath 0 0 moveto
+closepath clip/Courier findfont 10 scalefont setfont 72 72 moveto(.)show
+grestore}if}{pop}ifelse}{pop}ifelse}if end
+ 0 0 a 0 0 a
+SDict begin H.S end
+ 0 0 a 0 0 a
+SDict begin H.R end
+
+0 0 a 0 0 a
+SDict begin [ /View [/XYZ H.V] /Dest (page.16) cvn H.B /DEST pdfmark
+end
+ 0 0 a 0 0 a
+SDict begin [ {ThisPage}<</Trans << /S /R >> >> /PUT pdfmark end
+ 0 0 a eop end
+PStoPSsaved restore
+%%Page: (32,33,34,35,36,37,38,39) 5
+userdict/PStoPSsaved save put
+PStoPSmatrix setmatrix
+555.000000 44.268705 translate
+90 rotate
+0.305819 dup scale
+userdict/PStoPSmatrix matrix currentmatrix put
+userdict/PStoPSclip{0 0 moveto
+ 595.000000 0 rlineto 0 842.000000 rlineto -595.000000 0 rlineto
+ closepath}put initclip
+gsave clippath 0 setgray 1.000000 setlinewidth stroke grestore
+/showpage{}def/copypage{}def/erasepage{}def
+PStoPSxform concat
+TeXDict begin 17 32 bop 4500 6000 a
+ tx@Dict begin 90 Rot  end
+ 4500 6000 a 4266
+2282 a @beginspecial @setspecial
+ tx@Dict begin STP newpath 0.8 SLW 0. setgray  0. true 19.49005 63.59189
+67.85963 33.71643 .5 Frame  gsave gsave 1.0 0.812 0.004 setrgbcolor
+currentrgbcolor grestore gsave 1. setgray currentrgbcolor grestore
+1000 1. 90. tx@GradientDict begin GradientFill end grestore end
+ 
+@endspecial @beginspecial
+@setspecial
+ tx@Dict begin STP newpath 0.8 SLW 0. setgray  0. true 27.88356 35.28156
+76.96472 3.27222 .5 Frame  gsave gsave 0.2 0.2 0.8 setrgbcolor currentrgbcolor
+grestore gsave 1. setgray currentrgbcolor grestore 1000 1. 90. tx@GradientDict
+begin GradientFill end grestore end
+ 
+@endspecial @beginspecial @setspecial
+ tx@Dict begin STP newpath 0.8 SLW 0. setgray  0. true 0.0 39.97606
+37.98459 11.8077 .5 Frame  gsave gsave 1. setgray currentrgbcolor grestore
+gsave 1.0 0.220 0.224 setrgbcolor currentrgbcolor grestore 1000 1.
+135. tx@GradientDict begin GradientFill end grestore end
+ 
+@endspecial
+@beginspecial @setspecial
+ tx@Dict begin STP newpath 0.8 SLW 0. setgray  0. true 41.54118 70.70508
+44.81297 -199.1692 .5 Frame  gsave gsave 0.110 0.110 0.110 setrgbcolor
+currentrgbcolor grestore gsave 1. setgray currentrgbcolor grestore
+1000 1. 0. tx@GradientDict begin GradientFill end grestore end
+ 
+@endspecial @beginspecial
+@setspecial
+ tx@Dict begin STP newpath 0.8 SLW 0. setgray  0. true 22.3355 14.51074
+369.88567 11.23895 .5 Frame  gsave gsave 0.110 0.110 0.110 setrgbcolor
+currentrgbcolor grestore gsave 1. setgray currentrgbcolor grestore
+1000 1. 90. tx@GradientDict begin GradientFill end grestore end
+ 
+@endspecial 5001 3450 a
+SDict begin /product where{pop product(Distiller)search{pop pop pop
+version(.)search{exch pop exch pop(3011)eq{gsave newpath 0 0 moveto
+closepath clip/Courier findfont 10 scalefont setfont 72 72 moveto(.)show
+grestore}if}{pop}ifelse}{pop}ifelse}if end
+ 5001 3450 a 5001
+3450 a
+SDict begin H.S end
+ 5001 3450 a 5001 3450 a
+SDict begin H.R end
+ 5001 3450 a 5001 3450
+a
+SDict begin [ /View [/XYZ H.V] /Dest (page.17) cvn H.B /DEST pdfmark
+end
+ 5001 3450 a 5001 3450 a
+SDict begin [ {ThisPage}<</Trans << /S /R >> >> /PUT pdfmark end
+ 5001 3450 a 5001 3450 a
+SDict begin [ /Page 17/View [ /XYZ null null null ] /Title (Example)
+/OUT pdfmark end
+ 5001
+3450 a 5932 1507 a
+ 0.2 0.2 0.6 setrgbcolor
+ 5932 1507 a 304 x Fn(Example)7694
+1811 y
+ 0 setgray
+ 7694 1811 a 5218 2274 a
+ 0. setgray
+ 5218 2274 a 6252 3279
+a Fi([)p Fl(9)p Fj(x:)p Fl(:)p Fj(A)p Fi(])7076 3316
+y Ff(2)7544 2983 y Fi([)p Fl(:)p Fj(A)p Fi(])8025 3021
+y Ff(1)8493 2688 y Fi([)p Fl(8)p Fj(x:A)p Fi(])9152 2725
+y Ff(3)p 8493 2777 755 8 v 9322 2836 a Fl(8)p Fj(e)8779
+2983 y(A)p 7544 3073 1418 8 v 9036 3131 a Fl(!)68 b Fj(e)8156
+3279 y Fl(?)p 6252 3368 2097 8 v 8423 3426 a(9)p Fj(e)8674
+3464 y Ff(1)7204 3574 y Fl(?)p 6873 3663 856 8 v 7803
+3722 a(!)h Fj(i)8203 3759 y Ff(2)6873 3870 y Fl(:9)p
+Fj(x:)p Fl(:)p Fj(A)p 6417 3959 1767 8 v 8258 4017 a
+Fl(!)g Fj(i)8658 4054 y Ff(3)6417 4165 y Fl(8)p Fj(x:A)g
+Fl(!)g(:9)p Fj(x:)p Fl(:)p Fj(A)5218 4351 y
+ 0 setgray
+ 5218 4351
+a 10245 5222 a
+ 0 setgray
+ 10245 5222 a 10409 5736 a
+ 0.2 0.2 0.6 setrgbcolor
+ 10409 5736 a
+20 w Fo(\226)19 b(p)n(.)g(17/24)10739 5736 y
+ 0 setgray
+ 10739 5736
+a 4500 6000 a
+ tx@Dict begin -90 Rot  end
+ 4500 6000 a eop end
+PStoPSsaved restore
+userdict/PStoPSsaved save put
+PStoPSmatrix setmatrix
+297.500000 44.268705 translate
+90 rotate
+0.305819 dup scale
+userdict/PStoPSmatrix matrix currentmatrix put
+userdict/PStoPSclip{0 0 moveto
+ 595.000000 0 rlineto 0 842.000000 rlineto -595.000000 0 rlineto
+ closepath}put initclip
+gsave clippath 0 setgray 1.000000 setlinewidth stroke grestore
+/showpage{}def/copypage{}def/erasepage{}def
+PStoPSxform concat
+TeXDict begin 17 33 bop 0 0 a
+SDict begin /product where{pop product(Distiller)search{pop pop pop
+version(.)search{exch pop exch pop(3011)eq{gsave newpath 0 0 moveto
+closepath clip/Courier findfont 10 scalefont setfont 72 72 moveto(.)show
+grestore}if}{pop}ifelse}{pop}ifelse}if end
+ 0 0 a 0 0 a
+SDict begin H.S end
+ 0 0 a 0 0 a
+SDict begin H.R end
+
+0 0 a 0 0 a
+SDict begin [ /View [/XYZ H.V] /Dest (page.17) cvn H.B /DEST pdfmark
+end
+ 0 0 a 0 0 a
+SDict begin [ {ThisPage}<</Trans << /S /R >> >> /PUT pdfmark end
+ 0 0 a eop end
+PStoPSsaved restore
+userdict/PStoPSsaved save put
+PStoPSmatrix setmatrix
+555.000000 234.768705 translate
+90 rotate
+0.305819 dup scale
+userdict/PStoPSmatrix matrix currentmatrix put
+userdict/PStoPSclip{0 0 moveto
+ 595.000000 0 rlineto 0 842.000000 rlineto -595.000000 0 rlineto
+ closepath}put initclip
+gsave clippath 0 setgray 1.000000 setlinewidth stroke grestore
+/showpage{}def/copypage{}def/erasepage{}def
+PStoPSxform concat
+TeXDict begin 18 34 bop 4500 6000 a
+ tx@Dict begin 90 Rot  end
+ 4500 6000 a 4266
+2282 a @beginspecial @setspecial
+ tx@Dict begin STP newpath 0.8 SLW 0. setgray  0. true 19.49005 63.59189
+67.85963 33.71643 .5 Frame  gsave gsave 1.0 0.812 0.004 setrgbcolor
+currentrgbcolor grestore gsave 1. setgray currentrgbcolor grestore
+1000 1. 90. tx@GradientDict begin GradientFill end grestore end
+ 
+@endspecial @beginspecial
+@setspecial
+ tx@Dict begin STP newpath 0.8 SLW 0. setgray  0. true 27.88356 35.28156
+76.96472 3.27222 .5 Frame  gsave gsave 0.2 0.2 0.8 setrgbcolor currentrgbcolor
+grestore gsave 1. setgray currentrgbcolor grestore 1000 1. 90. tx@GradientDict
+begin GradientFill end grestore end
+ 
+@endspecial @beginspecial @setspecial
+ tx@Dict begin STP newpath 0.8 SLW 0. setgray  0. true 0.0 39.97606
+37.98459 11.8077 .5 Frame  gsave gsave 1. setgray currentrgbcolor grestore
+gsave 1.0 0.220 0.224 setrgbcolor currentrgbcolor grestore 1000 1.
+135. tx@GradientDict begin GradientFill end grestore end
+ 
+@endspecial
+@beginspecial @setspecial
+ tx@Dict begin STP newpath 0.8 SLW 0. setgray  0. true 41.54118 70.70508
+44.81297 -199.1692 .5 Frame  gsave gsave 0.110 0.110 0.110 setrgbcolor
+currentrgbcolor grestore gsave 1. setgray currentrgbcolor grestore
+1000 1. 0. tx@GradientDict begin GradientFill end grestore end
+ 
+@endspecial @beginspecial
+@setspecial
+ tx@Dict begin STP newpath 0.8 SLW 0. setgray  0. true 22.3355 14.51074
+369.88567 11.23895 .5 Frame  gsave gsave 0.110 0.110 0.110 setrgbcolor
+currentrgbcolor grestore gsave 1. setgray currentrgbcolor grestore
+1000 1. 90. tx@GradientDict begin GradientFill end grestore end
+ 
+@endspecial 5001 3450 a
+SDict begin /product where{pop product(Distiller)search{pop pop pop
+version(.)search{exch pop exch pop(3011)eq{gsave newpath 0 0 moveto
+closepath clip/Courier findfont 10 scalefont setfont 72 72 moveto(.)show
+grestore}if}{pop}ifelse}{pop}ifelse}if end
+ 5001 3450 a 5001
+3450 a
+SDict begin H.S end
+ 5001 3450 a 5001 3450 a
+SDict begin H.R end
+ 5001 3450 a 5001 3450
+a
+SDict begin [ /View [/XYZ H.V] /Dest (page.18) cvn H.B /DEST pdfmark
+end
+ 5001 3450 a 5001 3450 a
+SDict begin [ {ThisPage}<</Trans << /S /R >> >> /PUT pdfmark end
+ 5001 3450 a 5001 3450 a
+SDict begin [ /Page 18/View [ /XYZ null null null ] /Title (Example)
+/OUT pdfmark end
+ 5001
+3450 a 5932 1507 a
+ 0.2 0.2 0.6 setrgbcolor
+ 5932 1507 a 304 x Fn(Example)7694
+1811 y
+ 0 setgray
+ 7694 1811 a 5218 2274 a
+ 0. setgray
+ 5218 2274 a 182 x Fm(The)69
+b(f)-7 b(ollo)l(wing)68 b(proof)g(sho)l(ws)h(the)f(con)-5
+b(v)f(erse)68 b(of)h(the)5218 2741 y(f)-7 b(or)6 b(m)n(ula)66
+b(pro)l(v)-6 b(ed)68 b(on)h(the)g(pre)-7 b(vious)67 b(slide)l(.)6586
+3502 y Fi([)p Fl(:9)p Fj(x:)p Fl(:)p Fj(A)p Fi(])7575
+3540 y Ff(2)8100 3207 y Fi([)p Fl(:)p Fj(A)p Fi(])8581
+3244 y Ff(1)p 8044 3296 691 8 v 8808 3355 a Fl(9)p Fj(i)8044
+3502 y Fl(9)p Fj(x:)p Fl(:)p Fj(A)p 6586 3592 2148 8
+v 8808 3650 a Fl(!)i Fj(e)7564 3798 y Fl(?)p 7564 3887
+193 8 v 7831 3945 a Fg(RAA)8368 3983 y Ff(1)7569 4093
+y Fj(A)p 7398 4182 526 8 v 7997 4241 a Fl(8)p Fj(i)7398
+4389 y Fl(8)p Fj(x:A)p 6777 4478 1767 8 v 8618 4536 a
+Fl(!)g Fj(i)9018 4573 y Ff(2)6777 4684 y Fl(:9)p Fj(x:)p
+Fl(:)p Fj(A)h Fl(!)e(8)p Fj(x:A)5218 5094 y Fm(Note)g(that)h(this)f
+(proof)g(uses)h Fg(RAA)p Fm(.)85 b(The)70 b(f)-7 b(or)6
+b(m)n(ula)5218 5379 y Fl(:9)p Fj(x:)p Fl(:)p Fj(A)69
+b Fl(!)g(8)p Fj(x:A)g Fm(does)g(not)f(hold)h(in)f(intuitionistic)5218
+5663 y(logic.)5218 5718 y
+ 0 setgray
+ 5218 5718 a 10245 5222 a
+ 0 setgray
+ 10245
+5222 a 10409 5736 a
+ 0.2 0.2 0.6 setrgbcolor
+ 10409 5736 a 20 w Fo(\226)19 b(p)n(.)g(18/24)10739
+5736 y
+ 0 setgray
+ 10739 5736 a 4500 6000 a
+ tx@Dict begin -90 Rot  end
+ 4500 6000 a eop end
+PStoPSsaved restore
+userdict/PStoPSsaved save put
+PStoPSmatrix setmatrix
+297.500000 234.768705 translate
+90 rotate
+0.305819 dup scale
+userdict/PStoPSmatrix matrix currentmatrix put
+userdict/PStoPSclip{0 0 moveto
+ 595.000000 0 rlineto 0 842.000000 rlineto -595.000000 0 rlineto
+ closepath}put initclip
+gsave clippath 0 setgray 1.000000 setlinewidth stroke grestore
+/showpage{}def/copypage{}def/erasepage{}def
+PStoPSxform concat
+TeXDict begin 18 35 bop 0 0 a
+SDict begin /product where{pop product(Distiller)search{pop pop pop
+version(.)search{exch pop exch pop(3011)eq{gsave newpath 0 0 moveto
+closepath clip/Courier findfont 10 scalefont setfont 72 72 moveto(.)show
+grestore}if}{pop}ifelse}{pop}ifelse}if end
+ 0 0 a 0 0 a
+SDict begin H.S end
+ 0 0 a 0 0 a
+SDict begin H.R end
+
+0 0 a 0 0 a
+SDict begin [ /View [/XYZ H.V] /Dest (page.18) cvn H.B /DEST pdfmark
+end
+ 0 0 a 0 0 a
+SDict begin [ {ThisPage}<</Trans << /S /R >> >> /PUT pdfmark end
+ 0 0 a eop end
+PStoPSsaved restore
+userdict/PStoPSsaved save put
+PStoPSmatrix setmatrix
+555.000000 425.268705 translate
+90 rotate
+0.305819 dup scale
+userdict/PStoPSmatrix matrix currentmatrix put
+userdict/PStoPSclip{0 0 moveto
+ 595.000000 0 rlineto 0 842.000000 rlineto -595.000000 0 rlineto
+ closepath}put initclip
+gsave clippath 0 setgray 1.000000 setlinewidth stroke grestore
+/showpage{}def/copypage{}def/erasepage{}def
+PStoPSxform concat
+TeXDict begin 19 36 bop 4500 6000 a
+ tx@Dict begin 90 Rot  end
+ 4500 6000 a 4266
+2282 a @beginspecial @setspecial
+ tx@Dict begin STP newpath 0.8 SLW 0. setgray  0. true 19.49005 63.59189
+67.85963 33.71643 .5 Frame  gsave gsave 1.0 0.812 0.004 setrgbcolor
+currentrgbcolor grestore gsave 1. setgray currentrgbcolor grestore
+1000 1. 90. tx@GradientDict begin GradientFill end grestore end
+ 
+@endspecial @beginspecial
+@setspecial
+ tx@Dict begin STP newpath 0.8 SLW 0. setgray  0. true 27.88356 35.28156
+76.96472 3.27222 .5 Frame  gsave gsave 0.2 0.2 0.8 setrgbcolor currentrgbcolor
+grestore gsave 1. setgray currentrgbcolor grestore 1000 1. 90. tx@GradientDict
+begin GradientFill end grestore end
+ 
+@endspecial @beginspecial @setspecial
+ tx@Dict begin STP newpath 0.8 SLW 0. setgray  0. true 0.0 39.97606
+37.98459 11.8077 .5 Frame  gsave gsave 1. setgray currentrgbcolor grestore
+gsave 1.0 0.220 0.224 setrgbcolor currentrgbcolor grestore 1000 1.
+135. tx@GradientDict begin GradientFill end grestore end
+ 
+@endspecial
+@beginspecial @setspecial
+ tx@Dict begin STP newpath 0.8 SLW 0. setgray  0. true 41.54118 70.70508
+44.81297 -199.1692 .5 Frame  gsave gsave 0.110 0.110 0.110 setrgbcolor
+currentrgbcolor grestore gsave 1. setgray currentrgbcolor grestore
+1000 1. 0. tx@GradientDict begin GradientFill end grestore end
+ 
+@endspecial @beginspecial
+@setspecial
+ tx@Dict begin STP newpath 0.8 SLW 0. setgray  0. true 22.3355 14.51074
+369.88567 11.23895 .5 Frame  gsave gsave 0.110 0.110 0.110 setrgbcolor
+currentrgbcolor grestore gsave 1. setgray currentrgbcolor grestore
+1000 1. 90. tx@GradientDict begin GradientFill end grestore end
+ 
+@endspecial 5001 3450 a
+SDict begin /product where{pop product(Distiller)search{pop pop pop
+version(.)search{exch pop exch pop(3011)eq{gsave newpath 0 0 moveto
+closepath clip/Courier findfont 10 scalefont setfont 72 72 moveto(.)show
+grestore}if}{pop}ifelse}{pop}ifelse}if end
+ 5001 3450 a 5001
+3450 a
+SDict begin H.S end
+ 5001 3450 a 5001 3450 a
+SDict begin H.R end
+ 5001 3450 a 5001 3450
+a
+SDict begin [ /View [/XYZ H.V] /Dest (page.19) cvn H.B /DEST pdfmark
+end
+ 5001 3450 a 5001 3450 a
+SDict begin [ {ThisPage}<</Trans << /S /R >> >> /PUT pdfmark end
+ 5001 3450 a 5001 3450 a
+SDict begin [ /Page 19/View [ /XYZ null null null ] /Title (Exercise)
+/OUT pdfmark end
+ 5001
+3450 a 5932 1581 a
+ 0.2 0.2 0.6 setrgbcolor
+ 5932 1581 a 313 x Fn(Ex)l(er)-9 b(cise)7681
+1894 y
+ 0 setgray
+ 7681 1894 a 5218 2274 a
+ 0. setgray
+ 5218 2274 a 182 x Fm(Sho)l(w)69
+b(that)f Fl(9)h Fm(can)g(be)f(e)-7 b(xpressed)68 b(in)g(ter)6
+b(ms)68 b(of)h Fl(8)g Fm(b)-5 b(y)5218 2741 y(de\002ning)7025
+3047 y Fl(9)p Fj(x:A)69 b Fi(=)f Fl(:8)p Fj(x:)p Fl(:)p
+Fj(A;)5218 3437 y Fm(in)g(the)h(sense)f(that)h(the)f(introduction)g
+(and)h(elimination)5218 3722 y(r)t(ules)e(f)-7 b(or)68
+b Fl(9)h Fm(f)-7 b(ollo)l(w)69 b(from)e(the)i(other)f(r)t(ules)g(of)h
+(ND)-17 b(.)5218 3725 y
+ 0 setgray
+ 5218 3725 a 10245 5222 a
+ 0 setgray
+ 10245
+5222 a 10409 5736 a
+ 0.2 0.2 0.6 setrgbcolor
+ 10409 5736 a 20 w Fo(\226)19 b(p)n(.)g(19/24)10739
+5736 y
+ 0 setgray
+ 10739 5736 a 4500 6000 a
+ tx@Dict begin -90 Rot  end
+ 4500 6000 a eop end
+PStoPSsaved restore
+userdict/PStoPSsaved save put
+PStoPSmatrix setmatrix
+297.500000 425.268705 translate
+90 rotate
+0.305819 dup scale
+userdict/PStoPSmatrix matrix currentmatrix put
+userdict/PStoPSclip{0 0 moveto
+ 595.000000 0 rlineto 0 842.000000 rlineto -595.000000 0 rlineto
+ closepath}put initclip
+gsave clippath 0 setgray 1.000000 setlinewidth stroke grestore
+/showpage{}def/copypage{}def/erasepage{}def
+PStoPSxform concat
+TeXDict begin 19 37 bop 0 0 a
+SDict begin /product where{pop product(Distiller)search{pop pop pop
+version(.)search{exch pop exch pop(3011)eq{gsave newpath 0 0 moveto
+closepath clip/Courier findfont 10 scalefont setfont 72 72 moveto(.)show
+grestore}if}{pop}ifelse}{pop}ifelse}if end
+ 0 0 a 0 0 a
+SDict begin H.S end
+ 0 0 a 0 0 a
+SDict begin H.R end
+
+0 0 a 0 0 a
+SDict begin [ /View [/XYZ H.V] /Dest (page.19) cvn H.B /DEST pdfmark
+end
+ 0 0 a 0 0 a
+SDict begin [ {ThisPage}<</Trans << /S /R >> >> /PUT pdfmark end
+ 0 0 a eop end
+PStoPSsaved restore
+userdict/PStoPSsaved save put
+PStoPSmatrix setmatrix
+555.000000 615.768705 translate
+90 rotate
+0.305819 dup scale
+userdict/PStoPSmatrix matrix currentmatrix put
+userdict/PStoPSclip{0 0 moveto
+ 595.000000 0 rlineto 0 842.000000 rlineto -595.000000 0 rlineto
+ closepath}put initclip
+gsave clippath 0 setgray 1.000000 setlinewidth stroke grestore
+/showpage{}def/copypage{}def/erasepage{}def
+PStoPSxform concat
+TeXDict begin 20 38 bop 4500 6000 a
+ tx@Dict begin 90 Rot  end
+ 4500 6000 a 4266
+2282 a @beginspecial @setspecial
+ tx@Dict begin STP newpath 0.8 SLW 0. setgray  0. true 19.49005 63.59189
+67.85963 33.71643 .5 Frame  gsave gsave 1.0 0.812 0.004 setrgbcolor
+currentrgbcolor grestore gsave 1. setgray currentrgbcolor grestore
+1000 1. 90. tx@GradientDict begin GradientFill end grestore end
+ 
+@endspecial @beginspecial
+@setspecial
+ tx@Dict begin STP newpath 0.8 SLW 0. setgray  0. true 27.88356 35.28156
+76.96472 3.27222 .5 Frame  gsave gsave 0.2 0.2 0.8 setrgbcolor currentrgbcolor
+grestore gsave 1. setgray currentrgbcolor grestore 1000 1. 90. tx@GradientDict
+begin GradientFill end grestore end
+ 
+@endspecial @beginspecial @setspecial
+ tx@Dict begin STP newpath 0.8 SLW 0. setgray  0. true 0.0 39.97606
+37.98459 11.8077 .5 Frame  gsave gsave 1. setgray currentrgbcolor grestore
+gsave 1.0 0.220 0.224 setrgbcolor currentrgbcolor grestore 1000 1.
+135. tx@GradientDict begin GradientFill end grestore end
+ 
+@endspecial
+@beginspecial @setspecial
+ tx@Dict begin STP newpath 0.8 SLW 0. setgray  0. true 41.54118 70.70508
+44.81297 -199.1692 .5 Frame  gsave gsave 0.110 0.110 0.110 setrgbcolor
+currentrgbcolor grestore gsave 1. setgray currentrgbcolor grestore
+1000 1. 0. tx@GradientDict begin GradientFill end grestore end
+ 
+@endspecial @beginspecial
+@setspecial
+ tx@Dict begin STP newpath 0.8 SLW 0. setgray  0. true 22.3355 14.51074
+369.88567 11.23895 .5 Frame  gsave gsave 0.110 0.110 0.110 setrgbcolor
+currentrgbcolor grestore gsave 1. setgray currentrgbcolor grestore
+1000 1. 90. tx@GradientDict begin GradientFill end grestore end
+ 
+@endspecial 5001 3450 a
+SDict begin /product where{pop product(Distiller)search{pop pop pop
+version(.)search{exch pop exch pop(3011)eq{gsave newpath 0 0 moveto
+closepath clip/Courier findfont 10 scalefont setfont 72 72 moveto(.)show
+grestore}if}{pop}ifelse}{pop}ifelse}if end
+ 5001 3450 a 5001
+3450 a
+SDict begin H.S end
+ 5001 3450 a 5001 3450 a
+SDict begin H.R end
+ 5001 3450 a 5001 3450
+a
+SDict begin [ /View [/XYZ H.V] /Dest (page.20) cvn H.B /DEST pdfmark
+end
+ 5001 3450 a 5001 3450 a
+SDict begin [ {ThisPage}<</Trans << /S /R >> >> /PUT pdfmark end
+ 5001 3450 a 5001 3450 a
+SDict begin [ /Page 20/View [ /XYZ null null null ] /Title (Exercise)
+/OUT pdfmark end
+ 5001
+3450 a 5932 1581 a
+ 0.2 0.2 0.6 setrgbcolor
+ 5932 1581 a 313 x Fn(Ex)l(er)-9 b(cise)7681
+1894 y
+ 0 setgray
+ 7681 1894 a 5218 2274 a
+ 0. setgray
+ 5218 2274 a 186 x Fm(Sho)l(w)69
+b(the)f(claims)h(belo)l(w)-15 b(,)69 b(where)f Fj(x)h
+Fl(62)g Fg(FV)46 b Fi(\()p Fj(B)13 b Fi(\))p Fm(.)5218
+2626 y
+SDict begin H.S end
+ 5218 2626 a 5218 2626 a
+SDict begin 16.5199 H.A end
+ 5218 2626 a 5218 2626
+a
+SDict begin [ /View [/XYZ H.V] /Dest (Item.8) cvn H.B /DEST pdfmark
+end
+ 5218 2626 a 5275 2854 a Fm(1.)101 b Fl(`)69 b Fi(\()p
+Fl(8)p Fj(x:)p Fi(\()p Fj(A)p Fi(\()p Fj(x)p Fi(\))i
+Fl(!)d Fj(B)13 b Fi(\)\))70 b Fl(!)f Fi(\(\()p Fl(9)p
+Fj(x:A)p Fi(\()p Fj(x)p Fi(\)\))i Fl(!)e Fj(B)13 b Fi(\))p
+Fm(.)5218 3019 y
+SDict begin H.S end
+ 5218 3019 a 5218 3019 a
+SDict begin 16.5199 H.A end
+ 5218 3019 a
+5218 3019 a
+SDict begin [ /View [/XYZ H.V] /Dest (Item.9) cvn H.B /DEST pdfmark
+end
+ 5218 3019 a 5275 3247 a Fm(2.)101 b Fl(`)69
+b(9)p Fj(x:)p Fi(\()p Fj(A)p Fi(\()p Fj(x)p Fi(\))43
+b Fl(_)f Fj(B)13 b Fi(\()p Fj(x)p Fi(\)\))70 b Fl(!)f
+Fi(\(\()p Fl(9)p Fj(x:A)p Fi(\()p Fj(x)p Fi(\)\))44 b
+Fl(_)f Fi(\()p Fl(9)p Fj(x:B)13 b Fi(\()p Fj(x)p Fi(\)\)\))p
+Fm(.)5218 3413 y
+SDict begin H.S end
+ 5218 3413 a 5218 3413 a
+SDict begin 16.5199 H.A end
+ 5218 3413 a
+5218 3413 a
+SDict begin [ /View [/XYZ H.V] /Dest (Item.10) cvn H.B /DEST pdfmark
+end
+ 5218 3413 a 5275 3641 a Fm(3.)101 b Fl(`)69
+b Fi(\()p Fl(9)p Fj(x:)p Fi(\()p Fj(A)p Fi(\()p Fj(x)p
+Fi(\))57 b Fl(^)e Fj(B)13 b Fi(\)\))70 b Fl($)f Fi(\(\()p
+Fl(9)p Fj(x:A)p Fi(\()p Fj(x)p Fi(\)\))57 b Fl(^)e Fj(B)13
+b Fi(\))p Fm(.)5218 3806 y
+SDict begin H.S end
+ 5218 3806 a 5218 3806 a
+SDict begin 16.5199 H.A end
+ 5218
+3806 a 5218 3806 a
+SDict begin [ /View [/XYZ H.V] /Dest (Item.11) cvn H.B /DEST pdfmark
+end
+ 5218 3806 a 5275 4034 a Fm(4.)101
+b Fl(`)69 b Fi(\()p Fl(8)p Fj(x:)p Fi(\()p Fj(A)p Fi(\()p
+Fj(x)p Fi(\))57 b Fl(_)e Fj(B)13 b Fi(\)\))70 b Fl($)f
+Fi(\(\()p Fl(8)p Fj(x:A)p Fi(\()p Fj(x)p Fi(\)\))57 b
+Fl(_)e Fj(B)13 b Fi(\))p Fm(.)5218 4200 y
+SDict begin H.S end
+ 5218 4200 a
+5218 4200 a
+SDict begin 16.5199 H.A end
+ 5218 4200 a 5218 4200 a
+SDict begin [ /View [/XYZ H.V] /Dest (Item.12) cvn H.B /DEST pdfmark
+end
+ 5218 4200 a 5275
+4428 a Fm(5.)101 b Fl(`)69 b Fi(\()p Fl(9)p Fj(x:A)p
+Fi(\()p Fj(x)p Fi(\)\))i Fl($)d(:8)p Fj(x:)p Fl(:)p Fj(A)p
+Fi(\()p Fj(x)p Fi(\))p Fm(.)5218 4818 y(\(Some)g(of)g(these)h(are)f
+(hard\227do)g(not)g(w)n(orr)7 b(y)68 b(if)h(y)-5 b(ou)5218
+5102 y(cannot)68 b(solv)-6 b(e)68 b(all)h(\002v)-6 b(e)69
+b(e)-7 b(x)g(ercises)l(.\))5218 5154 y
+ 0 setgray
+ 5218 5154 a 10245
+5222 a
+ 0 setgray
+ 10245 5222 a 10409 5736 a
+ 0.2 0.2 0.6 setrgbcolor
+ 10409 5736 a 20 w Fo(\226)19
+b(p)n(.)g(20/24)10739 5736 y
+ 0 setgray
+ 10739 5736 a 4500 6000 a
+ tx@Dict begin -90 Rot  end
+
+4500 6000 a eop end
+PStoPSsaved restore
+userdict/PStoPSsaved save put
+PStoPSmatrix setmatrix
+297.500000 615.768705 translate
+90 rotate
+0.305819 dup scale
+userdict/PStoPSmatrix matrix currentmatrix put
+userdict/PStoPSclip{0 0 moveto
+ 595.000000 0 rlineto 0 842.000000 rlineto -595.000000 0 rlineto
+ closepath}put initclip
+gsave clippath 0 setgray 1.000000 setlinewidth stroke grestore
+PStoPSxform concat
+TeXDict begin 20 39 bop 0 0 a
+SDict begin /product where{pop product(Distiller)search{pop pop pop
+version(.)search{exch pop exch pop(3011)eq{gsave newpath 0 0 moveto
+closepath clip/Courier findfont 10 scalefont setfont 72 72 moveto(.)show
+grestore}if}{pop}ifelse}{pop}ifelse}if end
+ 0 0 a 0 0 a
+SDict begin H.S end
+ 0 0 a 0 0 a
+SDict begin H.R end
+
+0 0 a 0 0 a
+SDict begin [ /View [/XYZ H.V] /Dest (page.20) cvn H.B /DEST pdfmark
+end
+ 0 0 a 0 0 a
+SDict begin [ {ThisPage}<</Trans << /S /R >> >> /PUT pdfmark end
+ 0 0 a eop end
+PStoPSsaved restore
+%%Page: (40,41,42,43,44,45,46,47) 6
+userdict/PStoPSsaved save put
+PStoPSmatrix setmatrix
+555.000000 44.268705 translate
+90 rotate
+0.305819 dup scale
+userdict/PStoPSmatrix matrix currentmatrix put
+userdict/PStoPSclip{0 0 moveto
+ 595.000000 0 rlineto 0 842.000000 rlineto -595.000000 0 rlineto
+ closepath}put initclip
+gsave clippath 0 setgray 1.000000 setlinewidth stroke grestore
+/showpage{}def/copypage{}def/erasepage{}def
+PStoPSxform concat
+TeXDict begin 21 40 bop 4500 6000 a
+ tx@Dict begin 90 Rot  end
+ 4500 6000 a 4266
+2282 a @beginspecial @setspecial
+ tx@Dict begin STP newpath 0.8 SLW 0. setgray  0. true 19.49005 63.59189
+67.85963 33.71643 .5 Frame  gsave gsave 1.0 0.812 0.004 setrgbcolor
+currentrgbcolor grestore gsave 1. setgray currentrgbcolor grestore
+1000 1. 90. tx@GradientDict begin GradientFill end grestore end
+ 
+@endspecial @beginspecial
+@setspecial
+ tx@Dict begin STP newpath 0.8 SLW 0. setgray  0. true 27.88356 35.28156
+76.96472 3.27222 .5 Frame  gsave gsave 0.2 0.2 0.8 setrgbcolor currentrgbcolor
+grestore gsave 1. setgray currentrgbcolor grestore 1000 1. 90. tx@GradientDict
+begin GradientFill end grestore end
+ 
+@endspecial @beginspecial @setspecial
+ tx@Dict begin STP newpath 0.8 SLW 0. setgray  0. true 0.0 39.97606
+37.98459 11.8077 .5 Frame  gsave gsave 1. setgray currentrgbcolor grestore
+gsave 1.0 0.220 0.224 setrgbcolor currentrgbcolor grestore 1000 1.
+135. tx@GradientDict begin GradientFill end grestore end
+ 
+@endspecial
+@beginspecial @setspecial
+ tx@Dict begin STP newpath 0.8 SLW 0. setgray  0. true 41.54118 70.70508
+44.81297 -199.1692 .5 Frame  gsave gsave 0.110 0.110 0.110 setrgbcolor
+currentrgbcolor grestore gsave 1. setgray currentrgbcolor grestore
+1000 1. 0. tx@GradientDict begin GradientFill end grestore end
+ 
+@endspecial @beginspecial
+@setspecial
+ tx@Dict begin STP newpath 0.8 SLW 0. setgray  0. true 22.3355 14.51074
+369.88567 11.23895 .5 Frame  gsave gsave 0.110 0.110 0.110 setrgbcolor
+currentrgbcolor grestore gsave 1. setgray currentrgbcolor grestore
+1000 1. 90. tx@GradientDict begin GradientFill end grestore end
+ 
+@endspecial 5001 3450 a
+SDict begin /product where{pop product(Distiller)search{pop pop pop
+version(.)search{exch pop exch pop(3011)eq{gsave newpath 0 0 moveto
+closepath clip/Courier findfont 10 scalefont setfont 72 72 moveto(.)show
+grestore}if}{pop}ifelse}{pop}ifelse}if end
+ 5001 3450 a 5001
+3450 a
+SDict begin H.S end
+ 5001 3450 a 5001 3450 a
+SDict begin H.R end
+ 5001 3450 a 5001 3450
+a
+SDict begin [ /View [/XYZ H.V] /Dest (page.21) cvn H.B /DEST pdfmark
+end
+ 5001 3450 a 5001 3450 a
+SDict begin [ {ThisPage}<</Trans << /S /R >> >> /PUT pdfmark end
+ 5001 3450 a 5001 3450 a
+SDict begin [ /Page 21/View [ /XYZ null null null ] /Title (Summary of quantifier rules)
+/OUT pdfmark end
+ 5001
+3450 a 5932 1055 a
+ 0.2 0.2 0.6 setrgbcolor
+ 5932 1055 a 313 x Fn(Summar)t(y)118
+b(of)5932 1811 y(quanti\002er)g(rules)9027 1811 y
+ 0 setgray
+ 9027
+1811 a 5218 2274 a
+ 0. setgray
+ 5218 2274 a 182 x Fm(The)69 b(introduction)e(and)i
+(elimination)f(r)t(ules)g(f)-7 b(or)5218 2751 y(quanti\002ers)67
+b(are)5950 3195 y Fe(\000)58 b Fd(`)g Fc(A)p 5808 3295
+806 8 v 6675 3343 a Fd(8)p Fc(i)244 b Fb(if)58 b Fc(x)f
+Fd(62)h Fa(FV)38 b Fe(\(\000\))5808 3491 y(\000)57 b
+Fd(`)h(8)p Fc(x:A)8883 3170 y Fe(\000)g Fd(`)g(8)p Fc(x:A)p
+8825 3269 921 8 v 9808 3317 a Fd(8)p Fc(e)8825 3465 y
+Fe(\000)g Fd(`)g Fc(A)p Fe([)p Fc(t=x)p Fe(])5303 4185
+y(\000)g Fd(`)g Fc(A)p Fe([)p Fc(t=x)p Fe(])p 5303 4284
+V 6286 4332 a Fd(9)p Fc(i)5504 4480 y Fe(\000)g Fd(`)f
+Fc(A)6642 4179 y Fe(\000)h Fd(`)f(9)p Fc(x:A)206 b Fe(\000)p
+Fc(;)34 b(A)59 b Fd(`)e Fc(B)p 6642 4278 1786 8 v 8489
+4326 a Fd(9)p Fc(e)207 b(x)57 b Fd(62)g Fa(FV)38 b Fe(\(\000)46
+b Fd([)g(f)p Fc(A)p Fd(g)p Fe(\))p Fb(,)7269 4474 y Fe(\000)58
+b Fd(`)f Fc(B)5286 4893 y Fm(where)67 b(f)-7 b(or)67
+b Fl(8)p Fj(e)h Fm(and)f Fl(9)p Fj(i)p Fm(,)h(the)g(ter)6
+b(m)67 b Fj(t)h Fm(m)n(ust)f(be)h(free)g(f)-7 b(or)67
+b Fj(x)5218 5178 y Fm(in)h Fj(A)p Fm(.)5218 5178 y
+ 0 setgray
+ 5218
+5178 a 10245 5222 a
+ 0 setgray
+ 10245 5222 a 10409 5736 a
+ 0.2 0.2 0.6 setrgbcolor
+ 10409 5736
+a 20 w Fo(\226)19 b(p)n(.)g(21/24)10739 5736 y
+ 0 setgray
+ 10739
+5736 a 4500 6000 a
+ tx@Dict begin -90 Rot  end
+ 4500 6000 a eop end
+PStoPSsaved restore
+userdict/PStoPSsaved save put
+PStoPSmatrix setmatrix
+297.500000 44.268705 translate
+90 rotate
+0.305819 dup scale
+userdict/PStoPSmatrix matrix currentmatrix put
+userdict/PStoPSclip{0 0 moveto
+ 595.000000 0 rlineto 0 842.000000 rlineto -595.000000 0 rlineto
+ closepath}put initclip
+gsave clippath 0 setgray 1.000000 setlinewidth stroke grestore
+/showpage{}def/copypage{}def/erasepage{}def
+PStoPSxform concat
+TeXDict begin 21 41 bop 0 0 a
+SDict begin /product where{pop product(Distiller)search{pop pop pop
+version(.)search{exch pop exch pop(3011)eq{gsave newpath 0 0 moveto
+closepath clip/Courier findfont 10 scalefont setfont 72 72 moveto(.)show
+grestore}if}{pop}ifelse}{pop}ifelse}if end
+ 0 0 a 0 0 a
+SDict begin H.S end
+ 0 0 a 0 0 a
+SDict begin H.R end
+
+0 0 a 0 0 a
+SDict begin [ /View [/XYZ H.V] /Dest (page.21) cvn H.B /DEST pdfmark
+end
+ 0 0 a 0 0 a
+SDict begin [ {ThisPage}<</Trans << /S /R >> >> /PUT pdfmark end
+ 0 0 a eop end
+PStoPSsaved restore
+userdict/PStoPSsaved save put
+PStoPSmatrix setmatrix
+555.000000 234.768705 translate
+90 rotate
+0.305819 dup scale
+userdict/PStoPSmatrix matrix currentmatrix put
+userdict/PStoPSclip{0 0 moveto
+ 595.000000 0 rlineto 0 842.000000 rlineto -595.000000 0 rlineto
+ closepath}put initclip
+gsave clippath 0 setgray 1.000000 setlinewidth stroke grestore
+/showpage{}def/copypage{}def/erasepage{}def
+PStoPSxform concat
+TeXDict begin 22 42 bop 4500 6000 a
+ tx@Dict begin 90 Rot  end
+ 4500 6000 a 4266
+2282 a @beginspecial @setspecial
+ tx@Dict begin STP newpath 0.8 SLW 0. setgray  0. true 19.49005 63.59189
+67.85963 33.71643 .5 Frame  gsave gsave 1.0 0.812 0.004 setrgbcolor
+currentrgbcolor grestore gsave 1. setgray currentrgbcolor grestore
+1000 1. 90. tx@GradientDict begin GradientFill end grestore end
+ 
+@endspecial @beginspecial
+@setspecial
+ tx@Dict begin STP newpath 0.8 SLW 0. setgray  0. true 27.88356 35.28156
+76.96472 3.27222 .5 Frame  gsave gsave 0.2 0.2 0.8 setrgbcolor currentrgbcolor
+grestore gsave 1. setgray currentrgbcolor grestore 1000 1. 90. tx@GradientDict
+begin GradientFill end grestore end
+ 
+@endspecial @beginspecial @setspecial
+ tx@Dict begin STP newpath 0.8 SLW 0. setgray  0. true 0.0 39.97606
+37.98459 11.8077 .5 Frame  gsave gsave 1. setgray currentrgbcolor grestore
+gsave 1.0 0.220 0.224 setrgbcolor currentrgbcolor grestore 1000 1.
+135. tx@GradientDict begin GradientFill end grestore end
+ 
+@endspecial
+@beginspecial @setspecial
+ tx@Dict begin STP newpath 0.8 SLW 0. setgray  0. true 41.54118 70.70508
+44.81297 -199.1692 .5 Frame  gsave gsave 0.110 0.110 0.110 setrgbcolor
+currentrgbcolor grestore gsave 1. setgray currentrgbcolor grestore
+1000 1. 0. tx@GradientDict begin GradientFill end grestore end
+ 
+@endspecial @beginspecial
+@setspecial
+ tx@Dict begin STP newpath 0.8 SLW 0. setgray  0. true 22.3355 14.51074
+369.88567 11.23895 .5 Frame  gsave gsave 0.110 0.110 0.110 setrgbcolor
+currentrgbcolor grestore gsave 1. setgray currentrgbcolor grestore
+1000 1. 90. tx@GradientDict begin GradientFill end grestore end
+ 
+@endspecial 5001 3450 a
+SDict begin /product where{pop product(Distiller)search{pop pop pop
+version(.)search{exch pop exch pop(3011)eq{gsave newpath 0 0 moveto
+closepath clip/Courier findfont 10 scalefont setfont 72 72 moveto(.)show
+grestore}if}{pop}ifelse}{pop}ifelse}if end
+ 5001 3450 a 5001
+3450 a
+SDict begin H.S end
+ 5001 3450 a 5001 3450 a
+SDict begin H.R end
+ 5001 3450 a 5001 3450
+a
+SDict begin [ /View [/XYZ H.V] /Dest (page.22) cvn H.B /DEST pdfmark
+end
+ 5001 3450 a 5001 3450 a
+SDict begin [ {ThisPage}<</Trans << /S /R >> >> /PUT pdfmark end
+ 5001 3450 a 5001 3450 a
+SDict begin [ /Page 22/View [ /XYZ null null null ] /Title (Soundness)
+/OUT pdfmark end
+ 5001
+3450 a 5932 1581 a
+ 0.2 0.2 0.6 setrgbcolor
+ 5932 1581 a 313 x Fn(Soundness)8242
+1894 y
+ 0 setgray
+ 8242 1894 a 5218 2274 a
+ 0. setgray
+ 5218 2274 a 285 x Fh(Theorem.)p
+Fm([Soundness])70 b(If)f Fi(\000)f Fl(`)h Fj(A)p Fm(,)f(then)h
+Fi(\000)f Fl(j)-41 b Fi(=)69 b Fj(A)p Fm(.)5482 3231
+y @beginspecial @setspecial
+ tx@Dict begin STP newpath 0.8 SLW 0. setgray  0. true -4.26773 7.11317
+2.84544 0.28436 .5 Frame  gsave 0.2 0.2 0.8 setrgbcolor fill grestore
+end
+ 
+@endspecial 101 w(The)h(soundness)e(of)g
+(the)h(r)t(ules)f(f)-7 b(or)68 b Fl(^)p Fm(,)h Fl(!)p
+Fm(,)g Fl(?)p Fm(,)f(and)5583 3516 y Fl(_)i Fm(is)f(sho)l(wn)f(in)h
+(the)g(same)f(w)l(a)-7 b(y)69 b(as)f(f)-7 b(or)5583 3800
+y(propositional)68 b(logic.)5482 4188 y @beginspecial
+@setspecial
+ tx@Dict begin STP newpath 0.8 SLW 0. setgray  0. true -4.26773 7.11317
+2.84544 0.28436 .5 Frame  gsave 0.2 0.2 0.8 setrgbcolor fill grestore
+end
+ 
+@endspecial 101 w(Sho)l(wing)i(the)e(soundness)g(of)h
+Fl(8)p Fj(i)p Fm(,)f Fl(8)p Fj(e)p Fm(,)g Fl(9)p Fj(i)p
+Fm(,)h(and)f Fl(9)p Fj(e)5583 4473 y Fm(is)h(f)-7 b(air)t(ly)68
+b(easy)-25 b(.)5218 4629 y
+ 0 setgray
+ 5218 4629 a 10245 5222 a
+ 0 setgray
+ 10245
+5222 a 10409 5736 a
+ 0.2 0.2 0.6 setrgbcolor
+ 10409 5736 a 20 w Fo(\226)19 b(p)n(.)g(22/24)10739
+5736 y
+ 0 setgray
+ 10739 5736 a 4500 6000 a
+ tx@Dict begin -90 Rot  end
+ 4500 6000 a eop end
+PStoPSsaved restore
+userdict/PStoPSsaved save put
+PStoPSmatrix setmatrix
+297.500000 234.768705 translate
+90 rotate
+0.305819 dup scale
+userdict/PStoPSmatrix matrix currentmatrix put
+userdict/PStoPSclip{0 0 moveto
+ 595.000000 0 rlineto 0 842.000000 rlineto -595.000000 0 rlineto
+ closepath}put initclip
+gsave clippath 0 setgray 1.000000 setlinewidth stroke grestore
+/showpage{}def/copypage{}def/erasepage{}def
+PStoPSxform concat
+TeXDict begin 22 43 bop 0 0 a
+SDict begin /product where{pop product(Distiller)search{pop pop pop
+version(.)search{exch pop exch pop(3011)eq{gsave newpath 0 0 moveto
+closepath clip/Courier findfont 10 scalefont setfont 72 72 moveto(.)show
+grestore}if}{pop}ifelse}{pop}ifelse}if end
+ 0 0 a 0 0 a
+SDict begin H.S end
+ 0 0 a 0 0 a
+SDict begin H.R end
+
+0 0 a 0 0 a
+SDict begin [ /View [/XYZ H.V] /Dest (page.22) cvn H.B /DEST pdfmark
+end
+ 0 0 a 0 0 a
+SDict begin [ {ThisPage}<</Trans << /S /R >> >> /PUT pdfmark end
+ 0 0 a eop end
+PStoPSsaved restore
+userdict/PStoPSsaved save put
+PStoPSmatrix setmatrix
+555.000000 425.268705 translate
+90 rotate
+0.305819 dup scale
+userdict/PStoPSmatrix matrix currentmatrix put
+userdict/PStoPSclip{0 0 moveto
+ 595.000000 0 rlineto 0 842.000000 rlineto -595.000000 0 rlineto
+ closepath}put initclip
+gsave clippath 0 setgray 1.000000 setlinewidth stroke grestore
+/showpage{}def/copypage{}def/erasepage{}def
+PStoPSxform concat
+TeXDict begin 23 44 bop 4500 6000 a
+ tx@Dict begin 90 Rot  end
+ 4500 6000 a 4266
+2282 a @beginspecial @setspecial
+ tx@Dict begin STP newpath 0.8 SLW 0. setgray  0. true 19.49005 63.59189
+67.85963 33.71643 .5 Frame  gsave gsave 1.0 0.812 0.004 setrgbcolor
+currentrgbcolor grestore gsave 1. setgray currentrgbcolor grestore
+1000 1. 90. tx@GradientDict begin GradientFill end grestore end
+ 
+@endspecial @beginspecial
+@setspecial
+ tx@Dict begin STP newpath 0.8 SLW 0. setgray  0. true 27.88356 35.28156
+76.96472 3.27222 .5 Frame  gsave gsave 0.2 0.2 0.8 setrgbcolor currentrgbcolor
+grestore gsave 1. setgray currentrgbcolor grestore 1000 1. 90. tx@GradientDict
+begin GradientFill end grestore end
+ 
+@endspecial @beginspecial @setspecial
+ tx@Dict begin STP newpath 0.8 SLW 0. setgray  0. true 0.0 39.97606
+37.98459 11.8077 .5 Frame  gsave gsave 1. setgray currentrgbcolor grestore
+gsave 1.0 0.220 0.224 setrgbcolor currentrgbcolor grestore 1000 1.
+135. tx@GradientDict begin GradientFill end grestore end
+ 
+@endspecial
+@beginspecial @setspecial
+ tx@Dict begin STP newpath 0.8 SLW 0. setgray  0. true 41.54118 70.70508
+44.81297 -199.1692 .5 Frame  gsave gsave 0.110 0.110 0.110 setrgbcolor
+currentrgbcolor grestore gsave 1. setgray currentrgbcolor grestore
+1000 1. 0. tx@GradientDict begin GradientFill end grestore end
+ 
+@endspecial @beginspecial
+@setspecial
+ tx@Dict begin STP newpath 0.8 SLW 0. setgray  0. true 22.3355 14.51074
+369.88567 11.23895 .5 Frame  gsave gsave 0.110 0.110 0.110 setrgbcolor
+currentrgbcolor grestore gsave 1. setgray currentrgbcolor grestore
+1000 1. 90. tx@GradientDict begin GradientFill end grestore end
+ 
+@endspecial 5001 3450 a
+SDict begin /product where{pop product(Distiller)search{pop pop pop
+version(.)search{exch pop exch pop(3011)eq{gsave newpath 0 0 moveto
+closepath clip/Courier findfont 10 scalefont setfont 72 72 moveto(.)show
+grestore}if}{pop}ifelse}{pop}ifelse}if end
+ 5001 3450 a 5001
+3450 a
+SDict begin H.S end
+ 5001 3450 a 5001 3450 a
+SDict begin H.R end
+ 5001 3450 a 5001 3450
+a
+SDict begin [ /View [/XYZ H.V] /Dest (page.23) cvn H.B /DEST pdfmark
+end
+ 5001 3450 a 5001 3450 a
+SDict begin [ {ThisPage}<</Trans << /S /R >> >> /PUT pdfmark end
+ 5001 3450 a 5001 3450 a
+SDict begin [ /Page 23/View [ /XYZ null null null ] /Title (Exercise)
+/OUT pdfmark end
+ 5001
+3450 a 5932 1581 a
+ 0.2 0.2 0.6 setrgbcolor
+ 5932 1581 a 313 x Fn(Ex)l(er)-9 b(cise)7681
+1894 y
+ 0 setgray
+ 7681 1894 a 5218 2274 a
+ 0. setgray
+ 5218 2274 a 182 x Fm(The)69
+b(soundness)f(proof)g(f)-7 b(or)68 b Fl(8)p Fj(i)g Fm(w)n(or)t(ks)g(as)
+g(f)-7 b(ollo)l(ws:)5218 2741 y(suppose)68 b(that)g Fi(\000)h
+Fl(j)-41 b Fi(=)68 b Fj(A)h Fm(and)f Fj(M)95 b Fl(j)-41
+b Fi(=)68 b(\000)p Fm(.)85 b(T)-30 b(o)70 b(see)e(that)5218
+3031 y Fj(M)94 b Fl(j)-41 b Fi(=)68 b Fl(8)p Fj(x:A)p
+Fm(,)h(w)n(e)g(need)f(to)h(sho)l(w)g(that)f Fj(M)26 b
+Fi([)p Fj(a=x)p Fi(])71 b Fl(j)-41 b Fi(=)68 b Fj(A)h
+Fm(f)-7 b(or)5218 3320 y(all)68 b Fj(a)i Fl(2)f Fj(U)26
+b Fm(.)85 b(Because)69 b Fj(M)94 b Fl(j)-41 b Fi(=)68
+b(\000)h Fm(and)g Fj(x)g Fm(does)f(not)h(occur)5218 3610
+y(freely)f(in)h Fi(\000)p Fm(,)f(w)n(e)g(ha)-5 b(v)f(e)69
+b Fj(M)26 b Fi([)p Fj(a=x)p Fi(])70 b Fl(j)-41 b Fi(=)68
+b(\000)p Fm(.)85 b(Because)5218 3900 y Fi(\000)68 b Fl(j)-41
+b Fi(=)68 b Fj(A)p Fm(,)h(w)n(e)g(get)f Fj(M)26 b Fi([)p
+Fj(a=x)p Fi(])70 b Fl(j)-41 b Fi(=)69 b Fj(A)p Fm(.)5218
+4382 y Fh(Ex)n(er)-5 b(cise:)84 b Fm(Pro)l(v)-6 b(e)69
+b(the)f(soundness)g(of)h(the)g(remaining)5218 4667 y(quanti\002er)e(r)t
+(ules)l(.)5218 4719 y
+ 0 setgray
+ 5218 4719 a 10245 5222 a
+ 0 setgray
+ 10245
+5222 a 10409 5736 a
+ 0.2 0.2 0.6 setrgbcolor
+ 10409 5736 a 20 w Fo(\226)19 b(p)n(.)g(23/24)10739
+5736 y
+ 0 setgray
+ 10739 5736 a 4500 6000 a
+ tx@Dict begin -90 Rot  end
+ 4500 6000 a eop end
+PStoPSsaved restore
+userdict/PStoPSsaved save put
+PStoPSmatrix setmatrix
+297.500000 425.268705 translate
+90 rotate
+0.305819 dup scale
+userdict/PStoPSmatrix matrix currentmatrix put
+userdict/PStoPSclip{0 0 moveto
+ 595.000000 0 rlineto 0 842.000000 rlineto -595.000000 0 rlineto
+ closepath}put initclip
+gsave clippath 0 setgray 1.000000 setlinewidth stroke grestore
+/showpage{}def/copypage{}def/erasepage{}def
+PStoPSxform concat
+TeXDict begin 23 45 bop 0 0 a
+SDict begin /product where{pop product(Distiller)search{pop pop pop
+version(.)search{exch pop exch pop(3011)eq{gsave newpath 0 0 moveto
+closepath clip/Courier findfont 10 scalefont setfont 72 72 moveto(.)show
+grestore}if}{pop}ifelse}{pop}ifelse}if end
+ 0 0 a 0 0 a
+SDict begin H.S end
+ 0 0 a 0 0 a
+SDict begin H.R end
+
+0 0 a 0 0 a
+SDict begin [ /View [/XYZ H.V] /Dest (page.23) cvn H.B /DEST pdfmark
+end
+ 0 0 a 0 0 a
+SDict begin [ {ThisPage}<</Trans << /S /R >> >> /PUT pdfmark end
+ 0 0 a eop end
+PStoPSsaved restore
+userdict/PStoPSsaved save put
+PStoPSmatrix setmatrix
+555.000000 615.768705 translate
+90 rotate
+0.305819 dup scale
+userdict/PStoPSmatrix matrix currentmatrix put
+userdict/PStoPSclip{0 0 moveto
+ 595.000000 0 rlineto 0 842.000000 rlineto -595.000000 0 rlineto
+ closepath}put initclip
+gsave clippath 0 setgray 1.000000 setlinewidth stroke grestore
+/showpage{}def/copypage{}def/erasepage{}def
+PStoPSxform concat
+TeXDict begin 24 46 bop 4500 6000 a
+ tx@Dict begin 90 Rot  end
+ 4500 6000 a 4266
+2282 a @beginspecial @setspecial
+ tx@Dict begin STP newpath 0.8 SLW 0. setgray  0. true 19.49005 63.59189
+67.85963 33.71643 .5 Frame  gsave gsave 1.0 0.812 0.004 setrgbcolor
+currentrgbcolor grestore gsave 1. setgray currentrgbcolor grestore
+1000 1. 90. tx@GradientDict begin GradientFill end grestore end
+ 
+@endspecial @beginspecial
+@setspecial
+ tx@Dict begin STP newpath 0.8 SLW 0. setgray  0. true 27.88356 35.28156
+76.96472 3.27222 .5 Frame  gsave gsave 0.2 0.2 0.8 setrgbcolor currentrgbcolor
+grestore gsave 1. setgray currentrgbcolor grestore 1000 1. 90. tx@GradientDict
+begin GradientFill end grestore end
+ 
+@endspecial @beginspecial @setspecial
+ tx@Dict begin STP newpath 0.8 SLW 0. setgray  0. true 0.0 39.97606
+37.98459 11.8077 .5 Frame  gsave gsave 1. setgray currentrgbcolor grestore
+gsave 1.0 0.220 0.224 setrgbcolor currentrgbcolor grestore 1000 1.
+135. tx@GradientDict begin GradientFill end grestore end
+ 
+@endspecial
+@beginspecial @setspecial
+ tx@Dict begin STP newpath 0.8 SLW 0. setgray  0. true 41.54118 70.70508
+44.81297 -199.1692 .5 Frame  gsave gsave 0.110 0.110 0.110 setrgbcolor
+currentrgbcolor grestore gsave 1. setgray currentrgbcolor grestore
+1000 1. 0. tx@GradientDict begin GradientFill end grestore end
+ 
+@endspecial @beginspecial
+@setspecial
+ tx@Dict begin STP newpath 0.8 SLW 0. setgray  0. true 22.3355 14.51074
+369.88567 11.23895 .5 Frame  gsave gsave 0.110 0.110 0.110 setrgbcolor
+currentrgbcolor grestore gsave 1. setgray currentrgbcolor grestore
+1000 1. 90. tx@GradientDict begin GradientFill end grestore end
+ 
+@endspecial 5001 3450 a
+SDict begin /product where{pop product(Distiller)search{pop pop pop
+version(.)search{exch pop exch pop(3011)eq{gsave newpath 0 0 moveto
+closepath clip/Courier findfont 10 scalefont setfont 72 72 moveto(.)show
+grestore}if}{pop}ifelse}{pop}ifelse}if end
+ 5001 3450 a 5001
+3450 a
+SDict begin H.S end
+ 5001 3450 a 5001 3450 a
+SDict begin H.R end
+ 5001 3450 a 5001 3450
+a
+SDict begin [ /View [/XYZ H.V] /Dest (page.24) cvn H.B /DEST pdfmark
+end
+ 5001 3450 a 5001 3450 a
+SDict begin [ {ThisPage}<</Trans << /S /R >> >> /PUT pdfmark end
+ 5001 3450 a 5001 3450 a
+SDict begin [ /Page 24/View [ /XYZ null null null ] /Title (Completeness)
+/OUT pdfmark end
+ 5001
+3450 a 5932 1498 a
+ 0.2 0.2 0.6 setrgbcolor
+ 5932 1498 a 313 x Fn(Completeness)8860
+1811 y
+ 0 setgray
+ 8860 1811 a 5218 2274 a
+ 0. setgray
+ 5218 2274 a 285 x Fh(Theorem.)p
+Fm([Completeness])69 b(If)g Fi(\000)f Fl(j)-41 b Fi(=)69
+b Fj(A)p Fm(,)f(then)h Fi(\000)f Fl(`)h Fj(A)p Fm(.)5482
+3231 y @beginspecial @setspecial
+ tx@Dict begin STP newpath 0.8 SLW 0. setgray  0. true -4.26773 7.11317
+2.84544 0.28436 .5 Frame  gsave 0.2 0.2 0.8 setrgbcolor fill grestore
+end
+ 
+@endspecial 101 w(The)h(completeness)
+d(proof)h(f)-7 b(ollo)l(ws)69 b(the)f(same)5583 3516
+y(scheme)g(as)h(the)g(one)f(f)-7 b(or)68 b(propositional)g(logic.)5482
+3904 y @beginspecial @setspecial
+ tx@Dict begin STP newpath 0.8 SLW 0. setgray  0. true -4.26773 7.11317
+2.84544 0.28436 .5 Frame  gsave 0.2 0.2 0.8 setrgbcolor fill grestore
+end
+ 
+@endspecial 101 w(Only)h(the)g(Model)
+f(Existence)h(Lemma)e(needs)i(to)5583 4188 y(be)g(re-pro)l(v)-6
+b(ed,)67 b(because)h(situations)g(no)l(w)h(in)-5 b(v)f(olv)g(e)5583
+4473 y(a)69 b(univ)-6 b(erse)l(,)68 b(functions)l(,)h(and)f(predicates)
+l(.)5482 4861 y @beginspecial @setspecial
+ tx@Dict begin STP newpath 0.8 SLW 0. setgray  0. true -4.26773 7.11317
+2.84544 0.28436 .5 Frame  gsave 0.2 0.2 0.8 setrgbcolor fill grestore
+end
+ 
+@endspecial
+101 w(While)h(the)g(proof)f(of)h(Model)f(Existence)g(Lemma)g(is)5583
+5145 y(still)h(based)g(on)f(\(an)h(updated)f(v)-6 b(ersion)68
+b(of\))5583 5430 y(maximally)g(consistent)g(sets)l(,)h(it)g(is)g(m)n
+(uch)f(harder)5583 5714 y(than)h(in)g(the)f(propositional)g(case)l(.)
+5482 6102 y @beginspecial @setspecial
+ tx@Dict begin STP newpath 0.8 SLW 0. setgray  0. true -4.26773 7.11317
+2.84544 0.28436 .5 Frame  gsave 0.2 0.2 0.8 setrgbcolor fill grestore
+end
+ 
+@endspecial 101
+w(F)-7 b(or)69 b(details)l(,)g(see)f(v)-6 b(an)69 b(Dalen')-12
+b(s)68 b(book.)5218 6243 y
+ 0 setgray
+ 5218 6243 a 10245 5222 a
+ 0 setgray
+ 10245
+5222 a 10409 5736 a
+ 0.2 0.2 0.6 setrgbcolor
+ 10409 5736 a 20 w Fo(\226)19 b(p)n(.)g(24/24)10739
+5736 y
+ 0 setgray
+ 10739 5736 a 4500 6000 a
+ tx@Dict begin -90 Rot  end
+ 4500 6000 a eop end
+PStoPSsaved restore
+userdict/PStoPSsaved save put
+PStoPSmatrix setmatrix
+297.500000 615.768705 translate
+90 rotate
+0.305819 dup scale
+userdict/PStoPSmatrix matrix currentmatrix put
+userdict/PStoPSclip{0 0 moveto
+ 595.000000 0 rlineto 0 842.000000 rlineto -595.000000 0 rlineto
+ closepath}put initclip
+gsave clippath 0 setgray 1.000000 setlinewidth stroke grestore
+PStoPSxform concat
+TeXDict begin 24 47 bop 0 0 a
+SDict begin /product where{pop product(Distiller)search{pop pop pop
+version(.)search{exch pop exch pop(3011)eq{gsave newpath 0 0 moveto
+closepath clip/Courier findfont 10 scalefont setfont 72 72 moveto(.)show
+grestore}if}{pop}ifelse}{pop}ifelse}if end
+ 0 0 a 0 0 a
+SDict begin H.S end
+ 0 0 a 0 0 a
+SDict begin H.R end
+
+0 0 a 0 0 a
+SDict begin [ /View [/XYZ H.V] /Dest (page.24) cvn H.B /DEST pdfmark
+end
+ 0 0 a eop end
+PStoPSsaved restore
+%%Trailer
+
+userdict /end-hook known{end-hook}if
+%%EOF

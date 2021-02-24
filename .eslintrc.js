@@ -33,6 +33,7 @@ module.exports = {
     "react/jsx-props-no-spreading": ["off"],
     // the following is handled better by TypeScript
     "no-unused-vars": ["off"],
+    "react/require-default-props": ["off"],
     // Rules below are disabled to avoid clashes with Prettier
     "no-confusing-arrow": ["off"],
     "implicit-arrow-linebreak": ["off"],

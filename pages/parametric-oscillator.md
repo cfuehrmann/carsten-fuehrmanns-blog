@@ -18,7 +18,7 @@ where $\omega(t)$ repeats itself after some time interval $T$.
 
 The main purpose of this post is to preserve what I learned, for my own future reference. I am bad at maintaining handwritten notes, so I am moving to a digital medium. On the off chance that this interests others, I put it on the web. This post contains some work of my own that goes beyond the material in the references section. Most or all of my findings are likely known by experts. The proofs are mine, and so are the mistakes.
 
-# Floquet theory
+## Floquet theory
 
 A suitable mathematical background for the parametric oscillator is _Floquet theory_ (see references section). It deals with linear differential equations of the form
 
@@ -34,7 +34,7 @@ $$
 
 I encountered Floquet theory in the well-known "Mechanics" book by Landau and Lifshitz (see references section), which we shall call "the book" in this post. The book contains a chapter on _parametric resonance_, which deals with parametric oscillators and their resonance behavior. The book uses Floquet theory in specialized form, without calling it so. Part of my motivation here is to obviate the exact way in which that book chapter ties in with general Floquet theory.
 
-# The monodromy matrix
+## The monodromy matrix
 
 We shall now introduce the notion of _monodromy_, which is pivotal for Floquet theory. Let $\Psi: \mathbb{R}\to \mathbb{R}^{n\times n}$ be a fundamental matrix for a Floquet differential equation. Then $\Psi_T(t) := \Psi(t + T)$ is also a fundamental matrix, because $A(t+T)=A(t)$. So we have $\Psi(t + T) = \Psi(t) M$ for some invertible $n\times n$-matrix $M$. This $M$ describes the change of the solution after each period. It is called the _monodromy matrix_. Rightly so, since in Greek "mono" means "one" and "dromos" means "course" or "running".
 
@@ -54,7 +54,7 @@ Importantly, it follows that any two monodromy matrices have the same Jordan nor
 
 Now recall that we assumed that the matrix $A$ from our Floquet equation has only real entries. Naturally, we are only interested in real solutions $\Psi$. So any resulting $M$ too has only real entries.
 
-# Floquet's theorem
+## Floquet's theorem
 
 Floquet equations cannot not generally be solved symbolically. However, Floquet's theorem makes a useful statement about the solutions. The version of the theorem that interests me here is:
 
@@ -74,7 +74,7 @@ $$
 \begin{aligned}\Pi(t+T) &= \Psi(t+T) e^{-(t+T)B} \\ &= \Psi(t) M e^{-T B -t B} \\ &= \Psi(t) e^{T B} e^{-T B} e^{-t B} \\ &= \Psi(t) e^{-t B} = \Pi(t) \end{aligned}
 $$
 
-# Applying the theorem to the oscillator
+## Applying the theorem to the oscillator
 
 First we perform a coordinate change into the eigensystem of the monodromy matrix $M$. This is tantamount to assuming that $M$ is in Jordan normal form. As for any $2\times 2$-Matrix, the Jordan normal form is
 
@@ -134,7 +134,7 @@ $$
 
 The calculation is much simpler than for $\delta=1$. I leave it away here.
 
-# Possible eigenvalues
+## Possible eigenvalues
 
 First, we observe, like the book:
 
@@ -154,7 +154,7 @@ Here $\mathrm{tr}$ stands for trace, which is the sum of the diagonal elements o
 
 Combining the results of this section, we see that the eigenvalues are either reciprocal reals, or two non-reals on the complex unit circle which are complex conjugates of one another. When $\delta = 1$, we know also that the two eigenvalues are the same, and so they are both one or both minus one.
 
-# Classification of possible behaviors
+## Classification of possible behaviors
 
 First, suppose that $\delta = 1$. Then the eigenvalues are both one or both minus one.
 
@@ -186,7 +186,7 @@ If the eigenvalues are both minus one, we have $2T$-periodic behavior. In this c
 
 If the eigenvalues are other reals, the one whose absolute value is greater than one "wins" as $t$ goes towards infinity. So the amplitude grows exponentially. If the eigenvalues are not reals, they are on the complex unit circle, and the amplitude has an upper bound.
 
-# Example: the Mathieu equation
+## Example: the Mathieu equation
 
 The Mathieu equation is the parametric oscillator with
 
@@ -214,9 +214,9 @@ There are also resonances for smaller $\gamma$, their connection points with the
 
 It is worth noting that, for smaller $h$, the resonance areas can shrink in such a way that only the bunny's face at $\gamma = 2$ remains, while all resonances at smaller $\gamma$ vanish. That is: if the child's standing and squatting have a small amplitude $h$, the child needs to stand and squat more often to achieve resonance.
 
-# The transition into and out of resonance
+## The transition into and out of resonance
 
-## Possible shapes of the monodromy matrix
+### Possible shapes of the monodromy matrix
 
 As we have seen, the transitions into and out of resonance happen where the eigenvalues are both one or both minus one. This means that the Jordan normal form of the monodromy matrix is
 
@@ -236,7 +236,7 @@ _Is it true for all parametric oscillators that the monodromy matrix is undiagon
 
 We shall now shed light on this question.
 
-## The meaning of diagonalizability and lack thereof
+### The meaning of diagonalizability and lack thereof
 
 First, suppose that $\delta = 0$. If $\mu = 1$, we have, as observed above, two linearly independent solutions $x_1(t) = \pi_1(t)$ and $x_2(t) = \pi_2(t)$ where the $\pi_i$ are $T$-periodic. Since every solution $x(t)$ is a linear combination of those $x_i$, it follows that _every_ solution is $T$-periodic. So, for every initial phase $(x(t_0), v(t_0))$ at some $t_0$, the corresponding solution is $T$-periodic. If $\mu = -1$, we can deduce by a similar argument: for every initial phase $(x(t_0), v(t_0))$ at some $t_0$, the corresponding solution is $2T$-periodic.
 
@@ -244,7 +244,7 @@ Now suppose that $\delta = 1$. If $\mu = 1$, we have, as observed above, two lin
 
 In summary: for $\delta = 0$, all solution are periodic, while for $\delta = 1$ only some are periodic. In the latter case, we can destabilize a periodic solution by arbitrarily small changes of the initial conditions.
 
-## Undiagonizable examples
+### Undiagonizable examples
 
 We shall now give a stringent example, more illuminating than the Mathieu equation, where $\delta = 1$, that is, $M$ cannot be diagonalized. Here $\omega$ will be a certain rectangular pulse:
 
@@ -262,7 +262,7 @@ $$
 
 Our constructed $\omega$ supplies one impulse in the first quadrant of the movement. So four quadrants pass between impulses. Obviously, we could modify our construction to have an impulse in the first _and_ third quadrant. Then two quadrants would pass between impulses. So the solution's period would be twice that of $\omega$, and the eigenvalues would be minus one. We could also modify our construction to have six quadrants between impulses (eigenvalues minus one), or eight (eigenvalues one), or ten( eigenvalues minus one), and so on.
 
-## Diagonalizable examples
+### Diagonalizable examples
 
 First I conjectured, in this post, that there is no parametric oscillator with non-constant $\omega$ that has $M = \mathrm{Id}$ or $M = -\mathrm{Id}$. My conjecture was inspired by the previous section. But John Baez proved me wrong.
 
@@ -322,7 +322,7 @@ This is periodic, with period two. The solution for $x(0) = 1$ and $v(0) = 0$ to
 
 This too is periodic with period two. Since the solution space is spanned by those two solutions, _every_ solution is periodic with period two. Since that is twice the period of $\omega$, both eigenvalues are minus one. So the monodromy matrix is the minus identity.
 
-# References
+## References
 
 1. L.D.Landau and E.M.Lifschitz. Lehrbuch der theoretischen Physik I: Mechanik. Verlag Harry Deutsch, 14. Auflage.
 2. [Wikipedia: Floquet theory](http://en.wikipedia.org/wiki/Floquet_theory)

@@ -24,13 +24,10 @@ export default function Post({ postData }: { postData: MarkdownProps }) {
             <br />
           </>
         ) : (
-          <div />
+          <p />
         )}
         <br />
-        <div
-          className="markdown-body"
-          dangerouslySetInnerHTML={{ __html: postData.contentHtml }}
-        />
+        <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
       </article>
     </Layout>
   );

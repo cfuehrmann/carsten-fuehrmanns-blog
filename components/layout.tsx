@@ -49,7 +49,7 @@ export default function Layout({
       <br />
       <br />
       <br />
-      <main className="w3-container">{children}</main>
+      <main className="markdown-body w3-container">{children}</main>
     </>
   );
 
