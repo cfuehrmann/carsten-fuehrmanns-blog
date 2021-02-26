@@ -28,15 +28,6 @@ export type MarkdownProps = MarkdownMetadata & {
 
 const markdownDirectory = path.join(process.cwd(), "pages");
 
-export function getSortedPostData() {
-  return fs
-    .readdirSync(markdownDirectory)
-    .filter((fileName) => fileName.endsWith(".md"))
-    .map(getMetadataFromFile)
-    .reduce(addIfPost, [])
-    .sort((a, b) => (a.date < b.date ? 1 : -1));
-}
-
 export function getMarkdownIds() {
   return fs
     .readdirSync(markdownDirectory)
@@ -62,30 +53,6 @@ export async function getMarkdownProps(id: string): Promise<MarkdownProps> {
 
   const contentHtml = processedContent.toString();
   return { ...getMatterData(data), id, contentHtml };
-}
-
-function getMetadataFromFile(fileName: string): MarkdownMetadata {
-  const id = fileName.slice(0, -3);
-  const filePath = path.join(markdownDirectory, fileName);
-  const fileContents = fs.readFileSync(filePath, "utf8");
-  const { data } = matter(fileContents);
-  return { id, ...getMatterData(data) };
-}
-
-function addIfPost(
-  posts: { id: string; title: string; date: string }[],
-  metadata: MarkdownMetadata
-) {
-  return metadata.type === "post"
-    ? [
-        ...posts,
-        {
-          id: metadata.id,
-          title: metadata.title,
-          date: metadata.date,
-        },
-      ]
-    : posts;
 }
 
 function getMatterData(data: { [key: string]: unknown }): MatterData {

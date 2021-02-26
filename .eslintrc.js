@@ -31,9 +31,11 @@ module.exports = {
     "no-use-before-define": ["error", "nofunc"],
     "jsx-a11y/anchor-is-valid": ["off"],
     "react/jsx-props-no-spreading": ["off"],
+    "react/no-unescaped-entities": ["error", { forbid: [">", "}"] }],
     // the following is handled better by TypeScript
     "no-unused-vars": ["off"],
     "react/require-default-props": ["off"],
+    "react/prop-types": ["off"],
     // Rules below are disabled to avoid clashes with Prettier
     "no-confusing-arrow": ["off"],
     "implicit-arrow-linebreak": ["off"],

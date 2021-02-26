@@ -144,7 +144,7 @@ This follows simply from the fact that $M$ has only real entries. Now the book d
 
 Lemma: _The product of the eigenvalues of the monodromy matrix $M$ of a parametric oscillator is one._
 
-Proof: _Liouvilles formula_ (see reference section) entails for every fundamental matrix $\Psi$ of a Floquet equation that
+Proof: _Liouvilles formula_ (see references section) entails for every fundamental matrix $\Psi$ of a Floquet equation that
 
 $$
 \frac{d}{dt}\det\,\Psi(t) = \mathrm{tr}\,A(t) \cdot\det\,\Psi(t)
@@ -324,8 +324,27 @@ This too is periodic with period two. Since the solution space is spanned by tho
 
 ## References
 
-1. L.D.Landau and E.M.Lifschitz. Lehrbuch der theoretischen Physik I: Mechanik. Verlag Harry Deutsch, 14. Auflage.
-2. [Wikipedia: Floquet theory](http://en.wikipedia.org/wiki/Floquet_theory)
-3. [Wikipedia: Liouville's formula](http://en.wikipedia.org/wiki/Liouville's_formula)
-4. [Wikipedia: Matrix exponential](http://en.wikipedia.org/wiki/Matrix_exponential)
-5. [Wikipedia: Logarithm of a matrix](http://en.wikipedia.org/wiki/Matrix_exponential)
+<div className="w3-card w3-round-large">
+  <p className="w3-padding-large">L.D.Landau and E.M.Lifschitz. Lehrbuch der theoretischen Physik I: Mechanik. Verlag Harry Deutsch, 14. Auflage.</p>
+</div>
+
+<a href="http://en.wikipedia.org/wiki/Floquet_theory" rel="noopener noreferrer">
+  <div className="w3-card w3-light-grey w3-round-large">
+    <p className="w3-padding-large">Wikipedia: Floquet theory</p>
+  </div>
+</a>
+<a href="http://en.wikipedia.org/wiki/Liouville's_formula" rel="noopener noreferrer">
+  <div className="w3-card w3-light-grey w3-round-large">
+    <p className="w3-padding-large">Wikipedia: Liouville's formula</p>
+  </div>
+</a>
+<a href="http://en.wikipedia.org/wiki/Matrix_exponential" rel="noopener noreferrer">
+  <div className="w3-card w3-light-grey w3-round-large">
+    <p className="w3-padding-large">Wikipedia: Matrix exponential</p>
+  </div>
+</a>
+<a href="https://en.wikipedia.org/wiki/Logarithm_of_a_matrix" rel="noopener noreferrer">
+  <div className="w3-card w3-light-grey w3-round-large">
+    <p className="w3-padding-large">Wikipedia: Logarithm of a matrix</p>
+  </div>
+</a>

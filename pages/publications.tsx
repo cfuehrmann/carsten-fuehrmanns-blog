@@ -109,7 +109,7 @@ function BibItem(props: {
         target="_blank"
         rel="noopener noreferrer"
       >
-        <div className="w3-card w3-light-grey w3-hover-indigo">
+        <div className="w3-card w3-light-grey w3-round-large">
           <div className="w3-container">
             <h2>{title}</h2>
             <p>{authors}</p>
