@@ -30,6 +30,12 @@ export const Corollary = ({ children }: { children: React.ReactNode }) => (
   </p>
 );
 
+export const Observation = ({ children }: { children: React.ReactNode }) => (
+  <p>
+    Corollary: <em>{children}</em>
+  </p>
+);
+
 export const Proof = ({ children }: { children: React.ReactNode }) => (
   <p>
     <em>Proof</em>: {children}
