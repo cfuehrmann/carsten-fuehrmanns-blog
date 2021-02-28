@@ -9,7 +9,7 @@ import {
   Observation,
   Proof,
 } from "../components/math";
-import { Image } from "../components/media";
+import Image from "../components/media";
 import { Reference, LinkedReference } from "../components/references";
 
 const ParOsc = () => (
@@ -84,8 +84,8 @@ const ParOsc = () => (
     <p>
       We shall now introduce the notion of <em>monodromy</em>, which is pivotal
       for Floquet theory. Let{" "}
-      <K>{String.raw`\Psi: \mathbb{R}\to \mathbb{R}^{n\times n}`}</K>
-      be a fundamental matrix for a Floquet differential equation. Then{" "}
+      <K>{String.raw`\Psi: \mathbb{R}\to \mathbb{R}^{n\times n}`}</K> be a
+      fundamental matrix for a Floquet differential equation. Then{" "}
       <K>\Psi_T(t) := \Psi(t + T)</K> is also a fundamental matrix, because{" "}
       <K>A(t+T)=A(t)</K>. So we have <K>\Psi(t + T) = \Psi(t) M</K> for some
       invertible <K>n\times n</K>-matrix <K>M</K>. This <K>M</K> describes the
@@ -172,7 +172,7 @@ const ParOsc = () => (
     <p>
       First we perform a coordinate change into the eigensystem of the monodromy
       matrix <K>M</K>. This is tantamount to assuming that <K>M</K> is in Jordan
-      normal form. As for any <K>{String.raw`2\times 2`}</K>-Matrix, the Jordan
+      normal form. As for any <K>{String.raw`2\times 2`}</K> -Matrix, the Jordan
       normal form is{" "}
       <KD>
         {String.raw`
@@ -519,7 +519,7 @@ const ParOsc = () => (
       <K>{String.raw`\omega`}</K> will be a certain rectangular pulse:
       <KD>
         {String.raw`
-        \omega(t) =
+          \omega(t) =
           \begin{cases}
             1 & 0 \leq (t\, \mathrm{mod}\, T) < t_1\\
             \omega_{\mathrm{max}} & t_1 \leq t\,\mathrm{mod}\, T) < t_2\\
@@ -608,24 +608,28 @@ const ParOsc = () => (
       The solution for <K>{String.raw`x(0) = 0`}</K> and{" "}
       <K>{String.raw`v(0) = 1`}</K> is composed of two sine curves of different
       frequency:
-      <Image
-        fileName="MonodromyIdSin"
-        caption="Solution for M = Id, x(0) = 0 and v(0) = 1"
-      />
     </p>
+    <Image
+      fileName="MonodromyIdSin"
+      caption="Solution for M = Id, x(0) = 0 and v(0) = 1"
+      width={494}
+      height={293}
+    />
     <p>
       It is periodic, with period <K>{String.raw`0.75`}</K>. The solution for{" "}
       <K>{String.raw`x(0) = 1`}</K> and <K>{String.raw`v(0) = 0`}</K> is
       composed of two cosine curves of different frequency:
-      <Image
-        fileName="MonodromyId"
-        caption="Solution for M = Id, x(0) = 1 and v(0) = 0"
-      />
     </p>
+    <Image
+      fileName="MonodromyId"
+      caption="Solution for M = Id, x(0) = 1 and v(0) = 0"
+      width={498}
+      height={307}
+    />
     <p>
       This too is periodic with period <K>{String.raw`0.75`}</K>. Since the
       solution space is spanned by those two solutions, every solution is
-      periodic with periodd <K>{String.raw`0.75`}</K>. Since{" "}
+      periodic with period <K>{String.raw`0.75`}</K>. Since{" "}
       <K>{String.raw`0.75`}</K> is also the period of{" "}
       <K>{String.raw`\omega`}</K>, both eigenvalues are one. So the monodromy
       matrix is the identity.
@@ -636,10 +640,10 @@ const ParOsc = () => (
     </p>
     <KD>
       {String.raw`
-      \frac{\omega(t)}{2\pi} =
-      \begin{cases}
-        1 & 0 \leq (t\,\mathrm{mod}\, 1) < 0.5\\2 & 0.5 \leq (t\,\mathrm{mod}\, 1) \lt 1
-      \end{cases}`}
+        \frac{\omega(t)}{2\pi} =
+        \begin{cases}
+          1 & 0 \leq (t\,\mathrm{mod}\, 1) < 0.5\\2 & 0.5 \leq (t\,\mathrm{mod}\, 1) \lt 1
+        \end{cases}`}
     </KD>
     <p>
       The solution for <K>{String.raw`x(0) = 0`}</K> and{" "}
@@ -649,6 +653,8 @@ const ParOsc = () => (
     <Image
       fileName="MonodromyMinusId01"
       caption="Solution for M = -Id, x(0) = 0 and v(0) = 1"
+      width={499}
+      height={290}
     />
     <p>
       This is periodic, with period two. The solution for{" "}
@@ -658,6 +664,8 @@ const ParOsc = () => (
     <Image
       fileName="MonodromyMinusId10"
       caption="Solution for M = -Id, x(0) = 1 and v(0) = 0"
+      width={490}
+      height={305}
     />
     <p>
       This too is periodic with period two. Since the solution space is spanned

@@ -1,14 +1,19 @@
 import katex from "katex";
+import { useCallback } from "react";
 
 export const K = ({ children }: { children: string }) => (
-  <span dangerouslySetInnerHTML={{ __html: katex.renderToString(children) }} />
+  <span
+    ref={useCallback((node) => {
+      katex.render(children, node);
+    }, [])}
+  />
 );
 
 export const KD = ({ children }: { children: string }) => (
   <span
-    dangerouslySetInnerHTML={{
-      __html: katex.renderToString(children, { displayMode: true }),
-    }}
+    ref={useCallback((node) => {
+      katex.render(children, node, { displayMode: true });
+    }, [])}
   />
 );
 
