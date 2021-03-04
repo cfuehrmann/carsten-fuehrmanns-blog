@@ -1,5 +1,4 @@
 import Head from "next/head";
-import Link from "next/link";
 
 export const siteTitle = "Carsten expounds";
 
@@ -63,9 +62,9 @@ export default function Layout({
     }`;
 
     return (
-      <Link href={`/${target}`}>
-        <a className={className}>{pageTexts[target]}</a>
-      </Link>
+      <a href={`/${target}`} className={className}>
+        {pageTexts[target]}
+      </a>
     );
   }
 }

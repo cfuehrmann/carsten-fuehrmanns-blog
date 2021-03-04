@@ -57,9 +57,9 @@ const ParOsc = () => (
       <em>Floquet theory</em> (see references section). It deals with linear
       differential equations of the form{" "}
       <KD>{String.raw`\dot{x}(t) = A(t) x(t)`}</KD> where{" "}
-      <K>{String.raw`x:\mathbb{R}\to\mathbb{R}^n`}</K>, and the function
+      <K>{String.raw`x:\mathbb{R}\to\mathbb{R}^n`}</K>, and the function{" "}
       <K>{String.raw`A:\mathbb{R}\to\mathbb{R}^{n\times n}`}</K> is periodic
-      with <K>T</K>. We could also consider complex numbers as the elements of
+      with <K>T</K>. We could also consider complex numbers as the elements of{" "}
       <K>x</K> and <K>A</K>, but we shall stick with the reals here, in
       accordance with the physics. We can write a parametric oscillator as a
       Floquet equation:

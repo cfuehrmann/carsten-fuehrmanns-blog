@@ -148,7 +148,11 @@ function Handout(props: { target: string; title: string; isPsGz?: true }) {
   const extension = isPsGz ? "ps.gz" : "pdf";
 
   return (
-    <a href={`lectures/${target}.${extension}`} rel="noopener noreferrer">
+    <a
+      href={`/lectures/${target}.${extension}`}
+      target="_blank"
+      rel="noopener noreferrer"
+    >
       <div className="w3-card w3-light-grey w3-round-large">
         <p className="w3-padding-large">{title}</p>
       </div>

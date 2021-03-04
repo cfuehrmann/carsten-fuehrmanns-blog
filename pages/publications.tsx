@@ -111,7 +111,7 @@ function BibItem({
   return (
     <>
       <a
-        href={`papers/${target}.pdf`}
+        href={`/papers/${target}.pdf`}
         target="_blank"
         rel="noopener noreferrer"
       >
