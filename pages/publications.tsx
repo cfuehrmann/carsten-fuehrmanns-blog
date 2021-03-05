@@ -93,6 +93,16 @@ export default function Publications() {
         , volume 20 of <em>Electronic Notes in Theoretical Computer Science</em>
         , pages 147-172, New Orleans, 1999. Elsevier
       </BibItem>
+
+      <h1>Unpublished notes</h1>
+
+      <BibItem
+        authors="Carsten Führmann"
+        title="A pattern-matching calculus for *-autonomous categories"
+        target="lambda-star-autonomous"
+      >
+        <em>Unpublished notes</em>
+      </BibItem>
     </Layout>
   );
 }
@@ -114,16 +124,17 @@ function BibItem({
         href={`/papers/${target}.pdf`}
         target="_blank"
         rel="noopener noreferrer"
+        style={{ textDecoration: "none" }}
       >
-        <div className="w3-card w3-light-grey w3-round-large">
+        <div className="w3-card w3-text-black">
           <div className="w3-container">
             <h2>{title}</h2>
             <p>{authors}</p>
-            <div>{children}</div>
+            <p>{children}</p>
           </div>
         </div>
+        <br />
       </a>
-      <br />
     </>
   );
 }

@@ -6,7 +6,6 @@ const pageTexts: { [key in string]: string | undefined } = {
   "": "Home",
   publications: "Publications",
   lectures: "Lectures",
-  "academic-talks-and-notes": "Academic Talks and Notes",
   "about-me": "About",
 };
 
@@ -34,18 +33,14 @@ export default function Layout({
       </Head>
       <header className="w3-top">
         <nav>
-          <div className="w3-bar w3-light-grey">
+          <div className="w3-bar w3-light-grey w3-bottombar w3-border-indigo">
             <LinkButton target="" />
             <LinkButton target="publications" />
             <LinkButton target="lectures" />
-          </div>
-          <div className="w3-bar w3-light-grey w3-bottombar w3-border-indigo">
-            <LinkButton target="academic-talks-and-notes" />
             <LinkButton target="about-me" />
           </div>
         </nav>
       </header>
-      <br />
       <br />
       <br />
       <br />

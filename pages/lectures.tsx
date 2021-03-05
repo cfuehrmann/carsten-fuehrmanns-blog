@@ -152,8 +152,9 @@ function Handout(props: { target: string; title: string; isPsGz?: true }) {
       href={`/lectures/${target}.${extension}`}
       target="_blank"
       rel="noopener noreferrer"
+      style={{ textDecoration: "none" }}
     >
-      <div className="w3-card w3-light-grey w3-round-large">
+      <div className="w3-card w3-text-black">
         <p className="w3-padding-large">{title}</p>
       </div>
     </a>

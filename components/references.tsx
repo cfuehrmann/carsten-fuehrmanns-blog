@@ -1,7 +1,5 @@
 export const Reference = ({ children }: { children: React.ReactNode }) => (
-  <div className="w3-card w3-round-large">
-    <p className="w3-padding-large">{children}</p>
-  </div>
+  <p>{children}</p>
 );
 
 export const LinkedReference = ({
@@ -11,8 +9,13 @@ export const LinkedReference = ({
   children: React.ReactNode;
   target: string;
 }) => (
-  <a href={target} rel="noopener noreferrer" target="_blank">
-    <div className="w3-card w3-round-large w3-light-grey">
+  <a
+    href={target}
+    rel="noopener noreferrer"
+    target="_blank"
+    style={{ textDecoration: "none" }}
+  >
+    <div className="w3-card w3-text-black">
       <p className="w3-padding-large">{children}</p>
     </div>
   </a>

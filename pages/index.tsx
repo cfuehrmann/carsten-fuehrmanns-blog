@@ -9,8 +9,8 @@ export default function Home() {
 
       <h2>Blog</h2>
 
-      <a href="parametric-oscillator">
-        <div className="w3-card w3-light-grey w3-round-large">
+      <a href="parametric-oscillator" style={{ textDecoration: "none" }}>
+        <div className="w3-card w3-text-black">
           <div className="w3-container">
             <h3>Parametric oscillator: a close look</h3>
             <small>
