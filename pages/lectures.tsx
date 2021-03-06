@@ -97,22 +97,16 @@ export default function Lectures() {
       />
       <Handout title="2. Natural deduction" target="logic-02" />
       <Handout title="3. Soundness & Completeness" target="logic-03" />
-      <Handout
-        title="4. Completeness & Predicate Logic"
-        target="logic-04"
-        isPsGz
-      />
+      <Handout title="4. Completeness & Predicate Logic" target="logic-04" />
       <Handout
         title="5. Natural deduction for predicate logic"
         target="logic-05"
-        isPsGz
       />
       <Handout
         title="6. Natural deduction for predicate logic"
         target="logic-06"
-        isPsGz
       />
-      <Handout title="7. Hoare logic" target="logic-07" isPsGz />
+      <Handout title="7. Hoare logic" target="logic-07" />
       <Handout title="8. Hoare logic (part 2)" target="logic-08" />
       <Handout title="9. Sequent calculus" target="logic-09" />
       <Handout
@@ -143,13 +137,12 @@ export default function Lectures() {
   );
 }
 
-function Handout(props: { target: string; title: string; isPsGz?: true }) {
-  const { target, title, isPsGz } = props;
-  const extension = isPsGz ? "ps.gz" : "pdf";
+function Handout(props: { target: string; title: string }) {
+  const { target, title } = props;
 
   return (
     <a
-      href={`/lectures/${target}.${extension}`}
+      href={`/lectures/${target}.pdf`}
       target="_blank"
       rel="noopener noreferrer"
       style={{ textDecoration: "none" }}
