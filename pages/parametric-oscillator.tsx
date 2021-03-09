@@ -9,15 +9,17 @@ import {
   Observation,
   Proof,
 } from "../components/math";
-import Image from "../components/media";
+import { Image, Video, Centered } from "../components/media";
 import { Reference, LinkedReference } from "../components/references";
 
+import meta from "../meta/parametric-oscillator-meta";
+
 const ParOsc = () => (
-  <Layout page="parametric-oscillator">
-    <h1>Parametric oscillator: a close look</h1>
+  <Layout page={meta.target}>
+    <h1>{meta.title}</h1>
     <p>
       <small>
-        <Date dateString="2014-07-23" />
+        <Date dateString={meta.date} />
       </small>
     </p>
     <p>
@@ -66,7 +68,10 @@ const ParOsc = () => (
       <KD>
         {String.raw`
         \frac{d}{dt} 
-        \left(\begin{array}{c} x \\ v\end{array}\right) = 
+        \left(\begin{array}{c} x \\ v\end{array}\right) =`}
+      </KD>
+      <KD>
+        {String.raw`
         \left(\begin{array}{cc} 0 & 1 \\ -\omega(t)^2 & 0\end{array}\right)
         \left(\begin{array}{c} x \\ v\end{array}\right)`}
       </KD>
@@ -109,8 +114,10 @@ const ParOsc = () => (
       <KD>
         {String.raw`
         \begin{aligned}
-          \Psi(t) Q N &= \Phi(t)N = \Phi(t+T) \\
-          &= \Psi(t+T)Q = \Psi(t) M Q
+          \Psi(t) Q N &= \Phi(t)N \\
+          &= \Phi(t+T) \\
+          &= \Psi(t+T)Q \\
+          &= \Psi(t) M Q
         \end{aligned}`}
       </KD>
     </p>
@@ -196,7 +203,11 @@ const ParOsc = () => (
       calculated as a <em>Mercator series</em>:
       <KD>
         {String.raw`
-        \ln (1+x)=x-\frac{x ^ 2}{2}+\frac{x ^ 3}{3}-\frac{x ^ 4}{4}+\cdots`}
+        \ln (1+x) =`}
+      </KD>
+      <KD>
+        {String.raw`
+        x-\frac{x ^ 2}{2}+\frac{x ^ 3}{3}-\frac{x ^ 4}{4}+\cdots`}
       </KD>
       We have <K>{String.raw`M = \mu(I + K)`}</K> where <K>{String.raw`I`}</K>{" "}
       stands for the identity matrix, and
@@ -211,7 +222,8 @@ const ParOsc = () => (
         \begin{aligned}
           \ln M &=\ln \big(\mu(I+K)\big) \\
           &= \ln (\mu I) +\ln (I+K) \\
-          &= (\ln \mu) I + K-\frac{K^2}{2}+\frac{K^3}{3}-\cdots \\
+          &= (\ln \mu) I \\
+          & \quad + K-\frac{K^2}{2}+\frac{K^3}{3}-\cdots \\
           &= (\ln \mu) I + K \\
           &= \left(\begin{array}{cc}\ln\mu & 1/\mu \\0 & \ln\mu\end{array}\right)
         \end{aligned}`}
@@ -253,7 +265,10 @@ const ParOsc = () => (
       <K>{String.raw`\pi_2`}</K> such that
       <KD>
         {String.raw`
-        x_1(t) = \mu_1^{t/T} \pi_1(t) \qquad x_2(t) = \mu_2^{t/T} \pi_2(t)`}
+        \begin{aligned}
+        x_1(t) &= \mu_1^{t/T} \pi_1(t) \\ 
+        x_2(t) &= \mu_2^{t/T} \pi_2(t)
+        \end{aligned}`}
       </KD>
     </Corollary>
     <p>
@@ -325,7 +340,8 @@ const ParOsc = () => (
       <KD>
         {String.raw`
         \begin{aligned}
-          x_1(t) &= (-1)^{t/T} \pi_1(t) + \frac{t}{T}(-1)^{t/T-1} \pi_3(t) \\ 
+          x_1(t) &= (-1)^{t/T} \pi_1(t) \\
+          & \quad + \frac{t}{T}(-1)^{t/T-1} \pi_3(t) \\ 
           x_2(t) &= (-1)^{t/T} \pi_2(t)
         \end{aligned}`}
       </KD>
@@ -371,7 +387,7 @@ const ParOsc = () => (
       The Mathieu equation is the parametric oscillator with
       <KD>
         {String.raw`
-      \omega(t)^2 = \omega_0^2(1 + h \cos (\gamma t))`}
+        \omega(t)^2 = \omega_0^2(1 + h \cos (\gamma t))`}
       </KD>
       If this <K>{String.raw`\omega(t)`}</K> came from a child on a swing, it
       would be a strange child: one that stands and squats at a frequency{" "}
@@ -389,15 +405,12 @@ const ParOsc = () => (
       of the corresponding monodromy matrix. I refrained from drawing the
       coordinate axes, to avoid clutter.
     </p>
-    <figure>
-      <video autoPlay loop muted playsInline controls>
-        <source src="../images/MathieuBunny.webm" type="video/webm" />
-        <source src="../images/MathieuBunny.mp4" type="video/mp4" />
-      </video>
-      <figcaption>
-        The eigenvalues of a Mathieu equation as gamma changes
-      </figcaption>
-    </figure>
+    <Centered>
+      <Video
+        fileName="mathieu-bunny-270"
+        caption="The eigenvalues of a Mathieu equation as gamma changes"
+      />
+    </Centered>
     <p>
       The graph shows that, for every <K>{String.raw`\gamma`}</K>, the
       eigenvalues are either (1) on a circle, which happens to be the unit
@@ -438,7 +451,7 @@ const ParOsc = () => (
       normal form of the monodromy matrix is
       <KD>
         {String.raw`
-        \left(\begin{array}{cc}1 & \delta \\0 & 1\end{array}\right)\qquad \mathrm{or} \qquad
+        \left(\begin{array}{cc}1 & \delta \\0 & 1\end{array}\right)\quad \mathrm{or} \quad
         \left(\begin{array}{cc}-1 & \delta \\0 & -1\end{array}\right)`}
       </KD>
       where <K>{String.raw`\delta`}</K> is zero or one. So:
@@ -519,7 +532,10 @@ const ParOsc = () => (
       <K>{String.raw`\omega`}</K> will be a certain rectangular pulse:
       <KD>
         {String.raw`
-          \omega(t) =
+          \omega(t) =`}
+      </KD>
+      <KD>
+        {String.raw`
           \begin{cases}
             1 & 0 \leq (t\, \mathrm{mod}\, T) < t_1\\
             \omega_{\mathrm{max}} & t_1 \leq t\,\mathrm{mod}\, T) < t_2\\
@@ -597,7 +613,10 @@ const ParOsc = () => (
       following non-constant <K>{String.raw`\omega`}</K>:
       <KD>
         {String.raw`
-        \frac{\omega(t)}{2\pi} =
+        \frac{\omega(t)}{2\pi} =`}
+      </KD>
+      <KD>
+        {String.raw`
         \begin{cases}
           1 & 0 \leq (t\, \mathrm{mod} \,0.75) < 0.5\\
           2 & 0.5 \leq (t\, \mathrm{mod}\, 0.75) < 0.75
@@ -608,24 +627,30 @@ const ParOsc = () => (
       The solution for <K>{String.raw`x(0) = 0`}</K> and{" "}
       <K>{String.raw`v(0) = 1`}</K> is composed of two sine curves of different
       frequency:
-    </p>
-    <Image
-      fileName="MonodromyIdSin"
-      caption="Solution for M = Id, x(0) = 0 and v(0) = 1"
-      width={494}
-      height={293}
-    />
+    </p>{" "}
+    <Centered>
+      <Image
+        fileName="MonodromyIdSin"
+        caption="Solution for M = Id, x(0) = 0 and v(0) = 1"
+        width={494}
+        height={293}
+        extension="png"
+      />
+    </Centered>
     <p>
       It is periodic, with period <K>{String.raw`0.75`}</K>. The solution for{" "}
       <K>{String.raw`x(0) = 1`}</K> and <K>{String.raw`v(0) = 0`}</K> is
       composed of two cosine curves of different frequency:
     </p>
-    <Image
-      fileName="MonodromyId"
-      caption="Solution for M = Id, x(0) = 1 and v(0) = 0"
-      width={498}
-      height={307}
-    />
+    <Centered>
+      <Image
+        fileName="MonodromyId"
+        caption="Solution for M = Id, x(0) = 1 and v(0) = 0"
+        width={498}
+        height={307}
+        extension="png"
+      />
+    </Centered>
     <p>
       This too is periodic with period <K>{String.raw`0.75`}</K>. Since the
       solution space is spanned by those two solutions, every solution is
@@ -650,23 +675,29 @@ const ParOsc = () => (
       <K>{String.raw`v(0) = 1`}</K> is composed of two sine/cosine curves of
       different frequency:
     </p>
-    <Image
-      fileName="MonodromyMinusId01"
-      caption="Solution for M = -Id, x(0) = 0 and v(0) = 1"
-      width={499}
-      height={290}
-    />
+    <Centered>
+      <Image
+        fileName="MonodromyMinusId01"
+        caption="Solution for M = -Id, x(0) = 0 and v(0) = 1"
+        width={499}
+        height={290}
+        extension="png"
+      />
+    </Centered>
     <p>
       This is periodic, with period two. The solution for{" "}
       <K>{String.raw`x(0) = 1`}</K> and <K>{String.raw`v(0) = 0`}</K> too is
       composed of two sine/cosine curves of different frequency:
     </p>
-    <Image
-      fileName="MonodromyMinusId10"
-      caption="Solution for M = -Id, x(0) = 1 and v(0) = 0"
-      width={490}
-      height={305}
-    />
+    <Centered>
+      <Image
+        fileName="MonodromyMinusId10"
+        caption="Solution for M = -Id, x(0) = 1 and v(0) = 0"
+        width={490}
+        height={305}
+        extension="png"
+      />
+    </Centered>
     <p>
       This too is periodic with period two. Since the solution space is spanned
       by those two solutions, <em>every</em> solution is periodic with period

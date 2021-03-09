@@ -1,5 +1,5 @@
-import Image from "next/image";
 import Layout from "../components/layout";
+import { Image } from "../components/media";
 
 const name = "Carsten Führmann";
 
@@ -7,15 +7,14 @@ export default function About() {
   return (
     <Layout page="about-me">
       <header>
-        <picture>
-          <source srcSet="/images/profile-432.webp 432w" type="image/webp" />
-          <img
-            src="/images/profile-432.jpg"
-            height={144}
-            width={144}
-            alt={name}
-          />
-        </picture>
+        <Image
+          fileName="profile-432"
+          width={144}
+          height={144}
+          extension="jpg"
+          caption={name}
+          hideCaption
+        />
         <h1>{name}</h1>
       </header>
       <section>
