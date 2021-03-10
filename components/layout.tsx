@@ -6,7 +6,7 @@ const pageTexts: { [key in string]: string | undefined } = {
   "": "Home",
   publications: "Publications",
   lectures: "Lectures",
-  "about-me": "About",
+  "about-me": "?",
 };
 
 export default function Layout({
@@ -31,34 +31,29 @@ export default function Layout({
         <meta name="twitter:card" content="summary_large_image" />
         <title>{siteTitle}</title>
       </Head>
-      <header className="w3-top">
-        <nav>
-          <div className="w3-bar w3-light-grey w3-bottombar w3-border-indigo">
-            <LinkButton target="" />
-            <LinkButton target="publications" />
-            <LinkButton target="lectures" />
-            <LinkButton target="about-me" />
-          </div>
-        </nav>
-      </header>
-      <br />
-      <br />
-      <br />
       <br />
       <main className="markdown-body w3-container">{children}</main>
+      <footer className="w3-bottom">
+        <nav className="w3-center">
+          <LinkButton target="" /> <LinkButton target="publications" />{" "}
+          <LinkButton target="lectures" /> <LinkButton target="about-me" />
+        </nav>
+      </footer>
+      <br />
+      <br />
+      <br />
+      <br />
     </>
   );
 
   function LinkButton(props: { target: string }) {
     const { target } = props;
 
-    const className = `w3-bar-item w3-button ${
-      target === page ? "w3-indigo" : "w3-hover-indigo"
-    }`;
+    const className = "w3-bar-item w3-button w3-round-xlarge w3-indigo";
 
     return (
-      <a href={`/${target}`} className={className}>
-        {pageTexts[target]}
+      <a href={target ? `/${target}/` : "/"} className={className}>
+        {target === page ? <u>{pageTexts[target]}</u> : pageTexts[target]}
       </a>
     );
   }

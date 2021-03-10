@@ -15,13 +15,13 @@ export default function Home() {
       <Post {...parametricOscillator}>
         Research notes about the "parametric oscillator": a harmonic oscillator
         whose parameters oscillate in time. For example, a child pumping a swing
-        by periodically standing and squatting.
+        by periodically standing and squatting
       </Post>
 
       <Post {...forayPhysics}>
         Trying to get the hang of Classical Mechanics, I described a "soap
         slipping around in a bath tub" as a "Lagrangian" and visualized the
-        system using Mathematica.
+        system using Mathematica
       </Post>
     </Layout>
   );
@@ -36,7 +36,7 @@ function Post(props: {
   const { title, target, date, children } = props;
 
   return (
-    <a href={target} style={{ textDecoration: "none" }}>
+    <a href={`${target}/`} style={{ textDecoration: "none" }}>
       <div className="w3-card w3-text-black">
         <div className="w3-container">
           <h3>{title}</h3>
@@ -46,7 +46,7 @@ function Post(props: {
           <br />
           <br />
           <p>
-            <em>{children}</em>
+            <em>{children}...</em>
           </p>
         </div>
       </div>
