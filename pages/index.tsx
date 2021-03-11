@@ -1,5 +1,4 @@
 import Layout, { siteTitle } from "../components/layout";
-import Date from "../components/date";
 
 import parametricOscillator from "../meta/parametric-oscillator-meta";
 import forayPhysics from "../meta/foray-physics-meta";
@@ -40,11 +39,6 @@ function Post(props: {
       <div className="w3-card w3-text-black">
         <div className="w3-container">
           <h3>{title}</h3>
-          <small>
-            <Date dateString={date} />
-          </small>
-          <br />
-          <br />
           <p>
             <em>{children}...</em>
           </p>
