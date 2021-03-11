@@ -2,7 +2,8 @@ import Layout from "../components/layout";
 import Date from "../components/date";
 import { K, KD } from "../components/math";
 import { Image, Video, Centered } from "../components/media";
-
+import { LinkedReference } from "../components/references";
+import Comment from "../components/comments";
 import meta from "../meta/foray-physics-meta";
 
 const ForayPhysics = () => (
@@ -180,6 +181,122 @@ const ForayPhysics = () => (
       hand or with software. The software can also help explore and visualize
       the system.
     </p>
+
+    <h1>Comments</h1>
+
+    <Comment author="William Bliss" date="2014-05-27">
+      <p>
+        Very nice animation. It reminded me of a problem, rude of me to present
+        to you this way, but who knows you might find it rewarding.
+      </p>
+      <p>
+        There is a valuable concept missing from many people especially climate
+        deniers. This concept concerns how nonlinear systems often have multiple
+        semi-stable zones where local restoring forces act until the system gets
+        bumped over the hill into a different zone.
+      </p>
+      <p>
+        Our atmosphere is presumed to be such a system, though with many, many
+        dimensions. If, though, we knew the equations which described the
+        atmosphere and plotted two of them, say average global temperature and
+        average global cloud cover, we might get a graph similar to yours.
+      </p>
+      <p>
+        The educational trick would be to show how changes in atmospheric gas
+        content can change the heights of the hills surrounding the local stable
+        zone that our current global climate point is bound to. As these hills
+        change shape it becomes possible for our global climate to randomly
+        climb too far up one of these, now lower, valleys and fall into a
+        neighboring stable zone. Of course, the danger of this is that one of
+        these stable zones might be the “snowball earth” zone which Earth seems
+        to have fallen into several times in the past.
+      </p>
+      <p>
+        A few modifications to your animation program (labels, colors, changing
+        hill heights, etc.) could be a wonderful tool to demonstrating this
+        rather abstract concern that atmospheric scientists have.
+      </p>
+      <p>
+        Just a thought from a fellow physicist.
+        <br /> Thanks
+      </p>
+      <Comment author="Carsten Führmann" date="2014-05-27">
+        <p>
+          Wow, a comment on the blog as opposed to social media – that doesn’t
+          happen often! The whole climate issue has been on my mind for quite a
+          while. I know the models are very complex and still maturing. While I
+          think it would be great to use convincing, educational simulations,
+          they would have to be created or at least supervised by an expert in
+          the field, to avoid becoming an easy target.
+        </p>
+        <p>
+          However, I learned something very depressing recently that makes me
+          reconsider the whole strategy for convincing people about the reality
+          of global warming: recent research into people’s (in)ability to change
+          their beliefs, by Brendan Nyhan, a professor of political science at
+          Dartmouth. Here is an article about it:
+        </p>
+        <LinkedReference target="http://www.newyorker.com/online/blogs/mariakonnikova/2014/05/why-do-people-persist-in-believing-things-that-just-arent-true.html">
+          http://www.newyorker.com/online/blogs/mariakonnikova/2014/05/why-do-people-persist-in-believing-things-that-just-arent-true.html
+        </LinkedReference>
+        <p>
+          Basically, the finding is that people change their beliefs according
+          to evidence if and only if the belief is not tied up with their sense
+          of identity. In some cases, e.g. the structure of the solar system,
+          beliefs are not tied up with people’s identities. In other cases, e.g.
+          global warming, they are. (How could it come to this?) It probably
+          means that the way to communicate the scientific findings is not a
+          matter of well-presented simulation, but one of psychology.
+        </p>
+      </Comment>
+    </Comment>
+    <Comment author="Richard McKinley" date="2015-02-18">
+      <p>
+        Hi Carsten! I came looking for your publications, and found this
+        instead! (I’m essentially retired,or at least on hiatus, from logic, (I
+        now work in machine-learning for medical applications) but a review
+        request came in that I felt needed specialist attention)
+      </p>
+      <p>
+        I fully sympathise with your frustrations regarding physics: actually
+        for me it’s a little more shameful, since I actually took several
+        low-level theoretical physics courses during my undergrad degree. Last
+        year I took on
+      </p>
+      <LinkedReference target="https://www.coursera.org/learn/statistical-mechanics">
+        statistical mechanics,
+      </LinkedReference>
+      <p>
+        which I think would appeal to your programming-driven approach to
+        physics: I guess it’s too late to pick up the course now, but I highly
+        recommend “auditing” a few of the lectures and homeworks.
+      </p>
+      <Comment author="Carsten Führmann" date="2014-05-27">
+        <p>Hi Richard,</p>
+        <p>
+          After a long pause, I’m doing some admin work on my blog, and I’ve
+          just stumbled upon your comments. That’s strange, because I’m supposed
+          to receive email notifications when someone adds a comment, and that
+          used to work.
+        </p>
+        <p>
+          Anyway, it’s very interesting to hear that you moved from logic into a
+          different field. It’s probably not a bad idea to get in a different
+          mode and study something appliable. I don’t do much science these
+          days, but I’ve never dropped the ball completely. I’m learning physics
+          out of curiosity, and to to fill embarrasing white spots on my map of
+          science. I’ve just finished an online quantum mechanics course. I
+          learned a lot; the main problem for me wasn’t the maths, but to
+          envisage the experiments whose results the maths is supposed to
+          predict… In classical mechanics, it’s easy: I can imaging a bouncing
+          ball; but I don’t seem to have any items at home that show me quanta.
+        </p>
+        <p>
+          Best,
+          <br /> Carsten
+        </p>
+      </Comment>
+    </Comment>
   </Layout>
 );
 
