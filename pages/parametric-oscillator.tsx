@@ -9,7 +9,7 @@ import {
   Observation,
   Proof,
 } from "../components/math";
-import { Image, Video, Centered } from "../components/media";
+import { Image, Video } from "../components/media";
 import { Reference, LinkedReference } from "../components/references";
 
 import meta from "../meta/parametric-oscillator-meta";
@@ -405,12 +405,10 @@ const ParOsc = () => (
       of the corresponding monodromy matrix. I refrained from drawing the
       coordinate axes, to avoid clutter.
     </p>
-    <Centered>
-      <Video
-        fileName="mathieu-bunny-270"
-        caption="The eigenvalues of a Mathieu equation as gamma changes"
-      />
-    </Centered>
+    <Video
+      fileName="mathieu-bunny"
+      caption="The eigenvalues of a Mathieu equation as gamma changes"
+    />
     <p>
       The graph shows that, for every <K>{String.raw`\gamma`}</K>, the
       eigenvalues are either (1) on a circle, which happens to be the unit
@@ -628,29 +626,25 @@ const ParOsc = () => (
       <K>{String.raw`v(0) = 1`}</K> is composed of two sine curves of different
       frequency:
     </p>{" "}
-    <Centered>
-      <Image
-        fileName="MonodromyIdSin"
-        caption="Solution for M = Id, x(0) = 0 and v(0) = 1"
-        width={494}
-        height={293}
-        extension="png"
-      />
-    </Centered>
+    <Image
+      fileName="MonodromyIdSin"
+      caption="Solution for M = Id, x(0) = 0 and v(0) = 1"
+      width={494}
+      height={293}
+      extension="png"
+    />
     <p>
       It is periodic, with period <K>{String.raw`0.75`}</K>. The solution for{" "}
       <K>{String.raw`x(0) = 1`}</K> and <K>{String.raw`v(0) = 0`}</K> is
       composed of two cosine curves of different frequency:
     </p>
-    <Centered>
-      <Image
-        fileName="MonodromyId"
-        caption="Solution for M = Id, x(0) = 1 and v(0) = 0"
-        width={498}
-        height={307}
-        extension="png"
-      />
-    </Centered>
+    <Image
+      fileName="MonodromyId"
+      caption="Solution for M = Id, x(0) = 1 and v(0) = 0"
+      width={498}
+      height={307}
+      extension="png"
+    />
     <p>
       This too is periodic with period <K>{String.raw`0.75`}</K>. Since the
       solution space is spanned by those two solutions, every solution is
@@ -675,29 +669,25 @@ const ParOsc = () => (
       <K>{String.raw`v(0) = 1`}</K> is composed of two sine/cosine curves of
       different frequency:
     </p>
-    <Centered>
-      <Image
-        fileName="MonodromyMinusId01"
-        caption="Solution for M = -Id, x(0) = 0 and v(0) = 1"
-        width={499}
-        height={290}
-        extension="png"
-      />
-    </Centered>
+    <Image
+      fileName="MonodromyMinusId01"
+      caption="Solution for M = -Id, x(0) = 0 and v(0) = 1"
+      width={499}
+      height={290}
+      extension="png"
+    />
     <p>
       This is periodic, with period two. The solution for{" "}
       <K>{String.raw`x(0) = 1`}</K> and <K>{String.raw`v(0) = 0`}</K> too is
       composed of two sine/cosine curves of different frequency:
     </p>
-    <Centered>
-      <Image
-        fileName="MonodromyMinusId10"
-        caption="Solution for M = -Id, x(0) = 1 and v(0) = 0"
-        width={490}
-        height={305}
-        extension="png"
-      />
-    </Centered>
+    <Image
+      fileName="MonodromyMinusId10"
+      caption="Solution for M = -Id, x(0) = 1 and v(0) = 0"
+      width={490}
+      height={305}
+      extension="png"
+    />
     <p>
       This too is periodic with period two. Since the solution space is spanned
       by those two solutions, <em>every</em> solution is periodic with period

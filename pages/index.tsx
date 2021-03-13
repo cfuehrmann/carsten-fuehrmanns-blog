@@ -1,7 +1,8 @@
-import Layout, { siteTitle } from "../components/layout";
+import Layout from "../components/layout";
 
 import parametricOscillator from "../meta/parametric-oscillator-meta";
 import forayPhysics from "../meta/foray-physics-meta";
+import dbClassSummary from "../meta/dbclass-summary-meta";
 
 export default function Home() {
   return (
@@ -21,6 +22,11 @@ export default function Home() {
         Trying to get the hang of Classical Mechanics, I described a "soap
         slipping around in a bath tub" as a "Lagrangian" and visualized the
         system using Mathematica
+      </Post>
+
+      <Post {...dbClassSummary}>
+        My experience with the "Introduction to Databases" online course from
+        the University of Stanford.
       </Post>
     </Layout>
   );

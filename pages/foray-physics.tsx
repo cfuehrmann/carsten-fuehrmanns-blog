@@ -1,7 +1,7 @@
 import Layout from "../components/layout";
 import Date from "../components/date";
 import { K, KD } from "../components/math";
-import { Image, Video, Centered } from "../components/media";
+import { Image, Video } from "../components/media";
 import { LinkedReference } from "../components/references";
 import Comment from "../components/comments";
 import meta from "../meta/foray-physics-meta";
@@ -50,12 +50,10 @@ const ForayPhysics = () => (
       gravity, with no friction. Like a piece of soap in a bath tub. Here is a
       concrete case:
     </p>
-    <Centered>
-      <Video
-        fileName="soap-270"
-        caption="A mass tied to a surface, in the presence of gravity, with no friction"
-      />
-    </Centered>
+    <Video
+      fileName="soap"
+      caption="A mass tied to a surface, in the presence of gravity, with no friction"
+    />
     <p>
       Classical mechanics has a neat way of describing a whole system of moving
       parts by a mathematical term called <em>Lagrangian</em>. It’s beyond the
@@ -154,15 +152,13 @@ const ForayPhysics = () => (
       Before I created the animation above, I played around with the initial
       conditions and let Mathematica visualize the trajectory of the particle:
     </p>
-    <Centered>
-      <Image
-        fileName="orbit-486"
-        caption="The orbit of the sliding mass"
-        width={486}
-        height={461}
-        extension="jpg"
-      />
-    </Centered>
+    <Image
+      fileName="orbit"
+      caption="The orbit of the sliding mass"
+      width={486}
+      height={461}
+      extension="jpg"
+    />
     <p>
       After I found a nice trajectory to show off, I created the animation. The
       Mathematica programming language has convenient primitives for creating
