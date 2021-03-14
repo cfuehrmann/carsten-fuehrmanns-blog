@@ -16,17 +16,13 @@ const StanfordQuantum = () => (
       In September 2014, I embarked on the Stanford online quantum mechanics
       course by Prof. David Miller,
     </p>
-    <p>
-      <LinkedReference target="https://online.stanford.edu/courses/soe-yeeqmse01-quantum-mechanics-scientists-and-engineers">
-        Quantum Mechanics for Scientists and Engineers
-      </LinkedReference>
-    </p>
+    <LinkedReference target="https://online.stanford.edu/courses/soe-yeeqmse01-quantum-mechanics-scientists-and-engineers">
+      Quantum Mechanics for Scientists and Engineers
+    </LinkedReference>
     <p>Just when I thought “I’ve done it!”, a sequel</p>
-    <p>
-      <LinkedReference target="https://online.stanford.edu/courses/soe-yeeqmse-02-quantum-mechanics-scientists-and-engineers-2">
-        Quantum Mechanics for Scientists and Engineers 2
-      </LinkedReference>
-    </p>
+    <LinkedReference target="https://online.stanford.edu/courses/soe-yeeqmse-02-quantum-mechanics-scientists-and-engineers-2">
+      Quantum Mechanics for Scientists and Engineers 2
+    </LinkedReference>
     <p>
       was announced, from January to March 2015. It too seemed essential, and I
       decided to continue. Now that I’ve finished both courses, here is a quick

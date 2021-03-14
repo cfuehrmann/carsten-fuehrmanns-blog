@@ -16,17 +16,13 @@ const DbClassSummary = () => (
     <p>
       I just finished an online course offered by the University of Stanford,
     </p>
-    <p>
-      <LinkedReference target="https://cs.stanford.edu/people/widom/DB-mooc.html">
-        Introduction to Databases
-      </LinkedReference>
-    </p>
+    <LinkedReference target="https://cs.stanford.edu/people/widom/DB-mooc.html">
+      Introduction to Databases
+    </LinkedReference>
     <p>It was taught, not for the first time, by the delightful and heroic</p>
-    <p>
-      <LinkedReference target="https://cs.stanford.edu/people/widom/">
-        Prof. Jennifer Widom
-      </LinkedReference>
-    </p>
+    <LinkedReference target="https://cs.stanford.edu/people/widom/">
+      Prof. Jennifer Widom
+    </LinkedReference>
     <p>
       and lasted from January 15 to March 23. This experience means a lot to me
       for reasons that will emerge below. This post is aimed at people who are

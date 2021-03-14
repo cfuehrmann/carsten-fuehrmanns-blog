@@ -3,17 +3,19 @@ import { useCallback } from "react";
 
 export const K = ({ children }: { children: string }) => (
   <span
-    ref={useCallback((node) => {
-      katex.render(children, node);
-    }, [])}
+    dangerouslySetInnerHTML={{
+      __html: katex.renderToString(children),
+    }}
   />
 );
 
 export const KD = ({ children }: { children: string }) => (
   <span
-    ref={useCallback((node) => {
-      katex.render(children, node, { displayMode: true });
-    }, [])}
+    dangerouslySetInnerHTML={{
+      __html: katex.renderToString(children, {
+        displayMode: true,
+      }),
+    }}
   />
 );
 

@@ -1,5 +1,4 @@
 import "../styles/github-markdown.css";
-import "../styles/katex.min.css";
 import "../styles/w3.css";
 
 import { AppProps } from "next/app";
