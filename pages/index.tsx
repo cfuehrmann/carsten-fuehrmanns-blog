@@ -3,6 +3,7 @@ import Layout from "../components/layout";
 import parametricOscillator from "../meta/parametric-oscillator-meta";
 import forayPhysics from "../meta/foray-physics-meta";
 import dbClassSummary from "../meta/dbclass-summary-meta";
+import stanfordQuantum from "../meta/stanford-quantum-meta";
 
 export default function Home() {
   return (
@@ -11,6 +12,11 @@ export default function Home() {
       <p>Computer scientist and software engineer. More interests than time.</p>
 
       <h2>Posts</h2>
+
+      <Post {...stanfordQuantum}>
+        My experience with the online course "Quantum Mechanics for Scientists
+        and Engineers" from the University of Stanford.
+      </Post>
 
       <Post {...parametricOscillator}>
         Research notes about the "parametric oscillator": a harmonic oscillator
@@ -25,7 +31,7 @@ export default function Home() {
       </Post>
 
       <Post {...dbClassSummary}>
-        My experience with the "Introduction to Databases" online course from
+        My experience with the online course "Introduction to Databases" from
         the University of Stanford.
       </Post>
     </Layout>
