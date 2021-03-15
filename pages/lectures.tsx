@@ -1,8 +1,38 @@
+import reactDomServer from "react-dom/server";
+import { GetStaticProps } from "next";
+
 import Layout from "../components/layout";
 
-export default function Lectures() {
+export default function Lectures(props: { staticHtml: string }) {
+  const { staticHtml } = props;
+
   return (
     <Layout page="lectures">
+      <div dangerouslySetInnerHTML={{ __html: staticHtml }} />
+    </Layout>
+  );
+}
+
+function Handout(props: { target: string; title: string }) {
+  const { target, title } = props;
+
+  return (
+    <a
+      href={`/lectures/${target}.pdf`}
+      target="_blank"
+      rel="noopener noreferrer"
+      style={{ textDecoration: "none" }}
+    >
+      <div className="w3-card w3-text-black">
+        <p className="w3-padding-large">{title}</p>
+      </div>
+    </a>
+  );
+}
+
+export const getStaticProps: GetStaticProps = async (context) => {
+  const inner = (
+    <>
       <h1>Lectures</h1>
 
       <p>
@@ -133,23 +163,8 @@ export default function Lectures() {
         target="logic-17"
       />
       <Handout title="18. Revision" target="logic-18" />
-    </Layout>
+    </>
   );
-}
-
-function Handout(props: { target: string; title: string }) {
-  const { target, title } = props;
-
-  return (
-    <a
-      href={`/lectures/${target}.pdf`}
-      target="_blank"
-      rel="noopener noreferrer"
-      style={{ textDecoration: "none" }}
-    >
-      <div className="w3-card w3-text-black">
-        <p className="w3-padding-large">{title}</p>
-      </div>
-    </a>
-  );
-}
+  const staticHtml = reactDomServer.renderToStaticMarkup(inner);
+  return { props: { staticHtml } };
+};

@@ -14,12 +14,6 @@ function Post(props: { staticHtml: string }) {
 
   return (
     <Layout page={meta.target}>
-      <h1>{meta.title}</h1>
-      <p>
-        <small>
-          <Date dateString={meta.date} />
-        </small>
-      </p>
       <div dangerouslySetInnerHTML={{ __html: staticHtml }} />
     </Layout>
   );
@@ -30,6 +24,12 @@ export default Post;
 export const getStaticProps: GetStaticProps = async (context) => {
   const inner = (
     <>
+      <h1>{meta.title}</h1>
+      <p>
+        <small>
+          <Date dateString={meta.date} />
+        </small>
+      </p>
       <p>
         Generally, I’m all for static typing. After all, it make it possible to
         ensure aspects of program behaviour in a universal way, as opposed to

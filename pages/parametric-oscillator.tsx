@@ -24,14 +24,6 @@ function ParOsc(props: { staticHtml: string }) {
 
   return (
     <Layout page={meta.target}>
-      <h1>{meta.title}</h1>
-
-      <p>
-        <small>
-          <Date dateString={meta.date} />
-        </small>
-      </p>
-
       <div dangerouslySetInnerHTML={{ __html: staticHtml }} />
 
       <h2>References</h2>
@@ -61,6 +53,12 @@ export default ParOsc;
 export const getStaticProps: GetStaticProps = async (context) => {
   const inner = (
     <>
+      <h1>{meta.title}</h1>
+      <p>
+        <small>
+          <Date dateString={meta.date} />
+        </small>
+      </p>
       <p>
         This post contains my research notes about the{" "}
         <em>parametric oscillator</em>. Here is an introduction from Wikipedia
