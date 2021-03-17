@@ -2,11 +2,11 @@ import reactDomServer from "react-dom/server";
 import { GetStaticProps } from "next";
 
 import Layout from "../components/layout";
-import Date from "../components/date";
+import BlogPost from "../components/blog-post";
 import { Image } from "../components/media";
 import meta from "../meta/schlossbruecke-meta";
 
-function Post(props: { staticHtml: string }) {
+export default function SchlossBrueccke(props: { staticHtml: string }) {
   const { staticHtml } = props;
 
   return (
@@ -16,17 +16,9 @@ function Post(props: { staticHtml: string }) {
   );
 }
 
-export default Post;
-
 export const getStaticProps: GetStaticProps = async (context) => {
   const inner = (
-    <>
-      <h1>{meta.title}</h1>
-      <p>
-        <small>
-          <Date dateString={meta.date} />
-        </small>
-      </p>
+    <BlogPost {...meta}>
       <p>
         Warum vergessen die Leute nur alle ihre Schlösser an dieser Nürnberger
         Brücke?
@@ -39,7 +31,7 @@ export const getStaticProps: GetStaticProps = async (context) => {
         extension="jpg"
         hideCaption
       />
-    </>
+    </BlogPost>
   );
 
   const staticHtml = reactDomServer.renderToStaticMarkup(inner);

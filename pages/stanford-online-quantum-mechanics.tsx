@@ -2,12 +2,14 @@ import reactDomServer from "react-dom/server";
 import { GetStaticProps } from "next";
 
 import Layout from "../components/layout";
-import Date from "../components/date";
+import BlogPost from "../components/blog-post";
 import { Image } from "../components/media";
 import { LinkedReference } from "../components/references";
 import meta from "../meta/stanford-quantum-meta";
 
-function StanfordQuantum(props: { staticHtml: string }) {
+export default function StanfordOnlineQuantumMechanics(props: {
+  staticHtml: string;
+}) {
   const { staticHtml } = props;
 
   return (
@@ -17,17 +19,9 @@ function StanfordQuantum(props: { staticHtml: string }) {
   );
 }
 
-export default StanfordQuantum;
-
 export const getStaticProps: GetStaticProps = async (context) => {
   const inner = (
-    <>
-      <h1>{meta.title}</h1>
-      <p>
-        <small>
-          <Date dateString={meta.date} />
-        </small>
-      </p>
+    <BlogPost {...meta}>
       <p>
         In September 2014, I embarked on the Stanford online quantum mechanics
         course by Prof. David Miller,
@@ -205,7 +199,7 @@ export const getStaticProps: GetStaticProps = async (context) => {
         mechanics ticks. Now I only need to stay in touch with the material,
         lest it fade from my memory…
       </p>
-    </>
+    </BlogPost>
   );
 
   const staticHtml = reactDomServer.renderToStaticMarkup(inner);

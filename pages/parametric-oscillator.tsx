@@ -4,7 +4,7 @@ import reactDomServer from "react-dom/server";
 import { GetStaticProps } from "next";
 
 import Layout from "../components/layout";
-import Date from "../components/date";
+import BlogPost from "../components/blog-post";
 import {
   K,
   KD,
@@ -19,7 +19,7 @@ import { Reference, LinkedReference } from "../components/references";
 
 import meta from "../meta/parametric-oscillator-meta";
 
-function ParOsc(props: { staticHtml: string }) {
+export default function ParametricOscillator(props: { staticHtml: string }) {
   const { staticHtml } = props;
 
   return (
@@ -48,17 +48,9 @@ function ParOsc(props: { staticHtml: string }) {
   );
 }
 
-export default ParOsc;
-
 export const getStaticProps: GetStaticProps = async (context) => {
   const inner = (
-    <>
-      <h1>{meta.title}</h1>
-      <p>
-        <small>
-          <Date dateString={meta.date} />
-        </small>
-      </p>
+    <BlogPost {...meta}>
       <p>
         This post contains my research notes about the{" "}
         <em>parametric oscillator</em>. Here is an introduction from Wikipedia
@@ -737,7 +729,7 @@ export const getStaticProps: GetStaticProps = async (context) => {
         <K>{String.raw`\omega`}</K>, both eigenvalues are minus one. So the
         monodromy matrix is the minus identity.
       </p>
-    </>
+    </BlogPost>
   );
 
   const staticHtml = reactDomServer.renderToStaticMarkup(inner);

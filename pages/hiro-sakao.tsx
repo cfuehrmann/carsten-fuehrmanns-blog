@@ -2,11 +2,11 @@ import reactDomServer from "react-dom/server";
 import { GetStaticProps } from "next";
 
 import Layout from "../components/layout";
-import Date from "../components/date";
+import BlogPost from "../components/blog-post";
 import { Image } from "../components/media";
 import meta from "../meta/hiro-sakao-meta";
 
-function Post(props: { staticHtml: string }) {
+export default function HiroSakao(props: { staticHtml: string }) {
   const { staticHtml } = props;
 
   return (
@@ -16,17 +16,9 @@ function Post(props: { staticHtml: string }) {
   );
 }
 
-export default Post;
-
 export const getStaticProps: GetStaticProps = async (context) => {
   const inner = (
-    <>
-      <h1>{meta.title}</h1>
-      <p>
-        <small>
-          <Date dateString={meta.date} />
-        </small>
-      </p>
+    <BlogPost {...meta}>
       <p>
         Ich verspreche, nicht oft Essensbilder zu posten. Jedenfalls war ich
         jetzt zum dritten Mal im japanischen Restaurant “Hiro Sakao” in
@@ -49,7 +41,7 @@ export const getStaticProps: GetStaticProps = async (context) => {
         height={600}
         extension="jpg"
       />
-    </>
+    </BlogPost>
   );
 
   const staticHtml = reactDomServer.renderToStaticMarkup(inner);

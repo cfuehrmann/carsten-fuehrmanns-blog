@@ -2,11 +2,11 @@ import reactDomServer from "react-dom/server";
 import { GetStaticProps } from "next";
 
 import Layout from "../components/layout";
-import Date from "../components/date";
+import BlogPost from "../components/blog-post";
 import { LinkedReference } from "../components/references";
 import meta from "../meta/why-do-i-start-my-own-blog-meta";
 
-function Post(props: { staticHtml: string }) {
+export default function WhyDoIStartMyOwnBlog(props: { staticHtml: string }) {
   const { staticHtml } = props;
 
   return (
@@ -16,17 +16,9 @@ function Post(props: { staticHtml: string }) {
   );
 }
 
-export default Post;
-
 export const getStaticProps: GetStaticProps = async (context) => {
   const inner = (
-    <>
-      <h1>{meta.title}</h1>
-      <p>
-        <small>
-          <Date dateString={meta.date} />
-        </small>
-      </p>
+    <BlogPost {...meta}>
       <p>There are three reasons:</p>
       <p>
         First, I sometimes feel the urge to post a photo or a thought, or to
@@ -61,7 +53,7 @@ export const getStaticProps: GetStaticProps = async (context) => {
         Overflow, they are not suited for proactive, Wiki-style content. So I
         intend to share my software-engineering wisdom on this blog.
       </p>
-    </>
+    </BlogPost>
   );
 
   const staticHtml = reactDomServer.renderToStaticMarkup(inner);

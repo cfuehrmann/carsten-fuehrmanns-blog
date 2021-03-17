@@ -4,12 +4,14 @@ import reactDomServer from "react-dom/server";
 import { GetStaticProps } from "next";
 
 import Layout from "../components/layout";
-import Date from "../components/date";
+import BlogPost from "../components/blog-post";
 import meta from "../meta/static-typing-testable-architectures-meta";
 import Code from "../components/code";
 import { LinkedReference } from "../components/references";
 
-function Post(props: { staticHtml: string }) {
+export default function StaticTypingTestableArchitectures(props: {
+  staticHtml: string;
+}) {
   const { staticHtml } = props;
 
   return (
@@ -19,17 +21,9 @@ function Post(props: { staticHtml: string }) {
   );
 }
 
-export default Post;
-
 export const getStaticProps: GetStaticProps = async (context) => {
   const inner = (
-    <>
-      <h1>{meta.title}</h1>
-      <p>
-        <small>
-          <Date dateString={meta.date} />
-        </small>
-      </p>
+    <BlogPost {...meta}>
       <p>
         Generally, I’m all for static typing. After all, it make it possible to
         ensure aspects of program behaviour in a universal way, as opposed to
@@ -312,7 +306,7 @@ public void TestRepairOfBrokenCar()
         approach exists for Java. Regardless, my point remains that the problem
         only exists because of the languages’ type systems.
       </p>
-    </>
+    </BlogPost>
   );
 
   const staticHtml = reactDomServer.renderToStaticMarkup(inner);

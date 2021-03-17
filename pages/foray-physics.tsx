@@ -4,14 +4,14 @@ import reactDomServer from "react-dom/server";
 import { GetStaticProps } from "next";
 
 import Layout from "../components/layout";
-import Date from "../components/date";
+import BlogPost from "../components/blog-post";
 import { K, KD } from "../components/math";
 import { Image, Video } from "../components/media";
 import { LinkedReference } from "../components/references";
 import Comment from "../components/comments";
 import meta from "../meta/foray-physics-meta";
 
-function ForayPhysics(props: { staticHtml: string }) {
+export default function ForayPhysics(props: { staticHtml: string }) {
   const { staticHtml } = props;
 
   return (
@@ -21,17 +21,9 @@ function ForayPhysics(props: { staticHtml: string }) {
   );
 }
 
-export default ForayPhysics;
-
 export const getStaticProps: GetStaticProps = async (context) => {
   const inner = (
-    <>
-      <h1>{meta.title}</h1>
-      <p>
-        <small>
-          <Date dateString={meta.date} />
-        </small>
-      </p>
+    <BlogPost {...meta}>
       <p>
         It has long bothered me that I know so little about physics and the
         maths that goes along with it. There are some great popular-science
@@ -312,7 +304,7 @@ export const getStaticProps: GetStaticProps = async (context) => {
           </p>
         </Comment>
       </Comment>
-    </>
+    </BlogPost>
   );
 
   const staticHtml = reactDomServer.renderToStaticMarkup(inner);

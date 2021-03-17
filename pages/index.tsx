@@ -5,7 +5,7 @@ import forayPhysics from "../meta/foray-physics-meta";
 import dbClassSummary from "../meta/dbclass-summary-meta";
 import stanfordQuantum from "../meta/stanford-quantum-meta";
 
-export default function Home() {
+export default function Index() {
   return (
     <Layout page="">
       <h1>Carsten Führmann</h1>
@@ -13,32 +13,32 @@ export default function Home() {
 
       <h2>Posts</h2>
 
-      <Post {...stanfordQuantum}>
+      <Abstract {...stanfordQuantum}>
         My experience with the online course "Quantum Mechanics for Scientists
         and Engineers" from the University of Stanford.
-      </Post>
+      </Abstract>
 
-      <Post {...parametricOscillator}>
+      <Abstract {...parametricOscillator}>
         Research notes about the "parametric oscillator": a harmonic oscillator
         whose parameters oscillate in time. For example, a child pumping a swing
         by periodically standing and squatting
-      </Post>
+      </Abstract>
 
-      <Post {...forayPhysics}>
+      <Abstract {...forayPhysics}>
         Trying to get the hang of Classical Mechanics, I described a "soap
         slipping around in a bath tub" as a "Lagrangian" and visualized the
         system using Mathematica
-      </Post>
+      </Abstract>
 
-      <Post {...dbClassSummary}>
+      <Abstract {...dbClassSummary}>
         My experience with the online course "Introduction to Databases" from
         the University of Stanford.
-      </Post>
+      </Abstract>
     </Layout>
   );
 }
 
-function Post(props: {
+function Abstract(props: {
   title: string;
   target: string;
   date: string;

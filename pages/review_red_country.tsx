@@ -2,11 +2,11 @@ import reactDomServer from "react-dom/server";
 import { GetStaticProps } from "next";
 
 import Layout from "../components/layout";
-import Date from "../components/date";
+import BlogPost from "../components/blog-post";
 import { LinkedReference } from "../components/references";
 import meta from "../meta/review_red_country-meta";
 
-function Post(props: { staticHtml: string }) {
+export default function ReviewRedCountry(props: { staticHtml: string }) {
   const { staticHtml } = props;
 
   return (
@@ -16,17 +16,9 @@ function Post(props: { staticHtml: string }) {
   );
 }
 
-export default Post;
-
 export const getStaticProps: GetStaticProps = async (context) => {
   const inner = (
-    <>
-      <h1>{meta.title}</h1>
-      <p>
-        <small>
-          <Date dateString={meta.date} />
-        </small>
-      </p>
+    <BlogPost {...meta}>
       <p>I just posted this book review of Joe Abercrombie’s</p>
       <LinkedReference target="https://joeabercrombie.com/books/red-country/">
         Red Country
@@ -50,7 +42,7 @@ export const getStaticProps: GetStaticProps = async (context) => {
       <p>
         I'm fairly sure this is one of the few books I will read a second time.
       </p>
-    </>
+    </BlogPost>
   );
 
   const staticHtml = reactDomServer.renderToStaticMarkup(inner);

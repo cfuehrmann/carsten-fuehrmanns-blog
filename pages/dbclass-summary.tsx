@@ -2,13 +2,13 @@ import reactDomServer from "react-dom/server";
 import { GetStaticProps } from "next";
 
 import Layout from "../components/layout";
-import Date from "../components/date";
+import BlogPost from "../components/blog-post";
 import { Image } from "../components/media";
 import { LinkedReference } from "../components/references";
 import Comment from "../components/comments";
 import meta from "../meta/dbclass-summary-meta";
 
-function DbClassSummary(props: { staticHtml: string }) {
+export default function DbClassSummary(props: { staticHtml: string }) {
   const { staticHtml } = props;
 
   return (
@@ -18,17 +18,9 @@ function DbClassSummary(props: { staticHtml: string }) {
   );
 }
 
-export default DbClassSummary;
-
 export const getStaticProps: GetStaticProps = async (context) => {
   const inner = (
-    <>
-      <h1>{meta.title}</h1>
-      <p>
-        <small>
-          <Date dateString={meta.date} />
-        </small>
-      </p>
+    <BlogPost {...meta}>
       <p>
         I just finished an online course offered by the University of Stanford,
       </p>
@@ -346,7 +338,7 @@ export const getStaticProps: GetStaticProps = async (context) => {
           </p>
         </Comment>
       </Comment>
-    </>
+    </BlogPost>
   );
   const staticHtml = reactDomServer.renderToStaticMarkup(inner);
   return { props: { staticHtml } };
