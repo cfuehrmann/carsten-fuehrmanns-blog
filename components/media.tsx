@@ -34,11 +34,9 @@ export const Image = ({
       ""
     ) : (
       <div className="w3-container w3-center">
-        <p className="w3-margin-top">
-          <small>
-            <em>{caption}</em>
-          </small>
-        </p>
+        <small>
+          <em>{caption}</em>
+        </small>
       </div>
     )}
   </>
