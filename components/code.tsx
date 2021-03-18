@@ -16,7 +16,7 @@ function Code(props: { language: string; children: string }) {
   const { language, children } = props;
 
   return (
-    <pre
+    <div
       className="w3-border"
       style={{
         backgroundColor: "white",
@@ -24,12 +24,14 @@ function Code(props: { language: string; children: string }) {
         overflowY: "hidden",
       }}
     >
-      <code
-        style={{ backgroundColor: "white" }}
-        dangerouslySetInnerHTML={{
-          __html: hljs.highlight(language, children).value,
-        }}
-      />
-    </pre>
+      <pre className="w3-margin-left">
+        <code
+          style={{ backgroundColor: "white" }}
+          dangerouslySetInnerHTML={{
+            __html: hljs.highlight(language, children).value,
+          }}
+        />
+      </pre>
+    </div>
   );
 }

@@ -73,6 +73,7 @@ function Abstract(props: {
           </p>
         </div>
       </div>
+      <br />
     </a>
   );
 }
