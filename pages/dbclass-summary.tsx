@@ -13,7 +13,7 @@ export const meta = {
   date: "2013-03-24",
 };
 
-export default function DbClassSummary(props: { staticHtml: string }) {
+export default function Post(props: { staticHtml: string }) {
   const { staticHtml } = props;
 
   return (

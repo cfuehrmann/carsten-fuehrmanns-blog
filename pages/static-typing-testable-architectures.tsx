@@ -15,9 +15,7 @@ const meta = {
   date: "2013-01-05",
 };
 
-export default function StaticTypingTestableArchitectures(props: {
-  staticHtml: string;
-}) {
+export default function Post(props: { staticHtml: string }) {
   const { staticHtml } = props;
 
   return (

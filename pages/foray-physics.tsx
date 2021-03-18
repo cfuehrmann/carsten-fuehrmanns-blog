@@ -16,7 +16,7 @@ export const meta = {
   date: "2014-05-25",
 };
 
-export default function ForayPhysics(props: { staticHtml: string }) {
+export default function Post(props: { staticHtml: string }) {
   const { staticHtml } = props;
 
   return (

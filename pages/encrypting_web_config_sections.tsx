@@ -14,9 +14,7 @@ const meta = {
   date: "2012-10-12",
 };
 
-export default function EncryptingWebConfigurationSections(props: {
-  staticHtml: string;
-}) {
+export default function Post(props: { staticHtml: string }) {
   const { staticHtml } = props;
 
   return (

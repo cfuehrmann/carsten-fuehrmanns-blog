@@ -11,7 +11,7 @@ const meta = {
   date: "2012-09-07",
 };
 
-export default function HiroSakao(props: { staticHtml: string }) {
+export default function Post(props: { staticHtml: string }) {
   const { staticHtml } = props;
 
   return (

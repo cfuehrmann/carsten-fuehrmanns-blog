@@ -11,7 +11,7 @@ const meta = {
   date: "2012-08-28",
 };
 
-export default function WhyDoIStartMyOwnBlog(props: { staticHtml: string }) {
+export default function Post(props: { staticHtml: string }) {
   const { staticHtml } = props;
 
   return (

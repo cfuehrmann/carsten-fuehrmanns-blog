@@ -11,7 +11,7 @@ const meta = {
   date: "2013-04-05",
 };
 
-export default function ReviewRedCountry(props: { staticHtml: string }) {
+export default function Post(props: { staticHtml: string }) {
   const { staticHtml } = props;
 
   return (

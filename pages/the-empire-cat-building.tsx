@@ -11,7 +11,7 @@ const meta = {
   date: "2012-10-13",
 };
 
-export default function TheEmpireCatBuilding(props: { staticHtml: string }) {
+export default function Post(props: { staticHtml: string }) {
   const { staticHtml } = props;
 
   return (

@@ -23,7 +23,7 @@ export const meta = {
   date: "2014-07-23",
 };
 
-export default function ParametricOscillator(props: { staticHtml: string }) {
+export default function Post(props: { staticHtml: string }) {
   const { staticHtml } = props;
 
   return (

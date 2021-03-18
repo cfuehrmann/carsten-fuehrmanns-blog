@@ -12,9 +12,7 @@ export const meta = {
   date: "2015-03-21",
 };
 
-export default function StanfordOnlineQuantumMechanics(props: {
-  staticHtml: string;
-}) {
+export default function Post(props: { staticHtml: string }) {
   const { staticHtml } = props;
 
   return (
