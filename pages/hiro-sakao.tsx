@@ -4,7 +4,12 @@ import { GetStaticProps } from "next";
 import Layout from "../components/layout";
 import BlogPost from "../components/blog-post";
 import { Image } from "../components/media";
-import meta from "../meta/hiro-sakao-meta";
+
+const meta = {
+  title: "Hiro Sakao",
+  target: "hiro-sakao",
+  date: "2012-09-07",
+};
 
 export default function HiroSakao(props: { staticHtml: string }) {
   const { staticHtml } = props;

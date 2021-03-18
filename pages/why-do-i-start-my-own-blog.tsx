@@ -4,7 +4,12 @@ import { GetStaticProps } from "next";
 import Layout from "../components/layout";
 import BlogPost from "../components/blog-post";
 import { LinkedReference } from "../components/references";
-import meta from "../meta/why-do-i-start-my-own-blog-meta";
+
+const meta = {
+  title: "Why do I start my own blog?",
+  target: "why-do-i-start-my-own-blog",
+  date: "2012-08-28",
+};
 
 export default function WhyDoIStartMyOwnBlog(props: { staticHtml: string }) {
   const { staticHtml } = props;

@@ -6,7 +6,12 @@ import BlogPost from "../components/blog-post";
 import { Image } from "../components/media";
 import { LinkedReference } from "../components/references";
 import Comment from "../components/comments";
-import meta from "../meta/dbclass-summary-meta";
+
+export const meta = {
+  title: "My online experience with Stanford’s “Introduction to Databases”",
+  target: "dbclass-summary",
+  date: "2013-03-24",
+};
 
 export default function DbClassSummary(props: { staticHtml: string }) {
   const { staticHtml } = props;

@@ -5,7 +5,12 @@ import Layout from "../components/layout";
 import BlogPost from "../components/blog-post";
 import { Image } from "../components/media";
 import { LinkedReference } from "../components/references";
-import meta from "../meta/stanford-quantum-meta";
+
+export const meta = {
+  title: "Stanford online quantum mechanics",
+  target: "stanford-online-quantum-mechanics",
+  date: "2015-03-21",
+};
 
 export default function StanfordOnlineQuantumMechanics(props: {
   staticHtml: string;

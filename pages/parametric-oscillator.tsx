@@ -17,7 +17,11 @@ import {
 import { Image, Video } from "../components/media";
 import { Reference, LinkedReference } from "../components/references";
 
-import meta from "../meta/parametric-oscillator-meta";
+export const meta = {
+  title: "Parametric oscillator: a close look",
+  target: "parametric-oscillator",
+  date: "2014-07-23",
+};
 
 export default function ParametricOscillator(props: { staticHtml: string }) {
   const { staticHtml } = props;

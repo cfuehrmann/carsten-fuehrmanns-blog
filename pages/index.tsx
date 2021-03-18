@@ -1,13 +1,26 @@
+import reactDomServer from "react-dom/server";
+import { GetStaticProps } from "next";
+
 import Layout from "../components/layout";
 
-import parametricOscillator from "../meta/parametric-oscillator-meta";
-import forayPhysics from "../meta/foray-physics-meta";
-import dbClassSummary from "../meta/dbclass-summary-meta";
-import stanfordQuantum from "../meta/stanford-quantum-meta";
+import { meta as parametricOscillator } from "./parametric-oscillator";
+import { meta as forayPhysics } from "./foray-physics";
+import { meta as dbClassSummary } from "./dbclass-summary";
+import { meta as stanfordQuantum } from "./stanford-online-quantum-mechanics";
 
-export default function Index() {
+export default function ForayPhysics(props: { staticHtml: string }) {
+  const { staticHtml } = props;
+
   return (
     <Layout page="">
+      <div dangerouslySetInnerHTML={{ __html: staticHtml }} />
+    </Layout>
+  );
+}
+
+export const getStaticProps: GetStaticProps = async (context) => {
+  const inner = (
+    <>
       <h1>Carsten Führmann</h1>
       <p>Computer scientist and software engineer. More interests than time.</p>
 
@@ -34,9 +47,13 @@ export default function Index() {
         My experience with the online course "Introduction to Databases" from
         the University of Stanford.
       </Abstract>
-    </Layout>
+    </>
   );
-}
+
+  const staticHtml = reactDomServer.renderToStaticMarkup(inner);
+
+  return { props: { staticHtml } };
+};
 
 function Abstract(props: {
   title: string;

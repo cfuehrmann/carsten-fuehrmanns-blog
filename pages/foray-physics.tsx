@@ -9,7 +9,12 @@ import { K, KD } from "../components/math";
 import { Image, Video } from "../components/media";
 import { LinkedReference } from "../components/references";
 import Comment from "../components/comments";
-import meta from "../meta/foray-physics-meta";
+
+export const meta = {
+  title: "An amateur’s foray into physics",
+  target: "foray-physics",
+  date: "2014-05-25",
+};
 
 export default function ForayPhysics(props: { staticHtml: string }) {
   const { staticHtml } = props;

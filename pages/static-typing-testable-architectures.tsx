@@ -5,9 +5,15 @@ import { GetStaticProps } from "next";
 
 import Layout from "../components/layout";
 import BlogPost from "../components/blog-post";
-import meta from "../meta/static-typing-testable-architectures-meta";
 import Code from "../components/code";
 import { LinkedReference } from "../components/references";
+
+const meta = {
+  title:
+    "On testable architectures and how Java-like type systems can harm them",
+  target: "static-typing-testable-architectures-meta",
+  date: "2013-01-05",
+};
 
 export default function StaticTypingTestableArchitectures(props: {
   staticHtml: string;
