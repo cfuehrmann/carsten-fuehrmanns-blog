@@ -1,3 +1,4 @@
+import { autoDetection } from "highlight.js";
 import Head from "next/head";
 
 export const siteTitle = "Carsten expounds";
@@ -32,10 +33,12 @@ export default function Layout({
         <title>{siteTitle}</title>
       </Head>
       <br />
-      <main className="markdown-body w3-container">{children}</main>
+      <main className="markdown-body w3-container">
+        <div style={{ maxWidth: "800px", margin: "auto" }}>{children}</div>
+      </main>
       <footer className="w3-bottom">
         <nav className="w3-center">
-          <LinkButton target="" /> <LinkButton target="publications" />{" "}
+          <LinkButton target="" /> <LinkButton target="publications" />
           <LinkButton target="lectures" /> <LinkButton target="about-me" />
         </nav>
       </footer>
