@@ -5,13 +5,13 @@ import { GetStaticProps } from "next";
 
 import Layout from "../components/layout";
 import BlogPost from "../components/blog-post";
-import Code from "../components/code";
+import { CSharp } from "../components/code";
 import { LinkedReference } from "../components/references";
 
 const meta = {
   title:
     "On testable architectures and how Java-like type systems can harm them",
-  target: "static-typing-testable-architectures-meta",
+  target: "static-typing-testable-architectures",
   date: "2013-01-05",
 };
 
@@ -43,7 +43,7 @@ export const getStaticProps: GetStaticProps = async (context) => {
         well use Java):
       </p>
 
-      <Code>
+      <CSharp>
         {String.raw`public abstract class Car
 {
   public void Drive()
@@ -87,7 +87,7 @@ public class Workshop
     // some code
   }
 }`}
-      </Code>
+      </CSharp>
       <p>
         We have a Car class and a Workshop class. Car is a typical “framework”
         class in the sense that, to produce an instance, we need a subclass
@@ -110,7 +110,7 @@ public class Workshop
         apply the Fix method to it, and finally check if the records are
         correct. Here is a first attempt:
       </p>
-      <Code>
+      <CSharp>
         {String.raw`private class MockedBrokenCar : Car
 {
   private ArrayList _trace = new ArrayList();
@@ -142,7 +142,7 @@ public void TestRepairOfBrokenCar()
   Assert.AreEqual("Check", trace[0]);
   Assert.AreEqual("Repair", trace[1]);
 }`}
-      </Code>
+      </CSharp>
       <p>
         Unfortunately, this unit test does not compile: the methods Check and
         Repair cannot be overridden, because they are not virtual!
@@ -153,7 +153,7 @@ public void TestRepairOfBrokenCar()
         A good solution to our problem would be to introduce interface(s) for
         the non-virtual, public methods of Car, e.g. like this:
       </p>
-      <Code>
+      <CSharp>
         {String.raw`public interface IRepairable
 {
   bool Check();
@@ -207,12 +207,12 @@ public class Workshop
     // some code
   }
 }`}
-      </Code>
+      </CSharp>
       <p>
         This improved version allows us to write a compilable version of the
         above unit tests:
       </p>
-      <Code>
+      <CSharp>
         {String.raw`private class MockedBrokenCar : IRepairable
 {
   private ArrayList _trace = new ArrayList();
@@ -244,7 +244,7 @@ public void TestRepairOfBrokenCar()
   Assert.AreEqual("Check", trace[0]);
   Assert.AreEqual("Repair", trace[1]);
 }`}
-      </Code>
+      </CSharp>
       <p>
         So far, I have said nothing a good programmer does not already know. But
         is important to note that (1) the first Car/Workshop example, which
