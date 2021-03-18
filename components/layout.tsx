@@ -15,7 +15,7 @@ export default function Layout({
   page,
 }: {
   children: React.ReactNode;
-  page: string;
+  page?: string;
 }) {
   return (
     <>

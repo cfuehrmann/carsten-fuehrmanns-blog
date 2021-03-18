@@ -19,7 +19,6 @@ import { Reference, LinkedReference } from "../components/references";
 
 export const meta = {
   title: "Parametric oscillator: a close look",
-  target: "parametric-oscillator",
   date: "2014-07-23",
 };
 
@@ -27,7 +26,7 @@ export default function Post(props: { staticHtml: string }) {
   const { staticHtml } = props;
 
   return (
-    <Layout page={meta.target}>
+    <Layout>
       <div dangerouslySetInnerHTML={{ __html: staticHtml }} />
 
       <h2>References</h2>

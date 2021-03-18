@@ -8,7 +8,6 @@ import { LinkedReference } from "../components/references";
 
 export const meta = {
   title: "Stanford online quantum mechanics",
-  target: "stanford-online-quantum-mechanics",
   date: "2015-03-21",
 };
 
@@ -16,7 +15,7 @@ export default function Post(props: { staticHtml: string }) {
   const { staticHtml } = props;
 
   return (
-    <Layout page={meta.target}>
+    <Layout>
       <div dangerouslySetInnerHTML={{ __html: staticHtml }} />
     </Layout>
   );

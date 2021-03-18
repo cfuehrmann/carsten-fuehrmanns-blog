@@ -12,7 +12,6 @@ import Comment from "../components/comments";
 
 export const meta = {
   title: "An amateur’s foray into physics",
-  target: "foray-physics",
   date: "2014-05-25",
 };
 
@@ -20,7 +19,7 @@ export default function Post(props: { staticHtml: string }) {
   const { staticHtml } = props;
 
   return (
-    <Layout page={meta.target}>
+    <Layout>
       <div dangerouslySetInnerHTML={{ __html: staticHtml }} />
     </Layout>
   );

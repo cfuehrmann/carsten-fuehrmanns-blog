@@ -5,9 +5,8 @@ import Layout from "../components/layout";
 import BlogPost from "../components/blog-post";
 import { Image } from "../components/media";
 
-const meta = {
+export const meta = {
   title: "The Empire Cat Building",
-  target: "the-empire-cat-building",
   date: "2012-10-13",
 };
 
@@ -15,7 +14,7 @@ export default function Post(props: { staticHtml: string }) {
   const { staticHtml } = props;
 
   return (
-    <Layout page={meta.target}>
+    <Layout>
       <div dangerouslySetInnerHTML={{ __html: staticHtml }} />
     </Layout>
   );

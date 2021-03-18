@@ -8,9 +8,8 @@ import BlogPost from "../components/blog-post";
 import { Xml, Dos } from "../components/code";
 import { LinkedReference } from "../components/references";
 
-const meta = {
+export const meta = {
   title: "Encrypting web configuration sections",
-  target: "encrypting_web_config_sections",
   date: "2012-10-12",
 };
 
@@ -18,7 +17,7 @@ export default function Post(props: { staticHtml: string }) {
   const { staticHtml } = props;
 
   return (
-    <Layout page={meta.target}>
+    <Layout>
       <div dangerouslySetInnerHTML={{ __html: staticHtml }} />
     </Layout>
   );

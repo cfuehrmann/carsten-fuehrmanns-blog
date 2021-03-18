@@ -5,9 +5,8 @@ import Layout from "../components/layout";
 import BlogPost from "../components/blog-post";
 import { LinkedReference } from "../components/references";
 
-const meta = {
+export const meta = {
   title: "Why do I start my own blog?",
-  target: "why-do-i-start-my-own-blog",
   date: "2012-08-28",
 };
 
@@ -15,7 +14,7 @@ export default function Post(props: { staticHtml: string }) {
   const { staticHtml } = props;
 
   return (
-    <Layout page={meta.target}>
+    <Layout>
       <div dangerouslySetInnerHTML={{ __html: staticHtml }} />
     </Layout>
   );

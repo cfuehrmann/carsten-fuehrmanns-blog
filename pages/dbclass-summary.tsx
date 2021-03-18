@@ -9,7 +9,6 @@ import Comment from "../components/comments";
 
 export const meta = {
   title: "My online experience with Stanford’s “Introduction to Databases”",
-  target: "dbclass-summary",
   date: "2013-03-24",
 };
 
@@ -17,7 +16,7 @@ export default function Post(props: { staticHtml: string }) {
   const { staticHtml } = props;
 
   return (
-    <Layout page={meta.target}>
+    <Layout>
       <div dangerouslySetInnerHTML={{ __html: staticHtml }} />
     </Layout>
   );

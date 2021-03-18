@@ -5,9 +5,8 @@ import Layout from "../components/layout";
 import BlogPost from "../components/blog-post";
 import { LinkedReference } from "../components/references";
 
-const meta = {
+export const meta = {
   title: "A quick review of Joe Abercrombie’s “Red Country”",
-  target: "review_red_country",
   date: "2013-04-05",
 };
 
@@ -15,7 +14,7 @@ export default function Post(props: { staticHtml: string }) {
   const { staticHtml } = props;
 
   return (
-    <Layout page={meta.target}>
+    <Layout>
       <div dangerouslySetInnerHTML={{ __html: staticHtml }} />
     </Layout>
   );

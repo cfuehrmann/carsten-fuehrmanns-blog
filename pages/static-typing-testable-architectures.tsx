@@ -8,10 +8,9 @@ import BlogPost from "../components/blog-post";
 import { CSharp } from "../components/code";
 import { LinkedReference } from "../components/references";
 
-const meta = {
+export const meta = {
   title:
     "On testable architectures and how Java-like type systems can harm them",
-  target: "static-typing-testable-architectures",
   date: "2013-01-05",
 };
 
@@ -19,7 +18,7 @@ export default function Post(props: { staticHtml: string }) {
   const { staticHtml } = props;
 
   return (
-    <Layout page={meta.target}>
+    <Layout>
       <div dangerouslySetInnerHTML={{ __html: staticHtml }} />
     </Layout>
   );
