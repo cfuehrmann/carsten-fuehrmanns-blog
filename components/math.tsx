@@ -1,5 +1,4 @@
 import katex from "katex";
-import { useCallback } from "react";
 
 export const K = ({ children }: { children: string }) => (
   <span

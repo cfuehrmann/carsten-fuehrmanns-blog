@@ -1,24 +1,16 @@
 import reactDomServer from "react-dom/server";
 import { GetStaticProps } from "next";
 
-import Layout from "../components/layout";
 import BlogPost from "../components/blog-post";
 import { Image } from "../components/media";
+import StaticHtml from "../components/static-html";
+
+export default StaticHtml;
 
 export const meta = {
   title: "The Empire Cat Building",
   date: "2012-10-13",
 };
-
-export default function Post(props: { staticHtml: string }) {
-  const { staticHtml } = props;
-
-  return (
-    <Layout>
-      <div dangerouslySetInnerHTML={{ __html: staticHtml }} />
-    </Layout>
-  );
-}
 
 export const getStaticProps: GetStaticProps = async (context) => {
   const inner = (

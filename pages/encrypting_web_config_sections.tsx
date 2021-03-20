@@ -3,25 +3,17 @@ import "highlight.js/styles/a11y-light.css";
 import reactDomServer from "react-dom/server";
 import { GetStaticProps } from "next";
 
-import Layout from "../components/layout";
 import BlogPost from "../components/blog-post";
 import { Xml, Dos } from "../components/code";
 import { LinkedReference } from "../components/references";
+import StaticHtml from "../components/static-html";
+
+export default StaticHtml;
 
 export const meta = {
   title: "Encrypting web configuration sections",
   date: "2012-10-12",
 };
-
-export default function Post(props: { staticHtml: string }) {
-  const { staticHtml } = props;
-
-  return (
-    <Layout>
-      <div dangerouslySetInnerHTML={{ __html: staticHtml }} />
-    </Layout>
-  );
-}
 
 export const getStaticProps: GetStaticProps = async (context) => {
   const inner = (

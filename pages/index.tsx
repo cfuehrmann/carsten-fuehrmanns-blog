@@ -1,22 +1,13 @@
 import reactDomServer from "react-dom/server";
 import { GetStaticProps } from "next";
 
-import Layout from "../components/layout";
-
 import { meta as parametricOscillator } from "./parametric-oscillator";
 import { meta as forayPhysics } from "./foray-physics";
 import { meta as dbClassSummary } from "./dbclass-summary";
 import { meta as stanfordQuantum } from "./stanford-online-quantum-mechanics";
+import StaticHtml from "../components/static-html";
 
-export default function ForayPhysics(props: { staticHtml: string }) {
-  const { staticHtml } = props;
-
-  return (
-    <Layout page="">
-      <div dangerouslySetInnerHTML={{ __html: staticHtml }} />
-    </Layout>
-  );
-}
+export default StaticHtml;
 
 export const getStaticProps: GetStaticProps = async (context) => {
   const inner = (

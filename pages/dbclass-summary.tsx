@@ -1,26 +1,18 @@
 import reactDomServer from "react-dom/server";
 import { GetStaticProps } from "next";
 
-import Layout from "../components/layout";
 import BlogPost from "../components/blog-post";
 import { Image } from "../components/media";
 import { LinkedReference } from "../components/references";
 import Comment from "../components/comments";
+import StaticHtml from "../components/static-html";
+
+export default StaticHtml;
 
 export const meta = {
   title: "My online experience with Stanford’s “Introduction to Databases”",
   date: "2013-03-24",
 };
-
-export default function Post(props: { staticHtml: string }) {
-  const { staticHtml } = props;
-
-  return (
-    <Layout>
-      <div dangerouslySetInnerHTML={{ __html: staticHtml }} />
-    </Layout>
-  );
-}
 
 export const getStaticProps: GetStaticProps = async (context) => {
   const inner = (

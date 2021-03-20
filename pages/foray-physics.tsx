@@ -3,27 +3,19 @@ import "katex/dist/katex.css";
 import reactDomServer from "react-dom/server";
 import { GetStaticProps } from "next";
 
-import Layout from "../components/layout";
 import BlogPost from "../components/blog-post";
 import { K, KD } from "../components/math";
 import { Image, Video } from "../components/media";
 import { LinkedReference } from "../components/references";
 import Comment from "../components/comments";
+import StaticHtml from "../components/static-html";
+
+export default StaticHtml;
 
 export const meta = {
   title: "An amateur’s foray into physics",
   date: "2014-05-25",
 };
-
-export default function Post(props: { staticHtml: string }) {
-  const { staticHtml } = props;
-
-  return (
-    <Layout>
-      <div dangerouslySetInnerHTML={{ __html: staticHtml }} />
-    </Layout>
-  );
-}
 
 export const getStaticProps: GetStaticProps = async (context) => {
   const inner = (

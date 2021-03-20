@@ -1,17 +1,9 @@
 import reactDomServer from "react-dom/server";
 import { GetStaticProps } from "next";
 
-import Layout from "../components/layout";
+import StaticHtml from "../components/static-html";
 
-export default function Lectures(props: { staticHtml: string }) {
-  const { staticHtml } = props;
-
-  return (
-    <Layout page="lectures">
-      <div dangerouslySetInnerHTML={{ __html: staticHtml }} />
-    </Layout>
-  );
-}
+export default StaticHtml;
 
 function Handout(props: { target: string; title: string }) {
   const { target, title } = props;

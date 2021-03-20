@@ -3,7 +3,6 @@ import "katex/dist/katex.css";
 import reactDomServer from "react-dom/server";
 import { GetStaticProps } from "next";
 
-import Layout from "../components/layout";
 import BlogPost from "../components/blog-post";
 import {
   K,
@@ -16,40 +15,14 @@ import {
 } from "../components/math";
 import { Image, Video } from "../components/media";
 import { Reference, LinkedReference } from "../components/references";
+import StaticHtml from "../components/static-html";
+
+export default StaticHtml;
 
 export const meta = {
   title: "Parametric oscillator: a close look",
   date: "2014-07-23",
 };
-
-export default function Post(props: { staticHtml: string }) {
-  const { staticHtml } = props;
-
-  return (
-    <Layout>
-      <div dangerouslySetInnerHTML={{ __html: staticHtml }} />
-
-      <h2>References</h2>
-
-      <Reference>
-        L.D.Landau and E.M.Lifschitz.Lehrbuch der theoretischen Physik I:
-        Mechanik.Verlag Harry Deutsch, 14. Auflage.
-      </Reference>
-      <LinkedReference target="http://en.wikipedia.org/wiki/Floquet_theory">
-        Wikipedia: Floquet theory
-      </LinkedReference>
-      <LinkedReference target="http://en.wikipedia.org/wiki/Liouville's_formula">
-        Wikipedia: Liouville's formula
-      </LinkedReference>
-      <LinkedReference target="http://en.wikipedia.org/wiki/Matrix_exponential">
-        Wikipedia: Matrix exponential
-      </LinkedReference>
-      <LinkedReference target="https://en.wikipedia.org/wiki/Logarithm_of_a_matrix">
-        Wikipedia: Logarithm of a matrix
-      </LinkedReference>
-    </Layout>
-  );
-}
 
 export const getStaticProps: GetStaticProps = async (context) => {
   const inner = (
@@ -732,6 +705,23 @@ export const getStaticProps: GetStaticProps = async (context) => {
         <K>{String.raw`\omega`}</K>, both eigenvalues are minus one. So the
         monodromy matrix is the minus identity.
       </p>
+      <h2>References</h2>
+      <Reference>
+        L.D.Landau and E.M.Lifschitz.Lehrbuch der theoretischen Physik I:
+        Mechanik.Verlag Harry Deutsch, 14. Auflage.
+      </Reference>
+      <LinkedReference target="http://en.wikipedia.org/wiki/Floquet_theory">
+        Wikipedia: Floquet theory
+      </LinkedReference>
+      <LinkedReference target="http://en.wikipedia.org/wiki/Liouville's_formula">
+        Wikipedia: Liouville's formula
+      </LinkedReference>
+      <LinkedReference target="http://en.wikipedia.org/wiki/Matrix_exponential">
+        Wikipedia: Matrix exponential
+      </LinkedReference>
+      <LinkedReference target="https://en.wikipedia.org/wiki/Logarithm_of_a_matrix">
+        Wikipedia: Logarithm of a matrix
+      </LinkedReference>
     </BlogPost>
   );
 

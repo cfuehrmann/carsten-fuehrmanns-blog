@@ -1,4 +1,3 @@
-import { autoDetection } from "highlight.js";
 import Head from "next/head";
 
 export const siteTitle = "Carsten expounds";
