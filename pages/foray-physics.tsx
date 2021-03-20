@@ -6,7 +6,7 @@ import { GetStaticProps } from "next";
 import BlogPost from "../components/blog-post";
 import { K, KD } from "../components/math";
 import { Image, Video } from "../components/media";
-import { LinkedReference } from "../components/references";
+import { LinkedReference } from "../components/links";
 import Comment from "../components/comments";
 import StaticHtml from "../components/static-html";
 

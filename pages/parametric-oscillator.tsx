@@ -14,7 +14,7 @@ import {
   Proof,
 } from "../components/math";
 import { Image, Video } from "../components/media";
-import { Reference, LinkedReference } from "../components/references";
+import { Reference, LinkedReference } from "../components/links";
 import StaticHtml from "../components/static-html";
 
 export default StaticHtml;

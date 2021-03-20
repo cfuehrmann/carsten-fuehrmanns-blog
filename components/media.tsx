@@ -1,3 +1,42 @@
+export const ExternalImage = ({
+  src,
+  caption,
+  width,
+  height,
+  hideCaption,
+}: {
+  src: string;
+  caption: string;
+  width?: number;
+  height?: number;
+  hideCaption?: true;
+}) => (
+  <>
+    <img
+      className="w3-image"
+      style={{
+        display: "block",
+        marginLeft: "auto",
+        marginRight: "auto",
+      }}
+      src={src}
+      loading="lazy"
+      alt={caption}
+      width={width}
+      height={height}
+    />
+    {hideCaption ? (
+      ""
+    ) : (
+      <div className="w3-container w3-center">
+        <small>
+          <em>{caption}</em>
+        </small>
+      </div>
+    )}
+  </>
+);
+
 export const Image = ({
   fileName,
   caption,

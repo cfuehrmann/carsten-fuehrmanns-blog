@@ -3,7 +3,7 @@ import { GetStaticProps } from "next";
 
 import BlogPost from "../components/blog-post";
 import { Image } from "../components/media";
-import { LinkedReference } from "../components/references";
+import { LinkedReference } from "../components/links";
 import Comment from "../components/comments";
 import StaticHtml from "../components/static-html";
 
@@ -34,16 +34,14 @@ export const getStaticProps: GetStaticProps = async (context) => {
         course (which will probably be repeated). I am also writing this summary
         for myself, so feel free to skip passages which seem too biographical.
       </p>
-      <p>
-        <Image
-          caption="Achievement unlocked: MOOC"
-          fileName="stanford-databases-pulp"
-          width={336}
-          height={507}
-          extension="jpg"
-          hideCaption
-        />
-      </p>
+      <Image
+        caption="Achievement unlocked: MOOC"
+        fileName="stanford-databases-pulp"
+        width={336}
+        height={507}
+        extension="jpg"
+        hideCaption
+      />
       <p>
         (Remark: If you are a creator of an online computer-science course,
         please have a look at this post’s section about automated exercises,
