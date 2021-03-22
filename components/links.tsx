@@ -18,6 +18,22 @@ export function LinkedReference({
   );
 }
 
+export function InternalReference({
+  children,
+  target,
+}: {
+  children: React.ReactNode;
+  target: string;
+}) {
+  return (
+    <InternalLink target={target}>
+      <div className="w3-card w3-text-black">
+        <p className="w3-padding-large">{children}</p>
+      </div>
+    </InternalLink>
+  );
+}
+
 export function Link({
   children,
   target,
@@ -32,6 +48,20 @@ export function Link({
       target="_blank"
       style={{ textDecoration: "none" }}
     >
+      {children}
+    </a>
+  );
+}
+
+export function InternalLink({
+  children,
+  target,
+}: {
+  children: React.ReactNode;
+  target: string;
+}) {
+  return (
+    <a href={target} style={{ textDecoration: "none" }}>
       {children}
     </a>
   );

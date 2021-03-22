@@ -2,7 +2,8 @@ import reactDomServer from "react-dom/server";
 import { GetStaticProps } from "next";
 
 import BlogPost from "../components/blog-post";
-import { LinkedReference } from "../components/links";
+import { Link } from "../components/links";
+import { ExternalImage } from "../components/media";
 import StaticHtml from "../components/static-html";
 
 export default StaticHtml;
@@ -20,9 +21,15 @@ export const getStaticProps: GetStaticProps = async (context) => {
         Abercrombie, Rothfuss, Sanderson among them), it is surprising how late
         I stumbled upon this gem from 1990 by
       </p>
-      <LinkedReference target="https://www.penguinrandomhouse.ca/authors/15215/guy-gavriel-kay">
-        Guy Gavriel Kay
-      </LinkedReference>
+      <Link target="https://www.penguinrandomhouse.ca/books/392080/tigana-by-guy-gavriel-kay/9780143194071">
+        <ExternalImage
+          src="https://images.randomhouse.com/cover/9780143194071"
+          caption="Guy Gavriel Kay's Tigana"
+          width={285}
+          height={450}
+          hideCaption
+        />
+      </Link>
       <p>
         Of all fantasy books I discovered so far, this is probably the most
         intellectual, in a good way. The plot is brilliant and contains many
