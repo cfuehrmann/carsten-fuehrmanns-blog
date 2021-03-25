@@ -46,7 +46,7 @@ export const getStaticProps: GetStaticProps = async (context) => {
         with rules that can be chosen by the user. You can play with the hosted
         web application by clicking on the image below.
       </p>
-      <Link target="http://gameoflife.carstenfuehrmann.org/">
+      <Link target="../game-of-life/index.html">
         <Image
           caption="Click to play the GameOfLife demo (I never said I was a GUI designer)"
           fileName="game-of-life-app"
@@ -1256,7 +1256,7 @@ test(name("function works"), () => {
         The key feature of the BuildOutput directory of GameOfLife is that it
         can be used straight away for hosting. For example, the
       </p>
-      <LinkedReference target="http://gameoflife.carstenfuehrmann.org/">
+      <LinkedReference target="../game-of-life/index.html">
         Hosted GameOfLife application
       </LinkedReference>
       <p>

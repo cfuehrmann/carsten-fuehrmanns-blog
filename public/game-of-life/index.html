@@ -1,0 +1,206 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Game of life</title>
+    <link rel="stylesheet" href="app.css" type="text/css" />
+    <script data-main="Start" src="Imports\require.js"></script>
+  </head>
+  <body>
+    <div
+      id="content"
+      style="
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: stretch;
+        height: 95%;
+        max-height: 12cm;
+      "
+    >
+      <table style="height: 100%">
+        <tr>
+          <!-- ReSharper disable CssBrowserCompatibility -->
+          <th style="min-width: 2cm">Survival</th>
+          <th style="min-width: 2cm">Birth</th>
+          <!-- ReSharper restore CssBrowserCompatibility -->
+        </tr>
+        <tr>
+          <td>
+            <input
+              type="checkbox"
+              id="s0"
+              name="survivalCondition"
+              value="0"
+            /><label for="s0">0</label>
+          </td>
+          <td>
+            <input
+              type="checkbox"
+              id="b0"
+              name="birthCondition"
+              value="0"
+            /><label for="b0">0</label>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <input
+              type="checkbox"
+              id="s1"
+              name="survivalCondition"
+              value="1"
+            /><label for="s1">1</label>
+          </td>
+          <td>
+            <input
+              type="checkbox"
+              id="b1"
+              name="birthCondition"
+              value="1"
+            /><label for="b1">1</label>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <input
+              type="checkbox"
+              id="s2"
+              name="survivalCondition"
+              value="2"
+              checked="checked"
+            /><label for="s2">2</label>
+          </td>
+          <td>
+            <input
+              type="checkbox"
+              id="b2"
+              name="birthCondition"
+              value="2"
+            /><label for="b2">2</label>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <input
+              type="checkbox"
+              id="s3"
+              name="survivalCondition"
+              value="3"
+              checked="checked"
+            /><label for="s3">3</label>
+          </td>
+          <td>
+            <input
+              type="checkbox"
+              id="b3"
+              name="birthCondition"
+              value="3"
+              checked="checked"
+            /><label for="b3">3</label>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <input
+              type="checkbox"
+              id="s4"
+              name="survivalCondition"
+              value="4"
+            /><label for="s4">4</label>
+          </td>
+          <td>
+            <input
+              type="checkbox"
+              id="b4"
+              name="birthCondition"
+              value="4"
+            /><label for="b4">4</label>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <input
+              type="checkbox"
+              id="s5"
+              name="survivalCondition"
+              value="5"
+            /><label for="s5">5</label>
+          </td>
+          <td>
+            <input
+              type="checkbox"
+              id="b5"
+              name="birthCondition"
+              value="5"
+            /><label for="b5">5</label>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <input
+              type="checkbox"
+              id="s6"
+              name="survivalCondition"
+              value="6"
+            /><label for="s6">6</label>
+          </td>
+          <td>
+            <input
+              type="checkbox"
+              id="b6"
+              name="birthCondition"
+              value="6"
+            /><label for="b6">6</label>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <input
+              type="checkbox"
+              id="s7"
+              name="survivalCondition"
+              value="7"
+            /><label for="s7">7</label>
+          </td>
+          <td>
+            <input
+              type="checkbox"
+              id="b7"
+              name="birthCondition"
+              value="7"
+            /><label for="b7">7</label>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <input
+              type="checkbox"
+              id="s8"
+              name="survivalCondition"
+              value="8"
+            /><label for="s8">8</label>
+          </td>
+          <td>
+            <input
+              type="checkbox"
+              id="b8"
+              name="birthCondition"
+              value="8"
+            /><label for="b8">8</label>
+          </td>
+        </tr>
+      </table>
+      <div style="width: 1mm; height: 1mm"></div>
+      <button
+        type="button"
+        id="createWorld"
+        style="white-space: normal; text-align: center; font-size: 6mm"
+      >
+        Create
+      </button>
+    </div>
+  </body>
+</html>
