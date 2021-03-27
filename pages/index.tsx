@@ -85,7 +85,7 @@ export const getStaticProps: GetStaticProps = async (context) => {
 
   const staticHtml = reactDomServer.renderToStaticMarkup(inner);
 
-  return { props: { staticHtml } };
+  return { props: { staticHtml, page: "" } };
 };
 
 function Abstract(props: {

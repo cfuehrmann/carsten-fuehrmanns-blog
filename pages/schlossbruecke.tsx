@@ -32,7 +32,7 @@ export const getStaticProps: GetStaticProps = async (context) => {
       <h2>Comments</h2>
       <Comment author="knilch" date="2012-11-13">
         <LinkedReference target="https://www.spiegel.de/netzwelt/web/lovepicking-kuensterlin-knackt-liebesschloesser-a-860715.html">
-          https://www.spiegel.de/netzwelt/web/lovepicking-kuensterlin-knackt-liebesschloesser-a-860715.html
+          Lovepicking-Künstlerin knackt Liebesschlösser
         </LinkedReference>
         <Comment author="Carsten Führmann" date="2012-11-13">
           Danke für die Info! Und ich lerne einmal wieder: Es gibt nichts, was

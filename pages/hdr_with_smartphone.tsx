@@ -131,10 +131,10 @@ export const getStaticProps: GetStaticProps = async (context) => {
             recover the sky:
           </p>
           <LinkedReference target="https://secure.flickr.com/photos/dermkl/13702766803/">
-            https://secure.flickr.com/photos/dermkl/13702766803/
+            Image 1
           </LinkedReference>
           <LinkedReference target="https://secure.flickr.com/photos/dermkl/13228100265/">
-            https://secure.flickr.com/photos/dermkl/13228100265/
+            Image 2
           </LinkedReference>
         </Comment>
         <Comment author="Carsten Führmann" date="2014-06-17">

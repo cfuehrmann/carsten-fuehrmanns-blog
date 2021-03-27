@@ -5,23 +5,6 @@ import StaticHtml from "../components/static-html";
 
 export default StaticHtml;
 
-function Handout(props: { target: string; title: string }) {
-  const { target, title } = props;
-
-  return (
-    <a
-      href={`/lectures/${target}.pdf`}
-      target="_blank"
-      rel="noopener noreferrer"
-      style={{ textDecoration: "none" }}
-    >
-      <div className="w3-card w3-text-black">
-        <p className="w3-padding-large">{title}</p>
-      </div>
-    </a>
-  );
-}
-
 export const getStaticProps: GetStaticProps = async (context) => {
   const inner = (
     <>
@@ -158,5 +141,22 @@ export const getStaticProps: GetStaticProps = async (context) => {
     </>
   );
   const staticHtml = reactDomServer.renderToStaticMarkup(inner);
-  return { props: { staticHtml } };
+  return { props: { staticHtml, page: "lectures" } };
 };
+
+function Handout(props: { target: string; title: string }) {
+  const { target, title } = props;
+
+  return (
+    <a
+      href={`/lectures/${target}.pdf`}
+      target="_blank"
+      rel="noopener noreferrer"
+      style={{ textDecoration: "none" }}
+    >
+      <div className="w3-card w3-text-black">
+        <p className="w3-padding-large">{title}</p>
+      </div>
+    </a>
+  );
+}

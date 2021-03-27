@@ -240,7 +240,7 @@ export const getStaticProps: GetStaticProps = async (context) => {
             Dartmouth. Here is an article about it:
           </p>
           <LinkedReference target="https://www.newyorker.com/science/maria-konnikova/i-dont-want-to-be-right">
-            https://www.newyorker.com/science/maria-konnikova/i-dont-want-to-be-right
+            I don't want to be right (New Yorker)
           </LinkedReference>
           <p>
             Basically, the finding is that people change their beliefs accordin
