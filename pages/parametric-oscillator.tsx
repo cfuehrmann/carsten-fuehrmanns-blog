@@ -15,6 +15,7 @@ import {
 } from "../components/math";
 import { Image, Video } from "../components/media";
 import { Reference, LinkedReference } from "../components/links";
+import BlockQuote from "../components/block-quote";
 import StaticHtml from "../components/static-html";
 
 export default StaticHtml;
@@ -32,14 +33,14 @@ export const getStaticProps: GetStaticProps = async (context) => {
         <em>parametric oscillator</em>. Here is an introduction from Wikipedia
         (see references section):
       </p>
-      <blockquote>
+      <BlockQuote>
         A parametric oscillator is a harmonic oscillator whose parameters
         oscillate in time. For example, a well known parametric oscillator is a
         child pumping a swing by periodically standing and squatting to increase
         the size of the swing's oscillations. The varying of the parameters
         drives the system. Examples of parameters that may be varied are its
         resonance frequency <K>\omega</K> and damping <K>\beta</K>.
-      </blockquote>
+      </BlockQuote>
       <p>
         As that Wikipedia article shows, a certain coordinate change can
         eliminate damping. So we focus on the case where there is only a

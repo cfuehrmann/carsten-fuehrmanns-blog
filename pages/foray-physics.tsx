@@ -29,7 +29,7 @@ export const getStaticProps: GetStaticProps = async (context) => {
       </p>
       <p>
         Like any university course in physics, I started with the sub-field of{" "}
-        <em>Classical Mechanics</em>, which is concerned with the “set of
+        <em>classical mechanics</em>, which is concerned with the “set of
         physical laws describing the motion of bodies under the action of a
         system of forces” (Wikipedia).
       </p>
@@ -237,10 +237,10 @@ export const getStaticProps: GetStaticProps = async (context) => {
             reconsider the whole strategy for convincing people about the real
             of global warming: recent research into people’s (in)ability to c
             their beliefs, by Brendan Nyhan, a professor of political science at
-            Dartmouth.Here is an article about it:
+            Dartmouth. Here is an article about it:
           </p>
-          <LinkedReference target="http://www.newyorker.com/online/blogs/mariakonnikova/2014/05/why-do-people-persist-in-believing-things-that-just-arent-true.html">
-            http://www.newyorker.com/online/blogs/mariakonnikova/2014/05/why-do-people-persist-in-believing-things-that-just-arent-true.html
+          <LinkedReference target="https://www.newyorker.com/science/maria-konnikova/i-dont-want-to-be-right">
+            https://www.newyorker.com/science/maria-konnikova/i-dont-want-to-be-right
           </LinkedReference>
           <p>
             Basically, the finding is that people change their beliefs accordin

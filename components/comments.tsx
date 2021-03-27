@@ -10,14 +10,12 @@ export default function Comment(props: {
   return (
     <div className="w3-card">
       <div className="w3-container">
-        <br />
+        {/* <br /> */}
+        <p>{author}</p>
         <p>
-          {author}
-          <p>
-            <small>
-              <Date dateString={date} />
-            </small>
-          </p>
+          <small className="w3-text-grey">
+            <Date dateString={date} />
+          </small>
         </p>
         {children}
       </div>

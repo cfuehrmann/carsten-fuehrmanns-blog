@@ -138,29 +138,36 @@ export const getStaticProps: GetStaticProps = async (context) => {
           </LinkedReference>
         </Comment>
         <Comment author="Carsten Führmann" date="2014-06-17">
-          Hi, I belatedly checked out you blog. Nice! (1) “Lambdanaut” is a
-          pretty cool URL, (2) some really nice pictures, not least the
-          startrails, (3) the flash bouncer is cool. In the past, I could never
-          “save” an overexposed sky , you probably have a better camera or
-          better method. To be honest, I’m not ambitious as a photographer. I
-          guess what fascinates me most is how software can compensate for
-          lacking hardware.
+          <p>
+            Hi, I belatedly checked out you blog. Nice! (1) “Lambdanaut” is a
+            pretty cool URL, (2) some really nice pictures, not least the
+            startrails, (3) the flash bouncer is cool. In the past, I could
+            never “save” an overexposed sky , you probably have a better camera
+            or better method. To be honest, I’m not ambitious as a photographer.
+            I guess what fascinates me most is how software can compensate for
+            lacking hardware.
+          </p>
         </Comment>
       </Comment>
       <Comment author="mkl" date="2014-07-28">
-        Sorry but I have to bring this up again 😉 As I want to show some
-        images, I’ve made a blogpost. Here: [That link is now broken.]
-      </Comment>
-      <Comment author="Carsten Führmann" date="2014-07-29">
-        Hi, thanks for the thoughts! I guess one should distinguish two things:
-        on the one hand, the poor implementation of HDR on my ex-smartphone. (My
-        new Nexus 5 does it better.) And on the other hand, the fact that
-        multiple exposure *can* capture more information, when done well. An
-        extreme example is astronomical photography, where e.g. a galaxy is
-        captured at several wavelengths, and the superimposed false-color images
-        are presented. I guess it should be possible to build an every-day
-        camera whose dynamic range is closer to that of humans. I guess such
-        cameras already exist. But I haven’t checked.
+        <p>
+          Sorry but I have to bring this up again 😉 As I want to show some
+          images, I’ve made a blogpost. Here: [That link is now broken.]
+        </p>
+        <Comment author="Carsten Führmann" date="2014-07-29">
+          <p>
+            Hi, thanks for the thoughts! I guess one should distinguish two
+            things: on the one hand, the poor implementation of HDR on my
+            ex-smartphone. (My new Nexus 5 does it better.) And on the other
+            hand, the fact that multiple exposure *can* capture more
+            information, when done well. An extreme example is astronomical
+            photography, where e.g. a galaxy is captured at several wavelengths,
+            and the superimposed false-color images are presented. I guess it
+            should be possible to build an every-day camera whose dynamic range
+            is closer to that of humans. I guess such cameras already exist. But
+            I haven’t checked.
+          </p>
+        </Comment>
       </Comment>
     </BlogPost>
   );

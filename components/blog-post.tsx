@@ -10,7 +10,7 @@ export default function BlogPost(props: {
     <>
       <h1>{title}</h1>
       <p>
-        <small>
+        <small className="w3-text-grey">
           <Date dateString={date} />
         </small>
       </p>
