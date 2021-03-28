@@ -30,6 +30,21 @@ export default function Layout({
         <meta name="og:title" content={siteTitle} />
         <meta name="twitter:card" content="summary_large_image" />
         <title>{siteTitle}</title>
+
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-TJT8C600ZY"
+        />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-TJT8C600ZY');
+`,
+          }}
+        />
       </Head>
       <br />
       <main className="markdown-body w3-container">
