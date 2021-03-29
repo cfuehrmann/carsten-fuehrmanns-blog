@@ -1,7 +1,5 @@
 import Head from "next/head";
 
-export const siteTitle = "Carsten expounds";
-
 const pageTexts: { [key in string]: string | undefined } = {
   "": "Home",
   publications: "Publications",
@@ -12,24 +10,30 @@ const pageTexts: { [key in string]: string | undefined } = {
 export default function Layout({
   children,
   page,
+  title,
+  description,
 }: {
   children: React.ReactNode;
   page?: string;
+  title: string;
+  description: string;
 }) {
+  const fullTitle = `${title} - Carsten Führmann`;
+
   return (
     <>
       <Head>
         <link rel="icon" href="/favicon.ico" />
-        <meta name="description" content="Carsten Führmann's web site" />
+        <meta name="description" content={description} />
         <meta
           property="og:image"
           content={`https://og-image.vercel.app/${encodeURI(
-            siteTitle
+            fullTitle
           )}.png?theme=light&md=0&fontSize=75px&images=https%3A%2F%2Fassets.zeit.co%2Fimage%2Fupload%2Ffront%2Fassets%2Fdesign%2Fnextjs-black-logo.svg`}
         />
-        <meta name="og:title" content={siteTitle} />
+        <meta name="og:title" content={fullTitle} />
         <meta name="twitter:card" content="summary_large_image" />
-        <title>{siteTitle}</title>
+        <title>{fullTitle}</title>
 
         <script
           async

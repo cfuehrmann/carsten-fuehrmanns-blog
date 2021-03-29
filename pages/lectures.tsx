@@ -1,11 +1,13 @@
 import reactDomServer from "react-dom/server";
 import { GetStaticProps } from "next";
 
-import StaticHtml from "../components/static-html";
+import StaticHtml, { StaticHtmlProps } from "../components/static-html";
 
 export default StaticHtml;
 
-export const getStaticProps: GetStaticProps = async (context) => {
+export const getStaticProps: GetStaticProps<StaticHtmlProps> = async (
+  context
+) => {
   const inner = (
     <>
       <h1>Lectures</h1>
@@ -141,7 +143,14 @@ export const getStaticProps: GetStaticProps = async (context) => {
     </>
   );
   const staticHtml = reactDomServer.renderToStaticMarkup(inner);
-  return { props: { staticHtml, page: "lectures" } };
+  return {
+    props: {
+      staticHtml,
+      title: "Lectures",
+      description: "Carsten Führmann's lectures",
+      page: "lectures",
+    },
+  };
 };
 
 function Handout(props: { target: string; title: string }) {

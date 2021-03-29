@@ -16,16 +16,20 @@ import {
 import { Image, Video } from "../components/media";
 import { Reference, LinkedReference } from "../components/links";
 import BlockQuote from "../components/block-quote";
-import StaticHtml from "../components/static-html";
+import StaticHtml, { StaticHtmlProps } from "../components/static-html";
 
 export default StaticHtml;
 
 export const meta = {
   title: "Parametric oscillator: a close look",
   date: "2014-07-23",
+  description:
+    'Physics article about the "parametric oscillator", e.g. a child pumping a swing',
 };
 
-export const getStaticProps: GetStaticProps = async (context) => {
+export const getStaticProps: GetStaticProps<StaticHtmlProps> = async (
+  context
+) => {
   const inner = (
     <BlogPost {...meta}>
       <p>
@@ -727,6 +731,6 @@ export const getStaticProps: GetStaticProps = async (context) => {
   );
 
   const staticHtml = reactDomServer.renderToStaticMarkup(inner);
-
-  return { props: { staticHtml } };
+  const { title, description } = meta;
+  return { props: { staticHtml, title, description } };
 };

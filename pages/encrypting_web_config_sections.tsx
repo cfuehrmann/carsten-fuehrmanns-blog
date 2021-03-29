@@ -6,16 +6,20 @@ import { GetStaticProps } from "next";
 import BlogPost from "../components/blog-post";
 import { Xml, Dos } from "../components/code";
 import { LinkedReference } from "../components/links";
-import StaticHtml from "../components/static-html";
+import StaticHtml, { StaticHtmlProps } from "../components/static-html";
 
 export default StaticHtml;
 
 export const meta = {
   title: "Encrypting web configuration sections",
   date: "2012-10-12",
+  description:
+    "How to encrypt web configuration sections when using Microsoft .NET",
 };
 
-export const getStaticProps: GetStaticProps = async (context) => {
+export const getStaticProps: GetStaticProps<StaticHtmlProps> = async (
+  context
+) => {
   const inner = (
     <BlogPost {...meta}>
       <p>
@@ -122,7 +126,7 @@ export const getStaticProps: GetStaticProps = async (context) => {
       <p>
         Thanks to Andreas Dosche, Lars Beyer, and Carlos Fernandez Vilas for
         helpful discussions. Also, I used various Microsoft pages, Stack
-        Overflow, and the following two references:{" "}
+        Overflow, and the following two references:
       </p>
       <LinkedReference target="http://www.dotnetprofessional.com/blog/post/2008/03/03/Encrypt-sections-of-WebConfig-or-AppConfig.aspx">
         Article on dotNet Professional
@@ -134,5 +138,6 @@ export const getStaticProps: GetStaticProps = async (context) => {
   );
 
   const staticHtml = reactDomServer.renderToStaticMarkup(inner);
-  return { props: { staticHtml } };
+  const { title, description } = meta;
+  return { props: { staticHtml, title, description } };
 };

@@ -4,16 +4,20 @@ import { GetStaticProps } from "next";
 import BlogPost from "../components/blog-post";
 import { ExternalImage } from "../components/media";
 import { Link } from "../components/links";
-import StaticHtml from "../components/static-html";
+import StaticHtml, { StaticHtmlProps } from "../components/static-html";
 
 export default StaticHtml;
 
 export const meta = {
   title: "Book review: “The Infinite Resource” by Ramez Naam",
   date: "2013-05-23",
+  description:
+    "A review of Ramez Naam's book \"The Infinite Resource\", concerning human (ab)use of Earth's resources",
 };
 
-export const getStaticProps: GetStaticProps = async (context) => {
+export const getStaticProps: GetStaticProps<StaticHtmlProps> = async (
+  context
+) => {
   const inner = (
     <BlogPost {...meta}>
       <p>
@@ -62,6 +66,6 @@ export const getStaticProps: GetStaticProps = async (context) => {
   );
 
   const staticHtml = reactDomServer.renderToStaticMarkup(inner);
-
-  return { props: { staticHtml } };
+  const { title, description } = meta;
+  return { props: { staticHtml, title, description } };
 };

@@ -5,16 +5,19 @@ import BlogPost from "../components/blog-post";
 import { Image } from "../components/media";
 import Comment from "../components/comments";
 import { LinkedReference } from "../components/links";
-import StaticHtml from "../components/static-html";
+import StaticHtml, { StaticHtmlProps } from "../components/static-html";
 
 export default StaticHtml;
 
 export const meta = {
   title: "Schloßbrücke",
   date: "2012-09-07",
+  description: "Hunderte Liebes-Schlösser an einer Nürnberger Brücke",
 };
 
-export const getStaticProps: GetStaticProps = async (context) => {
+export const getStaticProps: GetStaticProps<StaticHtmlProps> = async (
+  context
+) => {
   const inner = (
     <BlogPost {...meta}>
       <p>
@@ -45,6 +48,6 @@ export const getStaticProps: GetStaticProps = async (context) => {
   );
 
   const staticHtml = reactDomServer.renderToStaticMarkup(inner);
-
-  return { props: { staticHtml } };
+  const { title, description } = meta;
+  return { props: { staticHtml, title, description } };
 };

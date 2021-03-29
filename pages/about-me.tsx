@@ -5,7 +5,11 @@ const name = "Carsten Führmann";
 
 export default function About() {
   return (
-    <Layout page="about-me">
+    <Layout
+      title="About"
+      description="Information about Carsten Führmann"
+      page="about-me"
+    >
       <header>
         <Image
           fileName="profile-432"

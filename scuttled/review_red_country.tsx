@@ -5,16 +5,19 @@ import BlogPost from "../components/blog-post";
 import { Link } from "../components/links";
 import { ExternalImage } from "../components/media";
 import BlockQuote from "../components/block-quote";
-import StaticHtml from "../components/static-html";
+import StaticHtml, { StaticHtmlProps } from "../components/static-html";
 
 export default StaticHtml;
 
 export const meta = {
-  title: "A quick review of Joe Abercrombie’s “Red Country”",
+  title: 'A quick review of Joe Abercrombie’s "Red Country"',
   date: "2013-04-05",
+  description: 'A quick review of Joe Abercrombie’s fantasy book "Red Country"',
 };
 
-export const getStaticProps: GetStaticProps = async (context) => {
+export const getStaticProps: GetStaticProps<StaticHtmlProps> = async (
+  context
+) => {
   const inner = (
     <BlogPost {...meta}>
       <p>
@@ -55,6 +58,6 @@ export const getStaticProps: GetStaticProps = async (context) => {
   );
 
   const staticHtml = reactDomServer.renderToStaticMarkup(inner);
-
-  return { props: { staticHtml } };
+  const { title, description } = meta;
+  return { props: { staticHtml, title, description } };
 };

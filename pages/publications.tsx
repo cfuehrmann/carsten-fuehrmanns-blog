@@ -2,7 +2,11 @@ import Layout from "../components/layout";
 
 export default function Publications() {
   return (
-    <Layout page="publications">
+    <Layout
+      title="Publications"
+      description="Publications by Carsten Führmann"
+      page="publications"
+    >
       <h1>Publications by Carsten Führmann</h1>
       <p>In reverse chronological order:</p>
       <BibItem
@@ -94,7 +98,7 @@ export default function Publications() {
         , pages 147-172, New Orleans, 1999. Elsevier
       </BibItem>
 
-      <h1>Unpublished notes</h1>
+      <h2>Unpublished notes</h2>
 
       <BibItem
         authors="Carsten Führmann"

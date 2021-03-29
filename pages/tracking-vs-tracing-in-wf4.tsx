@@ -7,16 +7,20 @@ import BlogPost from "../components/blog-post";
 import { Image } from "../components/media";
 import { Xml, Dos } from "../components/code";
 import { LinkedReference } from "../components/links";
-import StaticHtml from "../components/static-html";
+import StaticHtml, { StaticHtmlProps } from "../components/static-html";
 
 export default StaticHtml;
 
 export const meta = {
-  title: "Tracking vs. Tracing in the Windows Workflow Foundation (WF4)",
+  title: "Tracking vs. tracing in the Windows Workflow Foundation (WF4)",
   date: "2013-11-26",
+  description:
+    "A howto for tracking and tracing in the Windows Workflow Foundation (WF4)",
 };
 
-export const getStaticProps: GetStaticProps = async (context) => {
+export const getStaticProps: GetStaticProps<StaticHtmlProps> = async (
+  context
+) => {
   const inner = (
     <BlogPost {...meta}>
       <p>
@@ -232,5 +236,6 @@ export const getStaticProps: GetStaticProps = async (context) => {
   );
 
   const staticHtml = reactDomServer.renderToStaticMarkup(inner);
-  return { props: { staticHtml } };
+  const { title, description } = meta;
+  return { props: { staticHtml, title, description } };
 };

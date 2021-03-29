@@ -12,11 +12,13 @@ import { meta as laserEyeMonsterCats } from "./my-laser-eye-monster-cats";
 import { meta as hdrWithSmartphone } from "./hdr_with_smartphone";
 import { meta as empireCatBuilding } from "./the-empire-cat-building";
 import { meta as whyDoIStartMyOwnBlog } from "./why-do-i-start-my-own-blog";
-import StaticHtml from "../components/static-html";
+import StaticHtml, { StaticHtmlProps } from "../components/static-html";
 
 export default StaticHtml;
 
-export const getStaticProps: GetStaticProps = async (context) => {
+export const getStaticProps: GetStaticProps<StaticHtmlProps> = async (
+  context
+) => {
   const inner = (
     <>
       <h1>Carsten Führmann</h1>
@@ -60,8 +62,8 @@ export const getStaticProps: GetStaticProps = async (context) => {
       </Abstract>
 
       <Abstract {...laserEyeMonsterCats} target="my-laser-eye-monster-cats">
-        An fun image of our two black cats (one of who has passed away)
-        encountering a cat neighbor. Not the greatest contribution to the web, I
+        A fun image of our two black cats (one of who has passed away)
+        encountering a neighbor cat. Not the greatest contribution to the web, I
         keep it here for emotional reasons
       </Abstract>
 
@@ -85,7 +87,14 @@ export const getStaticProps: GetStaticProps = async (context) => {
 
   const staticHtml = reactDomServer.renderToStaticMarkup(inner);
 
-  return { props: { staticHtml, page: "" } };
+  return {
+    props: {
+      staticHtml,
+      title: "Home",
+      description: "Home page of Carsten Führmann",
+      page: "",
+    },
+  };
 };
 
 function Abstract(props: {

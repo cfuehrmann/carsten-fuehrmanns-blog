@@ -18,16 +18,20 @@ import {
   CSharpInline,
   JavaScriptInline,
 } from "../components/code";
-import StaticHtml from "../components/static-html";
+import StaticHtml, { StaticHtmlProps } from "../components/static-html";
 
 export default StaticHtml;
 
 export const meta = {
   title: "TypeScript for quality of web code",
   date: "2015-12-04",
+  description:
+    "A long article where I made a bet on TypeScript before it went viral",
 };
 
-export const getStaticProps: GetStaticProps = async (context) => {
+export const getStaticProps: GetStaticProps<StaticHtmlProps> = async (
+  context
+) => {
   const inner = (
     <BlogPost {...meta}>
       <p>
@@ -1294,6 +1298,6 @@ test(name("function works"), () => {
   );
 
   const staticHtml = reactDomServer.renderToStaticMarkup(inner);
-
-  return { props: { staticHtml } };
+  const { title, description } = meta;
+  return { props: { staticHtml, title, description } };
 };

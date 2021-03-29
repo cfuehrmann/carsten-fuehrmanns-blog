@@ -305,5 +305,5 @@ public void TestRepairOfBrokenCar()
   );
 
   const staticHtml = reactDomServer.renderToStaticMarkup(inner);
-  return { props: { staticHtml } };
+  return { props: { staticHtml, title: meta.title } };
 };

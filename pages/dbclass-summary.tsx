@@ -5,16 +5,20 @@ import BlogPost from "../components/blog-post";
 import { Image } from "../components/media";
 import { LinkedReference } from "../components/links";
 import Comment from "../components/comments";
-import StaticHtml from "../components/static-html";
+import StaticHtml, { StaticHtmlProps } from "../components/static-html";
 
 export default StaticHtml;
 
 export const meta = {
   title: "My online experience with Stanford’s “Introduction to Databases”",
   date: "2013-03-24",
+  description:
+    'My experience with the Stanford online course "Introduction to Databases"',
 };
 
-export const getStaticProps: GetStaticProps = async (context) => {
+export const getStaticProps: GetStaticProps<StaticHtmlProps> = async (
+  context
+) => {
   const inner = (
     <BlogPost {...meta}>
       <p>
@@ -264,7 +268,7 @@ export const getStaticProps: GetStaticProps = async (context) => {
         feel gratitude and admiration. She surely is not the first or only
         person to set up such a course; all such people are heroes to me.
       </p>
-      <h1>Comments</h1>
+      <h2>Comments</h2>
       <Comment author="Willem Schaap" date="2013-03-28">
         <p>
           There are already quite a number of well-designed online programming
@@ -335,5 +339,6 @@ export const getStaticProps: GetStaticProps = async (context) => {
     </BlogPost>
   );
   const staticHtml = reactDomServer.renderToStaticMarkup(inner);
-  return { props: { staticHtml } };
+  const { title, description } = meta;
+  return { props: { staticHtml, title, description } };
 };

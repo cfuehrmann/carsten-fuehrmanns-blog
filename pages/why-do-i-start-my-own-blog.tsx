@@ -3,16 +3,19 @@ import { GetStaticProps } from "next";
 
 import BlogPost from "../components/blog-post";
 import { LinkedReference } from "../components/links";
-import StaticHtml from "../components/static-html";
+import StaticHtml, { StaticHtmlProps } from "../components/static-html";
 
 export default StaticHtml;
 
 export const meta = {
   title: "Why do I start my own blog?",
   date: "2012-08-28",
+  description: "My 2012 arguments for starting my own blog, still mostly valid",
 };
 
-export const getStaticProps: GetStaticProps = async (context) => {
+export const getStaticProps: GetStaticProps<StaticHtmlProps> = async (
+  context
+) => {
   const inner = (
     <BlogPost {...meta}>
       <p>There are three reasons:</p>
@@ -53,6 +56,6 @@ export const getStaticProps: GetStaticProps = async (context) => {
   );
 
   const staticHtml = reactDomServer.renderToStaticMarkup(inner);
-
-  return { props: { staticHtml } };
+  const { title, description } = meta;
+  return { props: { staticHtml, title, description } };
 };
