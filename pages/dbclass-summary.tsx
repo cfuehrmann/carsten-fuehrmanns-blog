@@ -10,7 +10,7 @@ import StaticHtml, { StaticHtmlProps } from "../components/static-html";
 export default StaticHtml;
 
 export const meta = {
-  title: "My online experience with Stanford’s “Introduction to Databases”",
+  title: "Stanford’s “Introduction to Databases”",
   date: "2013-03-24",
   description:
     'My experience with the Stanford online course "Introduction to Databases"',
@@ -253,12 +253,12 @@ export const getStaticProps: GetStaticProps<StaticHtmlProps> = async (
         test, except that in typical unit test scenarios, the code is a
         non-declarative programming language like Java, and not a declarative
         one like SQL. So:{" "}
-        <b>
+        <em>
           One could create a great programming course by introducing automatic
           exercises where the student has to beat unit tests! Knowing the
           extreme importance of test-driven design from first-hand experience, I
           am sure that this alley should be explored.
-        </b>
+        </em>
       </p>
       <h2>Final words</h2>
       <p>

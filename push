@@ -1,0 +1,2 @@
+npm run build
+rsync -rtiv --delete --exclude=flasher out/ carsten@carstenfuehrmann.org:www

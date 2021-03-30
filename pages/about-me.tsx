@@ -37,8 +37,18 @@ export default function About() {
           interest in theoretical physics, but time permits me only to dabble.
         </p>
         <p>
-          I am a secular humanist. I also love to loose myself in books, music,
-          computer games, and the internet. My wife and I have two lovely cats.
+          As a software developer, I have been a team member on a number of
+          business applications, both server side and frontend side, and been
+          the architect of a couple more. So my experience includes databases,
+          business logic, and frontend design. My main interest these days are
+          software architecture and developer experience, with a strong focus on
+          keeping a high long-term team velocity. Sometimes I engage in a bit of
+          tech-evangelism as a guilty pleasure.
+        </p>
+        <p>
+          I care a lot about the environment. I'm a secular humanist. I love
+          animals. I enjoy books, music, computer games, and the internet. My
+          wife and I have two lovely cats.
         </p>
       </section>
     </Layout>

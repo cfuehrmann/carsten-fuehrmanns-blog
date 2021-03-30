@@ -21,7 +21,7 @@ export const getStaticProps: GetStaticProps<StaticHtmlProps> = async (
 ) => {
   const inner = (
     <>
-      <h1>Carsten Führmann</h1>
+      <h1>Carsten Führmann's website</h1>
       <p>Computer scientist and software engineer. More interests than time.</p>
 
       <h2>Posts</h2>

@@ -10,7 +10,7 @@ export const getStaticProps: GetStaticProps<StaticHtmlProps> = async (
 ) => {
   const inner = (
     <>
-      <h1>Lectures</h1>
+      <h1>Lectures by Carsten Führmann</h1>
 
       <p>
         I gave the two courses below at the Department of Computer Science of
