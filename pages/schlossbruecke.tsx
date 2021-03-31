@@ -10,9 +10,9 @@ import StaticHtml, { StaticHtmlProps } from "../components/static-html";
 export default StaticHtml;
 
 export const meta = {
-  title: "Schloßbrücke",
+  title: "Die Brücke der Schlösser",
   date: "2012-09-07",
-  description: "Hunderte Liebes-Schlösser an einer Nürnberger Brücke",
+  description: "Hunderte Schlösser an einer Nürnberger Brücke",
 };
 
 export const getStaticProps: GetStaticProps<StaticHtmlProps> = async (

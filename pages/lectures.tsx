@@ -147,7 +147,8 @@ export const getStaticProps: GetStaticProps<StaticHtmlProps> = async (
     props: {
       staticHtml,
       title: "Lectures",
-      description: "Carsten Führmann's lectures",
+      description:
+        "The university lectures by Carsten Führmann, including handouts",
       page: "lectures",
     },
   };

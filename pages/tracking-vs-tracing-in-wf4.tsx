@@ -12,7 +12,7 @@ import StaticHtml, { StaticHtmlProps } from "../components/static-html";
 export default StaticHtml;
 
 export const meta = {
-  title: "Tracking vs. tracing in the Windows Workflow Foundation (WF4)",
+  title: "Tracking and tracing in Microsoft's WF4",
   date: "2013-11-26",
   description:
     "A howto for tracking and tracing in the Windows Workflow Foundation (WF4)",

@@ -9,7 +9,7 @@ import StaticHtml, { StaticHtmlProps } from "../components/static-html";
 export default StaticHtml;
 
 export const meta = {
-  title: "Book review: “The Infinite Resource” by Ramez Naam",
+  title: '"The Infinite Resource” by Ramez Naam"',
   date: "2013-05-23",
   description:
     "A review of Ramez Naam's book \"The Infinite Resource\", concerning human (ab)use of Earth's resources",
@@ -40,28 +40,33 @@ export const getStaticProps: GetStaticProps<StaticHtmlProps> = async (
       <p>
         In the first parts of the book, Naam gives a lot of information about
         the current state of Earth’s atmosphere and the dangerous changes that
-        will continue if we don’t act (and, to a lesser extent, even if we do
-        act). Besides climate, he also discusses other kinds of resource
-        depletion, for example, the over-fishing of the oceans. Throughout, he
-        succeeds in remaining factual and gives lots of convincing data.
+        will continue if we don’t act. Besides climate, he also discusses other
+        kinds of resource depletion, for example the over-fishing of the oceans.
+        Throughout, he succeeds in remaining factual and gives lots of
+        convincing data.
       </p>
       <p>
         After this – sobering – account of the status quo, Raam describes how
         humanity, through the “infinite resource” of innovation, has again and
         again achieved incredible improvements in the usage of natural
-        resources. Examples include the staggering drop of agricultural area
-        needed to feed one person, the successful fight against acid rain
-        (caused by SO2) and ozone depletion (caused by CFCs).{" "}
+        resources. One example is the staggering drop of agricultural area
+        needed to feed one person. Other examples are the successful fight
+        against acid rain (caused by SO2) and ozone depletion (caused by CFCs).
       </p>
       <p>
         In the later parts of the book, Naam argues that we have a good chance
-        of succeeding again, but that the suffering we will cause along the way
-        will be a lot less if we act proactively. And he proposes a remarkable
-        concrete (and convincing) course of action, including: fixing the market
-        to include the costs for environmental damage, investing in long-term
-        R&D, overcome our reflexes and embrace technologies that seem alien, and
-        drive education, in particular in the developing world.
+        of succeeding again. However, the suffering we will cause along the way
+        will be a lot less if we act proactively. He proposes a remarkably
+        concrete (and convincing) course of action, including:
       </p>
+      <ul>
+        <li>Fixing the market to include the costs for environmental damage</li>
+        <li>Investing in long-term R&D</li>
+        <li>
+          Overcoming our reflexes and embrace technologies that seem alien
+        </li>
+        <li>Driving education, in particular in the developing world</li>
+      </ul>
     </BlogPost>
   );
 

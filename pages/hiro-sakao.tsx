@@ -8,7 +8,7 @@ import StaticHtml, { StaticHtmlProps } from "../components/static-html";
 export default StaticHtml;
 
 export const meta = {
-  title: "Hiro Sakao",
+  title: "Enjoying Sushi at Hiro Sakao",
   date: "2012-09-07",
   description: "Enthusing about a Sushi place in Erlangen",
 };
@@ -21,9 +21,9 @@ export const getStaticProps: GetStaticProps<StaticHtmlProps> = async (
       <p>
         Ich verspreche, nicht oft Essensbilder zu posten. Jedenfalls war ich
         jetzt zum dritten Mal im japanischen Restaurant “Hiro Sakao” in
-        Erlangen, und das Essen ist so umwerfend gut, dass ich meinem
-        Enthusiasmus einfach Luft machen muss. Das Interieur des Restaurants ist
-        übrigens genause toll wie das Essen.
+        Erlangen, und das Essen ist so gut, dass ich meinem Enthusiasmus einfach
+        Luft machen muss. Das Interieur des Restaurants ist übrigens genauso
+        toll wie das Essen.
       </p>
       <Image
         caption="Besser geht’s nicht"
