@@ -2,6 +2,7 @@ import reactDomServer from "react-dom/server";
 import { GetStaticProps } from "next";
 
 import Date from "../components/date";
+import { meta as websiteAttacks } from "./website-attacks-by-origin";
 import { meta as typeScriptQuality } from "./typescript-quality";
 import { meta as stanfordQuantum } from "./stanford-online-quantum-mechanics";
 import { meta as parametricOscillator } from "./parametric-oscillator";
@@ -25,6 +26,11 @@ export const getStaticProps: GetStaticProps<StaticHtmlProps> = async (
       <p>Computer scientist and software engineer. More interests than time.</p>
 
       <h2>Posts</h2>
+
+      <Abstract {...websiteAttacks} target="website-attacks-by-origin">
+        Remarkable insights about bad HTTP traffic to my website, gained from
+        the logs of my home server.
+      </Abstract>
 
       <Abstract {...typeScriptQuality} target="typescript-quality">
         A long article where I made a bet on TypeScript before it went viral. It
