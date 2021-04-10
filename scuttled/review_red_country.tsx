@@ -5,7 +5,7 @@ import BlogPost from "../components/blog-post";
 import { Link } from "../components/links";
 import { ExternalImage } from "../components/media";
 import BlockQuote from "../components/block-quote";
-import StaticHtml, { StaticHtmlProps } from "../components/static-html";
+import { StaticHtml, StaticHtmlProps } from "../components/static-html";
 
 export default StaticHtml;
 

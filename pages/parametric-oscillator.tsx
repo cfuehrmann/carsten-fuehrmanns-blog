@@ -16,7 +16,7 @@ import {
 import { Image, Video } from "../components/media";
 import { Reference, LinkedReference } from "../components/links";
 import BlockQuote from "../components/block-quote";
-import StaticHtml, { StaticHtmlProps } from "../components/static-html";
+import { StaticHtml, StaticHtmlProps } from "../components/static-html";
 
 export default StaticHtml;
 

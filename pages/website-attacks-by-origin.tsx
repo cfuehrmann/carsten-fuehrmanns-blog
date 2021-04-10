@@ -5,7 +5,7 @@ import BlogPost from "../components/blog-post";
 import { Dos, DosInline } from "../components/code";
 import { LinkedReference, Reference } from "../components/links";
 
-import StaticHtml, { StaticHtmlProps } from "../components/static-html";
+import { StaticHtml, StaticHtmlProps } from "../components/static-html";
 
 export default StaticHtml;
 

@@ -4,10 +4,10 @@ import { GetStaticProps } from "next";
 import BlogPost from "../components/blog-post";
 import { Image } from "../components/media";
 import { LinkedReference } from "../components/links";
-import Comment from "../components/comments";
-import StaticHtml, { StaticHtmlProps } from "../components/static-html";
+import { StaticHtmlWithComments } from "../components/comments";
+import { StaticHtmlProps } from "../components/static-html";
 
-export default StaticHtml;
+export default StaticHtmlWithComments;
 
 export const meta = {
   title: "Stanford’s “Introduction to Databases”",
@@ -268,74 +268,6 @@ export const getStaticProps: GetStaticProps<StaticHtmlProps> = async (
         feel gratitude and admiration. She surely is not the first or only
         person to set up such a course; all such people are heroes to me.
       </p>
-      <h2>Comments</h2>
-      <Comment author="Willem Schaap" date="2013-03-28">
-        <p>
-          There are already quite a number of well-designed online programming
-          courses which have excellent unit tests. At Udacity, check out Intro
-          to Computer Science and Design of Computer Programs. At Coursera,
-          check out Algorithms I and II, these have the best tests I have seen
-          so far.
-        </p>
-        <Comment author="Carsten Führmann" date="2013-03-28">
-          Thanks for the info, Willem Schaap, I didn’t know this! Somehow I wish
-          such things had been around when I was a student 20 years ago.
-        </Comment>
-      </Comment>
-      <Comment author="Clifford GREGORY" date="2013-04-08">
-        <p>
-          Because you mentioned “gamification” in your review of the Stanford
-          database course, I thought you might be interested to learn that
-          Coursera is offering a Gamification course, which began last week. You
-          can get full details here:
-        </p>
-        <LinkedReference target="https://www.coursera.org/course/gamification">
-          Coursera gamification course
-        </LinkedReference>
-        <p>
-          Also, you are probably aware of the the database course,
-          Datenmanagement mit SQL, offered by the Hasso Plattner Institut (HPI),
-          which is described here:
-        </p>
-        <LinkedReference target="https://openhpi.de/course/sql">
-          Hasso Plattner Institut SQL course
-        </LinkedReference>
-        <p>The HPI course starts today.</p>
-        <p>
-          My experience with the Stanford database course– my first MOOC– was so
-          stimulating that I am eager to continue with other database-related
-          topics. Although I do not speak German, I may sign up for this HPI
-          course just to see how its quizzes and exercises compare to those of
-          the Stanford course. Unlike the videos, I figure the quizzes and
-          exercises will have printed text that Google Chrome can translate for
-          me, however crudely, so I have some access to that content.
-        </p>
-        <p>
-          I think I saw somewhere that the instructor, Dr. Felix Naumann, is
-          using the same Ullman/Molina/Widom textbook as the Stanford course. If
-          so, it will be interesting to see which topics Dr. Naumann chooses to
-          emphasize in this six-week course. I hope he will include extended
-          remarks about recent developments with NoSQL databases, such as
-          Hadoop, MongoDB, and Cassandra.
-        </p>
-        <p>Best regards.</p>
-        <p>Clifford GREGORY</p>
-        <Comment author="Carsten Führmann" date="2013-04-08">
-          <p>
-            Thanks Clifford! Someone had already made me aware of the
-            Gamification course, but I didn’t know about the HPI one. I’d be
-            grateful for a one-paragraph review once you’re through.
-          </p>
-          <p>
-            On a more personal note, this stimulating business of online courses
-            makes me wonder about work-life balance, that is: given the work
-            load of my full-time day job, how much time will I spend in the
-            future on online-learning? I haven’t sorted this out yet. But I must
-            admit that currently I need a break, some evenings when I haven’t
-            planned anything.
-          </p>
-        </Comment>
-      </Comment>
     </BlogPost>
   );
   const staticHtml = reactDomServer.renderToStaticMarkup(inner);

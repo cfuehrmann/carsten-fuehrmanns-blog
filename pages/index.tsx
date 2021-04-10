@@ -13,9 +13,13 @@ import { meta as laserEyeMonsterCats } from "./my-laser-eye-monster-cats";
 import { meta as hdrWithSmartphone } from "./hdr_with_smartphone";
 import { meta as empireCatBuilding } from "./the-empire-cat-building";
 import { meta as whyDoIStartMyOwnBlog } from "./why-do-i-start-my-own-blog";
-import StaticHtml, { StaticHtmlProps } from "../components/static-html";
+import { StaticHtml, StaticHtmlProps } from "../components/static-html";
 
 export default StaticHtml;
+
+export const config = {
+  unstable_runtimeJS: false,
+};
 
 export const getStaticProps: GetStaticProps<StaticHtmlProps> = async (
   context

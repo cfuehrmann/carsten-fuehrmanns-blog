@@ -4,7 +4,7 @@ import { GetStaticProps } from "next";
 import BlogPost from "../components/blog-post";
 import { Image } from "../components/media";
 import { LinkedReference } from "../components/links";
-import StaticHtml, { StaticHtmlProps } from "../components/static-html";
+import { StaticHtml, StaticHtmlProps } from "../components/static-html";
 
 export default StaticHtml;
 

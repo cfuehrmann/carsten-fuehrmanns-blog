@@ -3,7 +3,7 @@ import { GetStaticProps } from "next";
 
 import BlogPost from "../components/blog-post";
 import { Image } from "../components/media";
-import StaticHtml, { StaticHtmlProps } from "../components/static-html";
+import { StaticHtml, StaticHtmlProps } from "../components/static-html";
 
 export default StaticHtml;
 

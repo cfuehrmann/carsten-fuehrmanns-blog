@@ -1,7 +1,7 @@
 import reactDomServer from "react-dom/server";
 import { GetStaticProps } from "next";
 
-import StaticHtml, { StaticHtmlProps } from "../components/static-html";
+import { StaticHtml, StaticHtmlProps } from "../components/static-html";
 
 export default StaticHtml;
 

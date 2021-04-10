@@ -18,7 +18,7 @@ import {
   CSharpInline,
   JavaScriptInline,
 } from "../components/code";
-import StaticHtml, { StaticHtmlProps } from "../components/static-html";
+import { StaticHtml, StaticHtmlProps } from "../components/static-html";
 
 export default StaticHtml;
 

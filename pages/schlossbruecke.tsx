@@ -3,11 +3,10 @@ import { GetStaticProps } from "next";
 
 import BlogPost from "../components/blog-post";
 import { Image } from "../components/media";
-import Comment from "../components/comments";
-import { LinkedReference } from "../components/links";
-import StaticHtml, { StaticHtmlProps } from "../components/static-html";
+import { StaticHtmlWithComments } from "../components/comments";
+import { StaticHtmlProps } from "../components/static-html";
 
-export default StaticHtml;
+export default StaticHtmlWithComments;
 
 export const meta = {
   title: "Die Brücke der Schlösser",
@@ -32,18 +31,6 @@ export const getStaticProps: GetStaticProps<StaticHtmlProps> = async (
         extension="jpg"
         hideCaption
       />
-      <h2>Comments</h2>
-      <Comment author="knilch" date="2012-11-13">
-        <LinkedReference target="https://www.spiegel.de/netzwelt/web/lovepicking-kuensterlin-knackt-liebesschloesser-a-860715.html">
-          Lovepicking-Künstlerin knackt Liebesschlösser
-        </LinkedReference>
-        <Comment author="Carsten Führmann" date="2012-11-13">
-          Danke für die Info! Und ich lerne einmal wieder: Es gibt nichts, was
-          es nicht gibt. Und herzlichen Glückwunsch: Dies war der 1000000ste
-          Kommentar in meinem Blog! (Jedenfalls bis auf sechs oder sieben
-          Nullen.)
-        </Comment>
-      </Comment>
     </BlogPost>
   );
 

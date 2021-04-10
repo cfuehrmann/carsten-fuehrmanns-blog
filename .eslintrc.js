@@ -46,6 +46,9 @@ module.exports = {
     "nonblock-statement-body-position": "off",
     curly: "off",
     "object-curly-newline": "off",
+    "function-paren-newline": "off",
+    // Rules that cause much needless refactoring
+    "import/prefer-default-export": "off",
   },
   settings: {
     "import/resolver": {

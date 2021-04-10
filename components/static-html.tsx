@@ -7,7 +7,7 @@ export type StaticHtmlProps = {
   page?: string;
 };
 
-export default function StaticHtml({
+export function StaticHtml({
   staticHtml,
   title,
   description,
