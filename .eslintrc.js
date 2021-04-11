@@ -17,7 +17,6 @@ module.exports = {
   rules: {
     "react/jsx-filename-extension": ["error", { extensions: [".jsx", ".tsx"] }],
     // "react/react-in-jsx-scope": "off",
-    quotes: ["error", "double", { avoidEscape: true }],
     "import/extensions": [
       "error",
       "ignorePackages",
@@ -47,6 +46,7 @@ module.exports = {
     curly: "off",
     "object-curly-newline": "off",
     "function-paren-newline": "off",
+    quotes: "off",
     // Rules that cause much needless refactoring
     "import/prefer-default-export": "off",
   },
