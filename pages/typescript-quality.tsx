@@ -20,6 +20,11 @@ import {
 } from "../components/code";
 import { StaticHtml, StaticHtmlProps } from "../components/static-html";
 
+import codeStyles from "../components/code.module.css";
+import miscStyles from "../components/misc.module.css";
+
+const _ = { codeStyles, miscStyles };
+
 export default StaticHtml;
 
 export const meta = {

@@ -1,4 +1,5 @@
 import Layout from "../components/layout";
+import styles from "../components/misc.module.css";
 
 export default function Publications() {
   return (
@@ -128,7 +129,7 @@ function BibItem({
         href={`/papers/${target}.pdf`}
         target="_blank"
         rel="noopener noreferrer"
-        style={{ textDecoration: "none" }}
+        className={styles["no-text-decoration"]}
       >
         <div className="w3-card w3-text-black">
           <div className="w3-container">

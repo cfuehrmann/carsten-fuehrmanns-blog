@@ -1,3 +1,5 @@
+import styles from "./misc.module.css";
+
 export const Reference = ({ children }: { children: React.ReactNode }) => (
   <p>{children}</p>
 );
@@ -46,7 +48,7 @@ export function Link({
       href={target}
       rel="noopener noreferrer"
       target="_blank"
-      style={{ textDecoration: "none" }}
+      className={styles["no-text-decoration"]}
     >
       {children}
     </a>
@@ -61,7 +63,7 @@ export function InternalLink({
   target: string;
 }) {
   return (
-    <a href={target} style={{ textDecoration: "none" }}>
+    <a href={target} className={styles["no-text-decoration"]}>
       {children}
     </a>
   );

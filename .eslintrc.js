@@ -35,6 +35,7 @@ module.exports = {
     "no-unused-vars": ["off"],
     "react/require-default-props": ["off"],
     "react/prop-types": ["off"],
+    "dot-notation": ["off"],
     // Rules below are disabled to avoid clashes with Prettier
     "no-confusing-arrow": ["off"],
     "implicit-arrow-linebreak": ["off"],

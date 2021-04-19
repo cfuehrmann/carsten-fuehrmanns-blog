@@ -1,0 +1,9 @@
+.code-display {
+  background-color: white;
+  overflow: scroll;
+  overflow-y: hidden;
+}
+
+.code {
+  background-color: white;
+}

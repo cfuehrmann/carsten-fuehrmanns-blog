@@ -4,8 +4,13 @@ import { GetStaticProps } from "next";
 import BlogPost from "../components/blog-post";
 import { Dos, DosInline } from "../components/code";
 import { LinkedReference, Reference } from "../components/links";
-
 import { StaticHtml, StaticHtmlProps } from "../components/static-html";
+
+import codeStyles from "../components/code.module.css";
+import barStyles from "../components/percent-bars.module.css";
+import miscStyles from "../components/misc.module.css";
+
+const _ = { codeStyles, barStyles, miscStyles };
 
 export default StaticHtml;
 
@@ -109,7 +114,7 @@ export const getStaticProps: GetStaticProps<StaticHtmlProps> = async (
         in the figure below.
       </p>
       <table width="100%">
-        <caption style={{ captionSide: "bottom", padding: "10px" }}>
+        <caption className={miscStyles["caption"]}>
           <em>HTTP POSTs to my website by country of origin</em>
         </caption>
         <AbsoluteBar country="China" />
@@ -149,7 +154,7 @@ export const getStaticProps: GetStaticProps<StaticHtmlProps> = async (
         other things than Corona.)
       </p>
       <table width="100%">
-        <caption style={{ captionSide: "bottom", padding: "10px" }}>
+        <caption className={miscStyles["caption"]}>
           <em>HTTP POSTs to my website per 100000 people</em>
         </caption>
         <RelativeBar country="Hong Kong" />
@@ -210,20 +215,11 @@ function AbsoluteBar(props: { country: keyof typeof linesDict }) {
 
   return (
     <tr>
-      <td align="right" style={{ whiteSpace: "nowrap" }}>
+      <td align="right" className={miscStyles["no-wrap"]}>
         {country}
       </td>
       <td width="90%">
-        <div
-          className="w3-grey"
-          style={{
-            height: "24px",
-            width: percentString,
-            float: "left",
-            marginLeft: "4px",
-            marginRight: "6px",
-          }}
-        />
+        <PercentBar value={percent} />
         {percentString}
       </td>
     </tr>
@@ -232,28 +228,25 @@ function AbsoluteBar(props: { country: keyof typeof linesDict }) {
 
 function RelativeBar(props: { country: keyof typeof linesDict }) {
   const { country } = props;
-
   const { lines, population } = linesDict[country];
   const value = (10 * lines) / population;
+  const percent = Math.round(value * 0.08);
 
   return (
     <tr>
-      <td align="right" style={{ whiteSpace: "nowrap" }}>
+      <td align="right" className={miscStyles["no-wrap"]}>
         {country}
       </td>
       <td width="90%">
-        <div
-          className="w3-grey"
-          style={{
-            height: "24px",
-            width: `${value * 0.08}%`,
-            float: "left",
-            marginLeft: "4px",
-            marginRight: "6px",
-          }}
-        />
+        <PercentBar value={percent} />
         {Math.round(value)}
       </td>
     </tr>
   );
+}
+
+function PercentBar(props: { value: number }) {
+  const { value } = props;
+  const width = `width-percent-${value}`;
+  return <div className={`w3-grey ${barStyles["bar"]} ${barStyles[width]}`} />;
 }

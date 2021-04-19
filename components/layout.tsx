@@ -1,5 +1,7 @@
 import Head from "next/head";
 
+import styles from "./misc.module.css";
+
 const pageTexts: { [key in string]: string | undefined } = {
   "": "Home",
   publications: "Publications",
@@ -43,15 +45,7 @@ export default function Layout({
       </Head>
       <br />
       <main className="markdown-body w3-container">
-        <div
-          style={{
-            maxWidth: "800px",
-            margin: "auto",
-            fontSize: 18,
-          }}
-        >
-          {children}
-        </div>
+        <div className={styles["layout"]}>{children}</div>
       </main>
       <footer className="w3-bottom">
         <nav className="w3-center">
