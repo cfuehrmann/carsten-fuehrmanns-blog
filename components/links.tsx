@@ -44,12 +44,7 @@ export function Link({
   target: string;
 }) {
   return (
-    <a
-      href={target}
-      rel="noopener noreferrer"
-      target="_blank"
-      className={styles["no-text-decoration"]}
-    >
+    <a href={target} className={styles["no-text-decoration"]}>
       {children}
     </a>
   );

@@ -127,8 +127,6 @@ function BibItem({
     <>
       <a
         href={`/papers/${target}.pdf`}
-        target="_blank"
-        rel="noopener noreferrer"
         className={styles["no-text-decoration"]}
       >
         <div className="w3-card w3-text-black">

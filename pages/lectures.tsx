@@ -161,8 +161,6 @@ function Handout(props: { target: string; title: string }) {
   return (
     <a
       href={`/lectures/${target}.pdf`}
-      target="_blank"
-      rel="noopener noreferrer"
       className={styles["no-text-decoration"]}
     >
       <div className="w3-card w3-text-black">

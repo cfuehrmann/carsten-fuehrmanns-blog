@@ -23,6 +23,10 @@ module.exports = (phase, { defaultConfig }) => ({
                   value:
                     "default-src 'self'; script-src 'self' www.googletagmanager.com; connect-src 'self' www.google-analytics.com;",
                 },
+                {
+                  key: "Referrer-Policy",
+                  value: "strict-origin-when-cross-origin",
+                },
               ],
             },
             {
