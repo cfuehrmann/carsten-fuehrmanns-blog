@@ -1,4 +1,5 @@
 import hljs from "highlight.js";
+import styles from "./code.module.css";
 
 export function CSharp({ children }: { children: string }) {
   return <Code language="csharp">{children}</Code>;
@@ -44,17 +45,10 @@ function Code(props: { language: string; children: string }) {
   const { language, children } = props;
 
   return (
-    <div
-      className="w3-border"
-      style={{
-        backgroundColor: "white",
-        overflow: "scroll",
-        overflowY: "hidden",
-      }}
-    >
+    <div className={`w3-border ${styles["code-display"]}`}>
       <pre className="w3-margin-left">
         <code
-          style={{ backgroundColor: "white" }}
+          className={styles["code"]}
           dangerouslySetInnerHTML={{
             __html: hljs.highlight(language, children).value,
           }}
@@ -69,8 +63,7 @@ function Inline(props: { language: string; children: string }) {
 
   return (
     <code
-      className="w3-border"
-      style={{ backgroundColor: "white" }}
+      className={`w3-border ${styles["code"]}`}
       dangerouslySetInnerHTML={{
         __html: hljs.highlight(language, children).value,
       }}

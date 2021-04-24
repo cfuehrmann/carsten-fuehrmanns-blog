@@ -15,6 +15,8 @@ import { meta as empireCatBuilding } from "./the-empire-cat-building";
 import { meta as whyDoIStartMyOwnBlog } from "./why-do-i-start-my-own-blog";
 import { StaticHtml, StaticHtmlProps } from "../components/static-html";
 
+import styles from "../components/misc.module.css";
+
 export default StaticHtml;
 
 export const config = {
@@ -116,7 +118,7 @@ function Abstract(props: {
   const { title, target, date, children } = props;
 
   return (
-    <a href={`${target}/`} style={{ textDecoration: "none" }}>
+    <a href={`${target}/`} className={styles["no-text-decoration"]}>
       <div className="w3-card w3-text-black">
         <div className="w3-container">
           <h3>{title}</h3>

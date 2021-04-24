@@ -1,3 +1,5 @@
+import styles from "./misc.module.css";
+
 export const ExternalImage = ({
   src,
   caption,
@@ -13,12 +15,7 @@ export const ExternalImage = ({
 }) => (
   <>
     <img
-      className="w3-image"
-      style={{
-        display: "block",
-        marginLeft: "auto",
-        marginRight: "auto",
-      }}
+      className={`w3-image ${styles["image"]}`}
       src={src}
       loading="lazy"
       alt={caption}
@@ -56,12 +53,7 @@ export const Image = ({
     <picture className="w3-display-container">
       <source srcSet={`../images/${fileName}.webp`} type="image/webp" />
       <img
-        className="w3-image"
-        style={{
-          display: "block",
-          marginLeft: "auto",
-          marginRight: "auto",
-        }}
+        className={`w3-image ${styles["image"]}`}
         src={`../images/${fileName}.${extension}`}
         loading="lazy"
         alt={caption}
@@ -92,11 +84,7 @@ export const Video = (props: { fileName: string; caption: string }) => {
         muted
         playsInline
         controls
-        style={{
-          display: "block",
-          marginLeft: "auto",
-          marginRight: "auto",
-        }}
+        className={styles["image"]}
       >
         <source src={`../images/${fileName}.webm`} type="video/webm" />
         <source src={`../images/${fileName}.mp4`} type="video/mp4" />

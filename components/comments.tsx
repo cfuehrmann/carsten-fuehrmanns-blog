@@ -6,6 +6,8 @@ import Date from "./date";
 import Layout from "./layout";
 import { StaticHtmlProps } from "./static-html";
 
+import styles from "./misc.module.css";
+
 export function StaticHtmlWithComments({
   staticHtml,
   title,
@@ -96,13 +98,7 @@ function Comment(props: {
 
   return (
     <div className="w3-card">
-      <div
-        className="w3-container"
-        style={{
-          textOverflow: "ellipsis",
-          overflow: "hidden",
-        }}
-      >
+      <div className={`w3-container ${styles["comment"]}`}>
         {author ? (
           <p>{email ? `${author}<${email}>` : author}</p>
         ) : (
@@ -113,7 +109,7 @@ function Comment(props: {
             <Date dateString={date} />
           </small>
         </p>
-        <p style={{ whiteSpace: "pre-wrap" }}>{text}</p>
+        <p className={styles["pre-wrap"]}>{text}</p>
         {children}
       </div>
     </div>

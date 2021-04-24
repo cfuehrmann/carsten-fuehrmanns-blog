@@ -2,6 +2,7 @@ import reactDomServer from "react-dom/server";
 import { GetStaticProps } from "next";
 
 import { StaticHtml, StaticHtmlProps } from "../components/static-html";
+import styles from "../components/misc.module.css";
 
 export default StaticHtml;
 
@@ -162,7 +163,7 @@ function Handout(props: { target: string; title: string }) {
       href={`/lectures/${target}.pdf`}
       target="_blank"
       rel="noopener noreferrer"
-      style={{ textDecoration: "none" }}
+      className={styles["no-text-decoration"]}
     >
       <div className="w3-card w3-text-black">
         <p className="w3-padding-large">{title}</p>
