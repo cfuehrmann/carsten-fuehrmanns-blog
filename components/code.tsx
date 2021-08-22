@@ -50,7 +50,7 @@ function Code(props: { language: string; children: string }) {
         <code
           className={styles["code"]}
           dangerouslySetInnerHTML={{
-            __html: hljs.highlight(language, children).value,
+            __html: hljs.highlight(children, { language }).value,
           }}
         />
       </pre>
@@ -65,7 +65,7 @@ function Inline(props: { language: string; children: string }) {
     <code
       className={`w3-border ${styles["code"]}`}
       dangerouslySetInnerHTML={{
-        __html: hljs.highlight(language, children).value,
+        __html: hljs.highlight(children, { language }).value,
       }}
     />
   );
