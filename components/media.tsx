@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import styles from "./misc.module.css";
 
 export const ExternalImage = ({
@@ -34,7 +35,7 @@ export const ExternalImage = ({
   </>
 );
 
-export const Image = ({
+export const Picture = ({
   fileName,
   caption,
   width,

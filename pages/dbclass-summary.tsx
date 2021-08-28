@@ -2,7 +2,7 @@ import reactDomServer from "react-dom/server";
 import { GetStaticProps } from "next";
 
 import BlogPost from "../components/blog-post";
-import { Image } from "../components/media";
+import { Picture } from "../components/media";
 import { LinkedReference } from "../components/links";
 import { StaticHtmlWithComments } from "../components/comments";
 import { StaticHtmlProps } from "../components/static-html";
@@ -38,7 +38,7 @@ export const getStaticProps: GetStaticProps<StaticHtmlProps> = async (
         course (which will probably be repeated). I am also writing this summary
         for myself, so feel free to skip passages which seem too biographical.
       </p>
-      <Image
+      <Picture
         caption="Achievement unlocked: MOOC"
         fileName="stanford-databases-pulp"
         width={336}
@@ -116,7 +116,7 @@ export const getStaticProps: GetStaticProps<StaticHtmlProps> = async (
         Authorization, Recursion, Online Analytical Processing, NoSQL.
       </p>
       <p>They are to be followed over a period of ca. nine weeks.</p>
-      <Image
+      <Picture
         caption="Prof. Widom in action"
         fileName="stanford-databases-lecture"
         width={840}

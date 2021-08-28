@@ -44,7 +44,7 @@ function CommentsFromApi() {
 
       setComments(fetchedComments);
     })();
-  }, []);
+  }, [pathname]);
 
   return <Comments comments={comments} />;
 }

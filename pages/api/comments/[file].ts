@@ -1,7 +1,7 @@
 import type { NextApiRequest, NextApiResponse } from "next";
 import { readComments } from "../../../lib/comments";
 
-export default (req: NextApiRequest, res: NextApiResponse) => {
+export default function handler(req: NextApiRequest, res: NextApiResponse) {
   const { file } = req.query;
   try {
     const comments = readComments(
@@ -11,4 +11,4 @@ export default (req: NextApiRequest, res: NextApiResponse) => {
   } catch (e) {
     res.status(404).json([]);
   }
-};
+}

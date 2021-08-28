@@ -2,7 +2,7 @@ import reactDomServer from "react-dom/server";
 import { GetStaticProps } from "next";
 
 import BlogPost from "../components/blog-post";
-import { Image } from "../components/media";
+import { Picture } from "../components/media";
 import { StaticHtmlWithComments } from "../components/comments";
 import { StaticHtmlProps } from "../components/static-html";
 
@@ -23,7 +23,7 @@ export const getStaticProps: GetStaticProps<StaticHtmlProps> = async (
         Warum vergessen die Leute nur alle ihre Schlösser an dieser Nürnberger
         Brücke?
       </p>
-      <Image
+      <Picture
         caption="Schlossbrücke"
         fileName="schlossbruecke-800"
         width={800}

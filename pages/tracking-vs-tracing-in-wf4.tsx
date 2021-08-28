@@ -4,7 +4,7 @@ import reactDomServer from "react-dom/server";
 import { GetStaticProps } from "next";
 
 import BlogPost from "../components/blog-post";
-import { Image } from "../components/media";
+import { Picture } from "../components/media";
 import { Xml, Dos } from "../components/code";
 import { LinkedReference } from "../components/links";
 import { StaticHtml, StaticHtmlProps } from "../components/static-html";
@@ -95,7 +95,7 @@ export const getStaticProps: GetStaticProps<StaticHtmlProps> = async (
         exists on customers’ machines. Running the tool on the tracking data
         will result in something like this:
       </p>
-      <Image
+      <Picture
         caption="Tracking"
         fileName="wf4-tracking-800"
         width={800}
@@ -190,7 +190,7 @@ export const getStaticProps: GetStaticProps<StaticHtmlProps> = async (
         machine and analyze it there. When we run the tool on the log and switch
         into the “Graph” tab, we get something like this:
       </p>
-      <Image
+      <Picture
         caption="SvcTraceViewer"
         fileName="wf4-trace-viewer-800"
         width={800}

@@ -41,7 +41,7 @@ export default function Layout({
           async
           src="https://www.googletagmanager.com/gtag/js?id=G-TJT8C600ZY"
         />
-        <script src="/google-analytics.js" />
+        <script async src="/google-analytics.js" />
       </Head>
       <br />
       <main className="markdown-body w3-container">

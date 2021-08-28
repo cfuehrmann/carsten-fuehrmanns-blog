@@ -2,7 +2,7 @@ import reactDomServer from "react-dom/server";
 import { GetStaticProps } from "next";
 
 import BlogPost from "../components/blog-post";
-import { Image } from "../components/media";
+import { Picture } from "../components/media";
 import { StaticHtml, StaticHtmlProps } from "../components/static-html";
 
 export default StaticHtml;
@@ -27,7 +27,7 @@ export const getStaticProps: GetStaticProps<StaticHtmlProps> = async (
         neighbours’ cat. No animals where harmed or cyber-augmented during the
         making of this picture.
       </p>
-      <Image
+      <Picture
         caption="Empire Cat Building"
         fileName="laser-eye-cats-800"
         width={800}

@@ -4,7 +4,7 @@ import reactDomServer from "react-dom/server";
 import { GetStaticProps } from "next";
 
 import BlogPost from "../components/blog-post";
-import { Image, Video } from "../components/media";
+import { Picture, Video } from "../components/media";
 import { Link, LinkedReference, InternalReference } from "../components/links";
 import BlockQuote from "../components/block-quote";
 import {
@@ -56,7 +56,7 @@ export const getStaticProps: GetStaticProps<StaticHtmlProps> = async (
         web application by clicking on the image below.
       </p>
       <Link target="../game-of-life/index.html">
-        <Image
+        <Picture
           caption="Click to play the GameOfLife demo (I never said I was a GUI designer)"
           fileName="game-of-life-app"
           width={273}
@@ -197,7 +197,7 @@ export const getStaticProps: GetStaticProps<StaticHtmlProps> = async (
         StackOverflow survey:
       </p>
       <Link target="https://insights.stackoverflow.com/survey/2015#tech">
-        <Image
+        <Picture
           caption="Popularity of technologies according to a 2015 StackOverflow survey"
           fileName="stack-overflow-2015"
           width={378}

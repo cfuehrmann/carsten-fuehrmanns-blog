@@ -2,7 +2,7 @@ import reactDomServer from "react-dom/server";
 import { GetStaticProps } from "next";
 
 import BlogPost from "../components/blog-post";
-import { Image } from "../components/media";
+import { Picture } from "../components/media";
 import { StaticHtml, StaticHtmlProps } from "../components/static-html";
 
 export default StaticHtml;
@@ -24,7 +24,7 @@ export const getStaticProps: GetStaticProps<StaticHtmlProps> = async (
         She hadn’t been able to eat for days, and yesterday the vet diagnosed a
         pancreatic tumor.
       </p>
-      <Image
+      <Picture
         caption="Mokka’s last night"
         fileName="mokkas-last-night-600"
         width={600}
@@ -100,7 +100,7 @@ export const getStaticProps: GetStaticProps<StaticHtmlProps> = async (
         garden. Mokka loved watching that garden from the flat – so many birds
         and squirrels! – so it seemed fitting for her to come to rest there.
       </p>
-      <Image
+      <Picture
         caption="Mokka’s remains"
         fileName="mokka-urn-300"
         width={300}

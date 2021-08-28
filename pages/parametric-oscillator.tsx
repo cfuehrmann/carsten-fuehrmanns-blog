@@ -13,7 +13,7 @@ import {
   Observation,
   Proof,
 } from "../components/math";
-import { Image, Video } from "../components/media";
+import { Picture, Video } from "../components/media";
 import { Reference, LinkedReference } from "../components/links";
 import BlockQuote from "../components/block-quote";
 import { StaticHtml, StaticHtmlProps } from "../components/static-html";
@@ -641,7 +641,7 @@ export const getStaticProps: GetStaticProps<StaticHtmlProps> = async (
         <K>{String.raw`v(0) = 1`}</K> is composed of two sine curves of
         different frequency:
       </p>{" "}
-      <Image
+      <Picture
         fileName="MonodromyIdSin"
         caption="Solution for M = Id, x(0) = 0 and v(0) = 1"
         width={494}
@@ -653,7 +653,7 @@ export const getStaticProps: GetStaticProps<StaticHtmlProps> = async (
         <K>{String.raw`x(0) = 1`}</K> and <K>{String.raw`v(0) = 0`}</K> is
         composed of two cosine curves of different frequency:
       </p>
-      <Image
+      <Picture
         fileName="MonodromyId"
         caption="Solution for M = Id, x(0) = 1 and v(0) = 0"
         width={498}
@@ -684,7 +684,7 @@ export const getStaticProps: GetStaticProps<StaticHtmlProps> = async (
         <K>{String.raw`v(0) = 1`}</K> is composed of two sine/cosine curves of
         different frequency:
       </p>
-      <Image
+      <Picture
         fileName="MonodromyMinusId01"
         caption="Solution for M = -Id, x(0) = 0 and v(0) = 1"
         width={499}
@@ -696,7 +696,7 @@ export const getStaticProps: GetStaticProps<StaticHtmlProps> = async (
         <K>{String.raw`x(0) = 1`}</K> and <K>{String.raw`v(0) = 0`}</K> too is
         composed of two sine/cosine curves of different frequency:
       </p>
-      <Image
+      <Picture
         fileName="MonodromyMinusId10"
         caption="Solution for M = -Id, x(0) = 1 and v(0) = 0"
         width={490}

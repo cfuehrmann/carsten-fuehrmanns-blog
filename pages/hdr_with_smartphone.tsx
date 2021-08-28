@@ -2,7 +2,7 @@ import reactDomServer from "react-dom/server";
 import { GetStaticProps } from "next";
 
 import BlogPost from "../components/blog-post";
-import { Image } from "../components/media";
+import { Picture } from "../components/media";
 import { StaticHtmlWithComments } from "../components/comments";
 import { StaticHtmlProps } from "../components/static-html";
 
@@ -38,7 +38,7 @@ export const getStaticProps: GetStaticProps<StaticHtmlProps> = async (
         in the brightest patches the reflection is so strong that we cannot see
         any structure:
       </p>
-      <Image
+      <Picture
         caption="Without HDR"
         fileName="hdr-without-800"
         width={800}
@@ -52,7 +52,7 @@ export const getStaticProps: GetStaticProps<StaticHtmlProps> = async (
         what my eyes actually saw. (They saw a bit more detail still.) So HDR
         clearly brought an increase in realism.
       </p>
-      <Image
+      <Picture
         caption="With HDR Camera+"
         fileName="hdr-with-800"
         width={800}

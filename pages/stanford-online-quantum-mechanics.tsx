@@ -2,7 +2,7 @@ import reactDomServer from "react-dom/server";
 import { GetStaticProps } from "next";
 
 import BlogPost from "../components/blog-post";
-import { Image } from "../components/media";
+import { Picture } from "../components/media";
 import { LinkedReference } from "../components/links";
 import { StaticHtml, StaticHtmlProps } from "../components/static-html";
 
@@ -38,7 +38,7 @@ export const getStaticProps: GetStaticProps<StaticHtmlProps> = async (
         personal experience.
       </p>
       <p>
-        <Image
+        <Picture
           caption="Quantum Encounter"
           fileName="stanford-quantum-pulp"
           width={332}

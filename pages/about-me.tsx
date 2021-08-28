@@ -1,5 +1,5 @@
 import Layout from "../components/layout";
-import { Image } from "../components/media";
+import { Picture } from "../components/media";
 
 const name = "Carsten Führmann";
 
@@ -11,7 +11,7 @@ export default function About() {
       page="about-me"
     >
       <header>
-        <Image
+        <Picture
           fileName="profile-432"
           width={144}
           height={144}

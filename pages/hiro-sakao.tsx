@@ -2,7 +2,7 @@ import reactDomServer from "react-dom/server";
 import { GetStaticProps } from "next";
 
 import BlogPost from "../components/blog-post";
-import { Image } from "../components/media";
+import { Picture } from "../components/media";
 import { StaticHtml, StaticHtmlProps } from "../components/static-html";
 
 export default StaticHtml;
@@ -25,7 +25,7 @@ export const getStaticProps: GetStaticProps<StaticHtmlProps> = async (
         Luft machen muss. Das Interieur des Restaurants ist übrigens genauso
         toll wie das Essen.
       </p>
-      <Image
+      <Picture
         caption="Besser geht’s nicht"
         fileName="hiro2-800"
         width={800}
@@ -33,7 +33,7 @@ export const getStaticProps: GetStaticProps<StaticHtmlProps> = async (
         extension="jpg"
       />
       <br />
-      <Image
+      <Picture
         caption="Mit Aal gefüllt"
         fileName="hiro1-800"
         width={800}

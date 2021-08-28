@@ -5,7 +5,7 @@ import { GetStaticProps } from "next";
 
 import BlogPost from "../components/blog-post";
 import { K, KD } from "../components/math";
-import { Image, Video } from "../components/media";
+import { Picture, Video } from "../components/media";
 import { StaticHtmlWithComments } from "../components/comments";
 import { StaticHtmlProps } from "../components/static-html";
 
@@ -164,7 +164,7 @@ export const getStaticProps: GetStaticProps<StaticHtmlProps> = async (
         Before I created the animation above, I played around with the initial
         conditions and let Mathematica visualize the trajectory of the particle:
       </p>
-      <Image
+      <Picture
         fileName="orbit"
         caption="The orbit of the sliding mass"
         width={486}
