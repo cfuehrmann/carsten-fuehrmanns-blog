@@ -6,7 +6,7 @@ const pageTexts: { [key in string]: string | undefined } = {
   "": "Home",
   publications: "Publications",
   lectures: "Lectures",
-  "about-me": "?",
+  "about-me": "About",
 };
 
 export default function Layout({
@@ -49,8 +49,10 @@ export default function Layout({
       </main>
       <footer className="w3-bottom">
         <nav className="w3-center">
-          <LinkButton target="" /> <LinkButton target="publications" />
-          <LinkButton target="lectures" /> <LinkButton target="about-me" />
+          <LinkButton target="" />
+          <LinkButton target="publications" />
+          <LinkButton target="lectures" />
+          <LinkButton target="about-me" />
         </nav>
       </footer>
       <br />
@@ -63,7 +65,7 @@ export default function Layout({
   function LinkButton(props: { target: string }) {
     const { target } = props;
 
-    const className = "w3-bar-item w3-button w3-round-xlarge w3-indigo";
+    const className = "w3-bar-item w3-button w3-xlarge w3-indigo";
 
     return (
       <a href={target ? `/${target}/` : "/"} className={className}>
