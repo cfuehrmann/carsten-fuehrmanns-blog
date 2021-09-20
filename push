@@ -1,2 +1,2 @@
-npm run build
-rsync -rtiv --delete --exclude=flasher .next/ carsten@carstenfuehrmann.org:www
+#npm run build
+rsync -rtiv --delete ./ carsten@carstenfuehrmann.org:carsten-fuehrmanns-blog
