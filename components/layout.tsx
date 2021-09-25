@@ -1,3 +1,4 @@
+import { useState } from "react";
 import Head from "next/head";
 
 import styles from "./misc.module.css";
@@ -20,6 +21,8 @@ export default function Layout({
   title: string;
   description: string;
 }) {
+  const [menuOpen, setMenuOpen] = useState(false);
+
   const fullTitle = `${title} - Carsten Führmann`;
 
   return (
@@ -43,16 +46,27 @@ export default function Layout({
         />
         <script async src="/google-analytics.js" />
       </Head>
+      <nav
+        className="w3-sidebar w3-bar-block w3-collapse w3-card"
+        style={{ width: "170px", display: menuOpen ? "block" : "none" }}
+      >
+        <LinkButton target="" />
+        <LinkButton target="publications" />
+        <LinkButton target="lectures" />
+        <LinkButton target="about-me" />
+      </nav>
       <br />
       <main className="markdown-body w3-container">
         <div className={styles["layout"]}>{children}</div>
       </main>
       <footer className="w3-bottom">
         <nav className="w3-center">
-          <LinkButton target="" />
-          <LinkButton target="publications" />
-          <LinkButton target="lectures" />
-          <LinkButton target="about-me" />
+          <button
+            className="w3-button w3-xlarge w3-indigo"
+            onClick={toggleMenu}
+          >
+            {menuOpen ? "Close Menu" : "Menu"}
+          </button>
         </nav>
       </footer>
       <br />
@@ -65,12 +79,16 @@ export default function Layout({
   function LinkButton(props: { target: string }) {
     const { target } = props;
 
-    const className = "w3-bar-item w3-button w3-xlarge w3-indigo";
+    const className = "w3-bar-item w3-button w3-xlarge";
 
     return (
       <a href={target ? `/${target}/` : "/"} className={className}>
         {target === page ? <u>{pageTexts[target]}</u> : pageTexts[target]}
       </a>
     );
+  }
+
+  function toggleMenu() {
+    setMenuOpen(!menuOpen);
   }
 }
