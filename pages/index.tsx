@@ -19,10 +19,6 @@ import styles from "../components/misc.module.css";
 
 export default StaticHtml;
 
-export const config = {
-  unstable_runtimeJS: false,
-};
-
 export const getStaticProps: GetStaticProps<StaticHtmlProps> = async (
   context
 ) => {
