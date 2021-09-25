@@ -47,8 +47,10 @@ export default function Layout({
         <script async src="/google-analytics.js" />
       </Head>
       <nav
-        className="w3-sidebar w3-bar-block w3-collapse w3-card"
-        style={{ width: "170px", display: menuOpen ? "block" : "none" }}
+        className={
+          "w3-sidebar w3-bar-block w3-collapse w3-card " +
+          (menuOpen ? "w3-show" : "w3-hide")
+        }
       >
         <LinkButton target="" />
         <LinkButton target="publications" />
