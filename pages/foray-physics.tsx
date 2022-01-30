@@ -49,7 +49,7 @@ export const getStaticProps: GetStaticProps<StaticHtmlProps> = async (
         software help with big, boring, error-prone calculations. The need to
         formulate solutions in a machine-tractable way also makes me think more
         deeply and conceptually about the maths. Plus, the software leads me to
-        discover useful maths I don’t yet know, like any programming language
+        discover useful maths I don't yet know, like any programming language
         leads to discovering new useful libraries. Finally, the software makes
         it easy to play around with the parameters of an exercise and visualize
         the solutions.
@@ -66,28 +66,23 @@ export const getStaticProps: GetStaticProps<StaticHtmlProps> = async (
       />
       <p>
         Classical mechanics has a neat way of describing a whole system of
-        moving parts by a mathematical term called <em>Lagrangian</em>. It’s
+        moving parts by a mathematical term called <em>Lagrangian</em>. It's
         beyond the scope of this post to explain the theory behind Lagrangians,
         but they are really cool. The Lagrangian for this system is:
       </p>
-      <KD>
-        {String.raw`
-      \frac{m}{2}(\dot{x}^2 +\dot{y}^2 +\dot{z}^2) - m g z`}
-      </KD>
-      <KD>{String.raw`+ \lambda(z - h(x,y)`}</KD>
+      <KD>{`\\frac{m}{2}(\\dot{x}^2 +\\dot{y}^2 +\\dot{z}^2) - m g z`}</KD>
+      <KD>{`+ \\lambda(z - h(x,y))`}</KD>
       <p>
-        The symbol <K>{String.raw`m`}</K> stands for the particle's mass,{" "}
-        <K>{String.raw`g`}</K> is the gravity constant, <K>{String.raw`x`}</K>,{" "}
-        <K>{String.raw`y`}</K> and <K>{String.raw`z`}</K> are the particle's
-        coordinates, and <K>{String.raw`\dot{x}`}</K>,{" "}
-        <K>{String.raw`\dot{y}`}</K> and <K>{String.raw`\dot{z}`}</K> the
-        corresponding speeds. The function <K>{String.raw`h`}</K> describes the
-        shape of the surface. It can be any sufficiently well-behaved function.
-        In our example, I used a certain polynomial to obtain an interesting
-        hilly terrain. The most interesting part of our Lagrangian is probably
-        the <em>constraint</em>, <K>{String.raw`\lambda`}</K>, which
-        corresponds, up to constants, to the force that keeps the mass on the
-        surface.
+        The symbol <K>m</K> stands for the particle's mass, <K>g</K> is the
+        gravity constant, <K>x</K>, <K>y</K> and <K>z</K> are the particle's
+        coordinates, and <K>{`\\dot{x}`}</K>, <K>{`\\dot{y}`}</K> and{" "}
+        <K>{`\\dot{z}`}</K> the corresponding speeds. The function <K>h</K>{" "}
+        describes the shape of the surface. It can be any sufficiently
+        well-behaved function. In our example, I used a certain polynomial to
+        obtain an interesting hilly terrain. The most interesting part of our
+        Lagrangian is probably the <em>constraint</em>, <K>{`\\lambda`}</K>,
+        which corresponds, up to constants, to the force that keeps the mass on
+        the surface.
       </p>
       <p>
         The Lagrangian is a succinct description of the system, but it does not
@@ -103,23 +98,22 @@ export const getStaticProps: GetStaticProps<StaticHtmlProps> = async (
         result, in our case, turns out to be this system of ODEs:
       </p>
       <KD>
-        {String.raw`
-      \begin{aligned} 
-        m \ddot{x} &= -\lambda \frac{\partial h}{\partial x} \\ \\
-        m \ddot{y} &= -\lambda\frac{\partial h}{\partial y} \\ \\
-        m \ddot{z} &= -\lambda - m g \\ \\
+        {`
+      \\begin{aligned} 
+        m \\ddot{x} &= -\\lambda \\frac{\\partial h}{\\partial x} \\\\ \\\\
+        m \\ddot{y} &= -\\lambda\\frac{\\partial h}{\\partial y} \\\\ \\\\
+        m \\ddot{z} &= -\\lambda - m g \\\\ \\\\
         0 &= z - h 
-      \end{aligned}`}
+      \\end{aligned}`}
       </KD>
       <p>
         Things are beginning to look quite Newtonian here: the first three
         equations have on the left side terms describing "mass times
         acceleration". On the right side, they have terms that at close
         inspection turn out to be forces. The last equation results from the
-        constraint and just states that the vertical <K>{String.raw`z`}</K>{" "}
-        coordinate results from applying the surface description{" "}
-        <K>{String.raw`h`}</K> to the horizontal coordinates{" "}
-        <K>{String.raw`x`}</K> and <K>{String.raw`y`}</K>.
+        constraint and just states that the vertical <K>z</K> coordinate results
+        from applying the surface description <K>h</K> to the horizontal
+        coordinates <K>x</K> and <K>y</K>.
       </p>
       <p>
         We are now a step closer to calculating the actual motion, but we must
@@ -128,37 +122,35 @@ export const getStaticProps: GetStaticProps<StaticHtmlProps> = async (
         system of ODEs. I wrote "a" solution and not "the" solution, because
         there is one solution for each <em>initial condition</em>, by which we
         mean the particle's coordinates and speeds at the start of its journey.
-        Of course, we must also fill in the mass <K>{String.raw`m`}</K>, the
-        gravity constant <K>{String.raw`g`}</K>, and the surface shape{" "}
-        <K>{String.raw`h`}</K> to determine the system fully.
+        Of course, we must also fill in the mass <K>m</K>, the gravity constant{" "}
+        <K>g</K>, and the surface shape <K>h</K> to determine the system fully.
       </p>
       <p>
         In lucky circumstances, the "motion function" corresponding to a system
         of ODEs can be given as a symbolic formula. But often, the solution can
         only be approximated numerically. In our case, we can find symbolic
-        solutions for certain very simple surfaces <K>{String.raw`h`}</K>, e.g.
-        non-curved surfaces, but not for interesting ones like the one in the
-        animation above. In our case, the surface is actually
+        solutions for certain very simple surfaces <K>h</K>, e.g. non-curved
+        surfaces, but not for interesting ones like the one in the animation
+        above. In our case, the surface is actually
       </p>
       <KD>
-        {String.raw`
-      \begin{aligned}
-        h(x,y) &= (x-3)(x-2)(x-1) \\ 
-        & \quad (x+1)(x+2)(x+3) \\ 
-        & \quad (y-3)(y-2)(y-1) \\ 
-        & \quad (y+1)(y+2)(y+3) 
-      \end{aligned}`}
+        {`
+      \\begin{aligned}
+        h(x,y) &= (x-3)(x-2)(x-1) \\\\ 
+        & \\quad (x+1)(x+2)(x+3) \\\\ 
+        & \\quad (y-3)(y-2)(y-1) \\\\ 
+        & \\quad (y+1)(y+2)(y+3) 
+      \\end{aligned}`}
       </KD>
       <p>
-        Neither I nor Mathematica can find a symbolic solution for this{" "}
-        <K>{String.raw`h`}</K>. (It's most likely impossible, but I don't know
-        how to prove that.) Even when we ask only for a numerical solution,
-        Mathematica cannot give one straight away, because the system of ODEs
-        contains certain snags. For Mathematica to succeed, I had to eliminate{" "}
-        <K>{String.raw`z`}</K> and <K>{String.raw`\lambda`}</K> first, and then
-        solve for <K>{String.raw`\ddot{x}`}</K> and{" "}
-        <K>{String.raw`\ddot{y}`}</K>. I'll spare you the details, what counts
-        is that finally, Mathematica is able to give a numerical solution.
+        Neither I nor Mathematica can find a symbolic solution for this <K>h</K>
+        . (It's most likely impossible, but I don't know how to prove that.)
+        Even when we ask only for a numerical solution, Mathematica cannot give
+        one straight away, because the system of ODEs contains certain snags.
+        For Mathematica to succeed, I had to eliminate <K>z</K> and{" "}
+        <K>{`\\lambda`}</K> first, and then solve for <K>{`\\ddot{x}`}</K> and{" "}
+        <K>{`\\ddot{y}`}</K>. I'll spare you the details, what counts is that
+        finally, Mathematica is able to give a numerical solution.
       </p>
       <p>
         Before I created the animation above, I played around with the initial
