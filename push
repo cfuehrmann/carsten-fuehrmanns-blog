@@ -1,2 +1,2 @@
 #npm run build
-rsync -rtiv --delete ./ carsten@carstenfuehrmann.org:carsten-fuehrmanns-blog
+rsync -rtiv --delete --exclude '.env.local' ./ carsten@carstenfuehrmann.org:carsten-fuehrmanns-blog
