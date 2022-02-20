@@ -48,8 +48,8 @@ export default function Layout({
       </Head>
       <nav
         className={
-          "w3-sidebar w3-bar-block w3-collapse w3-card " +
-          (menuOpen ? "w3-show" : "w3-hide")
+          "w3-sidebar w3-bar-block w3-card " +
+          (menuOpen ? "w3-show" : "w3-hide-large w3-hide-medium w3-hide-small")
         }
       >
         <LinkButton target="" />
