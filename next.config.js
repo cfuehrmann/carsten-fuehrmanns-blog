@@ -11,7 +11,7 @@ module.exports = (phase, { defaultConfig }) => ({
             {
               key: "content-security-policy",
               value:
-                "default-src 'self'; style-src 'self' 'unsafe-inline'; script-src 'self' www.googletagmanager.com; connect-src 'self' www.google-analytics.com;",
+                "default-src 'self'; style-src 'self' 'unsafe-inline'; script-src 'self' www.googletagmanager.com; connect-src 'self' *.google-analytics.com;",
             },
           ];
           return [
@@ -21,7 +21,7 @@ module.exports = (phase, { defaultConfig }) => ({
                 {
                   key: "content-security-policy",
                   value:
-                    "default-src 'self'; script-src 'self' www.googletagmanager.com; connect-src 'self' www.google-analytics.com;",
+                    "default-src 'self'; script-src 'self' www.googletagmanager.com; connect-src 'self' *.google-analytics.com;",
                 },
                 {
                   key: "Referrer-Policy",
@@ -43,7 +43,7 @@ module.exports = (phase, { defaultConfig }) => ({
                 {
                   key: "content-security-policy",
                   value:
-                    "default-src 'self'; script-src 'self' www.googletagmanager.com; connect-src 'self' www.google-analytics.com; img-src 'self' rameznaam.com",
+                    "default-src 'self'; script-src 'self' www.googletagmanager.com; connect-src 'self' *.google-analytics.com; img-src 'self' rameznaam.com",
                 },
               ],
             },
