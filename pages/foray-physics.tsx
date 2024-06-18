@@ -19,7 +19,7 @@ export const meta = {
 };
 
 export const getStaticProps: GetStaticProps<StaticHtmlProps> = async (
-  context
+  context,
 ) => {
   const inner = (
     <BlogPost {...meta}>
@@ -70,7 +70,8 @@ export const getStaticProps: GetStaticProps<StaticHtmlProps> = async (
         beyond the scope of this post to explain the theory behind Lagrangians,
         but they are really cool. The Lagrangian for this system is:
       </p>
-      <KD>{`\\frac{m}{2}(\\dot{x}^2 +\\dot{y}^2 +\\dot{z}^2) - m g z`}</KD>
+      <KD>{`
+        \\frac{m}{2}(\\dot{x}^2 +\\dot{y}^2 +\\dot{z}^2) - m g z`}</KD>
       <KD>{`+ \\lambda(z - h(x,y))`}</KD>
       <p>
         The symbol <K>m</K> stands for the particle's mass, <K>g</K> is the
@@ -100,7 +101,7 @@ export const getStaticProps: GetStaticProps<StaticHtmlProps> = async (
       <KD>
         {`
       \\begin{aligned} 
-        m \\ddot{x} &= -\\lambda \\frac{\\partial h}{\\partial x} \\\\ \\\\
+        m \\ddot{x} &= -\\lambda\\frac{\\partial h}{\\partial x} \\\\ \\\\
         m \\ddot{y} &= -\\lambda\\frac{\\partial h}{\\partial y} \\\\ \\\\
         m \\ddot{z} &= -\\lambda - m g \\\\ \\\\
         0 &= z - h 

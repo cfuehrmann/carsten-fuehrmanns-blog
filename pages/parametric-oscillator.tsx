@@ -28,7 +28,7 @@ export const meta = {
 };
 
 export const getStaticProps: GetStaticProps<StaticHtmlProps> = async (
-  context
+  context,
 ) => {
   const inner = (
     <BlogPost {...meta}>
@@ -489,9 +489,11 @@ export const getStaticProps: GetStaticProps<StaticHtmlProps> = async (
         Now suppose that <K>\delta = 1</K>. If <K>\mu = 1</K>, we have, as
         observed above, two linearly dependent solutions{" "}
         <K>x_1(t) = \pi_1(t)</K> and{" "}
-        <K>{`x_2(t) = \\pi_2(t) + \\frac{t}{T} \\pi_3(t)`}</K> where the{" "}
-        <K>\pi_i</K> are <K>{String.raw`T`}</K>-periodic. So the solution space,
-        whicTh is two-dimensional, has a one-dimensional subspace of <K>T</K>
+        <K>{`
+          x_2(t) = \\pi_2(t) + \\frac{t}{T} \\pi_3(t)`}</K>{" "}
+        where the <K>\pi_i</K> are <K>{String.raw`T`}</K>-periodic. So the
+        solution space, whicTh is two-dimensional, has a one-dimensional
+        subspace of <K>T</K>
         -periodic functions. All other solutions grow linearly with time. So for
         every <K>t_0</K>, the (also two-dimensional) space of initial conditions
         at <K>t_0</K> has a one-dimensional subspace of <K>T</K>-periodic
