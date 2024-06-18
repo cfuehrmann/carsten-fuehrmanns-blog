@@ -72,18 +72,29 @@ export const getStaticProps: GetStaticProps<StaticHtmlProps> = async (
       </p>
       <KD>{`
         \\frac{m}{2}(\\dot{x}^2 +\\dot{y}^2 +\\dot{z}^2) - m g z`}</KD>
-      <KD>{`+ \\lambda(z - h(x,y))`}</KD>
+      <KD>{`
+        + \\lambda(z - h(x,y))`}</KD>
       <p>
         The symbol <K>m</K> stands for the particle's mass, <K>g</K> is the
         gravity constant, <K>x</K>, <K>y</K> and <K>z</K> are the particle's
-        coordinates, and <K>{`\\dot{x}`}</K>, <K>{`\\dot{y}`}</K> and{" "}
-        <K>{`\\dot{z}`}</K> the corresponding speeds. The function <K>h</K>{" "}
-        describes the shape of the surface. It can be any sufficiently
-        well-behaved function. In our example, I used a certain polynomial to
-        obtain an interesting hilly terrain. The most interesting part of our
-        Lagrangian is probably the <em>constraint</em>, <K>{`\\lambda`}</K>,
-        which corresponds, up to constants, to the force that keeps the mass on
-        the surface.
+        coordinates, and{" "}
+        <K>{`
+          \\dot{x}`}</K>
+        ,{" "}
+        <K>{`
+          \\dot{y}`}</K>{" "}
+        and{" "}
+        <K>{`
+          \\dot{z}`}</K>{" "}
+        the corresponding speeds. The function <K>h</K> describes the shape of
+        the surface. It can be any sufficiently well-behaved function. In our
+        example, I used a certain polynomial to obtain an interesting hilly
+        terrain. The most interesting part of our Lagrangian is probably the{" "}
+        <em>constraint</em>,{" "}
+        <K>{`
+          \\lambda`}</K>
+        , which corresponds, up to constants, to the force that keeps the mass
+        on the surface.
       </p>
       <p>
         The Lagrangian is a succinct description of the system, but it does not
@@ -149,9 +160,16 @@ export const getStaticProps: GetStaticProps<StaticHtmlProps> = async (
         Even when we ask only for a numerical solution, Mathematica cannot give
         one straight away, because the system of ODEs contains certain snags.
         For Mathematica to succeed, I had to eliminate <K>z</K> and{" "}
-        <K>{`\\lambda`}</K> first, and then solve for <K>{`\\ddot{x}`}</K> and{" "}
-        <K>{`\\ddot{y}`}</K>. I'll spare you the details, what counts is that
-        finally, Mathematica is able to give a numerical solution.
+        <K>{`
+          \\lambda`}</K>{" "}
+        first, and then solve for{" "}
+        <K>{`
+          \\ddot{x}`}</K>{" "}
+        and{" "}
+        <K>{`
+          \\ddot{y}`}</K>
+        . I'll spare you the details, what counts is that finally, Mathematica
+        is able to give a numerical solution.
       </p>
       <p>
         Before I created the animation above, I played around with the initial

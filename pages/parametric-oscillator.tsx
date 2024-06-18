@@ -50,7 +50,8 @@ export const getStaticProps: GetStaticProps<StaticHtmlProps> = async (
         eliminate damping. So we focus on the case where there is only a
         resonance frequency <K>\omega</K>, which varies with time. That is, we
         consider the differential equation
-        <KD>{`\\displaystyle\\ddot{x}(t) + \\omega(t)^2 x(t) = 0 \\quad`}</KD>
+        <KD>{`
+          \\displaystyle\\ddot{x}(t) + \\omega(t)^2 x(t) = 0 \\quad`}</KD>
         where <K>\omega(t)</K> repeats itself after some time interval <K>T</K>.
       </p>
       <p>
@@ -66,13 +67,19 @@ export const getStaticProps: GetStaticProps<StaticHtmlProps> = async (
       <p>
         A suitable mathematical background for the parametric oscillator is{" "}
         <em>Floquet theory</em> (see references section). It deals with linear
-        differential equations of the form <KD>{`\\dot{x}(t) = A(t) x(t)`}</KD>{" "}
-        where <K>{`x:\\mathbb{R}\\to\\mathbb{R}^n`}</K>, and the function{" "}
-        <K>{`A:\\mathbb{R}\\to\\mathbb{R}^{n\\times n}`}</K> is periodic with{" "}
-        <K>T</K>. We could also consider complex numbers as the elements of{" "}
-        <K>x</K> and <K>A</K>, but we shall stick with the reals here, in
-        accordance with the physics. We can write a parametric oscillator as a
-        Floquet equation:
+        differential equations of the form{" "}
+        <KD>{`
+          \\dot{x}(t) = A(t) x(t)`}</KD>{" "}
+        where{" "}
+        <K>{`
+          x:\\mathbb{R}\\to\\mathbb{R}^n`}</K>
+        , and the function{" "}
+        <K>{`
+          A:\\mathbb{R}\\to\\mathbb{R}^{n\\times n}`}</K>{" "}
+        is periodic with <K>T</K>. We could also consider complex numbers as the
+        elements of <K>x</K> and <K>A</K>, but we shall stick with the reals
+        here, in accordance with the physics. We can write a parametric
+        oscillator as a Floquet equation:
         <KD>
           {`
       \\frac{d}{dt} 
@@ -98,8 +105,9 @@ export const getStaticProps: GetStaticProps<StaticHtmlProps> = async (
       <p>
         We shall now introduce the notion of <em>monodromy</em>, which is
         pivotal for Floquet theory. Let{" "}
-        <K>{`\\Psi: \\mathbb{R}\\to \\mathbb{R}^{n\\times n}`}</K> be a
-        fundamental matrix for a Floquet differential equation. Then{" "}
+        <K>{`
+          \\Psi: \\mathbb{R}\\to \\mathbb{R}^{n\\times n}`}</K>{" "}
+        be a fundamental matrix for a Floquet differential equation. Then{" "}
         <K>\Psi_T(t) := \Psi(t + T)</K> is also a fundamental matrix, because{" "}
         <K>A(t+T)=A(t)</K>. So we have <K>\Psi(t + T) = \Psi(t) M</K> for some
         invertible <K>n\times n</K>-matrix <K>M</K>. This <K>M</K> describes the
@@ -132,7 +140,9 @@ export const getStaticProps: GetStaticProps<StaticHtmlProps> = async (
       </p>
       <p>
         Because <K>\Psi(t)</K> and <K>Q</K> are invertible, we get{" "}
-        <K>{`N = Q^{-1} M Q`}</K> □
+        <K>{`
+          N = Q^{-1} M Q`}</K>{" "}
+        □
       </p>
       <p>
         Importantly, it follows that any two monodromy matrices have the same
@@ -153,14 +163,18 @@ export const getStaticProps: GetStaticProps<StaticHtmlProps> = async (
       <Theorem>
         <>
           Any fundamental matrix <K>\Psi</K> of a Floquet equation with period{" "}
-          <K>T</K> has the form <KD>{`\\Psi(t) = \\Pi(t) e^{t B}`}</KD> for some{" "}
-          <K>T</K>-periodic matrix function <K>\Pi</K> and some matrix <K>B</K>{" "}
-          of matching dimension.
+          <K>T</K> has the form{" "}
+          <KD>{`
+            \\Psi(t) = \\Pi(t) e^{t B}`}</KD>{" "}
+          for some <K>T</K>-periodic matrix function <K>\Pi</K> and some matrix{" "}
+          <K>B</K> of matching dimension.
         </>
       </Theorem>
       <p>
         Note that the statement employs the <em>matrix exponential</em>{" "}
-        <K>{`e^{t B}`}</K> (see references section).
+        <K>{`
+          e^{t B}`}</K>{" "}
+        (see references section).
       </p>
       <Proof>
         Because <K>M</K> is invertible, it has a <em>matrix logarithm</em> (see
@@ -171,8 +185,12 @@ export const getStaticProps: GetStaticProps<StaticHtmlProps> = async (
         real-valued, and they are not unique. For example, <K>i(2k+1)\pi</K> is
         a logarithm of minus one for every integer <K>k</K>.) Let <K>B</K> be a
         logarithm of <K>M</K>, divided by <K>T</K>. That is,{" "}
-        <K>{`e^{T B} = M`}</K>. Let <K>{`\\Pi(t) := \\Psi(t) e^{-t B}`}</K>. To
-        see that <K>\Pi</K> is <K>T</K>-periodic, consider
+        <K>{`
+          e^{T B} = M`}</K>
+        . Let{" "}
+        <K>{`
+          \\Pi(t) := \\Psi(t) e^{-t B}`}</K>
+        . To see that <K>\Pi</K> is <K>T</K>-periodic, consider
         <KD>
           {`
       \\begin{aligned}
@@ -234,14 +252,17 @@ export const getStaticProps: GetStaticProps<StaticHtmlProps> = async (
       \\end{aligned}`}
         </KD>
         From the proof of the theorem, we know that we can choose{" "}
-        <K>{`B = T^{-1}\\ln M`}</K>. Some calculation involving the matrix
-        exponential yields
+        <K>{`
+          B = T^{-1}\\ln M`}</K>
+        . Some calculation involving the matrix exponential yields
         <KD>
           {`
       e^{t B} =\\left(\\begin{array}{cc}\\mu^{t/T} & \\frac{t}{T}\\mu^{t/T-1} \\\\0 & \\mu^{t/T}\\end{array}\\right)`}
         </KD>
-        Note that <K>{`e^{T B} = M`}</K>, as required. Now suppose we have a
-        fundamental matrix
+        Note that{" "}
+        <K>{`
+          e^{T B} = M`}</K>
+        , as required. Now suppose we have a fundamental matrix
         <KD>
           {`
       \\Psi(t) =\\left(\\begin{array}{cc}x_1(t) & x_2(t) \\\\v_1(t) & v_2(t)\\end{array}\\right)`}
@@ -300,10 +321,12 @@ export const getStaticProps: GetStaticProps<StaticHtmlProps> = async (
           {`
       \\frac{d}{dt}\\det\\,\\Psi(t) = \\mathrm{tr}\\,A(t) \\cdot\\det\\,\\Psi(t)`}
         </KD>
-        Here <K>{`\\mathrm{tr}`}</K> stands for trace, which is the sum of the
-        diagonal elements of a matrix. For a parametric oscillator, that trace
-        is zero. So <K>\det\,\Psi(t)</K> is constant. Because{" "}
-        <K>\Psi(t+T) = \Psi(t)M</K>, we have{" "}
+        Here{" "}
+        <K>{`
+          \\mathrm{tr}`}</K>{" "}
+        stands for trace, which is the sum of the diagonal elements of a matrix.
+        For a parametric oscillator, that trace is zero. So <K>\det\,\Psi(t)</K>{" "}
+        is constant. Because <K>\Psi(t+T) = \Psi(t)M</K>, we have{" "}
         <K>\det\,\Psi(t+T)=\det\Psi(t)\det M</K>. Since <K>\Psi</K> is constant,
         we have <K>\det\,\Psi(t+T)=\det\Psi(t)</K>, and since{" "}
         <K>\det\,\Psi(t)\neq 0</K> we have <K>\det\,M = 1</K>. The claim follows
@@ -354,9 +377,12 @@ export const getStaticProps: GetStaticProps<StaticHtmlProps> = async (
       </p>
       <p>
         Now suppose that <K>\delta = 0</K>. We concluded above that{" "}
-        <K>{`x_1(t) = \\mu_1^{t / T} \\pi_1(t)`}</K> and{" "}
-        <K>{`x_2(t) = \\mu_2^{t / T} \\pi_2(t)`}</K> for <K>T</K>-periodic{" "}
-        <K>\pi_1</K> and <K>\pi_2</K>.
+        <K>{`
+          x_1(t) = \\mu_1^{t / T} \\pi_1(t)`}</K>{" "}
+        and{" "}
+        <K>{`
+          x_2(t) = \\mu_2^{t / T} \\pi_2(t)`}</K>{" "}
+        for <K>T</K>-periodic <K>\pi_1</K> and <K>\pi_2</K>.
       </p>
       <p>
         If the eigenvalues are both one, we have <K>T</K>-periodic behavior,
@@ -530,25 +556,34 @@ export const getStaticProps: GetStaticProps<StaticHtmlProps> = async (
       </p>
       <p>
         Here <K>T</K> is the period, which we must still determine. And{" "}
-        <K>{`\\omega_{\\mathrm{max}}`}</K> is a value greater than one, which we
-        must still determine. For the construction, we assume temporarily as
-        initial conditions <K>x(0) = 1</K> and <K>v(0) = 0</K>. That is, the
-        solution is the cosine for <K>{`0 \\leq t < t_1`}</K>. We let{" "}
-        <K>t_2 = t_1 + \Delta t</K> for a small <K>\Delta t</K>. The{" "}
-        <K>{`\\omega_{\\mathrm{max}} > 1`}</K> "accelerates the swing", that is,
-        the solution increases its descent more than a cosine while{" "}
-        <K>{`\\omega_{\\mathrm{max}}`}</K> lasts. We choose{" "}
-        <K>{`\\omega_{\\mathrm{max}}`}</K> in such a way that at <K>t_2</K> the
-        solution's first derivative is minus one. There it remains until{" "}
-        <K>t_3</K> since <K>\omega</K> is zero there. We let <K>t_3</K> be the
-        point where the solution is zero for the first time for positive{" "}
-        <K>t</K>. So, from <K>t_3</K>, the solution is again a like cosine with
-        amplitude one, <em>but shifted a little to the left</em>. We let{" "}
-        <K>T</K> be the time, slightly less than <K>2\pi</K>, where the solution
-        is zero the second time for positive <K>t</K>. Obviously, the solution
-        is periodic with <K>T</K>. It looks like a cosine, except that in the
-        first quadrant there is a "fast forward" lasting from <K>t_1</K> to{" "}
-        <K>t_3</K>.
+        <K>{`
+          \\omega_{\\mathrm{max}}`}</K>{" "}
+        is a value greater than one, which we must still determine. For the
+        construction, we assume temporarily as initial conditions{" "}
+        <K>x(0) = 1</K> and <K>v(0) = 0</K>. That is, the solution is the cosine
+        for{" "}
+        <K>{`
+          0 \\leq t < t_1`}</K>
+        . We let <K>t_2 = t_1 + \Delta t</K> for a small <K>\Delta t</K>. The{" "}
+        <K>{`
+          \\omega_{\\mathrm{max}} > 1`}</K>{" "}
+        "accelerates the swing", that is, the solution increases its descent
+        more than a cosine while{" "}
+        <K>{`
+          \\omega_{\\mathrm{max}}`}</K>{" "}
+        lasts. We choose{" "}
+        <K>{`
+          \\omega_{\\mathrm{max}}`}</K>{" "}
+        in such a way that at <K>t_2</K> the solution's first derivative is
+        minus one. There it remains until <K>t_3</K> since <K>\omega</K> is zero
+        there. We let <K>t_3</K> be the point where the solution is zero for the
+        first time for positive <K>t</K>. So, from <K>t_3</K>, the solution is
+        again a like cosine with amplitude one,{" "}
+        <em>but shifted a little to the left</em>. We let <K>T</K> be the time,
+        slightly less than <K>2\pi</K>, where the solution is zero the second
+        time for positive <K>t</K>. Obviously, the solution is periodic with{" "}
+        <K>T</K>. It looks like a cosine, except that in the first quadrant
+        there is a "fast forward" lasting from <K>t_1</K> to <K>t_3</K>.
       </p>
       <p>
         So, our constructed parametric oscillator has a periodic solution. But
@@ -583,13 +618,19 @@ export const getStaticProps: GetStaticProps<StaticHtmlProps> = async (
       <p>
         First I conjectured, in this post, that there is no parametric
         oscillator with non-constant <K>\omega</K> that has{" "}
-        <K>{`M = \\mathrm{Id}`}</K> or <K>{`M = -\\mathrm{Id}`}</K>. My
-        conjecture was inspired by the previous section. But John Baez proved me
-        wrong.
+        <K>{`
+          M = \\mathrm{Id}`}</K>{" "}
+        or{" "}
+        <K>{`
+          M = -\\mathrm{Id}`}</K>
+        . My conjecture was inspired by the previous section. But John Baez
+        proved me wrong.
       </p>
       <p>
-        First, an example where <K>{`M = \\mathrm{Id}`}</K>. Consider the
-        following non-constant <K>\omega</K>:
+        First, an example where{" "}
+        <K>{`
+          M = \\mathrm{Id}`}</K>
+        . Consider the following non-constant <K>\omega</K>:
         <KD>
           {`
       \\frac{\\omega(t)}{2\\pi} =`}
@@ -633,8 +674,10 @@ export const getStaticProps: GetStaticProps<StaticHtmlProps> = async (
         identity.
       </p>
       <p>
-        Now an example where <K>{`M = -\\mathrm{Id}`}</K>. Consider the
-        following non-constant <K>\omega</K>:
+        Now an example where{" "}
+        <K>{`
+          M = -\\mathrm{Id}`}</K>
+        . Consider the following non-constant <K>\omega</K>:
       </p>
       <KD>
         {`
