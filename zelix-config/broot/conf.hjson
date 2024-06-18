@@ -1,0 +1,10 @@
+verbs: [
+    {
+        invocation: edit
+        shortcut: e
+        key: enter
+        apply_to: text_file
+        execution: "zelix find ~/carsten-fuehrmanns-blog {file}"
+        leave_broot: false
+    }
+]

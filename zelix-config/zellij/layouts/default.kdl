@@ -1,0 +1,30 @@
+keybinds {
+    unbind "Alt o" "Alt i" "Alt n" // Needed for dealing with selections in Helix
+}
+
+layout {
+    tab name="Helix" focus=true {
+        pane split_direction="vertical" {
+            pane focus=true size="22%" command="broot" {
+                args "-g" "--conf" "zelix-config/broot/conf.hjson;../.config/broot/conf.hjson"
+            } 
+            pane size="78%" command="hx"
+        }
+    }
+    tab name="Serve/Prompt" {
+        pane split_direction="vertical" {
+            pane split_direction="horizontal" {
+            }
+            // pane split_direction="horizontal" {
+            //     pane command="npm" start_suspended=true {
+            //         args "run" "dev"
+            //     }
+            // }
+        }
+    }
+    tab name="Diff" {
+        pane borderless=true command="git" {
+            args "diff"
+        }
+    }
+}
