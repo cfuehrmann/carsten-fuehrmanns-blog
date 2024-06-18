@@ -15,11 +15,11 @@ layout {
         pane split_direction="vertical" {
             pane split_direction="horizontal" {
             }
-            // pane split_direction="horizontal" {
-            //     pane command="npm" start_suspended=true {
-            //         args "run" "dev"
-            //     }
-            // }
+            pane split_direction="horizontal" {
+                pane command="npm" start_suspended=true {
+                    args "run" "dev"
+                }
+            }
         }
     }
     tab name="Diff" {
