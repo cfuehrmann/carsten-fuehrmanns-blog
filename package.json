@@ -11,19 +11,19 @@
   },
   "dependencies": {
     "date-fns": "^4.1.0",
-    "eslint-config-next": "^14.2.4",
     "highlight.js": "^11.6.0",
     "katex": "^0.16.10",
     "next": "^15.0.4",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react": "^19",
+    "react-dom": "^19"
   },
   "devDependencies": {
     "@types/katex": "^0.16.0",
-    "@types/node": "^20.14.5",
-    "@types/react": "^18.3.3",
-    "@types/react-dom": "^18.3.0",
-    "eslint": "^8.57.0",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^8",
+    "eslint-config-next": "^15.0.4",
     "typescript": "^5.4.5"
   }
 }
