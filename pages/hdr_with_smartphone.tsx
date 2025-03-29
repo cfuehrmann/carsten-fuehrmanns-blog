@@ -14,9 +14,7 @@ export const meta = {
   description: "An early experiment with HDR photography with the smartphone",
 };
 
-export const getStaticProps: GetStaticProps<StaticHtmlProps> = async (
-  context
-) => {
+export const getStaticProps: GetStaticProps<StaticHtmlProps> = async () => {
   const inner = (
     <BlogPost {...meta}>
       <p>

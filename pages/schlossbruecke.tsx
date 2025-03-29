@@ -14,9 +14,7 @@ export const meta = {
   description: "Hunderte Schlösser an einer Nürnberger Brücke",
 };
 
-export const getStaticProps: GetStaticProps<StaticHtmlProps> = async (
-  context
-) => {
+export const getStaticProps: GetStaticProps<StaticHtmlProps> = async () => {
   const inner = (
     <BlogPost {...meta}>
       <p>

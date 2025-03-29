@@ -13,9 +13,7 @@ export const meta = {
   description: "Enthusing about a Sushi place in Erlangen",
 };
 
-export const getStaticProps: GetStaticProps<StaticHtmlProps> = async (
-  context
-) => {
+export const getStaticProps: GetStaticProps<StaticHtmlProps> = async () => {
   const inner = (
     <BlogPost {...meta}>
       <p>

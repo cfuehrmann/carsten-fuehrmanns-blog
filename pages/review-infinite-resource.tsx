@@ -15,9 +15,7 @@ export const meta = {
     "A review of Ramez Naam's book \"The Infinite Resource\", concerning human (ab)use of Earth's resources",
 };
 
-export const getStaticProps: GetStaticProps<StaticHtmlProps> = async (
-  context
-) => {
+export const getStaticProps: GetStaticProps<StaticHtmlProps> = async () => {
   const inner = (
     <BlogPost {...meta}>
       <p>

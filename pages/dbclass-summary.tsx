@@ -16,9 +16,7 @@ export const meta = {
     'My experience with the Stanford online course "Introduction to Databases"',
 };
 
-export const getStaticProps: GetStaticProps<StaticHtmlProps> = async (
-  context
-) => {
+export const getStaticProps: GetStaticProps<StaticHtmlProps> = async () => {
   const inner = (
     <BlogPost {...meta}>
       <p>

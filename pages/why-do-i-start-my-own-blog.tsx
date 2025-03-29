@@ -13,9 +13,7 @@ export const meta = {
   description: "My 2012 arguments for starting my own blog, still mostly valid",
 };
 
-export const getStaticProps: GetStaticProps<StaticHtmlProps> = async (
-  context
-) => {
+export const getStaticProps: GetStaticProps<StaticHtmlProps> = async () => {
   const inner = (
     <BlogPost {...meta}>
       <p>There are three reasons:</p>

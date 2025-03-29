@@ -18,9 +18,7 @@ export const meta = {
     "A physics simulation of a soap slipping around in a bath tub, formalized as a Lagrangian",
 };
 
-export const getStaticProps: GetStaticProps<StaticHtmlProps> = async (
-  context,
-) => {
+export const getStaticProps: GetStaticProps<StaticHtmlProps> = async () => {
   const inner = (
     <BlogPost {...meta}>
       <p>

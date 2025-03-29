@@ -7,7 +7,7 @@ export default function handler(req: NextApiRequest, res: NextApiResponse) {
     const commentDir = process.env["COMMENT_DIR"];
     const comments = readComments(`${commentDir}${file}.json`);
     res.status(200).json(comments);
-  } catch (e) {
+  } catch {
     res.status(404).json([]);
   }
 }

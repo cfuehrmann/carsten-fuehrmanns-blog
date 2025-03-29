@@ -27,9 +27,7 @@ export const meta = {
     'Physics article about the "parametric oscillator", e.g. a child pumping a swing',
 };
 
-export const getStaticProps: GetStaticProps<StaticHtmlProps> = async (
-  context,
-) => {
+export const getStaticProps: GetStaticProps<StaticHtmlProps> = async () => {
   const inner = (
     <BlogPost {...meta}>
       <p>

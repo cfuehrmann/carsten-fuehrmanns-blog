@@ -6,9 +6,7 @@ import styles from "../components/misc.module.css";
 
 export default StaticHtml;
 
-export const getStaticProps: GetStaticProps<StaticHtmlProps> = async (
-  context
-) => {
+export const getStaticProps: GetStaticProps<StaticHtmlProps> = async () => {
   const inner = (
     <>
       <h1>Lectures by Carsten Führmann</h1>

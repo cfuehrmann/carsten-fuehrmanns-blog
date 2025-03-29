@@ -14,9 +14,7 @@ export const meta = {
     'An image of our bygone cat "Mokka" on our bygone "Empire cat building"',
 };
 
-export const getStaticProps: GetStaticProps<StaticHtmlProps> = async (
-  context
-) => {
+export const getStaticProps: GetStaticProps<StaticHtmlProps> = async () => {
   const inner = (
     <BlogPost {...meta}>
       <p>Our cat Mokka on top of our “Empire Cat Building”.</p>

@@ -10,7 +10,8 @@ import codeStyles from "../components/code.module.css";
 import barStyles from "../components/percent-bars.module.css";
 import miscStyles from "../components/misc.module.css";
 
-const _ = { codeStyles, barStyles, miscStyles };
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
+const _ = codeStyles;
 
 export default StaticHtml;
 
@@ -21,9 +22,7 @@ export const meta = {
     "Attacks on my website by country of origin, distilled from my server logs",
 };
 
-export const getStaticProps: GetStaticProps<StaticHtmlProps> = async (
-  context
-) => {
+export const getStaticProps: GetStaticProps<StaticHtmlProps> = async () => {
   const inner = (
     <BlogPost {...meta}>
       <p>

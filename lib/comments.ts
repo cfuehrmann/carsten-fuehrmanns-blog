@@ -73,13 +73,13 @@ function ensureComments(comments: unknown): IComment[] {
   });
 }
 
-function isObject(value: any): value is object {
+function isObject(value: unknown): value is object {
   return typeof value === "object" && value !== null;
 }
 
-function hasOwnProperty<X extends {}, Y extends PropertyKey>(
+function hasOwnProperty<X, Y extends PropertyKey>(
   obj: X,
-  prop: Y
+  prop: Y,
 ): obj is X & Record<Y, unknown> {
   return {}.hasOwnProperty.call(obj, prop);
 }

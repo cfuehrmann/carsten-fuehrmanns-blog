@@ -15,9 +15,7 @@ export const meta = {
     'My experience with the Stanford online course "Quantum Mechanics for Scientists and Engineers"',
 };
 
-export const getStaticProps: GetStaticProps<StaticHtmlProps> = async (
-  context
-) => {
+export const getStaticProps: GetStaticProps<StaticHtmlProps> = async () => {
   const inner = (
     <BlogPost {...meta}>
       <p>

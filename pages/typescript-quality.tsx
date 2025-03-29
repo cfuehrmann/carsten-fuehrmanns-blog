@@ -23,6 +23,7 @@ import { StaticHtml, StaticHtmlProps } from "../components/static-html";
 import codeStyles from "../components/code.module.css";
 import miscStyles from "../components/misc.module.css";
 
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 const _ = { codeStyles, miscStyles };
 
 export default StaticHtml;
@@ -34,9 +35,7 @@ export const meta = {
     "A long article where I made a bet on TypeScript before it went viral",
 };
 
-export const getStaticProps: GetStaticProps<StaticHtmlProps> = async (
-  context
-) => {
+export const getStaticProps: GetStaticProps<StaticHtmlProps> = async () => {
   const inner = (
     <BlogPost {...meta}>
       <p>
