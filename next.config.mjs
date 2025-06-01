@@ -17,7 +17,7 @@ const nextConfig = async (phase) => {
               {
                 key: "content-security-policy",
                 value:
-                  "default-src 'self'; style-src 'self' 'unsafe-inline'; script-src 'self' www.googletagmanager.com; connect-src 'self' *.google-analytics.com;",
+                  "default-src 'self'; style-src 'self' 'unsafe-inline'; script-src 'self'; connect-src 'self';",
               },
             ];
             return [
@@ -27,7 +27,7 @@ const nextConfig = async (phase) => {
                   {
                     key: "content-security-policy",
                     value:
-                      "default-src 'self'; script-src 'self' www.googletagmanager.com; connect-src 'self' *.google-analytics.com;",
+                      "default-src 'self'; script-src 'self'; connect-src 'self';",
                   },
                   {
                     key: "Referrer-Policy",
@@ -49,7 +49,7 @@ const nextConfig = async (phase) => {
                   {
                     key: "content-security-policy",
                     value:
-                      "default-src 'self'; script-src 'self' www.googletagmanager.com; connect-src 'self' *.google-analytics.com; img-src 'self' rameznaam.com",
+                      "default-src 'self'; script-src 'self'; connect-src 'self'; img-src 'self' rameznaam.com",
                   },
                 ],
               },

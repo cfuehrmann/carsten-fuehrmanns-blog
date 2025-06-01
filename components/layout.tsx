@@ -2,7 +2,6 @@ import { useState } from "react";
 import Head from "next/head";
 
 import styles from "./misc.module.css";
-import Script from "next/script";
 
 const pageTexts: { [key in string]: string | undefined } = {
   "": "Home",
@@ -28,11 +27,6 @@ export default function Layout({
 
   return (
     <>
-      <Script
-        src="https://www.googletagmanager.com/gtag/js?id=G-TJT8C600ZY"
-        strategy="afterInteractive"
-      />
-      <Script src="/google-analytics.js" strategy="afterInteractive" />
       <Head>
         <link rel="icon" href="/favicon.ico" />
         <meta name="description" content={description} />
